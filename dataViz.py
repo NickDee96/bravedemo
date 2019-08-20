@@ -153,5 +153,5 @@ def getTech(role):
     a=roleDetails(role)   
     return ", ".join(a.hot_tech)
 
-app.run_server()
+app.run_server(host='0.0.0.0)
 
