@@ -146,5 +146,8 @@ def getRoleplot(role):
 def getTech(role):
     a=roleDetails(role)   
     return ", ".join(a.hot_tech)
-
-app.run_server(host='0.0.0.0',port=5000)
+import sys
+import os
+if __name__ == "__main__":
+    prt=int(sys.argv[1])
+    app.run_server(port=prt)
