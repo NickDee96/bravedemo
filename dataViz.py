@@ -153,6 +153,5 @@ def getTech(role):
     a=roleDetails(role)   
     return ", ".join(a.hot_tech)
 
-if __name__=="__main":
-    app.run_server()
+app.run_server()
 
