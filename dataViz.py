@@ -25,12 +25,6 @@ class roleDetails:
         self.outdated_tech=list(role_skills[role_skills["hot_technology"]=="N"]["tech_skill"])
 
 
-b=roleDetails('Surgeons')
-b.hot_tech
-
-
-
-
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
@@ -155,4 +149,4 @@ def getTech(role):
 
 if __name__ == "__main__":
     import os
-    app.run_server(host="0.0.0.0",port=int(os.environ.get("PORT",5000)))
+    app.run_server()
