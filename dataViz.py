@@ -152,5 +152,5 @@ def getRoleplot(role):
 def getTech(role):
     a=roleDetails(role)   
     return ", ".join(a.hot_tech)
-
-app.run_server(host='0.0.0.0')
+from os import environ
+app.run_server(host='0.0.0.0',port=environ.get("PORT", 5000))
