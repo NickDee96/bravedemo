@@ -153,7 +153,5 @@ def getTech(role):
     a=roleDetails(role)   
     return ", ".join(a.hot_tech)
 
-print(len(ska))
-print(len(techSkills))
-from os import environ
-app.run_server(port=environ.get("PORT", 80))
+if __name__ == "__main__":
+    app.run_server()
