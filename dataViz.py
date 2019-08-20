@@ -7,8 +7,8 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
-ska=pd.read_csv("roles.csv")
-techSkills=pd.read_csv("tech_skillz.csv")
+ska=pd.read_csv("https://raw.githubusercontent.com/NickDee96/onetlib_analysis/master/roles.csv")
+techSkills=pd.read_csv("https://raw.githubusercontent.com/NickDee96/onetlib_analysis/master/tech_skillz.csv")
 
 r=list(ska["Role"].value_counts().index)
 r.sort()
