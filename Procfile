@@ -1,1 +1,1 @@
-web: python dataViz.py
+web: gunicorn dataViz.py
