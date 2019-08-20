@@ -151,11 +151,8 @@ def getRoleplot(role):
     [Input("Role Chooser", 'value')])
 def getTech(role):
     a=roleDetails(role)   
-    return ", ".join(a.hot_tech) 
-
-
-app.run_server(host='0.0.0.0')
+    return ", ".join(a.hot_tech)
 
 if __name__=="__main":
-    app.run_server(host='0.0.0.0')
+    app.run_server()
 
