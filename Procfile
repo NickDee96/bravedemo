@@ -1,1 +1,1 @@
-web: python dataViz.py
+worker: python dataViz.py
