@@ -153,4 +153,4 @@ def getTech(role):
     a=roleDetails(role)   
     return ", ".join(a.hot_tech)
 from os import environ
-app.run_server(host='0.0.0.0',port=environ.get("PORT", 5000))
+app.run_server(port=environ.get("PORT", 80))
