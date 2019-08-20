@@ -1,1 +1,1 @@
-web:python dataViz.py $PORT
+web:python dataViz.py
