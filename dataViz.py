@@ -29,6 +29,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
+
 app.layout = html.Div([
     html.H1(
         children='O*net Analysis',
@@ -46,27 +47,35 @@ app.layout = html.Div([
     ),
     html.Div([
         html.Div([
-            dcc.Dropdown(
-                id='Role Chooser',
-                options=[{'label': i, 'value': i} for i in r],
-                value='Statisticians'
-            ),
-        ])
-    ]),
-    html.Div([
-        dcc.Graph(id="role_det"),
-        html.H3([
-            "Technologies used",
-        ],style={'text-align': 'center',
-                    "font":"Roboto",
-                    "color":"#09ACF7",
-                    "size":"20"}),
-        dcc.Markdown(id="hot_tech",style={'color': "#5B717A",
-                                         'fontSize': 16,
-                                         "font":"Roboto"})
-
-        ])
+            html.Div([
+                    dcc.Dropdown(
+                        id='Role Chooser',
+                        options=[{'label': i, 'value': i} for i in r],
+                        value='Statisticians'
+                    ),
+                    dcc.Graph(id="role_det")
+                    ]
+                )
+                ],style= {'width': '49%', 'display': 'inline-block'}),
+            html.Div([
+                        html.H3([
+                                "Technologies used",
+                            ],style={'text-align': 'center',
+                                        "font":"Roboto",
+                                        "color":"#09ACF7",
+                                        "size":"20"}),
+                        dcc.Markdown(id="hot_tech",style={'color': "#5B717A",
+                                                             'fontSize': 16,
+                                                             "font":"Roboto"})
+            ],style= {'width': '49%', 'display': 'inline-block','vertical-align': 'top'})
+    ])   
 ])
+
+
+
+
+
+
 
 @app.callback(
     Output("role_det", 'figure'),
@@ -74,7 +83,6 @@ app.layout = html.Div([
 
 def getRoleplot(role):
     a=roleDetails(role)
-    t1=datetime.now()
     fig=go.Figure()
     fig.add_trace(go.Scatter(x=a.role_kdg["Importance Value"],
                                 y=a.role_kdg["Level Value"],
@@ -135,9 +143,6 @@ def getRoleplot(role):
             )
         )
     )
-    t2=datetime.now()
-    t3=(t2-t1).total_seconds()
-    print("Processed in {} seconds".format(t3))
     return fig
 
 
@@ -147,7 +152,6 @@ def getRoleplot(role):
 def getTech(role):
     a=roleDetails(role)   
     return ", ".join(a.hot_tech)
-import sys
-import os
+
 if __name__ == "__main__":
     app.run_server()
