@@ -150,4 +150,4 @@ import sys
 import os
 if __name__ == "__main__":
     prt=int(sys.argv[1])
-    app.run_server(port=prt)
+    app.run_server(host='0.0.0.0',port=prt)
