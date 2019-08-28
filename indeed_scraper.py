@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as soup
 import requests as req
 import pandas as pd
 import csv
+import time
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
@@ -28,6 +29,7 @@ def scrape():
                             "jd":text})
             row=[data["Role"][i],data["jobtitle"][i],data["jobkey"][i],text]
             sheet.insert_row(row,i+2)
+            time.sleep(1)
             print(i)
 
 if __name__ == "__main__":
