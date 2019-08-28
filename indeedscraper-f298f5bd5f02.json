@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "indeedscraper",
+  "private_key_id": "f298f5bd5f02273c68b021bfc0ced102a5a73a2e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCUXSPWhZBDgzrd\nH9XQaqaeAa7Vv5xo8ipZmNnuX9dJvuulCjI1oKRShekshzFqYS6e7pMrtQMs3HsO\nnvHIRwWFo5BQYia1CeNMUKi4eOgzTXfhwZ7qT4uUtJwFnVM88CBvTPjEjx9Ihjzg\nmmGEy9y29K58gdMYx5COkS/25wbodfNHUP0UUtLX2bVMVZy47kjFw+rDqTDqmU7F\nbw/hlkjm1Jhl57mx5NlRMWskaU4Onn/pxnnYSNSv/05ZdSNkjhW/FANJlb9lPZyK\nkdbpLru/7YeYmCtPeGAygZJjwaPbwpvcY227nQ4xx4R5P29ejNV/fE4RdC2MPSCb\njze6BUONAgMBAAECggEAFYccS6TuxXUVxf84Eblf+t5opZhblDjLX1vYB4g9n3RG\nEhkUJwbrwROwPWdSisqWLraUgUuPLePCMWFr2PFBQl508s0DK9LG+gxcJwRYQRV1\nFzt2mS44pTe9yezFprp7IltLX44a7nWYAMk17ER+fserR+K4pEhU1/MGQC/Op005\njyfSwHZM9CGz/SSoLEp0AtR6psaCFebEDzIUESx51OX8Wa8ULfp9XzCugfptLSMr\n6eeVZzVq+vxtdmkZgdwboeNkhuFB2AXcGTpYNNv1SLVIaEB94/CpqFI5DrgfD9pd\nnRFMLkD7PsxYarUEZ6dHvkRqJCCV5LT5cTQGrC5+KwKBgQDIOn3DuWBxFjfCNRde\nZff5CPG85f4AzMeayDsK4QSDQcJXHksuY2i9+bXaMYe6zQD9vUOIkQAUPMPe6jWw\n1P/V/lsZBZV6OegvM5E5mOzGzT+w7eTp3MHXhvmbD4u5n73XapE3KqjnoLzDFDA3\nRS9fPwYpTdUqmkrrO1W4C+5xOwKBgQC9sGIpIMUyumnpUqOhfKiVgfyUUXnmfdJL\n4BJST5tQsTsWLO9sJQXSh9EgpVM6rEBSbawpsiLiEBmf5U5IavsrXFXWMGil8NSA\ndueX/cFoZ8EY1hlEUSRMo0vzQ/kG3XL0Is/gup9IsbUhEZFE0HyH6QvrAVSFpkNJ\n86fBOcnR1wKBgB6AyqgGlaqkt9nePLEk16IYursMTqXQjJgH6Pa/UPCuE+0xsEJg\n4pQOdqXG5eaPVJdTPfaQIHL0zuImzAcka9Ut6rLlJuB38ec+8+DSaz/eBNXvZ/A4\nsU8kQOJee+rLayBmG7lLxm+DDT6q1K2W3KCl+UpRkSfsWX18jJJ9PtYBAoGANjY0\nt6Bf+3F/V2mAzmQ8Ig52S0VF23PWKE0vr0qFDvi39Ex/WJ70HQkn4XaeZMRZ1bT2\nYSxB/+2uBR6Z0uSQSAIpnf9TySkc8mIJKk0he187todpzTaLc0OwLyQcBbRAaDmS\nw51SbIotQ/grVklnbchS2aUVrOSpkncKWJTVcx0CgYBQdqG4vvR8cUFsBbJpT+Zn\n7XwIs/x6S+BhCMF5vgCGAY52TWUpvQo5jRyq4gTEBzhqz6TLVndYGDwYUaELAbg1\nbmcu0/5HqS1EB+Ut6298oxVToi/TIXRPn9ixZO1kKV+XY8MCc1z0rGIO1RF8Gkv0\nts+Ubc2EHShUhL4jd5ASiQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "indeedpilot@indeedscraper.iam.gserviceaccount.com",
+  "client_id": "115000403383525130519",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/indeedpilot%40indeedscraper.iam.gserviceaccount.com"
+}
