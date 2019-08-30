@@ -2,6 +2,7 @@ import nltk
 from nltk.stem.porter import *
 from nltk.stem import WordNetLemmatizer
 import datetime
+import multiprocessing as mp
 with open("LinkedInskills.txt") as skillsfile:
     skills=skillsfile.readlines()
 
@@ -78,19 +79,30 @@ Practice Tags : Machine Learning'''
 
 search_terms=splitter(skills[100]).search_set
 
-type(search_terms)
 
 
-for j in search_terms:
-    j=(" "+j+" ")
-    if j in text:
-        print(True)
-    else:
-        print(False)
+pool=mp.Pool(mp.cpu_count())
+
+search_terms=[pool.apply(text_searcher(text))]
 
 
-text_searcher(text.lower())
 
-skills[100]
+def text_searcher1(skill,doc):
+    print("searching for {}".format(skills.index(skill)))
+    search_terms=splitter(skill).search_set
+    for j in search_terms:
+        j=(" "+j+" ") 
+        if j in doc:
+            return skill
+            break
 
-skills.index(skills[100])
+pool=mp.Pool(mp.cpu_count())
+t1=datetime.datetime.now()
+d=[pool.apply(text_searcher1,args=(i,text))for i in skills]
+t2=datetime.datetime.now()
+time_taken=(t2-t1).total_seconds()
+pool.close()
+print("Process took {} seconds".format(round(time_taken,2)))
+
+for i in skills:
+    print(text_searcher1(i,text))
