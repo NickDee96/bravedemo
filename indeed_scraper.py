@@ -4,7 +4,6 @@ import pandas as pd
 import csv
 import gspread
 from gspread.exceptions import APIError
-from requests.exceptions.
 import time
 import numpy as np
 from oauth2client.service_account import ServiceAccountCredentials
