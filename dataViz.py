@@ -7,6 +7,18 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import plotly.graph_objects as go
 from collections import OrderedDict, Counter
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+from sklearn.feature_extraction.text import TfidfVectorizer 
+import re
+import nltk
+nltk.download('stopwords')
+from nltk import PorterStemmer as pstemmer
+from nltk.stem import WordNetLemmatizer 
+from nltk.corpus import stopwords
+import string
+import math
+
 ska=pd.read_csv("roles.csv")
 techSkills=pd.read_csv("tech_skillz.csv")
 skillCount=techSkills['tech_skill'].value_counts()
@@ -14,8 +26,59 @@ skillDf=pd.DataFrame(skillCount).reset_index()
 skillDf.columns=["tech_skill","count"]
 skills=list(skillDf["tech_skill"])
 
+def getDf():
+    scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('indeedscraper-f298f5bd5f02.json', scope)
+    client = gspread.authorize(creds)
+    sheet = client.open('Indeed Jds').sheet1
+    df=pd.DataFrame(sheet.get_all_records())
+    return df
+pRdf=getDf()
+def cleanStrings(text):
+	text=str(text)
+	text=text.lower()
+	text=text.replace("'"," ").replace('"'," ")
+	plist=list(string.punctuation)
+	plist.remove("+")
+	for j in plist:
+		if j in plist:
+			text=text.replace(j," ")
+	stop_words=stopwords.words('english')
+	text1=text.split(' ')
+	text2=list()
+	for i in text1:
+	    if i not in stop_words:
+	        text2.append(i)
+	return ' '.join(text2)
+def getFeatureNames(iArray,length,nGramRange):
+    tf=TfidfVectorizer(ngram_range=nGramRange,max_df=0.95, min_df=2, max_features=length)
+    X=tf.fit_transform(iArray)
+    return tf.get_feature_names()
+def getCountDict(tfList,rawList):
+    countDict=dict()
+    for  i in tfList:
+        count=0
+        try:
+            for j in rawList:
+                if i in j:
+                    count=count+1
+            countDict.update({
+                i:count
+            })
+        except ValueError:
+            countDict.update({
+                i:count
+            })
+    return countDict
+
+
+
+
+
 r=list(ska["Role"].value_counts().index)
 r.sort()
+
+pilotRoles=list(pRdf["Role"].value_counts().index)
 
 s=list()
 class roleDetails:
@@ -106,6 +169,22 @@ app.layout = html.Div([
             dcc.Graph(id="roles-appearing")
             
         ],style= {'width': '49%', 'display': 'inline-block'})
+    ,html.Div([
+            html.H3(
+                children='Pilot Roles Search',
+                style={'text-align': 'center',
+                        "font":"Lustria",
+                        "color":"#5B717A",
+                        "size":"17"}
+                    ),
+            dcc.Dropdown(
+                        id='plRole Chooser',
+                        options=[{'label': i, 'value': i} for i in pilotRoles],
+                        value='Software Engineer',
+                    ),
+            dcc.Graph(id="jobTitleGraph")
+
+    ])
     ])   
 ])
 
@@ -222,6 +301,22 @@ def getroles(skill_list):
                      ])
     return fig2
 
+@app.callback(
+    Output("jobTitleGraph","figure"),
+    [Input('plRole Chooser','value')])
+
+def get_title_plot(rName):
+    se=pRdf[pRdf["Role"]==rName]
+    jtitles=se["jobtitle"].apply(cleanStrings)
+    fJtitles=getFeatureNames(jtitles,20,(2,3))
+    counts=getCountDict(fJtitles,jtitles)
+    fig = go.Figure(data=[go.Pie(labels=list(counts.keys()), values=list(counts.values()))])
+    fig.update_traces(hole=.5)
+    fig.update_layout(
+        title_text="Job titles associated with {}".format(rName),
+        # Add annotations in the center of the donut pies.
+        annotations=[dict(text=rName, x=0.5, y=0.5, font_size=20, showarrow=False)])
+    return fig
 
 
 if __name__ == "__main__":
