@@ -3,30 +3,69 @@ from nltk.stem.porter import *
 from nltk.stem import WordNetLemmatizer
 import datetime
 import multiprocessing as mp
-with open("LinkedInskills.txt") as skillsfile:
-    skills=skillsfile.readlines()
+import pandas as pd
+import string
+from nltk.corpus import stopwords
+from oauth2client.service_account import ServiceAccountCredentials
+import gspread
+
+
+skillz=list(pd.read_csv("hardskills.csv")["Tech_Skill"])
 
 porter=PorterStemmer()
 wnl=WordNetLemmatizer()
+def getDf():
+    scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('indeedscraper-f298f5bd5f02.json', scope)
+    client = gspread.authorize(creds)
+    sheet = client.open('Indeed Jds').sheet1
+    df=pd.DataFrame(sheet.get_all_records())
+    return df
+
+
+df=getDf()
 
 
 
 class splitter:
     def __init__(self,text):
         text=text.strip().lower()
-        self.stemmed=porter.stem(text)
-        self.lemma=wnl.lemmatize(text)
-        self.text=text        
-        self.search_set={self.stemmed,self.text,self.lemma}
+        if len(text)<=3:
+            self.text=(" "+text+" ")
+            self.search_set={self.text}
+        else:
+            self.text=text
+            self.stemmed=porter.stem(text)
+            self.lemma=wnl.lemmatize(text)     
+            self.search_set={self.text,self.lemma,self.stemmed}
 
-def text_searcher(doc):
+def cleanStrings(text):
+    text=str(text)
+    text=text.lower()
+    text=text.replace("'"," ").replace('"'," ")
+    plist=list(string.punctuation)
+    plist.remove("#")
+    plist.remove("+")
+    for j in plist:
+        if j in plist:
+            text=text.replace(j," ")
+    stop_words=stopwords.words('english')
+    text1=text.split(' ')
+    text2=list()
+    for i in text1:
+        if i not in stop_words:
+            text2.append(i)
+    return ' '.join(text2)
+
+
+def text_searcher(doc,skills):
     t1=datetime.datetime.now()
     skills_present=list()
+    doc=doc.lower()
     for i in skills:
-        print("searching for {}".format(skills.index(i)))
+        #print("searching for {}".format(skills.index(i)))
         search_terms=splitter(i).search_set
         for j in search_terms:
-            j=(" "+j+" ") 
             if j in doc:
                 skills_present.append(i.strip())
                 break
@@ -38,71 +77,65 @@ def text_searcher(doc):
 
 
 
-text='''
-    numpy.nancumprod() in Python
-    Machine Learning in C++
-    Top Career Paths in Machine Learning
-    Top 10 Algorithms every Machine Learning Engineer should know
-    Python | Speech recognition on large audio files
-    Handwritten Equation Solver in Python
-    ML | Training Image Classifier using Tensorflow Object Detection API
-    How to approach a Machine Learning project : A step-wise guidance
-    How to use Google Colab
-    5 Machine Learning Projects to Implement as a Beginner
-    ML | Implement Face recognition using k-NN with scikit-learn
-    30 minutes to machine learning
-    The true story about Facebook's closed AI Wing
-    DBSCAN Clustering in ML | Density based clustering
-    ML | Semi-Supervised Learning
-    Python | Linear Regression using sklearn
-    ML | Reinforcement Learning Algorithm : Python Implementation using Q-learning
-    ML | Rainfall prediction using Linear regression
-    The Hathaway Effect : Does The Anne Hathaway effect really true?
-    ML | Logistic Regression using Python
-    ML | K-Medoids clustering with example
-    Bag of words (BoW) model in NLP
-    Regularization in Machine Learning
-    Random Forest Regression in Python
-    Processing text using NLP | Basics
-    Implementing Apriori algorithm in Python
-    ML | One Hot Encoding of datasets in Python
-    ML | Dummy variable trap in Regression Models
-    Image compression using K-means clustering
-    Combining IoT and Machine Learning makes our future smarter
+text='''Skills we are looking for 
+
+    Strong Javascript Skills Strong HTML and CSS skills
+    Experience with client side frameworks (Angular, Ionic, React, React Native) 
+    Proficiency in Nodejs
+    Proficiency in ES6
+    A Clear understanding of modern Javascript tools like Gulp, NPM, Yarn, Webpack, Modernizr. 
+    Understanding of git and continuous integration and deployment practices. 
+    Familiarity with good UI/UX practices 
+    Strong analytical and problem-solving skills 
+    Ability to communicate fluently in English 
+
+
+Bonus Points: 
+
+    Experience working with Firebase
+    Understanding of Progressive Web Apps 
+    Experience working with Android / iOS apps 
+    Experience using project management tools like Visual Studio Team Services
+    Experience working with cloud services like GCP, Azure, AWS 
+'''
+
+
+a=list()
+for i in range(len(df)):
+    a=a+text_searcher(cleanStrings(df["jd"][i]),skillz)
+    a=list(set(a))
+    print("Got for {}".format(i))
+
+
+a=set(a)
+with open("tags.txt","w",newline="") as textFile:
+    for i in a:
+        textFile.write(i+"\n")
 
 
 
+a=list()
 
-Article Tags : Machine Learning
-Python
-Practice Tags : Machine Learning'''
-
-search_terms=splitter(skills[100]).search_set
-
+with open("tags.txt","r",newline="")as tfile:
+    a=tfile.readlines()
+a=[i.strip() for i in a]
 
 
-pool=mp.Pool(mp.cpu_count())
+mDf=pd.DataFrame(columns=(list(a)+["Role","Job Title"]))
+for i in range(len(df)):
+    b=text_searcher(cleanStrings(df["jd"][i]),a)
+    upDateDict=dict()
+    print("Getting for {}".format(i))
+    for j in b:
+        upDateDict.update({j:1})
+    upDateDict.update({
+        "Role":df["Role"][i],
+        "Job Title":df['jobtitle'][i]
+    })
+    mDf=mDf.append(upDateDict,ignore_index=True)
 
-search_terms=[pool.apply(text_searcher(text))]
+mDf.to_csv("VectorizedTags.csv",index=False)
 
-
-
-def text_searcher1(skill,doc):
-    print("searching for {}".format(skills.index(skill)))
-    search_terms=splitter(skill).search_set
-    for j in search_terms:
-        j=(" "+j+" ") 
-        if j in doc:
-            return skill
-            break
-
-pool=mp.Pool(mp.cpu_count())
-t1=datetime.datetime.now()
-d=[pool.apply(text_searcher1,args=(i,text))for i in skills]
-t2=datetime.datetime.now()
-time_taken=(t2-t1).total_seconds()
-pool.close()
-print("Process took {} seconds".format(round(time_taken,2)))
-
-for i in skills:
-    print(text_searcher1(i,text))
+finalDf=mDf.fillna(0)
+finalDf=finalDf.set_index("Role")
+finalDf.to_csv("VectorizedTags2.csv",index=False)

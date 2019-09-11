@@ -77,7 +77,7 @@ def get_title_plot(counts):
         annotations=[dict(text=rName, x=0.5, y=0.5, font_size=20, showarrow=False)])
     return fig
 
-
+get_title_plot(getTitleMetrics("Software Engineer"))
 
 
 jds=se["jd"].apply(cleanStrings)

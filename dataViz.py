@@ -183,8 +183,7 @@ app.layout = html.Div([
                         value='Software Engineer',
                     ),
             dcc.Graph(id="jobTitleGraph")
-
-    ])
+    ],style= {'width': '49%', 'display': 'inline-block'})
     ])   
 ])
 
