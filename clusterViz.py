@@ -49,7 +49,7 @@ def getDf(df):
     return plotdf
 
 
-
+plotdf=getDf(df)
 
 def get3Dplot(plotdf):    
     c0=plotdf[plotdf["Cluster"]==0]
@@ -101,7 +101,6 @@ def get3Dplot(plotdf):
     return fig
 
 
-get3Dplot(plotdf)
 
 def get2Dplot():
     c0=plotdf[plotdf["Cluster"]==0]
@@ -186,3 +185,4 @@ def get3dcluster3(plotdf):
     return fig
 
 
+get3dcluster3(plotdf)

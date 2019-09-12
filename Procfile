@@ -1,2 +1,1 @@
-web: gunicorn dataViz:server
-worker: python indeed_scraper.py
+web: gunicorn dataViz2:server
