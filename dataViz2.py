@@ -5,24 +5,9 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import plotly.express as px
 import plotly.graph_objects as go
-from collections import OrderedDict, Counter
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-from sklearn.feature_extraction.text import TfidfVectorizer 
-import re
-import nltk
-nltk.download('stopwords')
-from nltk import PorterStemmer as pstemmer
-from nltk.stem import WordNetLemmatizer 
-from nltk.corpus import stopwords
-import string
-import math
-from sklearn.decomposition import PCA #Principal Component Analysis
-from sklearn.manifold import TSNE #T-Distributed Stochastic Neighbor Embedding
-from sklearn.cluster import KMeans #K-Means Clustering
-from sklearn.preprocessing import StandardScaler #used for 'Feature Scaling'
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
 
