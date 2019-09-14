@@ -68,9 +68,7 @@ def get3dplot():
         r=list(df.Role)
         rr=[]    
         for i in r:
-            b='''<b>{}</b><br>
-            <i>Other roles in the cluster</i><br>
-                {}
+            b='''<b>{}</b><br><i>Other roles in the cluster</i><br>\t{}
                 '''.format(i," <br>    ".join(r))
             rr.append(b)
         return rr    
