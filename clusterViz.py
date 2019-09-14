@@ -179,13 +179,24 @@ fig = dict(data = data,layout=layout)
 fig=go.Figure(fig)
 
 
+
 def get3dplot():
     plotdf=pd.read_csv("kmeans.csv")
     c0=plotdf[plotdf["Cluster"]==0]
     c1=plotdf[plotdf["Cluster"]==1]
     c2=plotdf[plotdf["Cluster"]==2]
     c3=plotdf[plotdf["Cluster"]==3]
-    c4=plotdf[plotdf["Cluster"]==4]    
+    c4=plotdf[plotdf["Cluster"]==4]
+    def get_label_text(df):
+        r=list(df.Role)
+        rr=[]    
+        for i in r:
+            b='''<b>{}</b><br>
+            <i>Other roles in the cluster</i><br>
+                {}
+                '''.format(i," <br>    ".join(r))
+            rr.append(b)
+        return rr    
     trace1 = go.Scatter3d(
                         x = c1["PCA1_3D"],
                         y = c1["PCA2_3D"],
@@ -194,7 +205,7 @@ def get3dplot():
                         #line=dict(
                         #        color='#1f77b4',
                         #        width=4),
-                        hovertext=c1.Role,
+                        hovertext=get_label_text(c1),
                         name = "Cluster 1",
                         marker = dict(color = 'rgba(110, 125, 125, 0.8)'),
                         text = None)
@@ -203,7 +214,7 @@ def get3dplot():
                         y = c0["PCA2_3D"],
                         z = c0["PCA3_3D"],
                         mode = "markers",
-                        hovertext=c0.Role,
+                        hovertext=get_label_text(c0),
                         name = "Cluster 0",
                         marker = dict(color = 'rgba(255, 30, 145, 0.8)'),
                         text = None)
@@ -212,7 +223,7 @@ def get3dplot():
                         y = c2["PCA2_3D"],
                         z = c2["PCA3_3D"],
                         mode = "markers",
-                        hovertext=c2.Role,
+                        hovertext=get_label_text(c2),
                         name = "Cluster 2",
                         marker = dict(color = 'rgba(0, 220, 250, 0.8)'),
                         text = None)
@@ -222,7 +233,7 @@ def get3dplot():
                         y = c4["PCA2_3D"],
                         z = c4["PCA3_3D"],
                         mode = "markers",
-                        hovertext=c4.Role,
+                        hovertext=get_label_text(c4),
                         name = "Cluster 4",
                         marker = dict(color = 'rgba(255, 220, 80, 0.8)'),
                         text = None)
@@ -231,7 +242,7 @@ def get3dplot():
                         y = c3["PCA2_3D"],
                         z = c3["PCA3_3D"],
                         mode = "markers",
-                        text=c3.Role,
+                        text=get_label_text(c3),
                         name = "Cluster 3",
                         marker = dict(color = 'rgba(255, 80, 80, 0.8)'),
                         )
@@ -260,6 +271,71 @@ def get3dplot():
 
 
 get3dplot()
+
+
+def get_label_text(df):
+    r=list(df.Role)
+    rr=[]    
+    for i in r:
+        b='''<b>{}</b><br>
+        <i>Other roles in the cluster</i><br>
+            {}
+            '''.format(i," <br>    ".join(r))
+        rr.append(b)
+    return rr
+get_label_text(c1)
+
+
+plotdf=pd.read_csv("kmeans.csv")
+c0=plotdf[plotdf["Cluster"]==0]
+c1=plotdf[plotdf["Cluster"]==1]
+c2=plotdf[plotdf["Cluster"]==2]
+c3=plotdf[plotdf["Cluster"]==3]
+c4=plotdf[plotdf["Cluster"]==4]
+trace1 = go.Scatter3d(
+                    x = c1["PCA1_3D"],
+                    y = c1["PCA2_3D"],
+                    z = c1["PCA3_3D"],
+                    mode="markers",
+                    #line=dict(
+                    #        color='#1f77b4',
+                    #        width=4),
+                    hovertext=rr,
+                    name = "Cluster 1",
+                    marker = dict(color = 'rgba(110, 125, 125, 0.8)'),
+                    text =None )
+data=[trace1]
+axis=dict(showbackground=False,
+          showline=False,
+          zeroline=False,
+          showgrid=False,
+          showticklabels=False,
+          title=''
+          )
+layout = go.Layout(
+         title="Role Similarity (3D visualization)",
+         plot_bgcolor='#273e49',
+         width=800,
+         height=800,
+         showlegend=False,
+         scene=dict(
+             xaxis=dict(axis),
+             yaxis=dict(axis),
+             zaxis=dict(axis),
+        ))        
+fig = dict(data = data,layout=layout)
+fig=go.Figure(fig)
+fig.show()
+
+
+
+
+
+
+
+
+
+
 
 
 
