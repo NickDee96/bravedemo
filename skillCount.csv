@@ -1,0 +1,899 @@
+Skill,Count
+Oracle,363.0
+Soapui,39.0
+App Development,37.0
+Petrochemical,34.0
+Assemblies,838.0
+Space Systems,37.0
+Agile,1458.0
+Optimization,1754.0
+Microsoft Office,1800.0
+Cpa,25.0
+Reinforced Concrete,11.0
+Aggregation,94.0
+Systems Monitoring,38.0
+Kpi,96.0
+Poka Yoke,8.0
+Mba,125.0
+Engagement,1515.0
+Skip,6.0
+Web App,627.0
+Stripe,13.0
+Distributed Systems,87.0
+Multithreading,6.0
+Turbines,27.0
+Construction Safety,52.0
+Oracle Hyperion,1.0
+National Instruments Labview,2.0
+Microsoft Outlook,54.0
+Appium,20.0
+Expansion,193.0
+Jreport,1.0
+Portfolio,803.0
+Team Leadership,81.0
+Cad Standards,21.0
+Engineering Analytics,3.0
+Protective Relays,7.0
+Mysql,302.0
+Mining,2470.0
+Customer Care,56.0
+Europe,160.0
+Ios,358.0
+Optimizing Database,3.0
+Spring Boot,25.0
+Computational Linguistics,2.0
+Debt Collection,1.0
+Amazon Ec2,5.0
+Power Distribution,38.0
+Netsuite Erp,5.0
+Prototypes,523.0
+Microsoft Azure,119.0
+Spring Framework,26.0
+Credit Operations,2.0
+Metro,272.0
+Recruitment,1326.0
+Facebook Api,1.0
+Google Suite,37.0
+Microsoft Dynamics Sl,1.0
+Incident Investigation,98.0
+Experience Design,487.0
+Business Growth,40.0
+Ui,457.0
+Usability,444.0
+Process Design,97.0
+Llvm,1.0
+Continuous Delivery,67.0
+Resource Planning Software,3.0
+Oop,31.0
+Construction,1543.0
+Mentor,1180.0
+Google Drive,13.0
+Js,311.0
+Data Analysis,520.0
+Suppliers,747.0
+Querying,489.0
+Refining,303.0
+Crystal,90.0
+Erp Software,33.0
+User Experience,399.0
+Code Review,175.0
+Visualization,1203.0
+Color Theory,5.0
+Yardi,2.0
+Shell Script,174.0
+AWS,629.0
+Mathematics,732.0
+Loan,277.0
+Business Administration,288.0
+Jprofiler,1.0
+Power Generation,68.0
+Flux Architecture,1.0
+Diagram,543.0
+Aspen Plus,2.0
+Cto,58.0
+Microsoft Dynamics Gp,2.0
+Apache Ant,119.0
+Diploma,1062.0
+5s,135.0
+Tooling Design,19.0
+Mfc,5.0
+Web Standards,21.0
+Unix,355.0
+Sheet Metal,81.0
+Apache Maven,1.0
+Rust,1049.0
+Keras,47.0
+Yarn,13.0
+Tolerance Analysis,10.0
+Kali Linux,7.0
+Jwt,1.0
+User Experience Design,49.0
+Business Intelligence,188.0
+Dart,8.0
+Product Development,587.0
+Exact Max,1.0
+Analysis,3846.0
+Country,845.0
+Hibernate Orm,1.0
+Mixpanel,1.0
+User Acceptance Tests,152.0
+Microsoft Visio,17.0
+Flask,31.0
+Reliability,1598.0
+Readiness,674.0
+Customer Retention,12.0
+Nu,1.0
+Quality Assurance,1225.0
+Siemens Nx,6.0
+Epc,6.0
+Acquisition,494.0
+Database Design,135.0
+Human Centered Design,13.0
+User Research,71.0
+Scrum,412.0
+Emails,1712.0
+Node,287.0
+Qs9000,5.0
+Database Administration,139.0
+Med,25.0
+Xml,219.0
+Process Simulation,18.0
+Lisp,3.0
+Ibm Notes,4.0
+Control Systems Design,4.0
+Apache Cassandra,1.0
+Mechanical Drawings,37.0
+Clojure,3.0
+Elastic Search,13.0
+Tensorflow,38.0
+Twitter,119.0
+Retention,166.0
+Es6,54.0
+Excel,6419.0
+Turbomachinery,4.0
+Middle East,14.0
+Statsd,1.0
+Json,163.0
+Webpack,59.0
+Commissioning,430.0
+Team Building,231.0
+Gxp,34.0
+Java,1477.0
+W3c,5.0
+Compiler,377.0
+Systems Design,151.0
+Safety Culture,80.0
+Consulting,1767.0
+Machine Design,39.0
+Ipython,4.0
+Target,636.0
+Oracle Weblogic Server,1.0
+Public Health,70.0
+Switchgear,13.0
+Thermal,97.0
+Ruby,160.0
+User Experence,400.0
+Xero,13.0
+21 Cfr,51.0
+Ptc Creo,10.0
+Dhtml,10.0
+Front End,498.0
+Web Hosting,15.0
+Product Design,330.0
+Css,597.0
+Product Quality,340.0
+Microsoft Visual Studio,20.0
+Postgres,165.0
+Six Sigma,350.0
+Relays,121.0
+Google Docs,15.0
+Story Boards,1.0
+Scada,28.0
+Quality Auditing,66.0
+Microservice,127.0
+Steam Turbines,4.0
+Relationships,2308.0
+Motion Design,3.0
+Stylus,5.0
+Mobile Development,24.0
+Paypal,8.0
+Microsoft Sql Server,115.0
+Scripting Languages,224.0
+Product Backlog Items,2.0
+Ucd,6.0
+Software Architecture,69.0
+Autodesk Autocad Civil 3d,2.0
+Drainage,76.0
+Sas,117.0
+Software Architect,83.0
+Web Design,120.0
+Containers,597.0
+Tubing,110.0
+Dodaf,8.0
+H2s,2.0
+Julia,8.0
+Fintech,40.0
+Tax Software,1.0
+Data Manipulation,43.0
+Mongodb,93.0
+Npm,48.0
+Modernizr,1.0
+Power Electronics,18.0
+React Native,33.0
+Equity,208.0
+Process Safety,44.0
+Electrical Design,64.0
+Reactive Extensions,1.0
+Autotask,10.0
+Event Planning,10.0
+RabbitMQ,8.0
+Swot Analysis,1.0
+Modeling,1846.0
+Black Belt,73.0
+Advertising,180.0
+Modern Interfaces,1.0
+Racket,10.0
+Process Capability,96.0
+Pfd,4.0
+System Architecture,105.0
+C,830.0
+Software Quality Assurance,130.0
+System Uptime,7.0
+Linux,993.0
+Ab Initio,3.0
+Jobboss,2.0
+Amazon Redshift,4.0
+Mockups,100.0
+Bigtable,1.0
+Tunnels,50.0
+Taproot,2.0
+Responsive Websites,15.0
+Social Science,30.0
+Budgeting,1606.0
+Microsoft Word,230.0
+Api,390.0
+Budget Projections,23.0
+Shainin,5.0
+Balsamiq,24.0
+Cba,2.0
+Ajax,99.0
+Value Delivery,3.0
+Restful Api,108.0
+Scalable Infrastructure,3.0
+Red,146.0
+Television,60.0
+Earthworks,13.0
+Electrical Wiring,5.0
+Axure,31.0
+Apache Kafka,2.0
+Verilog,14.0
+Scikit,34.0
+Epic Systems,3.0
+Ideation,51.0
+Frac,144.0
+Drupal,49.0
+Api Design,31.0
+Golang,26.0
+Video Production,16.0
+Mentor Graphics,3.0
+Edge Cases,12.0
+Steel Design,4.0
+Product Owner,120.0
+Test Planning,700.0
+Hadoop,121.0
+Devops,306.0
+Iteration,1280.0
+Html,923.0
+Wordpress,131.0
+Automated Testing,378.0
+Lily,7.0
+Wireframes,187.0
+Looker,33.0
+Growth,1953.0
+Microsoft Powerpoint,19.0
+Rest,3194.0
+Moving Lights,1.0
+Debt,97.0
+Apache Hive,5.0
+Ms Sql,123.0
+After Effects,1.0
+Flight Test,7.0
+Redux,59.0
+React,556.0
+Web Development,341.0
+Sql Experience,92.0
+Microsoft Project,67.0
+Sap Crystal Reports,2.0
+Global Management,6.0
+Start Up,29.0
+Restful Apis,108.0
+Epcm,1.0
+Red Hat Enterprise Linux,11.0
+Google Adwords,7.0
+Groovy,15.0
+Software Engineering,674.0
+High Voltage,30.0
+Erlang,3.0
+Minitab,44.0
+Puppet,68.0
+Farmers,71.0
+Copywriting,12.0
+Mobile Payments,1.0
+Video,627.0
+Geda,21.0
+Typescript,80.0
+Stamping,58.0
+Logistics,569.0
+Show Production,2.0
+Solid Modeling,41.0
+Business Development,213.0
+Petroleum,23.0
+Papermaking,1.0
+Surface Modeling,7.0
+Product Planning,30.0
+Object Oriented Programming,91.0
+Design Research,10.0
+Functional Programming,13.0
+Math,1031.0
+Design Manager,48.0
+Pandas,54.0
+Story Board,1.0
+Instagram,52.0
+Failure Analysis,51.0
+Project Planning,380.0
+Strategy,2993.0
+Cloud Services,180.0
+Heroku,16.0
+Kpis,320.0
+Microsoft Excel,199.0
+Figma,16.0
+Sap Erp,10.0
+Microsoft Windows,422.0
+Cash Balancing,4.0
+Automation,2481.0
+Customer Support,439.0
+Laravel,29.0
+Ux,393.0
+Deep Foundations,9.0
+Nginx,25.0
+Business Management,174.0
+Chef,85.0
+Startup,385.0
+MQTT,3.0
+Relational Databases,358.0
+Backend,234.0
+Promine,27.0
+Responsive Web Design,27.0
+Sales,1449.0
+Concert Production,3.0
+Bug Tracking,61.0
+Accident Investigation,71.0
+Parallel Computing,9.0
+Deployment,1989.0
+Iso 9000,22.0
+Nodejs,67.0
+Country Manager,1.0
+Stage Lighting,1.0
+Statistics,995.0
+Venue,478.0
+Angular,314.0
+Databases,2214.0
+Sdks,28.0
+Power Quality,9.0
+Teamcenter,11.0
+Clearcase,8.0
+Client Invoicing,2.0
+Complaints,481.0
+Newrelic,4.0
+Kernel Programming,1.0
+Embedded Software,22.0
+Automate,2481.0
+Word,2204.0
+Cranes,45.0
+Otp,1.0
+Mechanical Analysis,4.0
+Computer System Validation,5.0
+Public Relations,38.0
+Rest Api,99.0
+Google Cloud Platform,31.0
+Live Events,18.0
+User Testing,66.0
+Capital Projects,108.0
+Powershell,250.0
+Apache Http Server,1.0
+Python,1042.0
+Esri Arcgis Software,10.0
+Ipro,36.0
+Quality Assurance Engineer,47.0
+Marine Operations,1.0
+Ionic,37.0
+Business Analytics,43.0
+Software Architectural Design,1.0
+Thermodynamics,31.0
+Seismic Design,3.0
+Mariadb,13.0
+Fluid Mechanics,11.0
+Zookeeper,6.0
+Concrete,229.0
+Landing Pages,30.0
+User Story,144.0
+Structural Analysis,33.0
+Database Management,163.0
+Plastics,164.0
+Product Support,46.0
+Highway Design,8.0
+C#,386.0
+Autocad,791.0
+Jquery,244.0
+Test Strategy,152.0
+Analytics,3040.0
+Finance,1842.0
+Solidworks,320.0
+Road,1869.0
+Batch Release,4.0
+Flowcharts,41.0
+Product Management,419.0
+Architect,2120.0
+Css3,146.0
+Computer Aided Design Cad Software,1.0
+Security,4325.0
+Autodesk Mechanical,1.0
+Partnership,546.0
+Haproxy,7.0
+Memcached,9.0
+Supplier Quality,82.0
+Oracle Peoplesoft,1.0
+Mechanism Design,7.0
+Azure,507.0
+Highways,93.0
+Lightning Protection,2.0
+Nosql,128.0
+Radar,45.0
+Docker,182.0
+Rest Apis,99.0
+Wireshark,50.0
+Sap Business Objects,9.0
+Google Big Query,1.0
+Merchant,40.0
+Film,80.0
+Electronics,1138.0
+Injection Molding,78.0
+Google Analytics,52.0
+Rfp,50.0
+Android,313.0
+Sap Business One,4.0
+Go,616.0
+Photoshop,174.0
+Line Production,35.0
+Substation,28.0
+Components,1625.0
+Economics,532.0
+Microsoft Dynamics Ax,8.0
+Hcd,1.0
+Frontend,108.0
+Microservices,127.0
+Forecasting,360.0
+Cocoa Touch,1.0
+Electrical Machines,1.0
+Executive Assistant,6.0
+Etabs,65.0
+Cassandra,40.0
+Linux System Administration,24.0
+Autodesk Vault,4.0
+Framer,12.0
+Iso 22000,1.0
+Publishing,281.0
+Distillation,47.0
+Bridge,270.0
+Influencer,731.0
+Django,67.0
+Amazon Ses,48.0
+Concept,2318.0
+Power Protection,3.0
+Maintenance Software,16.0
+Mobile,1640.0
+Android Sdk,3.0
+Revenue,347.0
+Angularjs,89.0
+Scalable Architecture,4.0
+Sqlalchemy,3.0
+Infor Erp Visual,1.0
+Altium Designer,5.0
+Apache Tomcat,13.0
+Epicor Vantage Erp,1.0
+Financial Management,97.0
+Telco,27.0
+Design Processes,126.0
+Nebosh,1.0
+Redis,2321.0
+Digital,1128.0
+Pug,2.0
+Graphic Design,107.0
+Apache Struts,2.0
+Mock,168.0
+Apache Solr,5.0
+Dmaic,20.0
+Test Cases,611.0
+Facebook,144.0
+Saas,280.0
+Ellucian Colleague,1.0
+User Interface,240.0
+Visual Design,112.0
+Risk,2162.0
+Firebase,6.0
+Microsoft Powershell,8.0
+Autodesk Autocad,15.0
+Keywords,48.0
+Strategic Planning,358.0
+Banners,31.0
+Sass,1576.0
+Hazard Identification,14.0
+Chart,373.0
+Hr,575.0
+Chst,38.0
+Cash Forecasting,2.0
+Projectors,57.0
+Regional,780.0
+Ccp,5.0
+Celery,9.0
+Ux Research,20.0
+Adobe,376.0
+Git,383.0
+Fixtures,205.0
+Oauth2,6.0
+Iis,126.0
+Codeigniter,6.0
+Oracle Java,1.0
+Gibbscam,3.0
+Confluence,98.0
+Financial Controls,2.0
+Algorithms,282.0
+Prototype,523.0
+Market Intelligence,12.0
+Change Control,183.0
+Haxe,1.0
+Selenium,267.0
+Region,780.0
+Codebase,30.0
+Postman,35.0
+Autodesk Revit,10.0
+Data Science,334.0
+Gcp,65.0
+Postgresql,111.0
+Aseptic Processing,4.0
+Lua,2.0
+Transport,826.0
+Design Thinking,32.0
+Hog,1.0
+VMWare,580.0
+Ussd,1.0
+Zuken,3.0
+Customer Centered,111.0
+Jpos,10.0
+Relationship,2308.0
+RFID,9.0
+Piping,443.0
+Pfmea,61.0
+Gin,1.0
+Product Manager,419.0
+Distributed Storage,3.0
+Nagios,31.0
+Adobe Creative Suite,64.0
+Terra,105.0
+Machining,1449.0
+Vanilla Js,3.0
+Session Management,4.0
+Scipy,23.0
+Power Plants,59.0
+Banking,475.0
+Objective C,34.0
+Branch,287.0
+Crm,200.0
+Power Transmission,10.0
+As9100,61.0
+Invision,94.0
+Regression Testing,238.0
+Gfsi,22.0
+Surveys,448.0
+Project Management,2159.0
+Microsoft Sql Server Reporting Services,2.0
+Reactive Extension,1.0
+Bridge Design Software,4.0
+Zemax,3.0
+Chapel,4.0
+Emea,199.0
+Industrial Safety,17.0
+Kubernetes,121.0
+Sap,240.0
+Vessels,56.0
+Powerpoint,801.0
+Numpy,30.0
+Remote Teams,32.0
+Aircraft Design,6.0
+Github,136.0
+Tdd,68.0
+Program Design,39.0
+Targets,636.0
+Neo4j,9.0
+Solidcam,1.0
+Flow,1792.0
+Line Sizing,471.0
+Africa,26.0
+Bdd,32.0
+Cam,71.0
+Debt Financing,2.0
+Predictive Analysis,3.0
+Dribbble,3.0
+Swift,50.0
+Digital Payments,4.0
+Root Cause Analysis,407.0
+Technical Direction,81.0
+IoT,110.0
+Elasticsearch,46.0
+Data,6384.0
+Mongo,110.0
+Power Systems,41.0
+Software Design,145.0
+Stata,18.0
+Mcafee,67.0
+Windchill,8.0
+Unittest,1.0
+New Ideas,203.0
+Kyc,1.0
+Vp Engineering,16.0
+Typography,36.0
+Value Stream Mapping,39.0
+Steel Detailing,3.0
+Xhtml,15.0
+Microstrategy,7.0
+Rational Doors,3.0
+Splunk Enterprise,2.0
+Social Media,143.0
+Trackwise,10.0
+Tableau,215.0
+Visa,388.0
+Energy,869.0
+Credit,1556.0
+Hazard Analysis,55.0
+Full Stack,199.0
+Epicor Vantage,1.0
+F#,3.0
+Atlassian Jira,7.0
+Etap,56.0
+Marketing,2168.0
+Progressive Web Apps,3.0
+Apple Macos,6.0
+Rx,18.0
+Safety Training,171.0
+Cybersecurity,323.0
+Jsa,12.0
+Graphql,35.0
+Design Best Practices,23.0
+Production Budgeting,5.0
+Scale,985.0
+Short Circuit,8.0
+Pdm,36.0
+Design Patterns,146.0
+Sketch,317.0
+Agile Methodologies,158.0
+Subversion,28.0
+Junit,49.0
+Transformer,823.0
+User Interactions,27.0
+Underwriting,113.0
+Data Analytics,271.0
+User Flows,58.0
+Media,2308.0
+Scaling,1047.0
+Lending,441.0
+Architecture,1792.0
+Ticketing,1309.0
+Creo Parametric,3.0
+Web Client,9.0
+Vue,83.0
+Promises,283.0
+R,630.0
+Undergraduate Degree,94.0
+Well Control,5.0
+Mechanical Product Design,6.0
+Fund Raising,1.0
+Ethnography,2.0
+IO,26.0
+Navisworks,17.0
+Quantitative Analysis,33.0
+Citrix,180.0
+Aws Redshift,4.0
+Cakephp,4.0
+Lamp,51.0
+Unit Testing,209.0
+Omnigraffle,9.0
+Jupyter,13.0
+Test,5829.0
+Customer Growth,2.0
+Hydrotreating,1.0
+Inventory Management,114.0
+Web Applications,580.0
+Strategic Marketing,5.0
+Foundation Design,6.0
+Toyota Production System,12.0
+Autodesk Inventor,32.0
+Zend Framework,2.0
+Product Lead,18.0
+Apache Hadoop,2.0
+Scalable Systems,9.0
+System Safety,13.0
+Program Director,19.0
+Programming,5540.0
+Defect Tracking,75.0
+Gitflow,7.0
+Hazard Recognition,16.0
+Staad,9.0
+Customer Experience,282.0
+Cadence Orcad,1.0
+Adoption,311.0
+Computer Science,2955.0
+Gulp,39.0
+Special Agent,4.0
+Mobile Client,9.0
+Jpeg,1.0
+Sage Mas 200,1.0
+User Stories,131.0
+Deltek,5.0
+Scripting,4825.0
+Webservices,24.0
+Communityviz,1.0
+Php,295.0
+Pulp,13.0
+Bash,136.0
+Load Flow,1.0
+Actuarial Science,2.0
+Technical Production,63.0
+Pwc,3.0
+Bootstrap,131.0
+Oilfield,10.0
+Heuristic Analysis,5.0
+Budget,1606.0
+Social Impact,20.0
+Publish,281.0
+4 Years Experience,155.0
+Gamp,10.0
+Financial Models,27.0
+Kaizen,95.0
+Financial Technology,15.0
+Ubuntu,58.0
+Systems Analysis,157.0
+It Sales,12.0
+Fall Protection,37.0
+Oracle Business Intelligence Enterprise Edition,1.0
+Wireframe,187.0
+Eta,3.0
+Propulsion,22.0
+Site Reliability,10.0
+Atlassian Bamboo,1.0
+Natural Gas,37.0
+Mailchimp,6.0
+Sewer,72.0
+Ibm Websphere,5.0
+Scala,1854.0
+Perl,740.0
+Call Center,200.0
+Education Design,1.0
+Trade Studies,26.0
+Amazon S3,1.0
+Deviations,197.0
+XMPP,2.0
+Ibm Maximo Asset Management,1.0
+Quality System,303.0
+Solid Mechanics,5.0
+Rig,8.0
+C++,354.0
+Syspro,3.0
+Process Optimization,49.0
+Product Vision,28.0
+System Design,291.0
+Learning Specialist,1.0
+Version Control,154.0
+Frontend Frameworks,11.0
+Cleaning Validation,4.0
+Ui Testing,27.0
+Gas Turbines,15.0
+Uml,31.0
+Jquery Ui,2.0
+Product Requirements,107.0
+Human Centered,22.0
+Sap Software,2.0
+Product Requirement Documents,1.0
+Microsoft Exchange Server,21.0
+Containerization,197.0
+Linkedin,122.0
+Apache,120.0
+Modelling,1846.0
+Haskell,4.0
+Senior,1742.0
+Phoenix,89.0
+Mock Up,30.0
+Third Party Payments,4.0
+Product Initiatives,177.0
+Elixir,1.0
+Ptc Creo Parametric,1.0
+Data Visualization,169.0
+Mom,9.0
+Technical Specification,198.0
+Electronics Packaging,2.0
+Legal,1083.0
+Zephyr,20.0
+Managing Teams,87.0
+Research,2619.0
+Angular Js,39.0
+Product Roadmap,47.0
+Behavior Based Safety,9.0
+Spacecraft,32.0
+Microsoft Dynamics Erp,4.0
+Deloitte,21.0
+Uxpin,7.0
+Reusable Code,25.0
+Backend Engineer,20.0
+Symantec,67.0
+Lucee,13.0
+Fixture Design,29.0
+Safety Auditing,76.0
+Machine Tools,17.0
+Mastercard,6.0
+Heat Transfer,35.0
+Autodesk Autocad Lt,1.0
+Html5,239.0
+Customer Service,2260.0
+Goby,1.0
+Service Design,17.0
+Stress Analysis,17.0
+Aws Rds,2.0
+Behance,1.0
+Kotlin,14.0
+Bug Fixing,71.0
+Soa,53.0
+Restful,3194.0
+Microsoft Sharepoint,41.0
+Kcd,1.0
+Creative,1696.0
+Natural Language Processing,43.0
+Microsoft Access,27.0
+Jira,409.0
+Pressure,822.0
+React Js,59.0
+Web Services,427.0
+Workflows,751.0
+Emerging,1245.0
+Human Resource,658.0
+Matlab,108.0
+Youtube,55.0
+Foh,5.0
+Data Structures,135.0
+Test Plans,700.0
+Object Oriented Design,75.0
+Eclipse Ide,3.0
+Axios,3.0
+Jscript,1.0
+Brand,773.0
+Containerisation,2.0
+Indesign,38.0
+Nlp,28.0
+Adp Workforce Now,1.0
+Sql,1662.0
+Server Side,64.0
+Microservice Architectures,23.0
+Bentley Microstation,4.0
+Microsoft Dynamics,33.0
+Apis,2276.0
+Javascript,963.0
+Brand Management,8.0
+Ios Sdk,1.0
+Smed,69.0
+Device Drivers,5.0
+Tax,207.0
+Product Strategy,43.0
+Vuejs,11.0
+Erosion Control,10.0
+Mvvm,10.0
+Brc,14.0
+Deltek Vision,2.0
+Vxworks,3.0

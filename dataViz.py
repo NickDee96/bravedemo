@@ -558,4 +558,4 @@ def get_title_plot(rName):
 
 
 if __name__ == "__main__":
-    app.run_server()
+    app.run_server(host="0.0.0.0")

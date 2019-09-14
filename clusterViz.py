@@ -186,3 +186,147 @@ def get3dcluster3(plotdf):
 
 
 get3dcluster3(plotdf)
+
+
+####Viz tests
+
+def getRange(start,stop,srs):
+    sr1=srs[srs>=start].sort_values(ascending=False)
+    sr1=sr1[sr1<=stop].sort_values(ascending=False)
+    return sr1
+
+
+
+role="Software Engineer"
+desc=df[df["Role"]==role].describe()
+sr=round((desc.loc["count",]/len(df[df["Role"]==role]))*100,ndigits=2)
+sr1=getRange(10,100,sr)
+
+
+a=df[df["Role"]==role].sum()
+a=a.drop("Role")
+a=a.drop("Job Title")
+
+a=a.divide(len(df[df["Role"]==role]))*100
+
+a=getRange(10,100,a)
+a=a.apply(np.round)
+
+
+
+
+role="Software Engineer"
+a=df[df["Role"]==role].sum()
+a=a.drop("Role")
+a=a.drop("Job Title")    
+a=a.divide(len(df[df["Role"]==role]))*100
+a=getRange(10,100,a)
+sr1=a.apply(np.round)
+fig=go.Figure()
+fig=fig.add_trace(go.Table(
+    header=dict(
+        values=["Skill","Percentage"],
+        font=dict(size=14),
+        align="left"
+    ),
+    cells=dict(
+        values=[list(sr1.index),list(sr1)],
+        align="left"
+    )
+))
+
+fig.show()
+
+
+
+prdf2=pd.read_csv("pilotRoles.csv")
+
+
+
+def get_assocJt(role):
+    jts=list(prdf2[prdf2["Role"]==role]["jobtitle"].value_counts().index)[1:10]
+    return jts
+
+get_assocJt(role)
+
+
+b=prdf2[prdf2["Role"]==role]["city"].value_counts()
+
+fig=go.Figure()
+fig.add_trace(go.Scattergeo(
+
+))
+
+b["San Francisco"]
+
+c=b.index[1]
+cities=list(prdf2["city"].value_counts().index)
+
+c=cities[1]
+d=prdf2[prdf2["city"]==c]["latitude"].mean()
+
+prdf=prdf2
+
+len(cities)
+
+for i in cities:
+    lat=prdf2[prdf2["city"]==i]["latitude"].mean()
+    lng=prdf2[prdf2["city"]==i]["longitude"].mean()
+    prdf[prdf["city"]==i]["latitude"]=lat
+
+prdf[prdf["city"]=="New York"].assign(latitude,lat)
+
+lat
+
+locations=pd.read_csv("locations.csv")
+b=prdf2[prdf2["Role"]==role]["city"].value_counts()
+
+len(b.index)
+
+
+b=b.to_frame()
+b.columns=["count"]
+float(locations[locations["city"]==b.index[1]]["latitude"])
+b["latitude"]=np.nan
+b["longitude"]=np.nan
+for i in b.index:
+    lat=float(locations[locations["city"]==i]["latitude"])
+    lng=float(locations[locations["city"]==i]["longitude"])
+    b["latitude"][i]=lat
+    b["longitude"][i]=lng
+
+
+locations.to_dict()["city"]
+
+
+
+mapdata=pd.read_csv("mapdata.csv")
+
+
+def get_chloropleth(role):
+    mapdf=mapdata[mapdata["Role"]==role]
+    mapdf.columns
+    fig=go.Figure()
+    fig.add_trace(go.Scattergeo(    
+            locationmode = 'USA-states',
+            lon = mapdf['longitude'],
+            lat = mapdf['latitude'],
+            text = mapdf['City'],
+            marker = dict(
+                size = mapdf['Count']*20,
+                color = "blue"
+            )
+    )
+    )
+    fig.update_layout(
+            title_text = 'Geographical Demand for {} in the US'.format(role),
+            showlegend = True,
+            geo = dict(
+                scope = 'usa',
+                landcolor = 'rgb(217, 217, 217)',
+            )
+        )
+    return fig
+
+
+

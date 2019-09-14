@@ -1,0 +1,2458 @@
+Role,State,Count
+Software Engineer,CA,98
+Software Engineer,NY,26
+Software Engineer,WA,13
+Software Engineer,TX,12
+Software Engineer,MA,11
+Software Engineer,VA,7
+Software Engineer,IL,5
+Software Engineer,NJ,4
+Software Engineer,CO,3
+Software Engineer,UT,3
+Software Engineer,OH,3
+Software Engineer,NC,2
+Software Engineer,WI,2
+Software Engineer,MI,2
+Software Engineer,FL,2
+Software Engineer,PA,2
+Software Engineer,MT,1
+Software Engineer,OR,1
+Software Engineer,MO,1
+Software Engineer,VT,1
+Software Engineer,GA,1
+Mechanical Engineer,TX,31
+Mechanical Engineer,CA,27
+Mechanical Engineer,MI,15
+Mechanical Engineer,NY,12
+Mechanical Engineer,MA,11
+Mechanical Engineer,OH,9
+Mechanical Engineer,VA,9
+Mechanical Engineer,WI,7
+Mechanical Engineer,PA,7
+Mechanical Engineer,MN,4
+Mechanical Engineer,IA,4
+Mechanical Engineer,OR,4
+Mechanical Engineer,AZ,4
+Mechanical Engineer,FL,4
+Mechanical Engineer,WA,4
+Mechanical Engineer,CO,3
+Mechanical Engineer,MO,3
+Mechanical Engineer,MD,3
+Mechanical Engineer,IL,3
+Mechanical Engineer,NC,3
+Mechanical Engineer,OK,2
+Mechanical Engineer,RI,2
+Mechanical Engineer,TN,2
+Mechanical Engineer,UT,2
+Mechanical Engineer,NH,2
+Mechanical Engineer,WY,2
+Mechanical Engineer,SD,2
+Mechanical Engineer,AL,2
+Mechanical Engineer,SC,2
+Mechanical Engineer,NJ,2
+Mechanical Engineer,LA,1
+Mechanical Engineer,ND,1
+Mechanical Engineer,KS,1
+Mechanical Engineer,AK,1
+Mechanical Engineer,IN,1
+Mechanical Engineer,NE,1
+Mechanical Engineer,WV,1
+Mechanical Engineer,DE,1
+Mechanical Engineer,CT,1
+Mechanical Engineer,VT,1
+Mechanical Engineer,GA,1
+Mechanical Engineer,ME,1
+Mechanical Engineer,NM,1
+Manufacturing,CA,27
+Manufacturing,TX,13
+Manufacturing,OH,13
+Manufacturing,NC,13
+Manufacturing,WI,11
+Manufacturing,MI,9
+Manufacturing,WA,7
+Manufacturing,IL,7
+Manufacturing,AZ,7
+Manufacturing,FL,7
+Manufacturing,TN,6
+Manufacturing,NJ,6
+Manufacturing,GA,6
+Manufacturing,MA,6
+Manufacturing,MN,6
+Manufacturing,IN,6
+Manufacturing,SC,5
+Manufacturing,CO,5
+Manufacturing,NY,4
+Manufacturing,AL,4
+Manufacturing,PA,4
+Manufacturing,KY,4
+Manufacturing,MD,3
+Manufacturing,VA,3
+Manufacturing,UT,3
+Manufacturing,OR,2
+Manufacturing,OK,2
+Manufacturing,NM,2
+Manufacturing,MO,2
+Manufacturing,WY,1
+Manufacturing,CT,1
+Manufacturing,NV,1
+Manufacturing,DC,1
+Manufacturing,NE,1
+Manufacturing,KS,1
+Manufacturing,IA,1
+Engineer,CA,37
+Engineer,TX,26
+Engineer,FL,12
+Engineer,MI,11
+Engineer,VA,10
+Engineer,MD,9
+Engineer,NY,9
+Engineer,MA,8
+Engineer,WA,6
+Engineer,CO,6
+Engineer,NJ,6
+Engineer,WI,5
+Engineer,TN,4
+Engineer,PA,4
+Engineer,OH,3
+Engineer,MO,3
+Engineer,IL,3
+Engineer,GA,3
+Engineer,IN,3
+Engineer,OR,3
+Engineer,AR,3
+Engineer,NM,3
+Engineer,CT,2
+Engineer,NV,2
+Engineer,LA,2
+Engineer,AZ,2
+Engineer,MN,1
+Engineer,ID,1
+Engineer,NE,1
+Engineer,NH,1
+Engineer,DC,1
+Engineer,KS,1
+Engineer,PR,1
+Engineer,AL,1
+Engineer,ME,1
+Engineer,MT,1
+Engineer,OK,1
+Engineer,ND,1
+Engineer,KY,1
+Production Manager,CA,20
+Production Manager,TX,18
+Production Manager,MI,12
+Production Manager,WA,12
+Production Manager,NY,12
+Production Manager,NC,10
+Production Manager,OH,9
+Production Manager,MA,8
+Production Manager,TN,8
+Production Manager,FL,8
+Production Manager,IL,8
+Production Manager,OR,8
+Production Manager,PA,8
+Production Manager,IN,7
+Production Manager,NJ,4
+Production Manager,KY,4
+Production Manager,NV,4
+Production Manager,CO,4
+Production Manager,VA,3
+Production Manager,GA,3
+Production Manager,AZ,3
+Production Manager,SC,3
+Production Manager,MO,3
+Production Manager,WI,3
+Production Manager,CT,2
+Production Manager,LA,2
+Production Manager,AL,2
+Production Manager,MD,1
+Production Manager,IA,1
+Production Manager,NH,1
+Production Manager,KS,1
+Production Manager,MS,1
+Production Manager,MN,1
+Production Manager,WV,1
+Production Manager,NE,1
+Production Manager,OK,1
+Production Manager,DC,1
+Production Manager,DE,1
+Production Manager,NM,1
+Electrical Engineer,CA,38
+Electrical Engineer,TX,25
+Electrical Engineer,NY,17
+Electrical Engineer,MA,11
+Electrical Engineer,PA,11
+Electrical Engineer,WA,10
+Electrical Engineer,IL,7
+Electrical Engineer,MI,7
+Electrical Engineer,WI,6
+Electrical Engineer,NC,6
+Electrical Engineer,AZ,5
+Electrical Engineer,MD,5
+Electrical Engineer,GA,4
+Electrical Engineer,CO,4
+Electrical Engineer,FL,4
+Electrical Engineer,NJ,3
+Electrical Engineer,TN,3
+Electrical Engineer,OH,3
+Electrical Engineer,UT,3
+Electrical Engineer,IN,2
+Electrical Engineer,VT,2
+Electrical Engineer,VA,2
+Electrical Engineer,AL,2
+Electrical Engineer,SC,2
+Electrical Engineer,LA,2
+Electrical Engineer,MN,2
+Electrical Engineer,OR,2
+Electrical Engineer,OK,1
+Electrical Engineer,CT,1
+Electrical Engineer,NM,1
+Electrical Engineer,KY,1
+Electrical Engineer,WV,1
+Electrical Engineer,MO,1
+Electrical Engineer,PR,1
+Electrical Engineer,RI,1
+Electrical Engineer,DC,1
+Electrical Engineer,NH,1
+Electrical Engineer,KS,1
+Production Supervisor,TX,24
+Production Supervisor,CA,20
+Production Supervisor,OH,15
+Production Supervisor,WI,14
+Production Supervisor,NC,10
+Production Supervisor,NY,9
+Production Supervisor,FL,9
+Production Supervisor,PA,9
+Production Supervisor,SC,7
+Production Supervisor,MI,6
+Production Supervisor,GA,6
+Production Supervisor,NJ,5
+Production Supervisor,CO,5
+Production Supervisor,OK,5
+Production Supervisor,MO,5
+Production Supervisor,TN,5
+Production Supervisor,IN,4
+Production Supervisor,MN,4
+Production Supervisor,KS,4
+Production Supervisor,IL,4
+Production Supervisor,MA,3
+Production Supervisor,VA,3
+Production Supervisor,OR,2
+Production Supervisor,CT,2
+Production Supervisor,AZ,2
+Production Supervisor,AL,2
+Production Supervisor,WA,2
+Production Supervisor,MD,2
+Production Supervisor,IA,2
+Production Supervisor,UT,2
+Production Supervisor,PR,1
+Production Supervisor,NV,1
+Production Supervisor,KY,1
+Production Supervisor,WV,1
+Production Supervisor,LA,1
+Production Supervisor,RI,1
+Production Supervisor,AR,1
+Production Supervisor,NH,1
+Web Developer,CA,39
+Web Developer,NY,23
+Web Developer,TX,17
+Web Developer,MD,13
+Web Developer,CO,12
+Web Developer,VA,9
+Web Developer,DC,7
+Web Developer,WA,6
+Web Developer,FL,6
+Web Developer,UT,6
+Web Developer,WI,6
+Web Developer,MI,5
+Web Developer,PA,5
+Web Developer,NC,4
+Web Developer,CT,3
+Web Developer,NJ,3
+Web Developer,IL,3
+Web Developer,GA,3
+Web Developer,NV,3
+Web Developer,MN,2
+Web Developer,KS,2
+Web Developer,OR,2
+Web Developer,ME,2
+Web Developer,OK,2
+Web Developer,RI,2
+Web Developer,MA,2
+Web Developer,ID,1
+Web Developer,NH,1
+Web Developer,IN,1
+Web Developer,NM,1
+Web Developer,TN,1
+Web Developer,MT,1
+Web Developer,AZ,1
+Web Developer,DE,1
+Web Developer,MO,1
+Web Developer,AR,1
+Software Developer,CA,27
+Software Developer,TX,19
+Software Developer,NY,16
+Software Developer,VA,13
+Software Developer,IL,10
+Software Developer,PA,10
+Software Developer,NJ,9
+Software Developer,FL,9
+Software Developer,CO,8
+Software Developer,WI,6
+Software Developer,WA,6
+Software Developer,MA,5
+Software Developer,MI,5
+Software Developer,DC,5
+Software Developer,OH,5
+Software Developer,OK,5
+Software Developer,MD,4
+Software Developer,NC,4
+Software Developer,GA,4
+Software Developer,UT,4
+Software Developer,NE,4
+Software Developer,IA,3
+Software Developer,CT,2
+Software Developer,PR,2
+Software Developer,TN,2
+Software Developer,MN,2
+Software Developer,KS,2
+Software Developer,MO,1
+Software Developer,AL,1
+Software Developer,SC,1
+Software Developer,DE,1
+Software Developer,MT,1
+Software Developer,NM,1
+Software Developer,WV,1
+Software Developer,OR,1
+Quality Assurance,CA,33
+Quality Assurance,TX,22
+Quality Assurance,MA,14
+Quality Assurance,VA,11
+Quality Assurance,WA,10
+Quality Assurance,NC,10
+Quality Assurance,PA,10
+Quality Assurance,MD,8
+Quality Assurance,OH,7
+Quality Assurance,WI,6
+Quality Assurance,TN,6
+Quality Assurance,FL,5
+Quality Assurance,NJ,5
+Quality Assurance,MI,4
+Quality Assurance,IL,4
+Quality Assurance,KS,3
+Quality Assurance,OR,3
+Quality Assurance,IN,3
+Quality Assurance,NH,3
+Quality Assurance,NV,3
+Quality Assurance,AZ,3
+Quality Assurance,NY,3
+Quality Assurance,CO,2
+Quality Assurance,OK,2
+Quality Assurance,ID,2
+Quality Assurance,DE,2
+Quality Assurance,MO,2
+Quality Assurance,MN,2
+Quality Assurance,IA,1
+Quality Assurance,WV,1
+Quality Assurance,ME,1
+Quality Assurance,DC,1
+Quality Assurance,RI,1
+Quality Assurance,AL,1
+Quality Assurance,ND,1
+Quality Assurance,UT,1
+Quality Assurance,NM,1
+QA Tester,CA,30
+QA Tester,TX,21
+QA Tester,FL,18
+QA Tester,NY,17
+QA Tester,VA,15
+QA Tester,OH,11
+QA Tester,MA,9
+QA Tester,WA,9
+QA Tester,IL,8
+QA Tester,MD,6
+QA Tester,DC,5
+QA Tester,OR,5
+QA Tester,NC,5
+QA Tester,PA,4
+QA Tester,MI,4
+QA Tester,AZ,3
+QA Tester,AR,3
+QA Tester,MN,3
+QA Tester,CO,3
+QA Tester,GA,2
+QA Tester,UT,2
+QA Tester,KY,2
+QA Tester,LA,2
+QA Tester,MO,1
+QA Tester,MT,1
+QA Tester,PR,1
+QA Tester,ME,1
+QA Tester,TN,1
+QA Tester,WV,1
+QA Tester,AL,1
+QA Tester,DE,1
+QA Tester,NJ,1
+QA Tester,RI,1
+QA Tester,IN,1
+QA Tester,NE,1
+QA Tester,SD,1
+Senior Software Engineer,CA,37
+Senior Software Engineer,NY,17
+Senior Software Engineer,VA,14
+Senior Software Engineer,FL,11
+Senior Software Engineer,WA,11
+Senior Software Engineer,IL,9
+Senior Software Engineer,MA,8
+Senior Software Engineer,CO,8
+Senior Software Engineer,TX,7
+Senior Software Engineer,MD,7
+Senior Software Engineer,NC,7
+Senior Software Engineer,GA,7
+Senior Software Engineer,NJ,5
+Senior Software Engineer,OH,5
+Senior Software Engineer,UT,4
+Senior Software Engineer,MN,4
+Senior Software Engineer,IA,4
+Senior Software Engineer,IN,3
+Senior Software Engineer,AZ,3
+Senior Software Engineer,MI,2
+Senior Software Engineer,RI,2
+Senior Software Engineer,WI,2
+Senior Software Engineer,PA,2
+Senior Software Engineer,MO,2
+Senior Software Engineer,OR,1
+Senior Software Engineer,ND,1
+Senior Software Engineer,SC,1
+Senior Software Engineer,VT,1
+Senior Software Engineer,NH,1
+Senior Software Engineer,CT,1
+Senior Software Engineer,KS,1
+Senior Software Engineer,AL,1
+Senior Software Engineer,ID,1
+Senior Software Engineer,NE,1
+Senior Software Engineer,WV,1
+Senior Software Engineer,TN,1
+Senior Software Engineer,PR,1
+Senior Software Engineer,OK,1
+Senior Software Engineer,DC,1
+Senior Software Engineer,NV,1
+Senior Software Engineer,ME,1
+Safety Manager,CA,25
+Safety Manager,TX,21
+Safety Manager,PA,10
+Safety Manager,TN,10
+Safety Manager,NY,8
+Safety Manager,GA,8
+Safety Manager,FL,7
+Safety Manager,VA,6
+Safety Manager,OH,6
+Safety Manager,IL,6
+Safety Manager,NC,6
+Safety Manager,SC,6
+Safety Manager,NJ,5
+Safety Manager,KY,5
+Safety Manager,WA,5
+Safety Manager,MA,5
+Safety Manager,MD,4
+Safety Manager,AZ,4
+Safety Manager,IN,4
+Safety Manager,LA,3
+Safety Manager,CO,3
+Safety Manager,MO,3
+Safety Manager,KS,3
+Safety Manager,CT,3
+Safety Manager,OR,3
+Safety Manager,ID,2
+Safety Manager,ND,2
+Safety Manager,WY,2
+Safety Manager,MI,2
+Safety Manager,AL,2
+Safety Manager,DC,2
+Safety Manager,NE,2
+Safety Manager,MN,2
+Safety Manager,WI,2
+Safety Manager,IA,2
+Safety Manager,UT,2
+Safety Manager,MT,1
+Safety Manager,PR,1
+Safety Manager,NV,1
+Safety Manager,AR,1
+Safety Manager,GU,1
+Safety Manager,AK,1
+Civil Engineer,TX,34
+Civil Engineer,CA,28
+Civil Engineer,FL,19
+Civil Engineer,NY,14
+Civil Engineer,VA,10
+Civil Engineer,WA,9
+Civil Engineer,CO,7
+Civil Engineer,NC,7
+Civil Engineer,NJ,6
+Civil Engineer,IL,6
+Civil Engineer,GA,6
+Civil Engineer,PA,6
+Civil Engineer,MA,5
+Civil Engineer,MI,4
+Civil Engineer,TN,4
+Civil Engineer,PR,3
+Civil Engineer,MO,3
+Civil Engineer,OH,3
+Civil Engineer,KY,3
+Civil Engineer,MD,2
+Civil Engineer,CT,2
+Civil Engineer,UT,2
+Civil Engineer,DC,2
+Civil Engineer,WI,2
+Civil Engineer,WV,2
+Civil Engineer,MS,1
+Civil Engineer,VT,1
+Civil Engineer,NH,1
+Civil Engineer,OK,1
+Civil Engineer,ME,1
+Civil Engineer,MN,1
+Civil Engineer,LA,1
+Civil Engineer,AZ,1
+Civil Engineer,NV,1
+Civil Engineer,NM,1
+Solutions Architect,VA,24
+Solutions Architect,NY,22
+Solutions Architect,TX,22
+Solutions Architect,CA,20
+Solutions Architect,WA,12
+Solutions Architect,MA,11
+Solutions Architect,NJ,10
+Solutions Architect,MN,8
+Solutions Architect,MI,7
+Solutions Architect,NC,7
+Solutions Architect,PA,6
+Solutions Architect,IL,6
+Solutions Architect,GA,6
+Solutions Architect,MD,6
+Solutions Architect,MO,4
+Solutions Architect,AZ,3
+Solutions Architect,CO,3
+Solutions Architect,TN,3
+Solutions Architect,CT,2
+Solutions Architect,WI,2
+Solutions Architect,FL,2
+Solutions Architect,OH,2
+Solutions Architect,RI,1
+Solutions Architect,IN,1
+Solutions Architect,IA,1
+Solutions Architect,OK,1
+Solutions Architect,SC,1
+Solutions Architect,LA,1
+Solutions Architect,DC,1
+Solutions Architect,UT,1
+Manufacturing Engineer,CA,18
+Manufacturing Engineer,MI,17
+Manufacturing Engineer,PA,16
+Manufacturing Engineer,WI,16
+Manufacturing Engineer,TX,16
+Manufacturing Engineer,IL,13
+Manufacturing Engineer,OH,13
+Manufacturing Engineer,MA,7
+Manufacturing Engineer,MN,6
+Manufacturing Engineer,NY,6
+Manufacturing Engineer,NJ,5
+Manufacturing Engineer,SC,5
+Manufacturing Engineer,GA,5
+Manufacturing Engineer,CO,5
+Manufacturing Engineer,MD,4
+Manufacturing Engineer,KY,4
+Manufacturing Engineer,TN,4
+Manufacturing Engineer,OK,4
+Manufacturing Engineer,CT,4
+Manufacturing Engineer,NC,3
+Manufacturing Engineer,AL,3
+Manufacturing Engineer,IN,3
+Manufacturing Engineer,AZ,3
+Manufacturing Engineer,MO,2
+Manufacturing Engineer,FL,2
+Manufacturing Engineer,WA,2
+Manufacturing Engineer,KS,2
+Manufacturing Engineer,VA,2
+Manufacturing Engineer,NH,1
+Manufacturing Engineer,SD,1
+Manufacturing Engineer,OR,1
+Manufacturing Engineer,ID,1
+Manufacturing Engineer,PR,1
+Manufacturing Engineer,ND,1
+Manufacturing Engineer,NV,1
+Manufacturing Engineer,NE,1
+Manufacturing Engineer,IA,1
+Manufacturing Engineer,UT,1
+Project Engineer,CA,40
+Project Engineer,TX,14
+Project Engineer,WA,11
+Project Engineer,NY,10
+Project Engineer,VA,9
+Project Engineer,PA,9
+Project Engineer,WI,9
+Project Engineer,FL,7
+Project Engineer,PR,6
+Project Engineer,IL,6
+Project Engineer,OH,6
+Project Engineer,NJ,6
+Project Engineer,CO,5
+Project Engineer,MN,5
+Project Engineer,IN,5
+Project Engineer,MI,5
+Project Engineer,MO,4
+Project Engineer,NC,4
+Project Engineer,OR,3
+Project Engineer,AZ,3
+Project Engineer,MD,3
+Project Engineer,OK,2
+Project Engineer,TN,2
+Project Engineer,MA,2
+Project Engineer,CT,2
+Project Engineer,UT,2
+Project Engineer,SC,2
+Project Engineer,NV,2
+Project Engineer,HI,2
+Project Engineer,LA,2
+Project Engineer,ND,1
+Project Engineer,NE,1
+Project Engineer,ID,1
+Project Engineer,VI,1
+Project Engineer,GA,1
+Project Engineer,AL,1
+Project Engineer,ME,1
+Project Engineer,NM,1
+Project Engineer,MS,1
+Project Engineer,DC,1
+Project Engineer,MT,1
+Project Engineer,IA,1
+Front End Developer,CA,37
+Front End Developer,NY,23
+Front End Developer,VA,18
+Front End Developer,TX,15
+Front End Developer,FL,9
+Front End Developer,CO,9
+Front End Developer,MD,8
+Front End Developer,NJ,8
+Front End Developer,MA,6
+Front End Developer,WA,6
+Front End Developer,GA,5
+Front End Developer,IL,4
+Front End Developer,PA,4
+Front End Developer,UT,4
+Front End Developer,OH,4
+Front End Developer,MN,3
+Front End Developer,MO,3
+Front End Developer,DE,3
+Front End Developer,NC,3
+Front End Developer,MI,3
+Front End Developer,CT,3
+Front End Developer,OR,2
+Front End Developer,DC,2
+Front End Developer,TN,2
+Front End Developer,WI,2
+Front End Developer,NH,2
+Front End Developer,PR,1
+Front End Developer,AR,1
+Front End Developer,NM,1
+Front End Developer,ID,1
+Front End Developer,SC,1
+Quality Engineer,CA,32
+Quality Engineer,TX,19
+Quality Engineer,WI,16
+Quality Engineer,IL,10
+Quality Engineer,TN,10
+Quality Engineer,NY,10
+Quality Engineer,OH,8
+Quality Engineer,PA,8
+Quality Engineer,FL,7
+Quality Engineer,MA,7
+Quality Engineer,WA,7
+Quality Engineer,VA,6
+Quality Engineer,NJ,5
+Quality Engineer,UT,5
+Quality Engineer,PR,5
+Quality Engineer,MI,5
+Quality Engineer,NC,4
+Quality Engineer,AZ,4
+Quality Engineer,CO,4
+Quality Engineer,IN,3
+Quality Engineer,MD,3
+Quality Engineer,MN,2
+Quality Engineer,MO,2
+Quality Engineer,AL,2
+Quality Engineer,OR,2
+Quality Engineer,GA,2
+Quality Engineer,KS,1
+Quality Engineer,VT,1
+Quality Engineer,NH,1
+Quality Engineer,MS,1
+Quality Engineer,ME,1
+Quality Engineer,MT,1
+Quality Engineer,NV,1
+Quality Engineer,OK,1
+Quality Engineer,SC,1
+Quality Engineer,ND,1
+Quality Engineer,SD,1
+QA Analyst,CA,20
+QA Analyst,NY,19
+QA Analyst,VA,14
+QA Analyst,NJ,12
+QA Analyst,TX,12
+QA Analyst,FL,12
+QA Analyst,NC,9
+QA Analyst,IL,8
+QA Analyst,MI,7
+QA Analyst,PA,7
+QA Analyst,OH,7
+QA Analyst,TN,7
+QA Analyst,WA,6
+QA Analyst,DC,5
+QA Analyst,MN,5
+QA Analyst,UT,5
+QA Analyst,GA,5
+QA Analyst,MA,4
+QA Analyst,WI,4
+QA Analyst,AZ,4
+QA Analyst,MD,2
+QA Analyst,NH,2
+QA Analyst,MO,2
+QA Analyst,CT,2
+QA Analyst,OR,2
+QA Analyst,SC,2
+QA Analyst,NE,2
+QA Analyst,CO,1
+QA Analyst,KY,1
+QA Analyst,AR,1
+QA Analyst,LA,1
+QA Analyst,IN,1
+QA Analyst,MS,1
+QA Analyst,KS,1
+QA Analyst,NM,1
+UX Designer,CA,48
+UX Designer,NY,35
+UX Designer,TX,16
+UX Designer,VA,9
+UX Designer,WA,9
+UX Designer,MA,7
+UX Designer,IL,6
+UX Designer,MD,6
+UX Designer,NC,6
+UX Designer,MO,5
+UX Designer,FL,4
+UX Designer,MI,4
+UX Designer,OR,4
+UX Designer,PA,4
+UX Designer,DC,4
+UX Designer,CO,3
+UX Designer,OH,3
+UX Designer,GA,3
+UX Designer,UT,2
+UX Designer,AZ,2
+UX Designer,NV,2
+UX Designer,NE,2
+UX Designer,SC,2
+UX Designer,WI,1
+UX Designer,IN,1
+UX Designer,MN,1
+UX Designer,AR,1
+UX Designer,WV,1
+UX Designer,TN,1
+UX Designer,NJ,1
+UX Designer,CT,1
+UX Designer,OK,1
+QA Manager,CA,34
+QA Manager,NJ,20
+QA Manager,MA,12
+QA Manager,NY,12
+QA Manager,TX,12
+QA Manager,IL,11
+QA Manager,FL,10
+QA Manager,GA,8
+QA Manager,NC,8
+QA Manager,VA,7
+QA Manager,PA,7
+QA Manager,MI,6
+QA Manager,MD,6
+QA Manager,CT,5
+QA Manager,WA,5
+QA Manager,IA,3
+QA Manager,TN,3
+QA Manager,WI,3
+QA Manager,DC,3
+QA Manager,CO,3
+QA Manager,NV,3
+QA Manager,LA,2
+QA Manager,UT,2
+QA Manager,AZ,2
+QA Manager,VT,1
+QA Manager,KY,1
+QA Manager,MO,1
+QA Manager,OR,1
+QA Manager,ID,1
+QA Manager,ME,1
+QA Manager,SC,1
+QA Manager,NE,1
+QA Manager,OH,1
+QA Manager,MS,1
+QA Manager,KS,1
+QA Manager,NM,1
+CAD Designer,CA,30
+CAD Designer,TX,21
+CAD Designer,PA,12
+CAD Designer,NY,12
+CAD Designer,FL,11
+CAD Designer,CO,8
+CAD Designer,WI,8
+CAD Designer,NC,8
+CAD Designer,OH,7
+CAD Designer,VA,7
+CAD Designer,TN,6
+CAD Designer,MD,6
+CAD Designer,MA,6
+CAD Designer,ID,6
+CAD Designer,WA,5
+CAD Designer,MN,5
+CAD Designer,SC,3
+CAD Designer,MI,3
+CAD Designer,IN,3
+CAD Designer,IL,3
+CAD Designer,AL,2
+CAD Designer,GA,2
+CAD Designer,KY,2
+CAD Designer,MO,2
+CAD Designer,CT,2
+CAD Designer,AZ,2
+CAD Designer,NJ,2
+CAD Designer,MS,2
+CAD Designer,KS,2
+CAD Designer,UT,2
+CAD Designer,SD,1
+CAD Designer,OR,1
+CAD Designer,AR,1
+CAD Designer,DE,1
+CAD Designer,NV,1
+CAD Designer,HI,1
+CAD Designer,WV,1
+CAD Designer,LA,1
+CAD Designer,IA,1
+Engineering Manager,TX,18
+Engineering Manager,CA,17
+Engineering Manager,OH,16
+Engineering Manager,WA,14
+Engineering Manager,MA,13
+Engineering Manager,NY,12
+Engineering Manager,MI,11
+Engineering Manager,NC,9
+Engineering Manager,WI,8
+Engineering Manager,FL,8
+Engineering Manager,IN,7
+Engineering Manager,PA,7
+Engineering Manager,IL,6
+Engineering Manager,GA,6
+Engineering Manager,MD,5
+Engineering Manager,NJ,5
+Engineering Manager,UT,4
+Engineering Manager,MO,4
+Engineering Manager,AZ,3
+Engineering Manager,OR,3
+Engineering Manager,KY,3
+Engineering Manager,MN,2
+Engineering Manager,IA,2
+Engineering Manager,KS,2
+Engineering Manager,RI,2
+Engineering Manager,TN,2
+Engineering Manager,CO,2
+Engineering Manager,OK,2
+Engineering Manager,SC,2
+Engineering Manager,NV,1
+Engineering Manager,HI,1
+Engineering Manager,SD,1
+Engineering Manager,VT,1
+Engineering Manager,VA,1
+Quality Manager,GA,22
+Quality Manager,CA,19
+Quality Manager,SC,14
+Quality Manager,PA,13
+Quality Manager,NC,12
+Quality Manager,TX,12
+Quality Manager,TN,10
+Quality Manager,IL,9
+Quality Manager,WA,8
+Quality Manager,FL,7
+Quality Manager,VA,7
+Quality Manager,IN,6
+Quality Manager,MI,5
+Quality Manager,CO,5
+Quality Manager,MA,5
+Quality Manager,MO,4
+Quality Manager,WI,4
+Quality Manager,KS,3
+Quality Manager,DC,3
+Quality Manager,OH,3
+Quality Manager,KY,3
+Quality Manager,NY,2
+Quality Manager,NJ,2
+Quality Manager,MD,2
+Quality Manager,UT,2
+Quality Manager,AZ,2
+Quality Manager,NV,2
+Quality Manager,MN,1
+Quality Manager,OR,1
+Quality Manager,NE,1
+Quality Manager,CT,1
+Quality Manager,LA,1
+Quality Manager,ME,1
+Quality Manager,AL,1
+Quality Manager,HI,1
+Manufacturing Manager,CA,27
+Manufacturing Manager,TX,11
+Manufacturing Manager,OH,10
+Manufacturing Manager,NY,9
+Manufacturing Manager,IL,9
+Manufacturing Manager,WA,9
+Manufacturing Manager,MO,9
+Manufacturing Manager,WI,8
+Manufacturing Manager,NC,8
+Manufacturing Manager,IN,7
+Manufacturing Manager,MA,7
+Manufacturing Manager,MI,7
+Manufacturing Manager,PA,7
+Manufacturing Manager,FL,7
+Manufacturing Manager,OR,6
+Manufacturing Manager,AZ,5
+Manufacturing Manager,UT,5
+Manufacturing Manager,OK,4
+Manufacturing Manager,WV,4
+Manufacturing Manager,TN,4
+Manufacturing Manager,VA,4
+Manufacturing Manager,CT,4
+Manufacturing Manager,NJ,3
+Manufacturing Manager,NV,2
+Manufacturing Manager,NH,2
+Manufacturing Manager,CO,2
+Manufacturing Manager,MN,2
+Manufacturing Manager,LA,2
+Manufacturing Manager,MD,2
+Manufacturing Manager,DE,2
+Manufacturing Manager,KY,2
+Manufacturing Manager,SC,2
+Manufacturing Manager,AL,2
+Manufacturing Manager,WY,1
+Manufacturing Manager,NM,1
+Manufacturing Manager,ND,1
+Manufacturing Manager,MS,1
+Manufacturing Manager,GA,1
+Manufacturing Manager,KS,1
+Process Engineer,TX,16
+Process Engineer,PA,14
+Process Engineer,MA,13
+Process Engineer,OH,12
+Process Engineer,CA,11
+Process Engineer,NY,9
+Process Engineer,IN,9
+Process Engineer,GA,8
+Process Engineer,TN,8
+Process Engineer,WI,7
+Process Engineer,NC,7
+Process Engineer,MI,6
+Process Engineer,IL,5
+Process Engineer,KY,5
+Process Engineer,AL,4
+Process Engineer,WA,4
+Process Engineer,OR,4
+Process Engineer,VA,4
+Process Engineer,AZ,4
+Process Engineer,MN,4
+Process Engineer,SC,3
+Process Engineer,FL,3
+Process Engineer,CT,3
+Process Engineer,LA,3
+Process Engineer,NJ,3
+Process Engineer,OK,3
+Process Engineer,CO,3
+Process Engineer,WV,2
+Process Engineer,PR,2
+Process Engineer,NH,2
+Process Engineer,MO,2
+Process Engineer,NV,2
+Process Engineer,MS,2
+Process Engineer,KS,2
+Process Engineer,ID,1
+Process Engineer,WY,1
+Process Engineer,ME,1
+Process Engineer,AR,1
+Process Engineer,MD,1
+Process Engineer,DE,1
+Process Engineer,MT,1
+Process Engineer,IA,1
+Process Engineer,VT,1
+Process Engineer,ND,1
+Process Engineer,UT,1
+QA,CA,29
+QA,TX,20
+QA,NY,14
+QA,FL,13
+QA,VA,13
+QA,WA,12
+QA,GA,9
+QA,MA,7
+QA,NJ,7
+QA,AZ,7
+QA,NC,6
+QA,PA,5
+QA,IL,5
+QA,OH,5
+QA,OR,4
+QA,UT,4
+QA,CO,4
+QA,MI,3
+QA,CT,3
+QA,MD,3
+QA,DC,2
+QA,NH,2
+QA,WI,2
+QA,IN,2
+QA,SC,2
+QA,NM,2
+QA,TN,2
+QA,WV,2
+QA,RI,1
+QA,NV,1
+QA,SD,1
+QA,MN,1
+QA,DE,1
+QA,MO,1
+QA,KY,1
+Drafter,CA,34
+Drafter,FL,19
+Drafter,TX,18
+Drafter,NY,13
+Drafter,PA,9
+Drafter,IL,9
+Drafter,CO,8
+Drafter,UT,7
+Drafter,MA,6
+Drafter,ID,6
+Drafter,MD,5
+Drafter,MN,5
+Drafter,WI,4
+Drafter,NC,4
+Drafter,GA,4
+Drafter,NJ,4
+Drafter,OH,4
+Drafter,AZ,4
+Drafter,IN,3
+Drafter,OK,3
+Drafter,VA,3
+Drafter,KY,3
+Drafter,MO,3
+Drafter,CT,2
+Drafter,HI,2
+Drafter,NM,2
+Drafter,SD,2
+Drafter,SC,2
+Drafter,ME,2
+Drafter,LA,2
+Drafter,WA,1
+Drafter,NV,1
+Drafter,AL,1
+Drafter,MI,1
+Drafter,TN,1
+Drafter,MS,1
+Drafter,KS,1
+Drafter,NH,1
+Entry Level Mechanical Engineer,CA,23
+Entry Level Mechanical Engineer,NY,14
+Entry Level Mechanical Engineer,MA,12
+Entry Level Mechanical Engineer,TX,11
+Entry Level Mechanical Engineer,IL,11
+Entry Level Mechanical Engineer,AL,9
+Entry Level Mechanical Engineer,MI,8
+Entry Level Mechanical Engineer,MO,8
+Entry Level Mechanical Engineer,SC,6
+Entry Level Mechanical Engineer,MD,6
+Entry Level Mechanical Engineer,PA,6
+Entry Level Mechanical Engineer,FL,6
+Entry Level Mechanical Engineer,VA,6
+Entry Level Mechanical Engineer,WA,5
+Entry Level Mechanical Engineer,AZ,5
+Entry Level Mechanical Engineer,NJ,5
+Entry Level Mechanical Engineer,OH,5
+Entry Level Mechanical Engineer,OR,5
+Entry Level Mechanical Engineer,NC,4
+Entry Level Mechanical Engineer,IA,4
+Entry Level Mechanical Engineer,MN,4
+Entry Level Mechanical Engineer,MS,4
+Entry Level Mechanical Engineer,CO,3
+Entry Level Mechanical Engineer,NH,3
+Entry Level Mechanical Engineer,KS,3
+Entry Level Mechanical Engineer,GA,3
+Entry Level Mechanical Engineer,WI,3
+Entry Level Mechanical Engineer,CT,3
+Entry Level Mechanical Engineer,OK,2
+Entry Level Mechanical Engineer,LA,2
+Entry Level Mechanical Engineer,ND,2
+Entry Level Mechanical Engineer,ME,1
+Entry Level Mechanical Engineer,TN,1
+Entry Level Mechanical Engineer,ID,1
+Entry Level Mechanical Engineer,DC,1
+Entry Level Mechanical Engineer,RI,1
+Entry Level Mechanical Engineer,IN,1
+Entry Level Mechanical Engineer,NM,1
+Technical Support,CA,27
+Technical Support,TX,17
+Technical Support,NY,16
+Technical Support,FL,11
+Technical Support,PA,10
+Technical Support,IL,8
+Technical Support,NC,8
+Technical Support,VA,7
+Technical Support,OH,7
+Technical Support,OR,6
+Technical Support,WI,6
+Technical Support,MN,5
+Technical Support,MD,5
+Technical Support,GA,4
+Technical Support,MI,4
+Technical Support,MO,4
+Technical Support,WA,4
+Technical Support,NJ,4
+Technical Support,SC,4
+Technical Support,NV,4
+Technical Support,DC,4
+Technical Support,CO,3
+Technical Support,AZ,3
+Technical Support,RI,3
+Technical Support,TN,3
+Technical Support,LA,2
+Technical Support,UT,2
+Technical Support,MA,1
+Technical Support,IN,1
+Technical Support,NH,1
+Technical Support,HI,1
+Technical Support,AS,1
+Technical Support,OK,1
+Technical Support,MT,1
+Technical Support,ND,1
+Technical Support,PR,1
+Technical Support,DE,1
+Technical Support,AR,1
+Technical Support,MS,1
+Technical Support,KS,1
+Technical Support,IA,1
+Technical Support,NM,1
+IT Manager,CA,30
+IT Manager,TX,14
+IT Manager,FL,12
+IT Manager,NC,11
+IT Manager,NY,10
+IT Manager,CO,9
+IT Manager,VA,8
+IT Manager,IL,8
+IT Manager,MD,8
+IT Manager,MI,6
+IT Manager,WA,6
+IT Manager,OH,6
+IT Manager,MA,5
+IT Manager,HI,5
+IT Manager,PA,5
+IT Manager,GA,4
+IT Manager,IA,4
+IT Manager,NJ,4
+IT Manager,AZ,3
+IT Manager,IN,3
+IT Manager,MN,3
+IT Manager,KY,3
+IT Manager,MO,3
+IT Manager,UT,3
+IT Manager,CT,3
+IT Manager,TN,3
+IT Manager,OR,2
+IT Manager,SC,2
+IT Manager,WI,2
+IT Manager,KS,2
+IT Manager,LA,2
+IT Manager,NV,1
+IT Manager,MT,1
+IT Manager,ID,1
+IT Manager,GU,1
+IT Manager,NH,1
+Network Engineer,CA,27
+Network Engineer,MD,18
+Network Engineer,VA,13
+Network Engineer,TX,11
+Network Engineer,NY,10
+Network Engineer,PA,9
+Network Engineer,WA,8
+Network Engineer,OH,8
+Network Engineer,NC,8
+Network Engineer,MI,8
+Network Engineer,NJ,7
+Network Engineer,MA,7
+Network Engineer,FL,7
+Network Engineer,GA,5
+Network Engineer,IN,5
+Network Engineer,WI,5
+Network Engineer,TN,4
+Network Engineer,CO,4
+Network Engineer,AZ,4
+Network Engineer,DC,4
+Network Engineer,CT,3
+Network Engineer,IL,3
+Network Engineer,OR,2
+Network Engineer,AL,2
+Network Engineer,NE,2
+Network Engineer,OK,2
+Network Engineer,HI,1
+Network Engineer,GU,1
+Network Engineer,NH,1
+Network Engineer,WY,1
+Network Engineer,AK,1
+Network Engineer,KY,1
+Network Engineer,ME,1
+Network Engineer,VI,1
+Network Engineer,DE,1
+Network Engineer,NV,1
+Network Engineer,MO,1
+Network Engineer,MS,1
+Network Engineer,NM,1
+Systems Administrator,VA,40
+Systems Administrator,TX,19
+Systems Administrator,CA,14
+Systems Administrator,PA,12
+Systems Administrator,OH,11
+Systems Administrator,NY,10
+Systems Administrator,GA,7
+Systems Administrator,IL,6
+Systems Administrator,NC,6
+Systems Administrator,MD,5
+Systems Administrator,NJ,5
+Systems Administrator,UT,5
+Systems Administrator,MA,4
+Systems Administrator,WI,4
+Systems Administrator,NE,4
+Systems Administrator,WA,4
+Systems Administrator,DC,4
+Systems Administrator,RI,3
+Systems Administrator,FL,3
+Systems Administrator,OK,3
+Systems Administrator,CO,2
+Systems Administrator,LA,2
+Systems Administrator,TN,2
+Systems Administrator,AZ,2
+Systems Administrator,KY,2
+Systems Administrator,MI,2
+Systems Administrator,MO,2
+Systems Administrator,NV,2
+Systems Administrator,VI,1
+Systems Administrator,CT,1
+Systems Administrator,MN,1
+Systems Administrator,SC,1
+Systems Administrator,WV,1
+Systems Administrator,ME,1
+Systems Administrator,PR,1
+Systems Administrator,AL,1
+Systems Administrator,NH,1
+Systems Administrator,IA,1
+Systems Administrator,OR,1
+IT Director,CA,36
+IT Director,TX,18
+IT Director,FL,13
+IT Director,NY,12
+IT Director,PA,12
+IT Director,NC,11
+IT Director,MA,7
+IT Director,OH,7
+IT Director,IL,6
+IT Director,WA,6
+IT Director,IN,5
+IT Director,VA,5
+IT Director,GA,4
+IT Director,TN,4
+IT Director,WI,4
+IT Director,HI,4
+IT Director,NV,3
+IT Director,RI,3
+IT Director,MO,3
+IT Director,MD,3
+IT Director,CO,3
+IT Director,DC,2
+IT Director,MT,2
+IT Director,MI,2
+IT Director,NJ,2
+IT Director,LA,2
+IT Director,CT,2
+IT Director,AZ,2
+IT Director,OR,1
+IT Director,ID,1
+IT Director,OK,1
+IT Director,NM,1
+IT Director,AL,1
+IT Director,DE,1
+IT Director,MS,1
+IT Director,KS,1
+IT Director,VT,1
+IT Director,AR,1
+IT Director,UT,1
+Information Technology,TX,23
+Information Technology,NY,17
+Information Technology,CA,17
+Information Technology,MD,11
+Information Technology,FL,10
+Information Technology,OR,9
+Information Technology,DC,8
+Information Technology,WA,8
+Information Technology,GA,7
+Information Technology,AZ,6
+Information Technology,CO,6
+Information Technology,OH,6
+Information Technology,PA,5
+Information Technology,VA,5
+Information Technology,OK,4
+Information Technology,IL,4
+Information Technology,WI,4
+Information Technology,NC,4
+Information Technology,MN,4
+Information Technology,MA,3
+Information Technology,TN,3
+Information Technology,SC,3
+Information Technology,MO,3
+Information Technology,NJ,3
+Information Technology,UT,2
+Information Technology,WY,2
+Information Technology,IN,2
+Information Technology,MT,2
+Information Technology,LA,1
+Information Technology,ID,1
+Information Technology,KS,1
+Information Technology,NH,1
+Information Technology,RI,1
+Information Technology,AR,1
+Information Technology,WV,1
+Information Technology,IA,1
+Information Technology,KY,1
+Information Technology,NV,1
+Information Technology,MI,1
+Information Technology,NE,1
+Information Technology,DE,1
+Information Technology,ND,1
+Amazon,CA,40
+Amazon,TX,21
+Amazon,NY,19
+Amazon,FL,18
+Amazon,VA,12
+Amazon,WA,9
+Amazon,OH,8
+Amazon,MI,7
+Amazon,IL,7
+Amazon,NJ,5
+Amazon,GA,4
+Amazon,NV,4
+Amazon,IN,4
+Amazon,SC,4
+Amazon,CT,4
+Amazon,NC,3
+Amazon,MA,3
+Amazon,UT,3
+Amazon,PA,3
+Amazon,NE,2
+Amazon,TN,2
+Amazon,MO,2
+Amazon,OK,2
+Amazon,DC,2
+Amazon,CO,2
+Amazon,MD,1
+Amazon,AZ,1
+Amazon,IA,1
+Amazon,OR,1
+Amazon,KY,1
+Amazon,MN,1
+Amazon,AL,1
+Amazon,ID,1
+System Administrator,CA,22
+System Administrator,TX,21
+System Administrator,VA,11
+System Administrator,PA,11
+System Administrator,OH,9
+System Administrator,WA,9
+System Administrator,AZ,9
+System Administrator,GA,8
+System Administrator,FL,7
+System Administrator,NC,7
+System Administrator,IL,6
+System Administrator,IN,6
+System Administrator,MA,6
+System Administrator,MD,6
+System Administrator,CO,6
+System Administrator,MI,5
+System Administrator,DC,5
+System Administrator,MO,5
+System Administrator,NY,5
+System Administrator,TN,4
+System Administrator,UT,4
+System Administrator,OR,3
+System Administrator,MN,2
+System Administrator,KY,2
+System Administrator,LA,2
+System Administrator,NJ,2
+System Administrator,NM,2
+System Administrator,WI,2
+System Administrator,WY,1
+System Administrator,OK,1
+System Administrator,AK,1
+System Administrator,ND,1
+System Administrator,AL,1
+System Administrator,WV,1
+System Administrator,SC,1
+System Administrator,CT,1
+System Administrator,ID,1
+System Administrator,NE,1
+System Administrator,ME,1
+Network Administrator,CA,28
+Network Administrator,TX,15
+Network Administrator,FL,13
+Network Administrator,NY,10
+Network Administrator,PA,9
+Network Administrator,GA,8
+Network Administrator,SC,7
+Network Administrator,CO,7
+Network Administrator,VA,7
+Network Administrator,MD,7
+Network Administrator,IL,7
+Network Administrator,AZ,6
+Network Administrator,OR,6
+Network Administrator,DC,5
+Network Administrator,MN,5
+Network Administrator,OH,5
+Network Administrator,NJ,4
+Network Administrator,MI,4
+Network Administrator,NC,4
+Network Administrator,OK,3
+Network Administrator,KY,3
+Network Administrator,NM,3
+Network Administrator,IA,3
+Network Administrator,WA,3
+Network Administrator,MO,3
+Network Administrator,LA,3
+Network Administrator,AK,2
+Network Administrator,NH,2
+Network Administrator,IN,2
+Network Administrator,KS,2
+Network Administrator,MA,2
+Network Administrator,WY,2
+Network Administrator,WI,2
+Network Administrator,WV,1
+Network Administrator,ME,1
+Network Administrator,HI,1
+Network Administrator,NV,1
+Network Administrator,AL,1
+Network Administrator,TN,1
+Systems Engineer,CA,36
+Systems Engineer,VA,21
+Systems Engineer,MD,18
+Systems Engineer,NY,12
+Systems Engineer,TX,12
+Systems Engineer,NC,10
+Systems Engineer,MA,9
+Systems Engineer,MI,6
+Systems Engineer,IL,6
+Systems Engineer,NJ,6
+Systems Engineer,PA,6
+Systems Engineer,CO,5
+Systems Engineer,FL,4
+Systems Engineer,GA,4
+Systems Engineer,MO,4
+Systems Engineer,OH,3
+Systems Engineer,NE,3
+Systems Engineer,IN,3
+Systems Engineer,DC,3
+Systems Engineer,UT,3
+Systems Engineer,AZ,3
+Systems Engineer,AL,3
+Systems Engineer,NV,3
+Systems Engineer,WA,3
+Systems Engineer,OR,2
+Systems Engineer,WI,2
+Systems Engineer,CT,1
+Systems Engineer,MT,1
+Systems Engineer,MS,1
+Systems Engineer,PR,1
+Systems Engineer,TN,1
+Systems Engineer,WV,1
+Systems Engineer,ND,1
+Systems Engineer,SC,1
+Systems Engineer,RI,1
+Systems Engineer,AR,1
+Desktop Support,CA,23
+Desktop Support,TX,22
+Desktop Support,NY,14
+Desktop Support,PA,12
+Desktop Support,OH,11
+Desktop Support,MD,10
+Desktop Support,NC,10
+Desktop Support,VA,8
+Desktop Support,GA,8
+Desktop Support,MI,7
+Desktop Support,DC,7
+Desktop Support,MO,6
+Desktop Support,TN,5
+Desktop Support,WA,5
+Desktop Support,WI,5
+Desktop Support,MA,5
+Desktop Support,CO,4
+Desktop Support,AZ,4
+Desktop Support,SC,4
+Desktop Support,OK,3
+Desktop Support,DE,3
+Desktop Support,OR,3
+Desktop Support,FL,3
+Desktop Support,NE,2
+Desktop Support,NJ,2
+Desktop Support,MN,2
+Desktop Support,IN,1
+Desktop Support,KS,1
+Desktop Support,NH,1
+Desktop Support,NV,1
+Desktop Support,NM,1
+Desktop Support,IL,1
+Desktop Support,LA,1
+Desktop Support,WY,1
+Desktop Support,CT,1
+Desktop Support,ND,1
+Desktop Support,UT,1
+Safety Coordinator,TX,34
+Safety Coordinator,CA,20
+Safety Coordinator,NY,10
+Safety Coordinator,IL,9
+Safety Coordinator,FL,8
+Safety Coordinator,IN,7
+Safety Coordinator,OH,7
+Safety Coordinator,MA,7
+Safety Coordinator,WA,7
+Safety Coordinator,PA,6
+Safety Coordinator,WI,6
+Safety Coordinator,TN,6
+Safety Coordinator,GA,6
+Safety Coordinator,AZ,5
+Safety Coordinator,VA,5
+Safety Coordinator,NJ,5
+Safety Coordinator,SC,4
+Safety Coordinator,LA,4
+Safety Coordinator,NC,4
+Safety Coordinator,NE,3
+Safety Coordinator,PR,3
+Safety Coordinator,IA,3
+Safety Coordinator,CT,3
+Safety Coordinator,MI,3
+Safety Coordinator,NH,2
+Safety Coordinator,MD,2
+Safety Coordinator,NM,2
+Safety Coordinator,NV,2
+Safety Coordinator,CO,2
+Safety Coordinator,MO,2
+Safety Coordinator,UT,2
+Safety Coordinator,MS,1
+Safety Coordinator,RI,1
+Safety Coordinator,VT,1
+Safety Coordinator,ME,1
+Safety Coordinator,KY,1
+Safety Coordinator,AR,1
+Safety Coordinator,ND,1
+Safety Coordinator,OR,1
+Safety Coordinator,ID,1
+Safety Coordinator,SD,1
+Safety Coordinator,OK,1
+Security Manager,CA,25
+Security Manager,TX,24
+Security Manager,VA,18
+Security Manager,CO,9
+Security Manager,GA,9
+Security Manager,FL,9
+Security Manager,WA,8
+Security Manager,PA,7
+Security Manager,NY,7
+Security Manager,MI,7
+Security Manager,NC,6
+Security Manager,OH,6
+Security Manager,DC,5
+Security Manager,MA,5
+Security Manager,MN,4
+Security Manager,IL,4
+Security Manager,NV,3
+Security Manager,AZ,3
+Security Manager,TN,2
+Security Manager,NM,2
+Security Manager,NH,2
+Security Manager,OK,2
+Security Manager,MD,2
+Security Manager,MO,2
+Security Manager,NJ,2
+Security Manager,SC,2
+Security Manager,KS,2
+Security Manager,NE,2
+Security Manager,LA,2
+Security Manager,UT,2
+Security Manager,CT,2
+Security Manager,AL,1
+Security Manager,AR,1
+Security Manager,WI,1
+Security Manager,ME,1
+Security Manager,OR,1
+Security Manager,MS,1
+Security Manager,AK,1
+Security Manager,IN,1
+Security Manager,IA,1
+Security Manager,WY,1
+Helpdesk Technician,CA,27
+Helpdesk Technician,TX,16
+Helpdesk Technician,VA,11
+Helpdesk Technician,MD,11
+Helpdesk Technician,NY,11
+Helpdesk Technician,FL,10
+Helpdesk Technician,IN,9
+Helpdesk Technician,IL,9
+Helpdesk Technician,OH,8
+Helpdesk Technician,MI,7
+Helpdesk Technician,PA,7
+Helpdesk Technician,AZ,6
+Helpdesk Technician,NC,5
+Helpdesk Technician,WA,5
+Helpdesk Technician,NJ,4
+Helpdesk Technician,SC,4
+Helpdesk Technician,MO,4
+Helpdesk Technician,CO,4
+Helpdesk Technician,NM,3
+Helpdesk Technician,UT,3
+Helpdesk Technician,CT,3
+Helpdesk Technician,MA,3
+Helpdesk Technician,MN,3
+Helpdesk Technician,WI,3
+Helpdesk Technician,DC,2
+Helpdesk Technician,TN,2
+Helpdesk Technician,DE,2
+Helpdesk Technician,GA,2
+Helpdesk Technician,LA,2
+Helpdesk Technician,NV,2
+Helpdesk Technician,MS,1
+Helpdesk Technician,KY,1
+Helpdesk Technician,NE,1
+Helpdesk Technician,AL,1
+Helpdesk Technician,MT,1
+Helpdesk Technician,RI,1
+Helpdesk Technician,NH,1
+Helpdesk Technician,VT,1
+Helpdesk Technician,OR,1
+IT Support,CA,28
+IT Support,NY,24
+IT Support,TX,17
+IT Support,FL,13
+IT Support,VA,12
+IT Support,MD,9
+IT Support,PA,8
+IT Support,MI,7
+IT Support,OH,6
+IT Support,WA,6
+IT Support,TN,5
+IT Support,WI,5
+IT Support,SC,4
+IT Support,IL,4
+IT Support,NC,4
+IT Support,NV,3
+IT Support,AZ,3
+IT Support,ID,3
+IT Support,NJ,3
+IT Support,MN,3
+IT Support,IN,2
+IT Support,MA,2
+IT Support,GA,2
+IT Support,KY,2
+IT Support,OK,2
+IT Support,NE,2
+IT Support,IA,2
+IT Support,MS,2
+IT Support,CT,2
+IT Support,MO,2
+IT Support,LA,2
+IT Support,UT,2
+IT Support,DC,1
+IT Support,NM,1
+IT Support,ND,1
+IT Support,MT,1
+IT Support,CO,1
+IT Support,VT,1
+Desktop Support Technician,CA,24
+Desktop Support Technician,NC,13
+Desktop Support Technician,NY,12
+Desktop Support Technician,MD,11
+Desktop Support Technician,TX,10
+Desktop Support Technician,MA,10
+Desktop Support Technician,PA,10
+Desktop Support Technician,VA,8
+Desktop Support Technician,MO,8
+Desktop Support Technician,OH,7
+Desktop Support Technician,DC,6
+Desktop Support Technician,CO,6
+Desktop Support Technician,GA,6
+Desktop Support Technician,FL,6
+Desktop Support Technician,MN,5
+Desktop Support Technician,MI,4
+Desktop Support Technician,TN,4
+Desktop Support Technician,WI,4
+Desktop Support Technician,IL,3
+Desktop Support Technician,CT,3
+Desktop Support Technician,HI,3
+Desktop Support Technician,OR,3
+Desktop Support Technician,WA,3
+Desktop Support Technician,AL,3
+Desktop Support Technician,NM,3
+Desktop Support Technician,NE,2
+Desktop Support Technician,DE,2
+Desktop Support Technician,UT,2
+Desktop Support Technician,NH,2
+Desktop Support Technician,IN,2
+Desktop Support Technician,AZ,2
+Desktop Support Technician,NJ,2
+Desktop Support Technician,KS,2
+Desktop Support Technician,KY,1
+Desktop Support Technician,SC,1
+Desktop Support Technician,AK,1
+Desktop Support Technician,IA,1
+Desktop Support Technician,NV,1
+Desktop Support Technician,RI,1
+Desktop Support Technician,OK,1
+Desktop Support Technician,LA,1
+Desktop Support Technician,WV,1
+Help Desk,CA,21
+Help Desk,TX,18
+Help Desk,FL,18
+Help Desk,MD,14
+Help Desk,GA,13
+Help Desk,NY,12
+Help Desk,VA,12
+Help Desk,MI,11
+Help Desk,OH,9
+Help Desk,IL,8
+Help Desk,WA,8
+Help Desk,LA,6
+Help Desk,DC,5
+Help Desk,CT,4
+Help Desk,KS,4
+Help Desk,ID,3
+Help Desk,IN,3
+Help Desk,NJ,3
+Help Desk,PA,3
+Help Desk,AZ,2
+Help Desk,WI,2
+Help Desk,PR,2
+Help Desk,MT,2
+Help Desk,AL,2
+Help Desk,MN,2
+Help Desk,KY,2
+Help Desk,CO,2
+Help Desk,NV,1
+Help Desk,NH,1
+Help Desk,RI,1
+Help Desk,SD,1
+Help Desk,TN,1
+Help Desk,OK,1
+Help Desk,NC,1
+Help Desk,SC,1
+Help Desk,UT,1
+Help Desk Technician,CA,25
+Help Desk Technician,FL,17
+Help Desk Technician,TX,15
+Help Desk Technician,VA,12
+Help Desk Technician,IL,11
+Help Desk Technician,MN,10
+Help Desk Technician,GA,9
+Help Desk Technician,NY,9
+Help Desk Technician,OH,8
+Help Desk Technician,MD,6
+Help Desk Technician,MI,6
+Help Desk Technician,PA,6
+Help Desk Technician,MO,6
+Help Desk Technician,AZ,6
+Help Desk Technician,KY,5
+Help Desk Technician,LA,5
+Help Desk Technician,DC,4
+Help Desk Technician,IN,4
+Help Desk Technician,MA,4
+Help Desk Technician,WA,4
+Help Desk Technician,KS,3
+Help Desk Technician,CO,3
+Help Desk Technician,NJ,3
+Help Desk Technician,NC,2
+Help Desk Technician,OK,2
+Help Desk Technician,UT,2
+Help Desk Technician,NE,2
+Help Desk Technician,OR,2
+Help Desk Technician,AR,1
+Help Desk Technician,HI,1
+Help Desk Technician,ID,1
+Help Desk Technician,CT,1
+Help Desk Technician,SC,1
+Help Desk Technician,MT,1
+Help Desk Technician,VT,1
+Help Desk Technician,NH,1
+Help Desk Technician,TN,1
+IT Business Analyst,CA,31
+IT Business Analyst,VA,16
+IT Business Analyst,TX,16
+IT Business Analyst,NY,11
+IT Business Analyst,IL,9
+IT Business Analyst,FL,9
+IT Business Analyst,TN,8
+IT Business Analyst,NC,8
+IT Business Analyst,OH,8
+IT Business Analyst,MA,8
+IT Business Analyst,MD,7
+IT Business Analyst,NJ,6
+IT Business Analyst,AZ,5
+IT Business Analyst,DC,5
+IT Business Analyst,CO,4
+IT Business Analyst,PA,4
+IT Business Analyst,MI,4
+IT Business Analyst,MN,3
+IT Business Analyst,MO,3
+IT Business Analyst,KY,3
+IT Business Analyst,GA,3
+IT Business Analyst,WI,3
+IT Business Analyst,IN,2
+IT Business Analyst,ID,2
+IT Business Analyst,NH,2
+IT Business Analyst,UT,2
+IT Business Analyst,AL,2
+IT Business Analyst,ME,2
+IT Business Analyst,PR,2
+IT Business Analyst,WA,2
+IT Business Analyst,IA,2
+IT Business Analyst,CT,1
+IT Business Analyst,WV,1
+IT Business Analyst,SC,1
+IT Business Analyst,NV,1
+IT Business Analyst,AR,1
+IT Business Analyst,WY,1
+Technical Support Engineer,VA,27
+Technical Support Engineer,CA,25
+Technical Support Engineer,TX,19
+Technical Support Engineer,NY,18
+Technical Support Engineer,IL,13
+Technical Support Engineer,MD,11
+Technical Support Engineer,WA,10
+Technical Support Engineer,DC,9
+Technical Support Engineer,FL,6
+Technical Support Engineer,WI,5
+Technical Support Engineer,CO,5
+Technical Support Engineer,MA,5
+Technical Support Engineer,NC,5
+Technical Support Engineer,MI,4
+Technical Support Engineer,PA,4
+Technical Support Engineer,UT,4
+Technical Support Engineer,NJ,4
+Technical Support Engineer,MN,3
+Technical Support Engineer,OH,3
+Technical Support Engineer,GA,2
+Technical Support Engineer,CT,2
+Technical Support Engineer,OR,2
+Technical Support Engineer,MO,2
+Technical Support Engineer,ID,1
+Technical Support Engineer,MT,1
+Technical Support Engineer,SC,1
+Technical Support Engineer,WY,1
+Technical Support Engineer,PR,1
+Technical Support Engineer,TN,1
+Technical Support Engineer,NV,1
+Technical Support Engineer,NE,1
+Technical Support Engineer,AZ,1
+Technical Support Engineer,NH,1
+IT Support Specialist,CA,29
+IT Support Specialist,NY,20
+IT Support Specialist,TX,18
+IT Support Specialist,FL,11
+IT Support Specialist,MA,8
+IT Support Specialist,OR,8
+IT Support Specialist,VA,7
+IT Support Specialist,MD,7
+IT Support Specialist,MI,7
+IT Support Specialist,IL,6
+IT Support Specialist,GA,6
+IT Support Specialist,PA,6
+IT Support Specialist,TN,5
+IT Support Specialist,LA,5
+IT Support Specialist,OH,4
+IT Support Specialist,WI,4
+IT Support Specialist,MO,4
+IT Support Specialist,AL,4
+IT Support Specialist,DC,3
+IT Support Specialist,KS,3
+IT Support Specialist,IN,3
+IT Support Specialist,NM,3
+IT Support Specialist,NC,3
+IT Support Specialist,UT,3
+IT Support Specialist,NJ,3
+IT Support Specialist,MT,2
+IT Support Specialist,HI,2
+IT Support Specialist,WA,2
+IT Support Specialist,CO,2
+IT Support Specialist,MN,2
+IT Support Specialist,NV,1
+IT Support Specialist,WY,1
+IT Support Specialist,SC,1
+IT Support Specialist,ID,1
+IT Support Specialist,MS,1
+IT Support Specialist,GU,1
+IT Support Specialist,RI,1
+IT Support Specialist,NH,1
+IT Support Specialist,AR,1
+Help Desk Analyst,CA,20
+Help Desk Analyst,TX,19
+Help Desk Analyst,NY,18
+Help Desk Analyst,VA,16
+Help Desk Analyst,IL,13
+Help Desk Analyst,PA,9
+Help Desk Analyst,MA,8
+Help Desk Analyst,GA,8
+Help Desk Analyst,FL,7
+Help Desk Analyst,MD,7
+Help Desk Analyst,NC,6
+Help Desk Analyst,OH,6
+Help Desk Analyst,DC,5
+Help Desk Analyst,CO,4
+Help Desk Analyst,TN,4
+Help Desk Analyst,MO,4
+Help Desk Analyst,WI,4
+Help Desk Analyst,UT,3
+Help Desk Analyst,AZ,3
+Help Desk Analyst,CT,3
+Help Desk Analyst,WA,3
+Help Desk Analyst,MT,3
+Help Desk Analyst,AL,3
+Help Desk Analyst,OK,2
+Help Desk Analyst,KS,2
+Help Desk Analyst,NE,2
+Help Desk Analyst,NM,2
+Help Desk Analyst,MI,2
+Help Desk Analyst,LA,2
+Help Desk Analyst,OR,2
+Help Desk Analyst,SC,2
+Help Desk Analyst,HI,1
+Help Desk Analyst,DE,1
+Help Desk Analyst,NJ,1
+Help Desk Analyst,MN,1
+Help Desk Analyst,ID,1
+Help Desk Analyst,WY,1
+Help Desk Analyst,IA,1
+Help Desk Analyst,ME,1
+IT Specialist,CA,25
+IT Specialist,NY,20
+IT Specialist,MD,16
+IT Specialist,FL,13
+IT Specialist,VA,13
+IT Specialist,OR,9
+IT Specialist,TX,8
+IT Specialist,DC,7
+IT Specialist,MI,6
+IT Specialist,MO,6
+IT Specialist,MA,6
+IT Specialist,IN,5
+IT Specialist,GA,5
+IT Specialist,MN,4
+IT Specialist,NC,4
+IT Specialist,PA,4
+IT Specialist,IL,4
+IT Specialist,NJ,4
+IT Specialist,LA,4
+IT Specialist,KS,3
+IT Specialist,AL,3
+IT Specialist,TN,3
+IT Specialist,WA,3
+IT Specialist,OH,3
+IT Specialist,CO,3
+IT Specialist,NM,2
+IT Specialist,NV,2
+IT Specialist,UT,2
+IT Specialist,SC,1
+IT Specialist,OK,1
+IT Specialist,AR,1
+IT Specialist,HI,1
+IT Specialist,WV,1
+IT Specialist,DE,1
+IT Specialist,AZ,1
+IT Specialist,WI,1
+IT Specialist,MS,1
+Information Technology Manager,CA,30
+Information Technology Manager,TX,15
+Information Technology Manager,NY,12
+Information Technology Manager,VA,9
+Information Technology Manager,FL,9
+Information Technology Manager,MD,9
+Information Technology Manager,CO,9
+Information Technology Manager,IL,7
+Information Technology Manager,MA,7
+Information Technology Manager,AZ,7
+Information Technology Manager,OH,6
+Information Technology Manager,WA,6
+Information Technology Manager,NC,5
+Information Technology Manager,GA,5
+Information Technology Manager,KY,5
+Information Technology Manager,MN,4
+Information Technology Manager,HI,4
+Information Technology Manager,TN,4
+Information Technology Manager,IN,4
+Information Technology Manager,PA,4
+Information Technology Manager,NV,4
+Information Technology Manager,MI,3
+Information Technology Manager,OR,3
+Information Technology Manager,MO,3
+Information Technology Manager,UT,3
+Information Technology Manager,NJ,3
+Information Technology Manager,CT,2
+Information Technology Manager,SC,2
+Information Technology Manager,WI,2
+Information Technology Manager,DC,1
+Information Technology Manager,AK,1
+Information Technology Manager,WV,1
+Information Technology Manager,KS,1
+Information Technology Manager,DE,1
+Information Technology Manager,MS,1
+Information Technology Manager,OK,1
+Information Technology Manager,MT,1
+Information Technology Manager,AL,1
+Information Technology Manager,NM,1
+Information Technology Manager,AR,1
+Information Technology Manager,LA,1
+Telecommunications,CA,26
+Telecommunications,TX,21
+Telecommunications,VA,10
+Telecommunications,IL,9
+Telecommunications,MD,9
+Telecommunications,OH,8
+Telecommunications,DC,8
+Telecommunications,OR,7
+Telecommunications,SC,7
+Telecommunications,FL,6
+Telecommunications,TN,6
+Telecommunications,NY,6
+Telecommunications,UT,6
+Telecommunications,IA,6
+Telecommunications,CO,5
+Telecommunications,GA,5
+Telecommunications,NJ,5
+Telecommunications,NC,5
+Telecommunications,AL,5
+Telecommunications,WA,5
+Telecommunications,MO,4
+Telecommunications,MI,4
+Telecommunications,NV,4
+Telecommunications,MA,3
+Telecommunications,IN,3
+Telecommunications,OK,3
+Telecommunications,MN,2
+Telecommunications,WI,2
+Telecommunications,NH,2
+Telecommunications,MT,1
+Telecommunications,AZ,1
+Telecommunications,NM,1
+Telecommunications,AK,1
+Telecommunications,PA,1
+GIS,CA,20
+GIS,VA,16
+GIS,TX,14
+GIS,NY,13
+GIS,IL,12
+GIS,MA,11
+GIS,WA,9
+GIS,MD,7
+GIS,NJ,6
+GIS,WI,6
+GIS,DC,6
+GIS,CO,6
+GIS,FL,5
+GIS,NC,5
+GIS,MO,5
+GIS,OH,4
+GIS,PA,4
+GIS,AZ,3
+GIS,GA,3
+GIS,IN,3
+GIS,ID,3
+GIS,DE,2
+GIS,TN,2
+GIS,VT,2
+GIS,WV,2
+GIS,UT,2
+GIS,SD,2
+GIS,MI,2
+GIS,OR,2
+GIS,ME,2
+GIS,MT,2
+GIS,SC,2
+GIS,WY,2
+GIS,LA,2
+GIS,AK,2
+GIS,MN,1
+GIS,CT,1
+GIS,IA,1
+GIS,KS,1
+GIS,NV,1
+GIS,MS,1
+GIS,NE,1
+GIS,HI,1
+GIS,OK,1
+GIS,KY,1
+GIS,NM,1
+Director of IT,CA,31
+Director of IT,NY,22
+Director of IT,TX,20
+Director of IT,PA,11
+Director of IT,FL,10
+Director of IT,NC,8
+Director of IT,IL,7
+Director of IT,MN,6
+Director of IT,MA,6
+Director of IT,WI,5
+Director of IT,WA,5
+Director of IT,NJ,5
+Director of IT,AZ,5
+Director of IT,CO,4
+Director of IT,OK,4
+Director of IT,CT,4
+Director of IT,IN,4
+Director of IT,MI,4
+Director of IT,MD,4
+Director of IT,GA,3
+Director of IT,DC,3
+Director of IT,OH,3
+Director of IT,MO,2
+Director of IT,AR,2
+Director of IT,NV,2
+Director of IT,ID,2
+Director of IT,HI,2
+Director of IT,LA,2
+Director of IT,RI,2
+Director of IT,VA,2
+Director of IT,NH,1
+Director of IT,WY,1
+Director of IT,TN,1
+Director of IT,OR,1
+Director of IT,MS,1
+Director of IT,KS,1
+Director of IT,NM,1
+Cyber Security,VA,35
+Cyber Security,MD,25
+Cyber Security,DC,18
+Cyber Security,TX,13
+Cyber Security,NY,10
+Cyber Security,CA,9
+Cyber Security,CO,7
+Cyber Security,FL,6
+Cyber Security,NJ,5
+Cyber Security,NC,5
+Cyber Security,AZ,5
+Cyber Security,AL,4
+Cyber Security,IL,4
+Cyber Security,NE,4
+Cyber Security,MO,3
+Cyber Security,OH,3
+Cyber Security,PA,3
+Cyber Security,GA,3
+Cyber Security,OR,3
+Cyber Security,NH,2
+Cyber Security,IN,2
+Cyber Security,WV,2
+Cyber Security,HI,2
+Cyber Security,OK,2
+Cyber Security,NV,2
+Cyber Security,MI,2
+Cyber Security,CT,2
+Cyber Security,LA,2
+Cyber Security,DE,1
+Cyber Security,MS,1
+Cyber Security,KY,1
+Cyber Security,MN,1
+Cyber Security,IA,1
+Cyber Security,MA,1
+Cyber Security,ME,1
+Cyber Security,VT,1
+Cyber Security,WI,1
+Security Analyst,VA,28
+Security Analyst,CA,19
+Security Analyst,TX,18
+Security Analyst,MD,15
+Security Analyst,DC,12
+Security Analyst,NY,11
+Security Analyst,NJ,8
+Security Analyst,CO,7
+Security Analyst,IL,6
+Security Analyst,OH,6
+Security Analyst,AZ,6
+Security Analyst,FL,5
+Security Analyst,MI,5
+Security Analyst,MO,5
+Security Analyst,UT,5
+Security Analyst,PA,4
+Security Analyst,NC,4
+Security Analyst,IN,4
+Security Analyst,SC,4
+Security Analyst,GA,4
+Security Analyst,WA,3
+Security Analyst,MN,2
+Security Analyst,MA,2
+Security Analyst,WV,2
+Security Analyst,NM,2
+Security Analyst,NV,2
+Security Analyst,LA,1
+Security Analyst,AR,1
+Security Analyst,KY,1
+Security Analyst,HI,1
+Security Analyst,ID,1
+Security Analyst,NE,1
+Security Analyst,AL,1
+Security Analyst,PR,1
+Security Analyst,NH,1
+Security Analyst,IA,1
+Security Analyst,OR,1
+Security Director,CA,20
+Security Director,NY,19
+Security Director,TX,16
+Security Director,FL,11
+Security Director,IL,11
+Security Director,VA,9
+Security Director,CO,8
+Security Director,OH,7
+Security Director,MD,7
+Security Director,MO,7
+Security Director,AZ,7
+Security Director,MA,6
+Security Director,NC,6
+Security Director,GA,6
+Security Director,NJ,5
+Security Director,MI,5
+Security Director,PA,5
+Security Director,DC,4
+Security Director,CT,4
+Security Director,WA,4
+Security Director,MN,3
+Security Director,NH,3
+Security Director,AL,3
+Security Director,IA,2
+Security Director,IN,2
+Security Director,HI,2
+Security Director,WI,2
+Security Director,TN,2
+Security Director,VT,1
+Security Director,RI,1
+Security Director,ME,1
+Security Director,NM,1
+Security Director,OR,1
+Security Director,ID,1
+Security Director,NV,1
+Security Director,DE,1
+Security Director,SC,1
+Security Director,UT,1
+Data Scientist,CA,35
+Data Scientist,NY,21
+Data Scientist,WA,18
+Data Scientist,VA,16
+Data Scientist,MA,12
+Data Scientist,TX,10
+Data Scientist,IL,8
+Data Scientist,CO,7
+Data Scientist,AZ,7
+Data Scientist,OH,7
+Data Scientist,PA,7
+Data Scientist,MD,6
+Data Scientist,DC,5
+Data Scientist,NJ,5
+Data Scientist,MI,5
+Data Scientist,MN,4
+Data Scientist,ME,3
+Data Scientist,FL,3
+Data Scientist,GA,3
+Data Scientist,NC,2
+Data Scientist,OR,2
+Data Scientist,CT,2
+Data Scientist,OK,1
+Data Scientist,DE,1
+Data Scientist,TN,1
+Data Scientist,MO,1
+Data Scientist,WI,1
+Data Scientist,AR,1
+Data Scientist,UT,1
+Data Scientist,NE,1
+Data Scientist,NM,1
+Analyst,CA,47
+Analyst,NY,38
+Analyst,TX,19
+Analyst,MA,11
+Analyst,IL,10
+Analyst,VA,9
+Analyst,FL,7
+Analyst,NC,6
+Analyst,OH,6
+Analyst,DC,6
+Analyst,CO,4
+Analyst,NJ,4
+Analyst,MO,3
+Analyst,VT,3
+Analyst,WA,3
+Analyst,WI,2
+Analyst,MD,2
+Analyst,OK,2
+Analyst,AZ,2
+Analyst,GA,2
+Analyst,OR,2
+Analyst,MI,2
+Analyst,PA,2
+Analyst,NM,1
+Analyst,WV,1
+Analyst,CT,1
+Analyst,IA,1
+Analyst,UT,1
+Data Analyst,CA,46
+Data Analyst,NY,35
+Data Analyst,TX,15
+Data Analyst,VA,14
+Data Analyst,MA,9
+Data Analyst,OH,8
+Data Analyst,WA,7
+Data Analyst,PA,7
+Data Analyst,IL,7
+Data Analyst,NJ,6
+Data Analyst,DC,4
+Data Analyst,NC,4
+Data Analyst,OR,4
+Data Analyst,FL,4
+Data Analyst,SC,3
+Data Analyst,MN,3
+Data Analyst,MO,2
+Data Analyst,CO,2
+Data Analyst,WI,2
+Data Analyst,MD,2
+Data Analyst,UT,2
+Data Analyst,OK,2
+Data Analyst,GA,2
+Data Analyst,AZ,1
+Data Analyst,TN,1
+Data Analyst,NV,1
+Data Analyst,RI,1
+Data Analyst,VT,1
+Data Analyst,CT,1
+Data Analyst,KY,1
+Credit Analyst,TX,36
+Credit Analyst,CA,22
+Credit Analyst,IL,14
+Credit Analyst,NY,14
+Credit Analyst,PA,11
+Credit Analyst,MN,7
+Credit Analyst,OH,7
+Credit Analyst,GA,7
+Credit Analyst,NJ,7
+Credit Analyst,SD,6
+Credit Analyst,WI,5
+Credit Analyst,CO,5
+Credit Analyst,TN,5
+Credit Analyst,MI,5
+Credit Analyst,OK,5
+Credit Analyst,AZ,5
+Credit Analyst,VA,5
+Credit Analyst,UT,5
+Credit Analyst,IA,5
+Credit Analyst,WA,4
+Credit Analyst,NC,4
+Credit Analyst,FL,4
+Credit Analyst,MO,4
+Credit Analyst,MA,3
+Credit Analyst,IN,3
+Credit Analyst,WV,3
+Credit Analyst,KY,2
+Credit Analyst,VI,2
+Credit Analyst,CT,2
+Credit Analyst,RI,2
+Credit Analyst,NE,2
+Credit Analyst,MS,2
+Credit Analyst,NH,1
+Credit Analyst,AK,1
+Credit Analyst,SC,1
+Credit Analyst,NV,1
+Credit Analyst,AR,1
+Credit Analyst,LA,1
+Credit Analyst,ND,1
+Credit Analyst,AL,1
+Credit Analyst,DC,1
+Systems Analyst,CA,26
+Systems Analyst,VA,16
+Systems Analyst,TX,16
+Systems Analyst,FL,15
+Systems Analyst,NJ,11
+Systems Analyst,WI,9
+Systems Analyst,IL,8
+Systems Analyst,MD,7
+Systems Analyst,NC,7
+Systems Analyst,WA,6
+Systems Analyst,MA,5
+Systems Analyst,GA,5
+Systems Analyst,OH,5
+Systems Analyst,PA,5
+Systems Analyst,NY,4
+Systems Analyst,AZ,4
+Systems Analyst,MN,4
+Systems Analyst,SC,3
+Systems Analyst,KY,3
+Systems Analyst,MO,3
+Systems Analyst,AL,3
+Systems Analyst,MI,3
+Systems Analyst,DC,3
+Systems Analyst,OK,2
+Systems Analyst,TN,2
+Systems Analyst,NE,2
+Systems Analyst,ID,2
+Systems Analyst,CO,2
+Systems Analyst,UT,2
+Systems Analyst,LA,1
+Systems Analyst,DE,1
+Systems Analyst,WY,1
+Systems Analyst,HI,1
+Systems Analyst,WV,1
+Systems Analyst,KS,1
+Systems Analyst,IA,1
+Systems Analyst,RI,1
+Systems Analyst,IN,1
+Systems Analyst,MT,1
+Systems Analyst,CT,1
+Test Analyst,CA,29
+Test Analyst,VA,22
+Test Analyst,TX,17
+Test Analyst,MD,11
+Test Analyst,NY,11
+Test Analyst,OH,9
+Test Analyst,NC,8
+Test Analyst,DC,7
+Test Analyst,TN,6
+Test Analyst,WA,6
+Test Analyst,PA,6
+Test Analyst,IL,5
+Test Analyst,MA,5
+Test Analyst,NJ,5
+Test Analyst,MI,4
+Test Analyst,FL,4
+Test Analyst,MN,4
+Test Analyst,LA,4
+Test Analyst,CO,4
+Test Analyst,NM,3
+Test Analyst,MO,3
+Test Analyst,OR,3
+Test Analyst,ID,2
+Test Analyst,WI,2
+Test Analyst,PR,2
+Test Analyst,GA,2
+Test Analyst,AZ,2
+Test Analyst,ME,1
+Test Analyst,SC,1
+Test Analyst,OK,1
+Test Analyst,KY,1
+Test Analyst,NE,1
+Test Analyst,CT,1
+Test Analyst,IN,1
+Test Analyst,KS,1
+Test Analyst,DE,1
