@@ -68,7 +68,7 @@ server = app.server
 
 app.layout = html.Div([
     html.H1(
-        children="Job description Analysis",
+        children="Data Exploration",
         style={
             "font":"Roboto Regular",
             'text-align': 'center',
@@ -77,21 +77,44 @@ app.layout = html.Div([
         }
     ),
     html.Div([
-        dcc.Dropdown(
+        dbc.Row([
+            dbc.Col([
+                html.H3(
+                            children="Role Chooser :",
+                            style={
+                                "font":"Roboto",
+                                'text-align': 'center',
+                                "color":"#09ACF7",
+                                "size":17
+                                }
+                            )
+            ],width=3),
+            dbc.Col([
+                    dcc.Dropdown(
                         id='Role Chooser',
                         options=[{'label': i, 'value': i} for i in r],
                         value='Software Developer'                       
-                    ),
+                    )
+            ],width=3),
+            dbc.Col([
+                dcc.Markdown(children='''
+                                **Sample Size**     :   13169 Job Descriptions  
+                                **Time Frame**      :   29/09/2018 ➤➤ 27/08/2019  
+                                **Date Crawled**    :   28/08/2019  
+                                        ''')
+                
+            ],width=6)
+        ]),
         dbc.Row([
             dbc.Col([
                     html.Div([
-                        html.H2(
+                        html.H3(
                             children="Skill in Roles percentages",
                             style={
                                 "font":"Roboto",
                                 'text-align': 'center',
                                 "color":"#09ACF7",
-                                "size":20
+                                "size":17
                                 }
                             ),
                         dcc.Graph(
