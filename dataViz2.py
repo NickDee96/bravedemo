@@ -57,7 +57,7 @@ def getRange(start,stop,srs):
     sr1=sr1[sr1<=stop].sort_values(ascending=False)
     return sr1
 plotdf=pd.read_csv("kmeans.csv")
-minDf=plotdf[["Role",'Cluster', 'PCA1_3D','PCA2_3D', 'PCA3_3D']]
+minDf=plotdf[["Role",'Cluster']]
 def get_cluster_dict():
     clustDict=dict()
     for j in range(5):
@@ -371,7 +371,6 @@ def get_top_cities(role):
     [Input("3dplot", 'hoverData')])
 def hoverDataShow(hoverData):
     point = hoverData["points"][0]
-    print(point)
     clstr=int(minDf[minDf["Role"]==point["hovertext"]]["Cluster"])
     rls=clustDict[clstr]
     #rls.remove(point["hovertext"])
