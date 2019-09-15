@@ -247,7 +247,7 @@ def get3dplot():
                         marker = dict(color = 'rgba(255, 80, 80, 0.8)'),
                         )
     data=[trace0,trace1,trace2,trace4,trace3]
-    axis=dict(showbackground=False,
+    axis=dict(#showbackground=False,
               showline=False,
               zeroline=False,
               showgrid=False,
@@ -270,7 +270,7 @@ def get3dplot():
     return fig
 
 
-get3dplot()
+get3dplot().show()
 
 
 def get_label_text(df):

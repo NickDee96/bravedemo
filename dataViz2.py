@@ -56,22 +56,23 @@ def getRange(start,stop,srs):
     sr1=srs[srs>=start].sort_values(ascending=False)
     sr1=sr1[sr1<=stop].sort_values(ascending=False)
     return sr1
-
-def get3dplot():
-    plotdf=pd.read_csv("kmeans.csv")
+plotdf=pd.read_csv("kmeans.csv")
+minDf=plotdf[["Role",'Cluster', 'PCA1_3D','PCA2_3D', 'PCA3_3D']]
+def get_cluster_dict():
+    clustDict=dict()
+    for j in range(5):
+        roles=list(minDf[minDf["Cluster"]==j]["Role"])
+        clustDict.update({
+            j:roles
+        })
+    return clustDict
+clustDict=get_cluster_dict()
+def get3dplot(plotdf):
     c0=plotdf[plotdf["Cluster"]==0]
     c1=plotdf[plotdf["Cluster"]==1]
     c2=plotdf[plotdf["Cluster"]==2]
     c3=plotdf[plotdf["Cluster"]==3]
-    c4=plotdf[plotdf["Cluster"]==4]
-    def get_label_text(df):
-        r=list(df.Role)
-        rr=[]    
-        for i in r:
-            b='''<b>{}</b><br><i>Other roles in the cluster</i><br>\t{}
-                '''.format(i," <br>    ".join(r))
-            rr.append(b)
-        return rr    
+    c4=plotdf[plotdf["Cluster"]==4] 
     trace1 = go.Scatter3d(
                         x = c1["PCA1_3D"],
                         y = c1["PCA2_3D"],
@@ -80,7 +81,7 @@ def get3dplot():
                         #line=dict(
                         #        color='#1f77b4',
                         #        width=4),
-                        hovertext=get_label_text(c1),
+                        hovertext=c1.Role,
                         name = "Cluster 1",
                         marker = dict(color = 'rgba(110, 125, 125, 0.8)'),
                         text = None)
@@ -89,7 +90,7 @@ def get3dplot():
                         y = c0["PCA2_3D"],
                         z = c0["PCA3_3D"],
                         mode = "markers",
-                        hovertext=get_label_text(c0),
+                        hovertext=c0.Role,
                         name = "Cluster 0",
                         marker = dict(color = 'rgba(255, 30, 145, 0.8)'),
                         text = None)
@@ -98,7 +99,7 @@ def get3dplot():
                         y = c2["PCA2_3D"],
                         z = c2["PCA3_3D"],
                         mode = "markers",
-                        hovertext=get_label_text(c2),
+                        hovertext=c2.Role,
                         name = "Cluster 2",
                         marker = dict(color = 'rgba(0, 220, 250, 0.8)'),
                         text = None)
@@ -108,7 +109,7 @@ def get3dplot():
                         y = c4["PCA2_3D"],
                         z = c4["PCA3_3D"],
                         mode = "markers",
-                        hovertext=get_label_text(c4),
+                        hovertext=c4.Role,
                         name = "Cluster 4",
                         marker = dict(color = 'rgba(255, 220, 80, 0.8)'),
                         text = None)
@@ -117,7 +118,7 @@ def get3dplot():
                         y = c3["PCA2_3D"],
                         z = c3["PCA3_3D"],
                         mode = "markers",
-                        text=get_label_text(c3),
+                        text=c3.Role,
                         name = "Cluster 3",
                         marker = dict(color = 'rgba(255, 80, 80, 0.8)'),
                         )
@@ -235,7 +236,7 @@ app.layout = html.Div([
                 html.Div([
                     dcc.Graph(id="chloropleth")
                 ])                
-            ],width=4.5),
+            ],width=8),
             dbc.Col([
                 html.Div([
                     html.H4(
@@ -251,10 +252,33 @@ app.layout = html.Div([
                         id="top_cities"
                     )            
                     ])
-                ],width=3),
+                ])
+        ]),
+        dbc.Row([            
             dbc.Col([
                 dcc.Graph(id="3dplot",
-                    figure=get3dplot())              
+                hoverData=[{"points": {"hovertext": "Software Developer"}}],
+                    figure=get3dplot(plotdf))              
+            ]),
+            dbc.Col([
+                html.Div([
+                    html.H5(
+                        id="role_chosen",
+                            style={
+                               "font":"Roboto",
+                               'text-align': 'left',
+                               "color":"#09ACF7",
+                               "size":16
+                                }    
+                    ),
+                    html.P(
+                        children="Other roles in the same cluster."
+                    ),
+                    html.Ul(
+                        id="filtered_roles"
+                    ),
+                    dcc.Markdown(id="test")
+                ])
             ])
         ])        
     ])
@@ -340,9 +364,19 @@ def get_top_cities(role):
     htm=[html.Li(x) for x in jts]
     return htm
 
-
-
-
+@app.callback(
+    [Output("role_chosen", 'children'),
+    Output("filtered_roles", 'children')],
+    [Input("3dplot", 'hoverData')])
+def hoverDataShow(hoverData):
+    point = hoverData["points"][0]
+    clstr=int(minDf[minDf["Role"]==point["hovertext"]]["Cluster"])
+    rls=clustDict[clstr]
+    #rls.remove(point["hovertext"])
+    return (
+        point["hovertext"],
+        [html.Li(x) for x in rls],
+    )
 if __name__ == "__main__":
     app.run_server(host="0.0.0.0")
 
