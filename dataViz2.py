@@ -118,8 +118,9 @@ def get3dplot(plotdf):
                         y = c3["PCA2_3D"],
                         z = c3["PCA3_3D"],
                         mode = "markers",
-                        text=c3.Role,
+                        hovertext=c3.Role,
                         name = "Cluster 3",
+                        text = None,
                         marker = dict(color = 'rgba(255, 80, 80, 0.8)'),
                         )
     data=[trace0,trace1,trace2,trace4,trace3]
@@ -370,6 +371,7 @@ def get_top_cities(role):
     [Input("3dplot", 'hoverData')])
 def hoverDataShow(hoverData):
     point = hoverData["points"][0]
+    print(point)
     clstr=int(minDf[minDf["Role"]==point["hovertext"]]["Cluster"])
     rls=clustDict[clstr]
     #rls.remove(point["hovertext"])
