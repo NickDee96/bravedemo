@@ -28,28 +28,11 @@ import dash_bootstrap_components as dbc
 mapdata=pd.read_csv("mapdata.csv")
 df=pd.read_csv("VectorizedTags.csv")
 prdf2=pd.read_csv("pilotRoles.csv")
-df=df.drop(["Customer","United States","Timiza"],axis=1)
-r=list(df["Role"].unique())
-
 r=list(df["Role"].dropna().unique())
 r.sort()
 r.remove("Amazon")
-
-
 df=df.fillna(0)
-
-
-sum(df["Oracle"])
-
-
-
 r.sort()
-desc=df[df["Role"]=="Drafter"].describe()
-sr=round((desc.loc["count",]/len(df[df["Role"]=="Drafter"]))*100,ndigits=2)
-
-a=sr[sr>=10]
-a[a<=50].sort_values(ascending=False)
-
 
 
 def getRange(start,stop,srs):
@@ -258,7 +241,7 @@ app.layout = html.Div([
         dbc.Row([            
             dbc.Col([
                 dcc.Graph(id="3dplot",
-                hoverData=[{"points": {"hovertext": "Software Developer"}}],
+                hoverData={"points": [{"hovertext": "Software Developer"}]},
                     figure=get3dplot(plotdf))              
             ]),
             dbc.Col([
@@ -373,7 +356,12 @@ def hoverDataShow(hoverData):
     point = hoverData["points"][0]
     clstr=int(minDf[minDf["Role"]==point["hovertext"]]["Cluster"])
     rls=clustDict[clstr]
-    #rls.remove(point["hovertext"])
+    print(point["hovertext"]+"\n\n")
+    print(rls)
+    try:
+        rls.remove(point["hovertext"])
+    except ValueError:
+        pass
     return (
         point["hovertext"],
         [html.Li(x) for x in rls],
