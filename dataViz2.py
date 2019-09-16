@@ -178,7 +178,7 @@ app.layout = html.Div([
                                     options=[{'label': i, 'value': i} for i in r],
                                     value='Software Developer'                       
                                 )
-                                ],width=4)
+                                ],width=5)
                             ]),
                     ])
                 ],width=7)
