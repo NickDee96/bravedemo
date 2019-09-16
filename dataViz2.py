@@ -154,23 +154,29 @@ app.layout = html.Div([
     html.Div([
         dbc.Row([
             dbc.Col([
-                html.H3(
-                            children="Role Chooser :",
-                            style={
-                                "font":"Roboto",
-                                'text-align': 'center',
-                                "color":"#09ACF7",
-                                "size":17
-                                }
+                html.Div([
+                    dbc.Row([
+                        dbc.Col([
+                            html.H3(
+                                children="Role Chooser :",
+                                style={
+                                    "font":"Roboto",
+                                    'text-align': 'center',
+                                    "color":"#09ACF7",
+                                    "size":17
+                                    }
+                                ),
+                        ],width=4),
+                        dbc.Col([
+                            dcc.Dropdown(
+                                id='Role Chooser',
+                                options=[{'label': i, 'value': i} for i in r],
+                                value='Software Developer'                       
                             )
-            ],width=3),
-            dbc.Col([
-                    dcc.Dropdown(
-                        id='Role Chooser',
-                        options=[{'label': i, 'value': i} for i in r],
-                        value='Software Developer'                       
-                    )
-            ],width=3),
+                            ],width=4)
+                        ]),
+                ])
+            ],width=7),
             dbc.Col([
                 dcc.Markdown(children='''
                                 **Sample Size**     :   13169 Job Descriptions  
@@ -178,13 +184,13 @@ app.layout = html.Div([
                                 **Date Crawled**    :   28/08/2019  
                                         ''')
                 
-            ],width=6)
-        ]),
+            ],width=3)
+        ],justify="between"),
         dbc.Row([
             dbc.Col([
                     html.Div([
                         html.H3(
-                            children="Skill in Roles percentages",
+                            id="role_name",
                             style={
                                 "font":"Roboto",
                                 'text-align': 'center',
@@ -192,10 +198,13 @@ app.layout = html.Div([
                                 "size":17
                                 }
                             ),
-                        dcc.Graph(
-                            id="role_graph_table"
-                        )
-                    ])
+                            html.Div([
+                                dcc.Graph(
+                                    id="role_graph_table"
+                                )
+                            ])
+
+                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})
             ],width=9),
             dbc.Col([
                 html.Div([
@@ -211,10 +220,10 @@ app.layout = html.Div([
                     html.Ul(
                         id="jobs_assoc"
                     )
-                ])                
-            ])
+                ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})                
+            ],align="stretch")
 
-        ]),
+        ],className="row mt-4"),
         dbc.Row([
             dbc.Col([
                 html.Div([
@@ -227,7 +236,7 @@ app.layout = html.Div([
                         children="Top Cities",
                             style={
                                "font":"Roboto",
-                               'text-align': 'center',
+                               'text-align': 'left',
                                "color":"#09ACF7",
                                "size":20
                                 }    
@@ -235,15 +244,15 @@ app.layout = html.Div([
                     html.Ul(
                         id="top_cities"
                     )            
-                    ])
-                ])
-        ]),
+                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})
+                ],width=3)
+        ],className="row mt-4"),
         dbc.Row([            
             dbc.Col([
                 dcc.Graph(id="3dplot",
                 hoverData={"points": [{"hovertext": "Software Developer"}]},
                     figure=get3dplot(plotdf))              
-            ],className="pretty_container"),
+            ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"},width=5),
             dbc.Col([
                 html.Div([
                     html.H5(
@@ -260,15 +269,15 @@ app.layout = html.Div([
                     ),
                     html.Ul(
                         id="filtered_roles"
-                    ),
-                    dcc.Markdown(id="test")
+                    )
                 ])
-            ])
-        ])        
+            ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"},width=5)
+        ],className="row mt-4",justify="between")        
     ])
-])
+],style={ "backgroundColor": "#e9eef2"})
 @app.callback(
-    Output("role_graph_table", 'figure'),
+    [Output("role_graph_table", 'figure'),
+    Output("role_name", 'children')],
     [Input("Role Chooser", 'value')])
 def getFig(role):
     a=df[df["Role"]==role].sum()
@@ -298,8 +307,8 @@ def getFig(role):
             align="left"
         )
     ),row=1,col=2)
-
-    return fig
+    mainText="{} skills and percentages".format(role)
+    return (fig,mainText)
 
 @app.callback(
     Output("jobs_assoc", 'children'),
