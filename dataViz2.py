@@ -140,9 +140,13 @@ server = app.server
 
 app.layout = html.Div([
     html.Div([
-        html.Header()
-    ]),
-    html.Div([    
+            html.Div([
+                dbc.Row([
+                    dbc.Col([
+                        html.H1(children="Brave Venture Labs",style={"color":"white"})
+                    ])
+                ])
+            ]),    
         html.H1(
             children='''Data Exploration''',
             style={
@@ -164,7 +168,7 @@ app.layout = html.Div([
                                         "font":"Roboto",
                                         'text-align': 'center',
                                         "color":"#09ACF7",
-                                        "size":17
+                                        "size":20
                                         }
                                     ),
                             ],width=4),
@@ -197,9 +201,9 @@ app.layout = html.Div([
                                 id="role_name",
                                 style={
                                     "font":"Roboto",
-                                    'text-align': 'center',
+                                    'text-align': 'left',
                                     "color":"#09ACF7",
-                                    "size":17
+                                    "size":20
                                     }
                                 ),
                                 html.Div([
@@ -208,7 +212,7 @@ app.layout = html.Div([
                                     )
                                 ])
 
-                        ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})
+                        ],style={ "backgroundColor": "#ffffff"})
                 ],width=9),
                 dbc.Col([
                     html.Div([
@@ -216,7 +220,7 @@ app.layout = html.Div([
                             children="Job titles Associated with the Role",
                                 style={
                                    "font":"Roboto",
-                                   'text-align': 'center',
+                                   'text-align': 'left',
                                    "color":"#09ACF7",
                                    "size":20
                                     }    
@@ -224,7 +228,7 @@ app.layout = html.Div([
                         html.Ul(
                             id="jobs_assoc"
                         )
-                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})                
+                    ],style={ "backgroundColor": "#ffffff"})                
                 ],align="stretch")
 
             ],className="row mt-4"),
@@ -235,17 +239,17 @@ app.layout = html.Div([
                             id="role_name2",
                             style={
                                 "font":"Roboto",
-                                'text-align': 'center',
+                                'text-align': 'left',
                                 "color":"#09ACF7",
-                                "size":17
+                                "size":20
                                 }
                             ),                        
                         dcc.Graph(id="chloropleth")
-                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})                
+                    ],style={ "backgroundColor": "#ffffff"})                
                 ],width=9),
                 dbc.Col([
                     html.Div([
-                        html.H4(
+                        html.H3(
                             children="Top Cities",
                                 style={
                                    "font":"Roboto",
@@ -257,7 +261,7 @@ app.layout = html.Div([
                         html.Ul(
                             id="top_cities"
                         )            
-                        ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})
+                        ],style={ "backgroundColor": "#ffffff"})
                     ],width=3)
             ],className="row mt-4"),
             dbc.Row([            
@@ -267,38 +271,36 @@ app.layout = html.Div([
                             children="Roles similarity (3D clusters)",
                             style={
                                 "font":"Roboto",
-                                'text-align': 'center',
+                                'text-align': 'left',
                                 "color":"#09ACF7",
-                                "size":17
+                                "size":20
                                 }
                             ),
                         dcc.Graph(id="3dplot",
                             hoverData={"points": [{"hovertext": "Software Developer"}]},
                                 figure=get3dplot(plotdf)) 
-                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})            
-                ],style={"box-shadow":"0px 0px 36px 0px #a2a1c1"},width=9),
+                    ],style={ "backgroundColor": "#ffffff"})            
+                ],width=9),
                 dbc.Col([
                     html.Div([
-                        html.H5(
+                        html.H3(
                             id="role_chosen",
                                 style={
                                    "font":"Roboto",
                                    'text-align': 'left',
                                    "color":"#09ACF7",
-                                   "size":16
+                                   "size":20
                                     }    
                         ),
-                        html.P(
-                            children="<b>Other roles in the same cluster.<b>"
-                        ),
+                        dcc.Markdown('''**Other Roles in the cluster.**'''),
                         html.Ul(
                             id="filtered_roles"
                         )
                     ])
-                ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"},width=3,)
+                ],style={ "backgroundColor": "#ffffff"},width=3,)
             ],className="row mt-4")        
         ])
-    ],style={ "backgroundColor": "#e9eef2"},className="container scalable")
+    ],style={ "backgroundColor": "#ffffff"},className="container scalable")
 ],className="row gs-header")
 @app.callback(
     [Output("role_graph_table", 'figure'),
@@ -324,7 +326,7 @@ def getFig(role):
     ),row=1,col=1)
     fig.add_trace(go.Table(
         header=dict(
-            values=["Skill","Percentage"],
+            values=["<b>Skill<b>","<b>Percentage<b>"],
             font=dict(size=14),
             align="left"
         ),
@@ -333,7 +335,7 @@ def getFig(role):
             align="left"
         )
     ),row=1,col=2)
-    mainText1="{} skills and percentages".format(role)
+    mainText1="Skills most in demand for {}".format(role)
     mainText2="Where is {} more in demand".format(role)
     return (fig,mainText1,mainText2)
 
