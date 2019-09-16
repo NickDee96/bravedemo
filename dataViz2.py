@@ -243,7 +243,7 @@ app.layout = html.Div([
                 dcc.Graph(id="3dplot",
                 hoverData={"points": [{"hovertext": "Software Developer"}]},
                     figure=get3dplot(plotdf))              
-            ]),
+            ],className="pretty_container"),
             dbc.Col([
                 html.Div([
                     html.H5(
@@ -356,15 +356,12 @@ def hoverDataShow(hoverData):
     point = hoverData["points"][0]
     clstr=int(minDf[minDf["Role"]==point["hovertext"]]["Cluster"])
     rls=clustDict[clstr]
-    print(point["hovertext"]+"\n\n")
-    print(rls)
-    try:
-        rls.remove(point["hovertext"])
-    except ValueError:
-        pass
+    a=rls.remove(point["hovertext"])
+    a=set(rls)
+    rls.append(point["hovertext"])
     return (
         point["hovertext"],
-        [html.Li(x) for x in rls],
+        [html.Li(x) for x in a],
     )
 if __name__ == "__main__":
     app.run_server(host="0.0.0.0")
