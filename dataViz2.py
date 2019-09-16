@@ -115,10 +115,7 @@ def get3dplot(plotdf):
               title=''
               )
     layout = go.Layout(
-             title="Role Similarity (3D visualization)",
              plot_bgcolor='#273e49',
-             width=800,
-             height=800,
              showlegend=False,
              scene=dict(
                  xaxis=dict(axis),
@@ -142,23 +139,62 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 app.layout = html.Div([
-    html.H1(
-        children="Data Exploration",
-        style={
-            "font":"Roboto Regular",
-            'text-align': 'center',
-            "color":"#09ACF7",
-            "size":24
-        }
-    ),
     html.Div([
-        dbc.Row([
-            dbc.Col([
-                html.Div([
-                    dbc.Row([
-                        dbc.Col([
+        html.Header()
+    ]),
+    html.Div([    
+        html.H1(
+            children='''Data Exploration''',
+            style={
+                "font":"Roboto Regular",
+                'text-align': 'center',
+                "color":"#000000",
+                "size":24
+            }
+        ),
+        html.Div([
+            dbc.Row([
+                dbc.Col([
+                    html.Div([
+                        dbc.Row([
+                            dbc.Col([
+                                html.H3(
+                                    children="Role Category :",
+                                    style={
+                                        "font":"Roboto",
+                                        'text-align': 'center',
+                                        "color":"#09ACF7",
+                                        "size":17
+                                        }
+                                    ),
+                            ],width=4),
+                            dbc.Col([
+                                dcc.Dropdown(
+                                    id='Role Chooser',
+                                    options=[{'label': i, 'value': i} for i in r],
+                                    value='Software Developer'                       
+                                )
+                                ],width=4)
+                            ]),
+                    ])
+                ],width=7)
+            ],justify="between"),
+            dbc.Row([
+                dbc.Col([
+                    html.Div([
+                        dcc.Markdown(children='''
+                                        **Sample Size**     :   13169 Job Descriptions  
+                                        **Time Frame**      :   29/09/2018 ➤➤ 27/08/2019  
+                                        **Date Crawled**    :   28/08/2019  
+                                                ''')
+                    ])
+                ])                
+            ],className="row mt-4"),
+            dbc.Row([
+                dbc.Col([
+                        html.Div([
                             html.H3(
-                                children="Role Chooser :",
+                                id="role_name",
                                 style={
                                     "font":"Roboto",
                                     'text-align': 'center',
@@ -166,31 +202,69 @@ app.layout = html.Div([
                                     "size":17
                                     }
                                 ),
-                        ],width=4),
-                        dbc.Col([
-                            dcc.Dropdown(
-                                id='Role Chooser',
-                                options=[{'label': i, 'value': i} for i in r],
-                                value='Software Developer'                       
-                            )
-                            ],width=4)
-                        ]),
-                ])
-            ],width=7),
-            dbc.Col([
-                dcc.Markdown(children='''
-                                **Sample Size**     :   13169 Job Descriptions  
-                                **Time Frame**      :   29/09/2018 ➤➤ 27/08/2019  
-                                **Date Crawled**    :   28/08/2019  
-                                        ''')
-                
-            ],width=3)
-        ],justify="between"),
-        dbc.Row([
-            dbc.Col([
+                                html.Div([
+                                    dcc.Graph(
+                                        id="role_graph_table"
+                                    )
+                                ])
+
+                        ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})
+                ],width=9),
+                dbc.Col([
+                    html.Div([
+                        html.H4(
+                            children="Job titles Associated with the Role",
+                                style={
+                                   "font":"Roboto",
+                                   'text-align': 'center',
+                                   "color":"#09ACF7",
+                                   "size":20
+                                    }    
+                        ),
+                        html.Ul(
+                            id="jobs_assoc"
+                        )
+                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})                
+                ],align="stretch")
+
+            ],className="row mt-4"),
+            dbc.Row([
+                dbc.Col([
                     html.Div([
                         html.H3(
-                            id="role_name",
+                            id="role_name2",
+                            style={
+                                "font":"Roboto",
+                                'text-align': 'center',
+                                "color":"#09ACF7",
+                                "size":17
+                                }
+                            ),                        
+                        dcc.Graph(id="chloropleth")
+                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})                
+                ],width=9),
+                dbc.Col([
+                    html.Div([
+                        html.H4(
+                            children="Top Cities",
+                                style={
+                                   "font":"Roboto",
+                                   'text-align': 'left',
+                                   "color":"#09ACF7",
+                                   "size":20
+                                    }    
+                            ),
+                        html.Ul(
+                            id="top_cities"
+                        )            
+                        ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})
+                    ],width=3)
+            ],className="row mt-4"),
+            dbc.Row([            
+                dbc.Col([
+                    html.Div([
+                        html.H3(
+                            children="Roles similarity (3D clusters)",
                             style={
                                 "font":"Roboto",
                                 'text-align': 'center',
@@ -198,86 +272,38 @@ app.layout = html.Div([
                                 "size":17
                                 }
                             ),
-                            html.Div([
-                                dcc.Graph(
-                                    id="role_graph_table"
-                                )
-                            ])
-
-                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})
-            ],width=9),
-            dbc.Col([
-                html.Div([
-                    html.H4(
-                        children="Job titles Associated with the Role",
-                            style={
-                               "font":"Roboto",
-                               'text-align': 'center',
-                               "color":"#09ACF7",
-                               "size":20
-                                }    
-                    ),
-                    html.Ul(
-                        id="jobs_assoc"
-                    )
-                ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})                
-            ],align="stretch")
-
-        ],className="row mt-4"),
-        dbc.Row([
-            dbc.Col([
-                html.Div([
-                    dcc.Graph(id="chloropleth")
-                ])                
-            ],width=8),
-            dbc.Col([
-                html.Div([
-                    html.H4(
-                        children="Top Cities",
-                            style={
-                               "font":"Roboto",
-                               'text-align': 'left',
-                               "color":"#09ACF7",
-                               "size":20
-                                }    
+                        dcc.Graph(id="3dplot",
+                            hoverData={"points": [{"hovertext": "Software Developer"}]},
+                                figure=get3dplot(plotdf)) 
+                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})            
+                ],style={"box-shadow":"0px 0px 36px 0px #a2a1c1"},width=9),
+                dbc.Col([
+                    html.Div([
+                        html.H5(
+                            id="role_chosen",
+                                style={
+                                   "font":"Roboto",
+                                   'text-align': 'left',
+                                   "color":"#09ACF7",
+                                   "size":16
+                                    }    
                         ),
-                    html.Ul(
-                        id="top_cities"
-                    )            
-                    ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"})
-                ],width=3)
-        ],className="row mt-4"),
-        dbc.Row([            
-            dbc.Col([
-                dcc.Graph(id="3dplot",
-                hoverData={"points": [{"hovertext": "Software Developer"}]},
-                    figure=get3dplot(plotdf))              
-            ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"},width=5),
-            dbc.Col([
-                html.Div([
-                    html.H5(
-                        id="role_chosen",
-                            style={
-                               "font":"Roboto",
-                               'text-align': 'left',
-                               "color":"#09ACF7",
-                               "size":16
-                                }    
-                    ),
-                    html.P(
-                        children="Other roles in the same cluster."
-                    ),
-                    html.Ul(
-                        id="filtered_roles"
-                    )
-                ])
-            ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"},width=5)
-        ],className="row mt-4",justify="between")        
-    ])
-],style={ "backgroundColor": "#e9eef2"})
+                        html.P(
+                            children="<b>Other roles in the same cluster.<b>"
+                        ),
+                        html.Ul(
+                            id="filtered_roles"
+                        )
+                    ])
+                ],style={ "backgroundColor": "#ffffff","box-shadow":"0px 0px 36px 0px #a2a1c1"},width=3,)
+            ],className="row mt-4")        
+        ])
+    ],style={ "backgroundColor": "#e9eef2"},className="container scalable")
+],className="row gs-header")
 @app.callback(
     [Output("role_graph_table", 'figure'),
-    Output("role_name", 'children')],
+    Output("role_name", 'children'),
+    Output("role_name2", 'children')],
     [Input("Role Chooser", 'value')])
 def getFig(role):
     a=df[df["Role"]==role].sum()
@@ -307,8 +333,9 @@ def getFig(role):
             align="left"
         )
     ),row=1,col=2)
-    mainText="{} skills and percentages".format(role)
-    return (fig,mainText)
+    mainText1="{} skills and percentages".format(role)
+    mainText2="Where is {} more in demand".format(role)
+    return (fig,mainText1,mainText2)
 
 @app.callback(
     Output("jobs_assoc", 'children'),
@@ -338,7 +365,6 @@ def get_chloropleth(role):
     )
     )
     fig.update_layout(
-            title_text = 'Geographical Demand for {} in the US'.format(role),
             showlegend = False,
             geo = dict(
                 scope = 'usa',
