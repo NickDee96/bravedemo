@@ -28,11 +28,14 @@ import dash_bootstrap_components as dbc
 mapdata=pd.read_csv("mapdata.csv")
 df=pd.read_csv("VectorizedTags.csv")
 prdf2=pd.read_csv("pilotRoles.csv")
+daDf=pd.read_csv("daSample.csv")
+netDf=pd.read_csv("netSample.csv")
 r=list(df["Role"].dropna().unique())
 r.sort()
 r.remove("Amazon")
 df=df.fillna(0)
 r.sort()
+
 
 
 def getRange(start,stop,srs):
@@ -300,7 +303,7 @@ app.layout = html.Div([
                 ],style={ "backgroundColor": "#ffffff"},width=3,)
             ],className="row mt-4")        
         ])
-    ],style={ "backgroundColor": "#ffffff"},className="container scalable")
+    ],style={ "backgroundColor": "#ffffff"})#className="container scalable"
 ],className="row gs-header")
 @app.callback(
     [Output("role_graph_table", 'figure'),

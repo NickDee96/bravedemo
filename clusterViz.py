@@ -270,8 +270,9 @@ def get3dplot():
     return fig
 
 
-get3dplot().show()
+a=get3dplot()
 
+a["data"]
 
 def get_label_text(df):
     r=list(df.Role)
@@ -330,7 +331,21 @@ fig.show()
 
 
 
-
+@app.callback(
+    [Output("role_chosen", 'children'),
+    Output("filtered_roles", 'children'),
+    Output("test", 'children')],
+    [Input("3dplot", 'hoverData')])
+def hoverDataShow(hoverData):
+    point = hoverData["points"]
+    clstr=int(minDf[minDf["Role"]==point["text"]]["Cluster"])
+    rls=clustDict[clstr]
+    rls.remove(point["text"])
+    return (
+        point["text"],
+        [html.Li(x) for x in rls],
+        point
+    )
 
 
 
