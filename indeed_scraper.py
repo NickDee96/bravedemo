@@ -16,8 +16,8 @@ def scrape():
     scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name('indeedscraper-f298f5bd5f02.json', scope)
     client = gspread.authorize(creds)
-    data=pd.read_csv("pilotRoles.csv")
-    sheet = client.open('Indeed Jds').sheet1
+    data=pd.read_csv("data_network.csv")
+    sheet = client.open('Indeed JDs2').sheet1
     try:
         df=pd.DataFrame(sheet.get_all_records())
         lastKey=df["jobkey"][len(df)-1]
@@ -27,7 +27,7 @@ def scrape():
         a=0
         header = ["Role","jobtitle","jobkey","jd"]
         sheet.insert_row(header,1)
-    with open("pilotRolesData.csv","a",newline="") as csvfile:
+    with open("netdata.csv","a",newline="") as csvfile:
         writer=csv.DictWriter(csvfile,fieldnames=["Role","jobtitle","jobkey","jd"])
         #writer.writeheader()
         for i in range(a+1,len(data)):
