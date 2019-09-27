@@ -303,7 +303,7 @@ app.layout = html.Div([
                 ],style={ "backgroundColor": "#ffffff"},width=3,)
             ],className="row mt-4")        
         ])
-    ],style={ "backgroundColor": "#ffffff"})#className="container scalable"
+    ],style={ "backgroundColor": "#ffffff"},className="container scalable")#
 ],className="row gs-header")
 @app.callback(
     [Output("role_graph_table", 'figure'),
