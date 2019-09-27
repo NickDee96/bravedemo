@@ -3,6 +3,7 @@ import numpy as np
 import plotly
 from plotly.subplots import make_subplots
 import dash
+import dash_table
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
@@ -17,6 +18,10 @@ daDf=pd.read_csv("daSample.csv")
 netDf=pd.read_csv("netSample.csv")
 
 daDf.columns
+
+
+
+
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -38,9 +43,9 @@ app.layout=html.Div([
                     dbc.Col([
                         html.Div([
                             dcc.Dropdown(                                
-                                    id='month_start',
-                                    options=[{'label': i, 'value': i} for i in daDf.columns ],
-                                    value='January'
+                                    id='mRoleChooser',
+                                    options=[{'label': i, 'value': i} for i in ["Data Analyst","Network Engineer"]],
+                                    value="Data Analyst"
                             )
                         ])
                     ]),
@@ -54,13 +59,63 @@ app.layout=html.Div([
                         ])
                     ])
                 ]),
-                html.Div([
-                    [html.P(children=x)for x in daDf.Skill]
-                ])
+                html.Div(
+                    id="dtbl"
+                )
             ])
         ])
     ])
 ])
+
+@app.callback(
+    Output("dtbl","children"),
+    [Input("mRoleChooser","value"),
+    Input("month_end","value")]
+)
+def get_table(role,end):
+    if role =="Data Analyst":
+        pos=list(daDf.columns).index(end)
+        if pos>1:
+            colname=list(daDf.columns)[pos-1]
+        df=daDf[["Skill",colname,end]]
+        df["% Change from previous month"]=df[end]-df[colname]
+        df=df.drop([colname],axis=1)
+        df=df.head(10)
+        df=df.sort_values(end,ascending=False)
+        tbl=dash_table.DataTable(
+            columns=[{"name": i, "id": i} for i in df.columns],
+            data=df.to_dict('records'),
+                style_data_conditional=[
+                    {
+                        'if': {
+                            'column_id': '% Change from previous month',
+                            'filter_query': '{% Change from previous month} < 0'
+                        },
+                        'backgroundColor': '#f2b3ae',
+                        'color': '#ff1300',
+                        'font-weight': 'bold',
+                        'font-family':'Roboto'
+                    },
+                    {
+                        'if': {
+                            'column_id': '% Change from previous month',
+                            'filter_query': '{% Change from previous month} > 0'
+                        },
+                        'backgroundColor': '#97f098',
+                        'color': '#008001',
+                        'font-weight': 'bold',
+                        'font-family':'Roboto'
+                    }                    
+                ],
+                style_data={ 'border': '0px solid blue',
+                            'font-family':"Roboto" },
+                style_header={ 'border': '0px solid pink',
+                                'font-weight': 'bold',
+                                'font-family':"Roboto" }
+            )
+        return tbl
+
+
 
 if __name__ == "__main__":
     app.run_server(host="0.0.0.0")
