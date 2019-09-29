@@ -1,0 +1,195 @@
+Role,latitude,longitude,City,Count
+Network Engineer,30.06263,31.24967,القاهرة,90.0
+Network Engineer,33.593914,-7.61763,Casablanca,39.0
+Network Engineer,29.966667,31.25,المعادي,4.0
+Network Engineer,-26.02111,28.00917,Fourways,2.0
+Network Engineer,-25.87444,28.17056,Centurion,37.0
+Network Engineer,-33.91667,18.41667,Cape Town,114.0
+Network Engineer,-33.98333,18.475,Southern Suburbs,3.0
+Network Engineer,30.00808,31.21093,الجيزة,7.0
+Network Engineer,6.45407,3.39467,Lagos,111.0
+Network Engineer,-26.20227,28.04363,Johannesburg,163.0
+Network Engineer,-29.85,31.01667,Durban,26.0
+Network Engineer,9.076478,7.398574000000001,Abuja,10.0
+Network Engineer,-26.0833,28.1667,Modderfontein,1.0
+Network Engineer,-33.979027,18.449821,Nuweland,1.0
+Network Engineer,-26.043566,27.976135,Johannesburg North,19.0
+Network Engineer,-26.101385,28.046190000000006,Sandton,4.0
+Network Engineer,6.59651,3.34205,Ikeja,2.0
+Network Engineer,-25.96361,28.13778,Midrand,14.0
+Network Engineer,-26.0941,28.00123,Randburg,2.0
+Network Engineer,-26.198133,28.021814000000006,Braamfontein,2.0
+Network Engineer,-25.74486,28.18783,Pretoria,37.0
+Network Engineer,34.01325,-6.83255,Rabat,8.0
+Network Engineer,4.815554,7.049844,Port Harcourt,2.0
+Network Engineer,7.155710000000001,3.3450900000000003,Abeokuta,2.0
+Network Engineer,-26.05,28.03333,Bryanston,1.0
+Network Engineer,-33.85409,18.5977,Northern Suburbs,4.0
+Network Engineer,31.63416,-7.99994,Marrakech,1.0
+Network Engineer,30.03,31.47,القاهرة الجديدة,1.0
+Network Engineer,-25.75,28.16667,Pretoria West,1.0
+Network Engineer,-34.069717,18.815788,Somerset West,9.0
+Network Engineer,-26.183601,28.016191,East Rand,1.0
+Network Engineer,-29.736507,30.8327,Waterfall,1.0
+Network Engineer,-33.93333,18.85,Stellenbosch,6.0
+Network Engineer,34.26593,-6.577189999999999,Kénitra,1.0
+Network Engineer,-33.9602,25.6244,Port Elizabeth,7.0
+Network Engineer,-33.93333,18.46667,Observatory,2.0
+Network Engineer,30.205,31.4575,مدينة العبور,1.0
+Network Engineer,-33.9,18.63333,Bellville,6.0
+Network Engineer,-26.3583,28.2667,Gauteng,3.0
+Network Engineer,-29.72528,31.08583,Umhlanga,3.0
+Network Engineer,31.39951,30.41718,رشيد,1.0
+Network Engineer,7.377560000000001,3.90591,Ibadan,1.0
+Network Engineer,-29.53598,31.21396,Ballito,2.0
+Network Engineer,34.0531,-6.79846,Salé,2.0
+Network Engineer,-33.92235,18.44098,Foreshore,1.0
+Network Engineer,-25.66667,27.25,Rustenburg,4.0
+Network Engineer,31.215640000000004,29.95527,الإسكندرية,9.0
+Network Engineer,6.4698410000000015,3.585171,Lekki,1.0
+Network Engineer,-28.55,29.78333,Ladysmith,2.0
+Network Engineer,30.076668,31.018888,القرية الذكية,2.0
+Network Engineer,-33.89115,18.51274,Century City,1.0
+Network Engineer,-25.78333,29.46667,Middelburg,2.0
+Network Engineer,-25.66222,28.16528,Pretoria North,3.0
+Network Engineer,-29.81667,30.85,Pinetown,2.0
+Network Engineer,-26.05,28.05,Rivonia,3.0
+Network Engineer,-29.83333,30.93333,Westville,1.0
+Network Engineer,-33.83333,18.65,Durbanville,1.0
+Network Engineer,-26.55,29.16667,Secunda,4.0
+Network Engineer,12.00012,8.51672,Kano,3.0
+Network Engineer,30.086618,31.33025,مصر الجديدة,1.0
+Network Engineer,-28.73333,24.76667,Kimberley,2.0
+Network Engineer,-26.13333,27.95,Northcliff,1.0
+Network Engineer,-26.271343,27.995155,Johannesburg South,3.0
+Network Engineer,-34.05,23.366670000000006,Plettenberg Bay,2.0
+Network Engineer,-33.96333,18.47639,Rondebosch,1.0
+Network Engineer,-26.035393,28.065228,Sunninghill,1.0
+Network Engineer,7.85257,3.93125,Oyo,2.0
+Network Engineer,25.0,-40.0,Remote,1.0
+Network Engineer,-26.81358,27.81695,Sasolburg,1.0
+Network Engineer,-25.98944,28.07667,Kyalami,1.0
+Network Engineer,29.928543,30.918783,السادس من أكتوبر,1.0
+Network Engineer,29.97371,32.526270000000004,السويس,1.0
+Network Engineer,-34.03139,18.41833,Constantia,1.0
+Network Engineer,35.76727,-5.79975,Tanger,1.0
+Network Engineer,34.03715,-4.9998,Fès,1.0
+Network Engineer,32.34268,-6.36062,Beni Mellal,1.0
+Network Engineer,10.52641,7.438789999999999,Kaduna,1.0
+Network Engineer,10.31032,9.84388,Bauchi,1.0
+Network Engineer,7.093160000000001,4.83528,Ondo,1.0
+Network Engineer,13.06269,5.24322,Sokoto,1.0
+Network Engineer,10.28969,11.16729,Gombe,1.0
+Network Engineer,-33.93333,18.46667,Soutrivier,1.0
+Network Engineer,-26.866670000000006,26.66667,Klerksdorp,1.0
+Network Engineer,-34.11739,18.812353,Strand,1.0
+Network Engineer,-26.1625,27.8725,Roodepoort,1.0
+Network Engineer,-34.03627,23.04713,Knysna,1.0
+Network Engineer,-26.181705,28.003807,Auckland Park,1.0
+Network Engineer,-29.8,31.03333,Durban North,1.0
+Network Engineer,-29.123,26.1662,Bloemfontein,1.0
+Network Engineer,-27.7,23.05,Kathu,2.0
+Network Engineer,-25.866670000000006,29.23333,Witbank,1.0
+Network Engineer,-23.9,29.45,Polokwane,1.0
+Network Engineer,-29.81667,30.616670000000006,Mpumalanga,3.0
+Network Engineer,-31.33333,26.55,Den Haag,1.0
+Network Engineer,-25.46667,30.96667,Nelspruit,2.0
+Network Engineer,-25.77806,28.23583,Waterkloof,2.0
+Network Engineer,-26.218517,28.006811,Crown Mines,1.0
+Network Engineer,-29.995232,30.933167,Prospecton,1.0
+Network Engineer,31.25654,32.28411,بورسعيد,1.0
+Network Engineer,-29.8,30.65,Elangeni,1.0
+Network Engineer,6.19824,6.73187,Asaba,1.0
+Data Analyst,30.06263,31.24967,القاهرة,72.0
+Data Analyst,33.593914,-7.61763,Casablanca,35.0
+Data Analyst,29.966667,31.25,المعادي,1.0
+Data Analyst,-26.02111,28.00917,Fourways,8.0
+Data Analyst,-25.87444,28.17056,Centurion,16.0
+Data Analyst,-33.9166,18.4133,Cape Town,227.0
+Data Analyst,-33.98333,18.475,Southern Suburbs,10.0
+Data Analyst,30.00808,31.21093,الجيزة,12.0
+Data Analyst,6.45407,3.39467,Lagos,157.0
+Data Analyst,-26.20227,28.04363,Johannesburg,230.0
+Data Analyst,-29.85,31.01667,Durban,30.0
+Data Analyst,9.076478,7.398574000000001,Abuja,26.0
+Data Analyst,-26.08909,28.165340000000004,Modderfontein,1.0
+Data Analyst,-26.043566,27.976135,Johannesburg North,9.0
+Data Analyst,-26.131668,28.067837,Melrose Arch,2.0
+Data Analyst,-26.101385,28.046190000000006,Sandton,28.0
+Data Analyst,6.59651,3.34205,Ikeja,3.0
+Data Analyst,-25.96361,28.13778,Midrand,12.0
+Data Analyst,-33.91667,18.43333,Woodstock,3.0
+Data Analyst,-33.98056,18.46528,Claremont,4.0
+Data Analyst,-26.0941,28.00123,Randburg,8.0
+Data Analyst,-26.198133,28.021814000000006,Braamfontein,2.0
+Data Analyst,-25.74486,28.18783,Pretoria,23.0
+Data Analyst,34.01325,-6.83255,Rabat,5.0
+Data Analyst,4.815554,7.049844,Port Harcourt,1.0
+Data Analyst,-26.05,28.03333,Bryanston,7.0
+Data Analyst,-33.85409,18.5977,Northern Suburbs,12.0
+Data Analyst,31.63416,-7.99994,Marrakech,7.0
+Data Analyst,30.05,31.366667,مدينة نصر,4.0
+Data Analyst,30.03,31.47,القاهرة الجديدة,4.0
+Data Analyst,-34.069717,18.815788,Somerset West,4.0
+Data Analyst,-26.183601,28.016191,East Rand,2.0
+Data Analyst,-33.93333,18.85,Stellenbosch,9.0
+Data Analyst,-33.9602,25.6244,Port Elizabeth,2.0
+Data Analyst,-33.93333,18.46667,Observatory,1.0
+Data Analyst,30.205,31.4575,مدينة العبور,2.0
+Data Analyst,-33.9,18.63333,Bellville,7.0
+Data Analyst,-26.047375,28.079681,Woodmead,2.0
+Data Analyst,-26.3583,28.2667,Gauteng,4.0
+Data Analyst,-29.72528,31.08583,Umhlanga,1.0
+Data Analyst,31.39951,30.41718,رشيد,5.0
+Data Analyst,7.377560000000001,3.90591,Ibadan,2.0
+Data Analyst,34.0531,-6.79846,Salé,4.0
+Data Analyst,-33.92235,18.44098,Foreshore,2.0
+Data Analyst,-25.66667,27.25,Rustenburg,4.0
+Data Analyst,-26.02995,28.04672,Paulshof,2.0
+Data Analyst,31.215640000000004,29.95527,الإسكندرية,3.0
+Data Analyst,6.4698410000000015,3.585171,Lekki,1.0
+Data Analyst,-34.03333,20.43333,Swellendam,3.0
+Data Analyst,-33.89115,18.51274,Century City,8.0
+Data Analyst,-25.78333,29.46667,Middelburg,4.0
+Data Analyst,-33.02916,27.854586,East London,14.0
+Data Analyst,-25.66222,28.16528,Pretoria North,1.0
+Data Analyst,-33.9,18.4,Mouille Point,1.0
+Data Analyst,33.55143,-7.6604,Hay-Hassani,1.0
+Data Analyst,-33.8333,18.65,Durbanville,3.0
+Data Analyst,-26.55,29.16667,Secunda,1.0
+Data Analyst,-28.73333,24.76667,Kimberley,6.0
+Data Analyst,-26.215565,28.027359000000004,Selby,1.0
+Data Analyst,-26.21667,28.18333,Germiston,1.0
+Data Analyst,-26.271343,27.995155,Johannesburg South,1.0
+Data Analyst,-26.616670000000006,30.66667,Amsterdam,1.0
+Data Analyst,-33.81667,18.48333,Table View,1.0
+Data Analyst,-33.96333,18.47639,Rondebosch,1.0
+Data Analyst,-26.035393,28.065228,Sunninghill,1.0
+Data Analyst,-33.865852000000004,18.534107,Bloubergstrand,1.0
+Data Analyst,-26.5,28.35,Heidelberg,1.0
+Data Analyst,-27.18333,25.33333,Schweizer-Reineke,1.0
+Data Analyst,-33.73333,18.96667,Paarl,2.0
+Data Analyst,-25.80833,28.74056,Bronkhorstspruit,1.0
+Data Analyst,-26.128817,27.945786,Fairland,2.0
+Data Analyst,13.06269,5.24322,Sokoto,2.0
+Data Analyst,-33.82714,18.53296,Killarney Gardens,1.0
+Data Analyst,-33.92615,18.414324,City Bowl,2.0
+Data Analyst,-33.9,18.6,Parow,2.0
+Data Analyst,-34.15,19.01667,Grabouw,3.0
+Data Analyst,-26.1625,27.8725,Roodepoort,1.0
+Data Analyst,-25.866670000000006,25.65,Mafikeng,1.0
+Data Analyst,-29.73333,30.53333,Camperdown,1.0
+Data Analyst,-29.13333,26.2,Bloemfontein,4.0
+Data Analyst,-26.14563,28.03589,Rosebank,2.0
+Data Analyst,31.636002,-8.057428999999999,Menara,1.0
+Data Analyst,11.84692,13.15712,Maiduguri,2.0
+Data Analyst,-26.1,27.76667,Krugersdorp,1.0
+Data Analyst,-25.771727,28.23251,Brooklyn,1.0
+Data Analyst,-33.94222,18.50681,Pinelands,1.0
+Data Analyst,6.441319999999998,7.49883,Enugu,1.0
+Data Analyst,-25.77806,28.23583,Waterkloof,4.0
+Data Analyst,-33.98333,22.58333,Standplaas,1.0
+Data Analyst,-26.087622,28.121138,Linbro Park,1.0
+Data Analyst,-33.91667,18.65,Bellville South,1.0
+Data Analyst,-27.366670000000006,29.88333,Volksrust,1.0
+Data Analyst,-25.65611,28.09278,Akasia,1.0

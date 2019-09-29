@@ -620,17 +620,52 @@ prdf=prdf2
 
 len(cities)
 
-for i in cities:
-    lat=prdf2[prdf2["city"]==i]["latitude"].mean()
-    lng=prdf2[prdf2["city"]==i]["longitude"].mean()
-    prdf[prdf["city"]==i]["latitude"]=lat
+ndloc=pd.read_csv("sampleData.csv")[['Role','latitude', 'longitude','city']]
+afCities=list(ndloc.city.unique())
+afCities.remove(np.nan)
+ndloc.columns
+ndloc2=ndloc
+
+locD=ndloc.city.value_counts().to_frame().reset_index()
+locD.columns=["City","Count"]
+
+
+for i in afCities:
+    lat=ndloc[ndloc["city"]==i]["latitude"].mean()
+    lng=ndloc[ndloc["city"]==i]["longitude"].mean()
+    ndloc2[ndloc2["city"]==i]["latitude"]=lat
+
+ndloc2.to_csv("ndLocData",index=False)
+
+i="Data Analyst"
+j="Lagos"
+fdf=pd.DataFrame(columns=["Role","latitude","longitude","City"])    
+for i in ndloc2.Role.unique():
+    for j in afCities:
+        try:
+            sdf=ndloc2[(ndloc2["Role"]==i)&(ndloc2["city"]==j)].reset_index(drop=True)
+            cnt=len(sdf)
+            fdf=fdf.append({
+                "Role":i,
+                "latitude":sdf["latitude"][0],
+                "longitude":sdf["longitude"][0],
+                "City":j,
+                "Count":cnt
+            },ignore_index=True)
+        except IndexError:
+            pass
+
+fdf.to_csv("ndLocData.csv",index=False)
+
+
+
 
 prdf[prdf["city"]=="New York"].assign(latitude,lat)
 
 lat
 
 locations=pd.read_csv("locations.csv")
-b=prdf2[prdf2["Role"]==role]["city"].value_counts()
+b=ndloc2[ndloc2["Role"]==role]["city"].value_counts()
 
 len(b.index)
 
@@ -651,20 +686,19 @@ locations.to_dict()["city"]
 
 
 
-mapdata=pd.read_csv("mapdata.csv")
+mapdata=pd.read_csv("ndLocData.csv")
 
 
 def get_chloropleth(role):
     mapdf=mapdata[mapdata["Role"]==role]
     mapdf.columns
     fig=go.Figure()
-    fig.add_trace(go.Scattergeo(    
-            locationmode = 'USA-states',
+    fig.add_trace(go.Scattergeo(
             lon = mapdf['longitude'],
             lat = mapdf['latitude'],
             text = mapdf['City'],
             marker = dict(
-                size = mapdf['Count']*20,
+                size = mapdf['Count']*.8,
                 color = "blue"
             )
     )
@@ -673,7 +707,7 @@ def get_chloropleth(role):
             title_text = 'Geographical Demand for {} in the US'.format(role),
             showlegend = True,
             geo = dict(
-                scope = 'usa',
+                scope = 'africa',
                 landcolor = 'rgb(217, 217, 217)',
             )
         )
@@ -686,4 +720,20 @@ def get_top_cities(role):
     return jts
 
 
+
+get_chloropleth("Data Analyst").show()
+
+
+role="Data Analyst"
+mapdata[mapdata["Role"]==role].sort_values("Count",ascending=False)
+
+if (role=="data") or (role=="daata2"):
+    print("yes")
+else:
+    print("no")
+
+
+
+daDf=pd.read_csv("daSample.csv")
+netDf=pd.read_csv("netSample.csv")
 

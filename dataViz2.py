@@ -26,11 +26,13 @@ import dash_bootstrap_components as dbc
 #pRdf=getDf()
 
 
-mapdata=pd.read_csv("mapdata.csv")
+mapdata1=pd.read_csv("mapdata.csv")
+mapdata2=pd.read_csv("ndLocData")
 df=pd.read_csv("VectorizedTags.csv")
 prdf2=pd.read_csv("pilotRoles.csv")
 daDf=pd.read_csv("daSample.csv")
 netDf=pd.read_csv("netSample.csv")
+net_data_vect=pd.read_csv("data_net_vectorized.csv")
 r=list(df["Role"].dropna().unique())
 r.sort()
 r.remove("Amazon")
@@ -440,6 +442,14 @@ def get_table(role,end):
     Output("chloropleth", 'figure'),
     [Input("Role Chooser", 'value')])
 def get_chloropleth(role):
+    if (role=="Data Analyst") or (role=="Network Engineer"):
+        mapdata=mapdata2
+        scp="africa"
+        fct=1
+    else:
+        mapdata=mapdata1
+        scp="usa"
+        fct=15
     mapdf=mapdata[mapdata["Role"]==role]
     mapdf.columns
     fig=go.Figure()
@@ -449,7 +459,7 @@ def get_chloropleth(role):
             lat = mapdf['latitude'],
             text = mapdf['City'],
             marker = dict(
-                size = mapdf['Count']*15,
+                size = mapdf['Count']*fct,
                 color = "blue"
             )
     )
@@ -457,7 +467,7 @@ def get_chloropleth(role):
     fig.update_layout(
             showlegend = False,
             geo = dict(
-                scope = 'usa',
+                scope = scp,
                 landcolor = 'rgb(217, 217, 217)',
             )
         )
@@ -469,7 +479,11 @@ def get_chloropleth(role):
     Output("top_cities", 'children'),
     [Input("Role Chooser", 'value')])
 def get_top_cities(role):
-    jts=list(mapdata[mapdata["Role"]==role]["City"][0:10])
+    if (role=="Data Analyst") or (role=="Network Engineer"):
+        mapdata=mapdata2
+    else:
+        mapdata=mapdata1
+    jts=list(mapdata[mapdata["Role"]==role].sort_values("Count",ascending=False).head(10)["City"])
     htm=[html.Li(x) for x in jts]
     return htm
 

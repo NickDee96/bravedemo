@@ -108,7 +108,9 @@ def get_table(role,end):
                     }                    
                 ],
                 style_data={ 'border': '0px solid blue',
-                            'font-family':"Roboto" },
+                            'font-family':"Roboto",
+                            'whiteSpace': 'normal',
+                            'height':'auto'},
                 style_header={ 'border': '0px solid pink',
                                 'font-weight': 'bold',
                                 'font-family':"Roboto" }
