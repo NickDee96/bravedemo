@@ -28,15 +28,17 @@ import dash_bootstrap_components as dbc
 
 mapdata1=pd.read_csv("mapdata.csv")
 mapdata2=pd.read_csv("ndLocData")
-df=pd.read_csv("VectorizedTags.csv")
+df1=pd.read_csv("VectorizedTags.csv")
+df2=pd.read_csv("data_net_vectorized.csv")
 prdf2=pd.read_csv("pilotRoles.csv")
 daDf=pd.read_csv("daSample.csv")
 netDf=pd.read_csv("netSample.csv")
-net_data_vect=pd.read_csv("data_net_vectorized.csv")
-r=list(df["Role"].dropna().unique())
+r=list(df1["Role"].dropna().unique())
+df1=df1.fillna(0)
+df2=df2.fillna(0)
 r.sort()
 r.remove("Amazon")
-df=df.fillna(0)
+
 r.sort()
 
 
@@ -193,9 +195,9 @@ app.layout = html.Div([
                 dbc.Col([
                     html.Div([
                         dcc.Markdown(children='''
-                                        **Sample Size**     :   13169 Job Descriptions  
-                                        **Time Frame**      :   29/09/2018 ➤➤ 27/08/2019  
-                                        **Date Crawled**    :   28/08/2019  
+                                        **Sample Size**     :   15362 Job Descriptions  
+                                        **Time Frame**      :   29/09/2018 ➤➤ 27/09/2019  
+                                        **Date Crawled**    :   29/08/2019  
                                                 ''')
                     ])
                 ])                
@@ -236,34 +238,6 @@ app.layout = html.Div([
                         )
                     ],style={ "backgroundColor": "#ffffff"})                
                 ],align="stretch"),
-                dbc.Col([
-                    html.Div([
-                        dbc.Row([
-                            dbc.Col([
-                                html.Div([
-                                    dcc.Dropdown(                                
-                                            id='mRoleChooser',
-                                            options=[{'label': i, 'value': i} for i in ["Data Analyst","Network Engineer"]],
-                                            value="Data Analyst"
-                                    )
-                                ])
-                            ]),
-                            dbc.Col([
-                                html.Div([
-                                    dcc.Dropdown(                              
-                                            id='month_end',
-                                            options=[{'label': i, 'value': i} for i in daDf.columns ],
-                                            value='September'                                
-                                    )
-                                ])
-                            ])
-                        ]),
-                        html.Div(
-                            id="dtbl"
-                        )
-                    ])
-                ])
-
             ],className="row mt-4"),
             dbc.Row([
                 dbc.Col([
@@ -341,9 +315,16 @@ app.layout = html.Div([
     Output("role_name2", 'children')],
     [Input("Role Chooser", 'value')])
 def getFig(role):
-    a=df[df["Role"]==role].sum()
-    a=a.drop("Role")
-    a=a.drop("Job Title")    
+    if (role=="Data Analyst") or (role=="Network Engineer"):
+        df=df2
+        a=df[df["Role"]==role].sum()
+        a=a.drop("Role")
+        a=a.drop("month")  
+    else:
+        df=df1
+        a=df[df["Role"]==role].sum()
+        a=a.drop("Role")
+        a=a.drop("Job Title")    
     a=a.divide(len(df[df["Role"]==role]))*100
     a=getRange(10,100,a)
     sr1=a.apply(np.round)
@@ -353,21 +334,44 @@ def getFig(role):
         vertical_spacing=0.03,
         specs=[[{"type": "scatter"},{"type": "table"}]]
     )
-    fig.add_trace(go.Bar(
+    fig=fig.add_trace(go.Bar(
         x=sr1.index,
         y=list(sr1)
     ),row=1,col=1)
-    fig.add_trace(go.Table(
-        header=dict(
-            values=["<b>Skill<b>","<b>Percentage<b>"],
-            font=dict(size=14),
-            align="left"
-        ),
-        cells=dict(
-            values=[list(sr1.index),list(sr1)],
-            align="left"
-        )
-    ),row=1,col=2)
+    if (role=="Data Analyst") or (role=="Network Engineer"):
+        if role =="Data Analyst":
+            mdf=daDf
+        else:
+            mdf=netDf
+        pos=list(mdf.columns).index("September")
+        if pos>1:
+            colname=list(mdf.columns)[pos-1]
+        sdf=mdf[["Skill",colname,"September","Volatility"]]
+        sdf["% Change from previous month"]=sdf["September"]-sdf[colname]
+        sdf=sdf.drop([colname],axis=1)
+        fig=fig.add_trace(go.Table(
+            header=dict(
+                values=["<b>Skill<b>","<b>Percentage<b>","<b>% Change<b>","<b>Volatility<b>"],
+                font=dict(size=12),
+                align="left"
+            ),
+            cells=dict(
+                values=[sdf.Skill.head(10),sdf.September.head(10),sdf["% Change from previous month"].head(10),sdf.Volatility.head(10)],
+                align="left"
+            )
+        ),row=1,col=2)        
+    else:
+        fig=fig.add_trace(go.Table(
+            header=dict(
+                values=["<b>Skill<b>","<b>Percentage<b>"],
+                font=dict(size=14),
+                align="left"
+            ),
+            cells=dict(
+                values=[list(sr1.index),list(sr1)],
+                align="left"
+            )
+        ),row=1,col=2)
     mainText1="Skills most in demand for {}".format(role)
     mainText2="Where is {} more in demand".format(role)
     return (fig,mainText1,mainText2)
@@ -379,62 +383,6 @@ def get_assocJt(role):
     jts=list(prdf2[prdf2["Role"]==role]["jobtitle"].value_counts().index)[0:10]
     htm=[html.Li(x) for x in jts]
     return htm
-
-@app.callback(
-    Output("dtbl","children"),
-    [Input("mRoleChooser","value"),
-    Input("month_end","value")]
-)
-def get_table(role,end):
-    if role =="Data Analyst":
-        mdf=daDf
-    else:
-        mdf=netDf
-    pos=list(mdf.columns).index(end)
-    if pos>1:
-        colname=list(mdf.columns)[pos-1]
-    df=mdf[["Skill",colname,end]]
-    df["% Change from previous month"]=df[end]-df[colname]
-    df=df.drop([colname],axis=1)
-    df=df.head(10)
-    df=df.sort_values(end,ascending=False)
-    tbl=dash_table.DataTable(
-        columns=[{"name": i, "id": i} for i in df.columns],
-        data=df.to_dict('records'),
-            style_data_conditional=[
-                {
-                    'if': {
-                        'column_id': '% Change from previous month',
-                        'filter_query': '{% Change from previous month} < 0'
-                    },
-                    'backgroundColor': '#f2b3ae',
-                    'color': '#ff1300',
-                    'font-weight': 'bold',
-                    'font-family':'Roboto'
-                },
-                {
-                    'if': {
-                        'column_id': '% Change from previous month',
-                        'filter_query': '{% Change from previous month} > 0'
-                    },
-                    'backgroundColor': '#97f098',
-                    'color': '#008001',
-                    'font-weight': 'bold',
-                    'font-family':'Roboto'
-                }                    
-            ],
-            style_data={ 'border': '0px solid blue',
-                        'font-family':"Roboto",
-                        'align':"left" },
-            style_header={ 'border': '0px solid pink',
-                            'font-weight': 'bold',
-                            'font-family':"Roboto",
-                            'align':"left" }
-        )
-    return tbl
-
-
-
 
 
 

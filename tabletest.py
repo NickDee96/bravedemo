@@ -74,48 +74,51 @@ app.layout=html.Div([
 )
 def get_table(role,end):
     if role =="Data Analyst":
-        pos=list(daDf.columns).index(end)
-        if pos>1:
-            colname=list(daDf.columns)[pos-1]
-        df=daDf[["Skill",colname,end]]
-        df["% Change from previous month"]=df[end]-df[colname]
-        df=df.drop([colname],axis=1)
-        df=df.head(10)
-        df=df.sort_values(end,ascending=False)
-        tbl=dash_table.DataTable(
-            columns=[{"name": i, "id": i} for i in df.columns],
-            data=df.to_dict('records'),
-                style_data_conditional=[
-                    {
-                        'if': {
-                            'column_id': '% Change from previous month',
-                            'filter_query': '{% Change from previous month} < 0'
-                        },
-                        'backgroundColor': '#f2b3ae',
-                        'color': '#ff1300',
-                        'font-weight': 'bold',
-                        'font-family':'Roboto'
+        mdf=daDf
+    else:
+        mdf=netDf
+    pos=list(mdf.columns).index(end)
+    if pos>1:
+        colname=list(mdf.columns)[pos-1]
+    df=mdf[["Skill",colname,end]]
+    df["% Change from previous month"]=df[end]-df[colname]
+    df=df.drop([colname],axis=1)
+    df=df.head(10)
+    df=df.sort_values(end,ascending=False)
+    tbl=dash_table.DataTable(
+        columns=[{"name": i, "id": i} for i in df.columns],
+        data=df.to_dict('records'),
+            style_data_conditional=[
+                {
+                    'if': {
+                        'column_id': '% Change from previous month',
+                        'filter_query': '{% Change from previous month} < 0'
                     },
-                    {
-                        'if': {
-                            'column_id': '% Change from previous month',
-                            'filter_query': '{% Change from previous month} > 0'
-                        },
-                        'backgroundColor': '#97f098',
-                        'color': '#008001',
-                        'font-weight': 'bold',
-                        'font-family':'Roboto'
-                    }                    
-                ],
-                style_data={ 'border': '0px solid blue',
+                    'backgroundColor': '#f2b3ae',
+                    'color': '#ff1300',
+                    'font-weight': 'bold',
+                    'font-family':'Roboto'
+                },
+                {
+                    'if': {
+                        'column_id': '% Change from previous month',
+                        'filter_query': '{% Change from previous month} > 0'
+                    },
+                    'backgroundColor': '#97f098',
+                    'color': '#008001',
+                    'font-weight': 'bold',
+                    'font-family':'Roboto'
+                }                    
+            ],
+            style_data={ 'border': '0px solid blue',
+                        'font-family':"Roboto",
+                        'align':"left" },
+            style_header={ 'border': '0px solid pink',
+                            'font-weight': 'bold',
                             'font-family':"Roboto",
-                            'whiteSpace': 'normal',
-                            'height':'auto'},
-                style_header={ 'border': '0px solid pink',
-                                'font-weight': 'bold',
-                                'font-family':"Roboto" }
-            )
-        return tbl
+                            'align':"left" }
+        )
+    return tbl
 
 
 
