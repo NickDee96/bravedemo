@@ -725,7 +725,8 @@ get_chloropleth("Data Analyst").show()
 
 
 role="Data Analyst"
-mapdata[mapdata["Role"]==role].sort_values("Count",ascending=False)
+mapdata[mapdata["Role"]==role].sort_values("Count",ascending=False).head(10)["City"]
+df2.columns
 
 if (role=="data") or (role=="daata2"):
     print("yes")
@@ -736,4 +737,33 @@ else:
 
 daDf=pd.read_csv("daSample.csv")
 netDf=pd.read_csv("netSample.csv")
+
+sdf.columns
+def get_color_codes(sdf):
+    change=[]
+    vol=[]
+    for i in range(len(sdf)):
+        if sdf["% Change from previous month"][i]>0:
+            change.append("#00DCFA")
+        elif sdf["% Change from previous month"][i]<0:
+            change.append("#FF1E91")
+        else:
+            change.append("#252630")
+    for i in range(len(sdf)):
+        if sdf.Volatility[i] <2.5:
+            vol.append("#252630")
+        elif (sdf.Volatility[i] >2.5) and (sdf.Volatility[i] <5):
+            vol.append("#FFDC50")
+        else:
+            vol.append("#FF1E91")
+    df=pd.DataFrame()
+    df["change"]=change
+    df["volatility"]=vol
+    df["skill"]="#252630"
+    df["perc"]="#252630"
+    return df
+
+
+
+
 

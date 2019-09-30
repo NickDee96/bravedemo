@@ -142,6 +142,32 @@ def get3dplot(plotdf):
     fig=go.Figure(fig)
     return fig
 
+def get_color_codes(sdf):
+    change=[]
+    vol=[]
+    for i in range(len(sdf)):
+        if sdf["% Change from previous month"][i]>0:
+            change.append("#00DCFA")
+        elif sdf["% Change from previous month"][i]<0:
+            change.append("#FF1E91")
+        else:
+            change.append("#252630")
+    for i in range(len(sdf)):
+        if sdf.Volatility[i] <2.5:
+            vol.append("#252630")
+        elif (sdf.Volatility[i] >2.5) and (sdf.Volatility[i] <5):
+            vol.append("#fc8403")
+        else:
+            vol.append("#FF1E91")
+    df=pd.DataFrame()
+    df["change"]=change
+    df["volatility"]=vol
+    df["skill"]="#252630"
+    df["perc"]="#252630"
+    return df
+
+
+
 
 
 
@@ -261,7 +287,8 @@ app.layout = html.Div([
                             ),                        
                         dcc.Graph(id="chloropleth")
                     ],style={ "backgroundColor": "#ffffff"})                
-                ],width=9),
+                ],width=6),
+                dbc.Col([],width=3),
                 dbc.Col([
                     html.Div([
                         html.H3(
@@ -358,16 +385,20 @@ def getFig(role):
         sdf=mdf[["Skill",colname,"September","Volatility"]]
         sdf["% Change from previous month"]=sdf["September"]-sdf[colname]
         sdf=sdf.drop([colname],axis=1)
+        coldf=get_color_codes(sdf)
         fig=fig.add_trace(go.Table(
             header=dict(
-                values=["<b>Skills in demand this month <b>","<b>% of DB<b>","<b>% Change since last month <b>","<b>Volatility this year<b>"],
+                values=["<b>Skills in demand this month <b>","<b>% of DB<b>","<b>% Change since last month<b>","<b>Volatility this year<b>"],
                 font=dict(size=12),
                 align="left"
             ),
             cells=dict(
                 values=[sdf.Skill.head(20),sdf.September.head(20),sdf["% Change from previous month"].head(20),sdf.Volatility.head(20)],
                 align="left",
-                fill_color="#C8C8D2"
+                fill_color="#ffffff",
+                font=dict(
+                    size=12,
+                    color=[coldf.skill,coldf.perc,coldf.change,coldf.volatility])
             )
         ),row=1,col=2)        
     else:
@@ -380,7 +411,7 @@ def getFig(role):
             cells=dict(
                 values=[list(sr1.index),list(sr1)],
                 align="left",
-                fill_color="#C8C8D2"
+                fill_color="#ffffff",
             )
         ),row=1,col=2)
     fig=fig.update_layout(
@@ -391,8 +422,8 @@ def getFig(role):
                     t=35,
                     pad=4
                 ),
-                plot_bgcolor="#C8C8D2" ,
-                paper_bgcolor="#C8C8D2"        
+                plot_bgcolor="#ffffff" ,
+                paper_bgcolor="#ffffff"        
     )
 
     mainText1="Skills most in demand for {}".format(role)
@@ -448,8 +479,8 @@ def get_chloropleth(role):
                     t=0,
                     pad=4
                 ),
-            plot_bgcolor="#C8C8D2" ,
-            paper_bgcolor="#C8C8D2"   
+            plot_bgcolor="#ffffff" ,
+            paper_bgcolor="#ffffff"  
         )
     return fig
 
