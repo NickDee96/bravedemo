@@ -389,7 +389,7 @@ def getFig(role):
         fig=fig.add_trace(go.Table(
             header=dict(
                 values=["<b>Skills in demand this month <b>","<b>% of DB<b>","<b>% Change since last month<b>","<b>Volatility this year<b>"],
-                font=dict(size=12),
+                font=dict(color="#ffffff",size=12),
                 align="left",
                 fill_color="slategray"
             ),
@@ -406,7 +406,7 @@ def getFig(role):
         fig=fig.add_trace(go.Table(
             header=dict(
                 values=["<b>Skill<b>","<b>Percentage<b>"],
-                font=dict(color='black',size=14),
+                font=dict(color="#ffffff",size=14),
                 align="left",
                 fill_color="slategray"
             ),
