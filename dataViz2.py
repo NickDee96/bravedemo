@@ -151,21 +151,18 @@ def get_color_codes(sdf):
         elif sdf["% Change from previous month"][i]<0:
             change.append("#FF1E91")
         else:
-            change.append("#252630")
-    for i in range(len(sdf)):
+            change.append("#ffffff")
         if sdf.Volatility[i] <2.5:
-            vol.append("#252630")
+            vol.append("#ffffff")
         elif (sdf.Volatility[i] >2.5) and (sdf.Volatility[i] <5):
             vol.append("#fc8403")
         else:
             vol.append("#FF1E91")
-    df=pd.DataFrame()
-    df["change"]=change
-    df["volatility"]=vol
-    df["skill"]="#252630"
-    df["perc"]="#252630"
+    mdict={"change":change,"volatility":vol}
+    df=pd.DataFrame(mdict)
+    df["skill"]="#ffffff"
+    df["perc"]="#ffffff"
     return df
-
 
 
 
@@ -218,7 +215,7 @@ app.layout = html.Div([
                                 dcc.Dropdown(
                                     id='Role Chooser',
                                     options=[{'label': i, 'value': i} for i in r],
-                                    value='Software Developer'                       
+                                    value='Data Analyst'                       
                                 )
                                 ],width=5)
                             ]),
@@ -388,7 +385,7 @@ def getFig(role):
         coldf=get_color_codes(sdf)
         fig=fig.add_trace(go.Table(
             header=dict(
-                values=["<b>Skills in demand this month <b>","<b>% of DB<b>","<b>% Change since last month<b>","<b>Volatility this year<b>"],
+                values=["<b>Skills in demand this month <b>","<b>% of DB<b>","<b>% Change since last month<b>","<b>Change this year<b>"],
                 font=dict(color="#ffffff",size=12),
                 align="left",
                 fill_color="slategray"
@@ -396,10 +393,10 @@ def getFig(role):
             cells=dict(
                 values=[sdf.Skill.head(20),sdf.September.head(20),sdf["% Change from previous month"].head(20),sdf.Volatility.head(20)],
                 align="left",
-                fill_color="#ffffff",
+                fill_color=[coldf.skill.head(20),coldf.perc.head(20),list(coldf.change.head(20)),list(coldf.volatility.head(20))],#"#ffffff",
                 font=dict(
                     size=12,
-                    color=[coldf.skill,coldf.perc,coldf.change,coldf.volatility])
+                    color="black")
             )
         ),row=1,col=2)        
     else:

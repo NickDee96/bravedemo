@@ -764,6 +764,77 @@ def get_color_codes(sdf):
     return df
 
 
+import json
+with open("skill_distribution.json","r") as jFile:
+    tCount=json.load(jFile)
+
+tCount
+
+df=df.drop(['Role', 'Job Title'],axis=1)
+
+jCount=df.sum().to_dict()
+
+tCount["customer"]
+cDf=pd.DataFrame(columns=["skill","supply","demand"])
+for i in jCount.keys():
+    try:
+        src=i.lower()
+        t=tCount[src]
+        cDf=cDf.append({
+            "skill":i,
+            "supply":round((t/4708)*100,ndigits=2),
+            "demand":round((jCount[i]/13169)*100,ndigits=2)
+        },ignore_index=True)
+    except KeyError:
+        pass
+cDf.to_csv("Count.csv",index=False)
 
 
 
+type(tCount["customer"])
+
+
+cdf=pd.read_csv("Count.csv")
+cdf=cdf.sort_values("Supply Difference",ascending=True).reset_index(drop=True)
+
+fig=go.Figure()
+
+fig=fig.add_trace(
+    go.Bar(
+        y=cdf.skill.head(30),x=cdf.sup.head(30),
+        name='Supply',
+        orientation='h',
+        marker=dict(
+        color='rgba(246, 78, 139, 0.6)',
+        line=dict(color='rgba(246, 78, 139, 1.0)', width=3)
+    )
+    )
+)
+fig=fig.add_trace(
+    go.Bar(
+        y=cdf.skill.head(30),x=cdf.dem.head(30),
+        name='Demand',
+        orientation='h',
+        marker=dict(
+        color='rgba(58, 71, 80, 0.6)',
+        line=dict(color='rgba(58, 71, 80, 1.0)', width=3)
+    )
+    )
+)
+fig=fig.update_layout(barmode='stack')
+fig.show()
+
+
+daDf=pd.read_csv("daSample.csv")
+daDf.head(10)
+sdf=daDf.drop("Volatility",axis=1)
+sdf.ix[2].drop("Skill")
+a=list(sdf.columns)
+a.remove("Skill")
+fig=go.Figure()
+fig=fig.add_trace(
+    go.Scatter(
+        x=a,y=sdf.ix[2].drop("Skill"),
+        mode=line
+    )
+)
