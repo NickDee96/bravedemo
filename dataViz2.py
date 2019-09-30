@@ -390,7 +390,8 @@ def getFig(role):
             header=dict(
                 values=["<b>Skills in demand this month <b>","<b>% of DB<b>","<b>% Change since last month<b>","<b>Volatility this year<b>"],
                 font=dict(size=12),
-                align="left"
+                align="left",
+                fill_color="C8C8D2"
             ),
             cells=dict(
                 values=[sdf.Skill.head(20),sdf.September.head(20),sdf["% Change from previous month"].head(20),sdf.Volatility.head(20)],
@@ -406,7 +407,8 @@ def getFig(role):
             header=dict(
                 values=["<b>Skill<b>","<b>Percentage<b>"],
                 font=dict(size=14),
-                align="left"
+                align="left",
+                fill_color="C8C8D2"
             ),
             cells=dict(
                 values=[list(sr1.index),list(sr1)],
