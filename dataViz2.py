@@ -391,7 +391,7 @@ def getFig(role):
                 values=["<b>Skills in demand this month <b>","<b>% of DB<b>","<b>% Change since last month<b>","<b>Volatility this year<b>"],
                 font=dict(size=12),
                 align="left",
-                fill_color="C8C8D2"
+                fill_color="slategray"
             ),
             cells=dict(
                 values=[sdf.Skill.head(20),sdf.September.head(20),sdf["% Change from previous month"].head(20),sdf.Volatility.head(20)],
@@ -406,9 +406,9 @@ def getFig(role):
         fig=fig.add_trace(go.Table(
             header=dict(
                 values=["<b>Skill<b>","<b>Percentage<b>"],
-                font=dict(size=14),
+                font=dict(color='black',size=14),
                 align="left",
-                fill_color="C8C8D2"
+                fill_color="slategray"
             ),
             cells=dict(
                 values=[list(sr1.index),list(sr1)],
