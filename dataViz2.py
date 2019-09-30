@@ -129,7 +129,15 @@ def get3dplot(plotdf):
                  xaxis=dict(axis),
                  yaxis=dict(axis),
                  zaxis=dict(axis),
-            ))        
+            ),
+            margin=go.layout.Margin(
+                    l=0,
+                    r=0,
+                    b=0,
+                    t=5,
+                    pad=4
+                )        
+    )        
     fig = dict(data = data,layout=layout)
     fig=go.Figure(fig)
     return fig
@@ -237,7 +245,7 @@ app.layout = html.Div([
                             id="jobs_assoc"
                         )
                     ],style={ "backgroundColor": "#ffffff"})                
-                ],align="stretch"),
+                ],width=3,align="stretch"),
             ],className="row mt-4"),
             dbc.Row([
                 dbc.Col([
@@ -287,7 +295,7 @@ app.layout = html.Div([
                             hoverData={"points": [{"hovertext": "Software Developer"}]},
                                 figure=get3dplot(plotdf)) 
                     ],style={ "backgroundColor": "#ffffff"})            
-                ]),
+                ],width=9),
                 dbc.Col([
                     html.Div([
                         html.H3(
@@ -304,7 +312,7 @@ app.layout = html.Div([
                             id="filtered_roles"
                         )
                     ])
-                ],style={ "backgroundColor": "#ffffff"})
+                ],width=3,style={ "backgroundColor": "#ffffff"})
             ],className="row mt-4")        
         ])
     ],style={ "backgroundColor": "#ffffff"},className="container scalable")#,className="container scalable"
@@ -336,7 +344,8 @@ def getFig(role):
     )
     fig=fig.add_trace(go.Bar(
         x=sr1.index,
-        y=list(sr1)
+        y=list(sr1),
+        marker_color="#FF1E91"
     ),row=1,col=1)
     if (role=="Data Analyst") or (role=="Network Engineer"):
         if role =="Data Analyst":
@@ -351,13 +360,14 @@ def getFig(role):
         sdf=sdf.drop([colname],axis=1)
         fig=fig.add_trace(go.Table(
             header=dict(
-                values=["<b>Skill<b>","<b>Percentage<b>","<b>% Change<b>","<b>Volatility<b>"],
+                values=["<b>Skills in demand this month <b>","<b>% of DB<b>","<b>% Change since last month <b>","<b>Volatility this year<b>"],
                 font=dict(size=12),
                 align="left"
             ),
             cells=dict(
-                values=[sdf.Skill.head(10),sdf.September.head(10),sdf["% Change from previous month"].head(10),sdf.Volatility.head(10)],
-                align="left"
+                values=[sdf.Skill.head(20),sdf.September.head(20),sdf["% Change from previous month"].head(20),sdf.Volatility.head(20)],
+                align="left",
+                fill_color="#C8C8D2"
             )
         ),row=1,col=2)        
     else:
@@ -369,9 +379,22 @@ def getFig(role):
             ),
             cells=dict(
                 values=[list(sr1.index),list(sr1)],
-                align="left"
+                align="left",
+                fill_color="#C8C8D2"
             )
         ),row=1,col=2)
+    fig=fig.update_layout(
+                margin=go.layout.Margin(
+                    l=0,
+                    r=0,
+                    b=0,
+                    t=35,
+                    pad=4
+                ),
+                plot_bgcolor="#C8C8D2" ,
+                paper_bgcolor="#C8C8D2"        
+    )
+
     mainText1="Skills most in demand for {}".format(role)
     mainText2="Where is {} more in demand".format(role)
     return (fig,mainText1,mainText2)
@@ -401,23 +424,32 @@ def get_chloropleth(role):
     mapdf=mapdata[mapdata["Role"]==role]
     mapdf.columns
     fig=go.Figure()
-    fig.add_trace(go.Scattergeo(    
+    fig=fig.add_trace(go.Scattergeo(    
             locationmode = 'USA-states',
             lon = mapdf['longitude'],
             lat = mapdf['latitude'],
             text = mapdf['City'],
             marker = dict(
                 size = mapdf['Count']*fct,
-                color = "blue"
+                color ="#FF1E91"
             )
     )
     )
-    fig.update_layout(
+    fig=fig.update_layout(
             showlegend = False,
             geo = dict(
                 scope = scp,
                 landcolor = 'rgb(217, 217, 217)',
-            )
+            ),
+            margin=go.layout.Margin(
+                    l=0,
+                    r=0,
+                    b=0,
+                    t=0,
+                    pad=4
+                ),
+            plot_bgcolor="#C8C8D2" ,
+            paper_bgcolor="#C8C8D2"   
         )
     return fig
 
