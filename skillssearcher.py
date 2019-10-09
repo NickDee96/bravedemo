@@ -10,7 +10,7 @@ import gspread
 import csv
 
 ##Loading the rawtags
-with open("stackOtags.txt","r") as tFile:
+with open("tags/stackOtags.txt","r") as tFile:
     tags=tFile.readlines()
     skillz=[x.strip() for x in tags]
 
@@ -124,7 +124,7 @@ def filter_tags(output_filename,taglist,text_array):
         for i in rTags:
             textFile.write(i+"\n")
 
-filter_tags("stags.txt",skillz,df.jds)
+filter_tags("tags/stags.txt",skillz,df.jds)
 
 def get_filtered_tags(filename):
     a=list()
@@ -133,7 +133,7 @@ def get_filtered_tags(filename):
     a=[i.strip() for i in a]
     return a
 
-fTags=get_filtered_tags("stags.txt")
+fTags=get_filtered_tags("tags/stags.txt")
 
 def get_Vectorized_df(filename,tags):
     #Initializing the writer
