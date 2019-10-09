@@ -136,23 +136,29 @@ def get_filtered_tags(filename):
 fTags=get_filtered_tags("stags.txt")
 
 def get_Vectorized_df(filename,tags):
+    #Initializing the writer
     with open(filename,"w",newline="") as vFile:
         writer=csv.DictWriter(vFile,fieldnames=["Role","Job Title"]+list(tags))
+        #writing the header row
         writer.writeheader()
         for i in range(len(df)):
-            t1=datetime.datetime.now()
-            b=text_searcher(cleanStrings(df["jd"][i]),tags)
+            tStart=datetime.datetime.now()
+            ##searching for the tags in text
+            taglist=text_searcher(cleanStrings(df["jd"][i]),tags)
+            ## Initializing an empty dictionary to update the tags
             upDateDict=dict()
             print("Getting for {}".format(i))
-            for j in b:
+            ##Creating a dictionary to update the csv where 1 means a skill was found in the text
+            for j in taglist:
                 upDateDict.update({j:1})
+            ## Merging the Role name and job title into the dictionary
             upDateDict.update({
                 "Role":df["Role"][i],
                 "Job Title":df['jobtitle'][i]
             })
             writer.writerow(upDateDict)
-            t2=datetime.datetime.now()
-            time_taken=(t2-t1).total_seconds()
+            tEnd=datetime.datetime.now()
+            time_taken=(tEnd-tStart).total_seconds()
             print("Main Process took {} seconds".format(round(time_taken,2)))
 
 get_Vectorized_df("VectorizedTags.csv",fTags)
