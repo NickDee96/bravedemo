@@ -13,15 +13,15 @@ import plotly as py
 import plotly.graph_objs as go
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
-df=pd.read_csv("VectorizedTags.csv")
+df=pd.read_csv("VectorizedTags3.csv")
 df=df.dropna(axis=0, how='all', thresh=None, subset=None, inplace=False)
 r=list(df.Role.unique())
 df.columns
-a=df[df["Role"]=="Software Developer"].drop(["Role","Job Title"],axis=1).sum().to_dict()
+a=(df[df["Role"]=="Software Developer"].drop(["Role","Job Title"],axis=1).sum()/len(df["Role"])).to_dict()
 
 anDf=pd.DataFrame(columns=df.columns)
 for i in r:
-    a=df[df["Role"]==i].drop(["Role","Job Title"],axis=1).sum().to_dict()
+    a=(df[df["Role"]==i].drop(["Role","Job Title"],axis=1).sum()/len(df["Role"]==i)).to_dict()
     anDf=anDf.append(a,ignore_index=True)
 anDf=anDf.drop(["Role","Job Title"],axis=1)
 anDf.index=r
@@ -30,8 +30,8 @@ anDf.index=r
 scaler=StandardScaler()
 sDf=pd.DataFrame(scaler.fit_transform(anDf))
 sDf.index=anDf.index
-
-kmeans=KMeans(n_clusters=5,init="k-means++",random_state=100)
+#30
+kmeans=KMeans(n_clusters=5,init="k-means++",random_state=30)
 kmeans.fit(sDf)
 clusters=kmeans.predict(sDf)
 #Add the cluster vector to our DataFrame, sDf
@@ -55,12 +55,12 @@ plotdf["Cluster"].value_counts()
 df_row
 df_row.columns=["0","1","2","3","4"]
 df_row=df_row.transpose()
-df_row.to_csv("clusterCenters.csv")
+df_row.to_csv("clusterCenters2.csv")
 df_row.columns
 
 
 
-plotdf.to_csv("kmeans.csv")
+plotdf.to_csv("kmeans2.csv")
 c0=plotdf[plotdf["Cluster"]==0]
 c1=plotdf[plotdf["Cluster"]==1]
 c2=plotdf[plotdf["Cluster"]==2]
@@ -116,43 +116,43 @@ trace3 = go.Scatter3d(
                     name = "Cluster 3",
                     marker = dict(color = 'rgba(255, 80, 80, 0.8)'),
                     )
-df_row["PCA1_3D"][3]
-xe=[]
-ye=[]
-ze=[]
-for i in range(len(c3)):
-    xe += [c3["PCA1_3D"][i],df_row["PCA1_3D"][3]],
-    ye += c3["PCA2_3D"][i],df_row["PCA2_3D"][3],
-    ze += c3["PCA3_3D"][i],df_row["PCA3_3D"][3],
-
-
-ltrace3 = go.Scatter3d(
-                    x = xe,
-                    y = ye,
-                    z = ze,
-                    mode = "lines",
-                    text=c3.index,
-                    line=dict(
-                            color='#1f77b4',
-                            width=6),
-                    )
-
-cTrace=go.Scatter3d(
-                    x = df_row["PCA1_3D"],
-                    y = df_row["PCA2_3D"],
-                    z = df_row["PCA3_3D"],
-                    mode="markers",
-                    marker=dict(
-                        color='rgb(24, 53, 82)',
-                        size=10,
-                        line=dict(
-                            color='yellow',
-                            width=8
-                        )
-                    ),
-                    line=dict(color='rgb(125,125,125)', width=1),
-                    hovertext=list(df_row.index)
-               )
+#df_row["PCA1_3D"][3]
+#xe=[]
+#ye=[]
+#ze=[]
+#for i in range(len(c3)):
+#    xe += [c3["PCA1_3D"][i],df_row["PCA1_3D"][3]],
+#    ye += c3["PCA2_3D"][i],df_row["PCA2_3D"][3],
+#    ze += c3["PCA3_3D"][i],df_row["PCA3_3D"][3],
+#
+#
+#ltrace3 = go.Scatter3d(
+#                    x = xe,
+#                    y = ye,
+#                    z = ze,
+#                    mode = "lines",
+#                    text=c3.index,
+#                    line=dict(
+#                            color='#1f77b4',
+#                            width=6),
+#                    )
+#
+#cTrace=go.Scatter3d(
+#                    x = df_row["PCA1_3D"],
+#                    y = df_row["PCA2_3D"],
+#                    z = df_row["PCA3_3D"],
+#                    mode="markers",
+#                    marker=dict(
+#                        color='rgb(24, 53, 82)',
+#                        size=10,
+#                        line=dict(
+#                            color='yellow',
+#                            width=8
+#                        )
+#                    ),
+#                    line=dict(color='rgb(125,125,125)', width=1),
+#                    hovertext=list(df_row.index)
+#               )
 
 data=[trace0,trace1,trace2,trace4,trace3]
 axis=dict(showbackground=False,
@@ -177,6 +177,7 @@ layout = go.Layout(
         ))        
 fig = dict(data = data,layout=layout)
 fig=go.Figure(fig)
+fig.show()
 
 
 
@@ -742,14 +743,13 @@ sdf.columns
 def get_color_codes(sdf):
     change=[]
     vol=[]
-    for i in range(len(sdf)):
-        if sdf["% Change from previous month"][i]>0:
+    for i in range(20):
+        if sdf["% Change from previous month"][15]>0:
             change.append("#00DCFA")
         elif sdf["% Change from previous month"][i]<0:
             change.append("#FF1E91")
         else:
-            change.append("#252630")
-    for i in range(len(sdf)):
+            change.append("#252630")        
         if sdf.Volatility[i] <2.5:
             vol.append("#252630")
         elif (sdf.Volatility[i] >2.5) and (sdf.Volatility[i] <5):
@@ -763,7 +763,11 @@ def get_color_codes(sdf):
     df["perc"]="#252630"
     return df
 
+df["change"]=np.nan
+df["change"][0]=10
 
+
+sdf[sdf.Skill=="modelling"]["% Change from previous month"]
 import json
 with open("skill_distribution.json","r") as jFile:
     tCount=json.load(jFile)
@@ -832,9 +836,30 @@ sdf.ix[2].drop("Skill")
 a=list(sdf.columns)
 a.remove("Skill")
 fig=go.Figure()
-fig=fig.add_trace(
-    go.Scatter(
-        x=a,y=sdf.ix[2].drop("Skill"),
-        mode=line
+for i in range(10):
+    row=sdf.ix[i]
+    fig=fig.add_trace(
+        go.Scatter(
+            x=a,
+            y=row.drop("Skill"),
+            mode="lines",
+            name=row["Skill"].capitalize()
+        )
+    )
+fig=fig.update_layout(
+    go.Layout(
+        title="Start Title",
+        updatemenus=[dict(
+            type="buttons",
+            buttons=[dict(label="Play",
+                          method="animate",
+                          args=[None])])]
     )
 )
+fig.update_frame()
+
+fig.show()
+
+row["Skill"].capitalize()
+
+help(fig)

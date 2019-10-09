@@ -26,30 +26,34 @@ import dash_bootstrap_components as dbc
 #pRdf=getDf()
 
 
-mapdata1=pd.read_csv("mapdata.csv")
-mapdata2=pd.read_csv("ndLocData")
-df1=pd.read_csv("VectorizedTags.csv")
-df2=pd.read_csv("data_net_vectorized.csv")
-prdf2=pd.read_csv("pilotRoles.csv")
-daDf=pd.read_csv("daSample.csv")
-netDf=pd.read_csv("netSample.csv")
-r=list(df1["Role"].dropna().unique())
-df1=df1.fillna(0)
-df2=df2.fillna(0)
-r.sort()
-r.remove("Amazon")
-
-r.sort()
-
+mapdata1=pd.read_csv("mapdata.csv")##Location data for US job data
+mapdata2=pd.read_csv("ndLocData")##Location data for African Indeed job data
+df1=pd.read_csv("VectorizedTags.csv")## A Vectorized tag dataFrame for US data
+df2=pd.read_csv("data_net_vectorized.csv")## A Vectorized tag dataFrame for African Indeed job data
+prdf2=pd.read_csv("pilotRoles.csv") ##Indeed API output with for US data
+daDf=pd.read_csv("daSample.csv") ## Reduced skill percentages over time for Data Analyst
+netDf=pd.read_csv("netSample.csv")## Reduced skill percentages over time for Network Engineer
+plotdf=pd.read_csv("kmeans.csv")## Loading the KMeans Output data
+minDf=plotdf[["Role",'Cluster']]## subsetting the KMeans Data
+r=list(df1["Role"].dropna().unique()) ##Getting the roles
+df1=df1.fillna(0) #Replacing NaN with 0
+df2=df2.fillna(0) #Replacing NaN with 0
+r.sort() #Sorting the list from A-Z
+r.remove("Amazon") # Removing the role AMAZON
 
 
 def getRange(start,stop,srs):
+    '''
+    This function filters the skill count according to a predefined range
+    '''
     sr1=srs[srs>=start].sort_values(ascending=False)
     sr1=sr1[sr1<=stop].sort_values(ascending=False)
     return sr1
-plotdf=pd.read_csv("kmeans.csv")
-minDf=plotdf[["Role",'Cluster']]
+
 def get_cluster_dict():
+    '''
+    This function filters the reduced KMeans dataFrame (minDf)  and returns the roles in according to their respective clusters
+    '''
     clustDict=dict()
     for j in range(5):
         roles=list(minDf[minDf["Cluster"]==j]["Role"])
@@ -59,11 +63,15 @@ def get_cluster_dict():
     return clustDict
 clustDict=get_cluster_dict()
 def get3dplot(plotdf):
+    '''
+    This function produces an interactive 3d KMeans plot.
+    '''
     c0=plotdf[plotdf["Cluster"]==0]
     c1=plotdf[plotdf["Cluster"]==1]
     c2=plotdf[plotdf["Cluster"]==2]
     c3=plotdf[plotdf["Cluster"]==3]
-    c4=plotdf[plotdf["Cluster"]==4] 
+    c4=plotdf[plotdf["Cluster"]==4]
+    ## Cluster 1 
     trace1 = go.Scatter3d(
                         x = c1["PCA1_3D"],
                         y = c1["PCA2_3D"],
@@ -76,6 +84,7 @@ def get3dplot(plotdf):
                         name = "Cluster 1",
                         marker = dict(color = 'rgba(110, 125, 125, 0.8)'),
                         text = None)
+    ## Cluster 0
     trace0 = go.Scatter3d(
                         x = c0["PCA1_3D"],
                         y = c0["PCA2_3D"],
@@ -85,6 +94,7 @@ def get3dplot(plotdf):
                         name = "Cluster 0",
                         marker = dict(color = 'rgba(255, 30, 145, 0.8)'),
                         text = None)
+    ## Cluster 2
     trace2 = go.Scatter3d(
                         x = c2["PCA1_3D"],
                         y = c2["PCA2_3D"],
@@ -94,7 +104,7 @@ def get3dplot(plotdf):
                         name = "Cluster 2",
                         marker = dict(color = 'rgba(0, 220, 250, 0.8)'),
                         text = None)
-
+    ## Cluster 4
     trace4 = go.Scatter3d(
                         x = c4["PCA1_3D"],
                         y = c4["PCA2_3D"],
@@ -104,6 +114,7 @@ def get3dplot(plotdf):
                         name = "Cluster 4",
                         marker = dict(color = 'rgba(255, 220, 80, 0.8)'),
                         text = None)
+    ## Cluster 3
     trace3 = go.Scatter3d(
                         x = c3["PCA1_3D"],
                         y = c3["PCA2_3D"],
@@ -115,6 +126,7 @@ def get3dplot(plotdf):
                         marker = dict(color = 'rgba(255, 80, 80, 0.8)'),
                         )
     data=[trace0,trace1,trace2,trace4,trace3]
+    # Setting a clear background for the plot
     axis=dict(showbackground=False,
               showline=False,
               zeroline=False,
@@ -122,6 +134,7 @@ def get3dplot(plotdf):
               showticklabels=False,
               title=''
               )
+    # Setting the layout options which includes its size.
     layout = go.Layout(
              plot_bgcolor='#273e49',
              showlegend=False,
@@ -137,12 +150,17 @@ def get3dplot(plotdf):
                     t=5,
                     pad=4
                 )        
-    )        
+    )
+    ## Combining the trace Data  and layout         
     fig = dict(data = data,layout=layout)
+    ## Setting up the figure for rendering
     fig=go.Figure(fig)
     return fig
 
 def get_color_codes(sdf):
+    '''
+    This function generates the color codes for Change and volatility in the table.
+    '''
     change=[]
     vol=[]
     for i in range(len(sdf)):
@@ -170,13 +188,13 @@ def get_color_codes(sdf):
 
 
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+#external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 #app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 server = app.server
-
+## Setting up the DashBoard layoute
 app.layout = html.Div([
     html.Div([
             html.Div([
@@ -442,18 +460,21 @@ def get_assocJt(role):
 @app.callback(
     Output("chloropleth", 'figure'),
     [Input("Role Chooser", 'value')])
-def get_chloropleth(role):
+def get_BubbleMap(role):
+    '''
+    This function produces a Bubble map  of job Occurence by city
+    '''
+    ##Separating African Data from US data
     if (role=="Data Analyst") or (role=="Network Engineer"):
         mapdata=mapdata2
-        scp="africa"
-        fct=1
+        scp="africa" ## setting the plot scope
+        fct=1 ## setting the magnification factor
     else:
         mapdata=mapdata1
-        scp="usa"
-        fct=15
-    mapdf=mapdata[mapdata["Role"]==role]
-    mapdf.columns
-    fig=go.Figure()
+        scp="usa" ## setting the plot scope
+        fct=15 ## setting the magnification factor
+    mapdf=mapdata[mapdata["Role"]==role] ## Filtering location Data
+    fig=go.Figure() ##Initializing the figure
     fig=fig.add_trace(go.Scattergeo(    
             locationmode = 'USA-states',
             lon = mapdf['longitude'],
@@ -489,6 +510,9 @@ def get_chloropleth(role):
     Output("top_cities", 'children'),
     [Input("Role Chooser", 'value')])
 def get_top_cities(role):
+    '''
+    This function gets the top Cities for a given Role and returns a html ordered list
+    '''
     if (role=="Data Analyst") or (role=="Network Engineer"):
         mapdata=mapdata2
     else:
@@ -514,5 +538,3 @@ def hoverDataShow(hoverData):
     )
 if __name__ == "__main__":
     app.run_server(host="0.0.0.0")
-
-

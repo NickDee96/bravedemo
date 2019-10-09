@@ -33,6 +33,9 @@ skillDf.columns=["tech_skill","count"]
 skills=list(skillDf["tech_skill"])
 
 def getDf():
+    '''
+    This function gets job descriptions from the JDs google sheet  and returns a pandas Dataframe
+    '''
     scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name('indeedscraper-f298f5bd5f02.json', scope)
     client = gspread.authorize(creds)
