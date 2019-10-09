@@ -26,14 +26,14 @@ import dash_bootstrap_components as dbc
 #pRdf=getDf()
 
 
-mapdata1=pd.read_csv("mapdata.csv")##Location data for US job data
-mapdata2=pd.read_csv("ndLocData")##Location data for African Indeed job data
-df1=pd.read_csv("VectorizedTags.csv")## A Vectorized tag dataFrame for US data
-df2=pd.read_csv("data_net_vectorized.csv")## A Vectorized tag dataFrame for African Indeed job data
-prdf2=pd.read_csv("pilotRoles.csv") ##Indeed API output with for US data
-daDf=pd.read_csv("daSample.csv") ## Reduced skill percentages over time for Data Analyst
-netDf=pd.read_csv("netSample.csv")## Reduced skill percentages over time for Network Engineer
-plotdf=pd.read_csv("kmeans.csv")## Loading the KMeans Output data
+mapdata1=pd.read_csv("data/mapdata.csv")##Location data for US job data
+mapdata2=pd.read_csv("data/ndLocData")##Location data for African Indeed job data
+df1=pd.read_csv("data/VectorizedTags.csv")## A Vectorized tag dataFrame for US data
+df2=pd.read_csv("data/data_net_vectorized.csv")## A Vectorized tag dataFrame for African Indeed job data
+prdf2=pd.read_csv("data/pilotRoles.csv") ##Indeed API output with for US data
+daDf=pd.read_csv("data/daSample.csv") ## Reduced skill percentages over time for Data Analyst
+netDf=pd.read_csv("data/netSample.csv")## Reduced skill percentages over time for Network Engineer
+plotdf=pd.read_csv("data/kmeans.csv")## Loading the KMeans Output data
 minDf=plotdf[["Role",'Cluster']]## subsetting the KMeans Data
 r=list(df1["Role"].dropna().unique()) ##Getting the roles
 df1=df1.fillna(0) #Replacing NaN with 0

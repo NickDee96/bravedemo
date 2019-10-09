@@ -161,4 +161,4 @@ def get_Vectorized_df(filename,tags):
             time_taken=(tEnd-tStart).total_seconds()
             print("Main Process took {} seconds".format(round(time_taken,2)))
 
-get_Vectorized_df("VectorizedTags.csv",fTags)
+get_Vectorized_df("data/VectorizedTags.csv",fTags)
