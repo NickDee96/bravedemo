@@ -27,7 +27,7 @@ import dash_bootstrap_components as dbc
 
 
 mapdata1=pd.read_csv("data/mapdata.csv")##Location data for US job data
-mapdata2=pd.read_csv("data/ndLocData")##Location data for African Indeed job data
+mapdata2=pd.read_csv("data/ndLocData.csv")##Location data for African Indeed job data
 df1=pd.read_csv("data/VectorizedTags.csv")## A Vectorized tag dataFrame for US data
 df2=pd.read_csv("data/data_net_vectorized.csv")## A Vectorized tag dataFrame for African Indeed job data
 prdf2=pd.read_csv("data/pilotRoles.csv") ##Indeed API output with for US data
