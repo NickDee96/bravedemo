@@ -14,8 +14,9 @@ import plotly.graph_objs as go
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
 df=pd.read_csv("data/VectorizedTags3.csv")
+n_clust=5
 class KMeansModel:
-    def __init__(self,df,n_clust)        
+    def __init__(self,df,n_clust):        
         df=df.dropna(axis=0, how='all', thresh=None, subset=None, inplace=False)
         r=list(df.Role.unique())
         ## Initializing an empty dataFrame to update the column sums
@@ -52,7 +53,15 @@ class KMeansModel:
         df_row.columns=[str(x) for x in range(n_clust)]
         df_row=df_row.transpose()
         df_row.to_csv("clusterCenters2.csv")
-        plotdf.to_csv("kmeans2.csv")
+        plotdf=plotdf.reset_index()
+        plotdf.rename(columns={"index":"Role"},inplace=True)
+        plotdf.to_csv("data/kmeans2.csv")
+        self.plotdf=plotdf
+        self.clusterdf=df_row
+
+model=KMeansModel(df,5)
+
+
 
 c0=plotdf[plotdf["Cluster"]==0]
 c1=plotdf[plotdf["Cluster"]==1]
