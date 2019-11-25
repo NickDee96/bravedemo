@@ -1,1 +1,1 @@
-web: gunicorn dataViz2:server
+web: gunicorn dataViz-v2:server
