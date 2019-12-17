@@ -142,3 +142,39 @@ fig=go.Figure(fig)
 fig.show()
 
 
+
+
+df=pd.read_csv("data/daSample.csv")
+df.set_index("Skill",inplace=True)
+df=df.drop("Volatility",axis=1)
+df.iloc[1]
+df.index[1]
+import plotly.graph_objects as go
+
+fig =go.Figure()
+for i in range(20):
+    fig.add_trace(
+        go.Scatter(
+            x=df.columns,
+            y=df.iloc[i],
+            mode="lines",
+            name=df.index[i]
+        )
+    )
+
+data=[]
+for i in range(len(df.columns)):
+    a=go.Scatter(
+            x=[x for df.columns[i]],
+            y=df.iloc[],
+            mode="lines"
+    )  
+
+
+fig.show()
+i=df.columns[1]
+df["January"].iloc[1]
+
+df.iloc[1]
+
+df[i].head(20).index   

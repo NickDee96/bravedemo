@@ -1,0 +1,717 @@
+1576056787221	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewbb5iM"
+1576056787984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576056787984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576056787984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576056787984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576056791362	Marionette	INFO	Listening on port 43525
+1576056791439	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:///'
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICacheInfoChannel.isRacing]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-response-listener.js :: NetworkResponseListener.prototype._getSecurityInfo< :: line 335"  data: no]
+Stack: NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/server/actors/network-monitor/network-response-listener.js:335:26
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+onStartRequest@resource://devtools/server/actors/network-monitor/network-response-listener.js:224:10
+Line: 335, column: 0
+console.error: ({})
+1576057708568	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+JavaScript error: https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Analyst&sc.keyword=Analyst&locT=N&locId=211&jobType=&srs=TAB_OVER_SALARY_BROWSE, line 435: SyntaxError: missing ] after element list
+JavaScript note: https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Analyst&sc.keyword=Analyst&locT=N&locId=211&jobType=&srs=TAB_OVER_SALARY_BROWSE, line 413: [ opened at line 413, column 22
+JavaScript error: https://www.glassdoor.com/Salaries/south-africa-analyst-salary-SRCH_IL.0,12_IN211_KO13,20.htm line 2454 > scriptElement, line 6: ReferenceError: YT is not defined
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1576057789630	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Analyst&sc.keyword=Analyst&locT=N&locId=211&jobType=, line 435: SyntaxError: missing ] after element list
+JavaScript note: https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Analyst&sc.keyword=Analyst&locT=N&locId=211&jobType=, line 413: [ opened at line 413, column 22
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\ngetGrids@resource://devtools/server/actors/layout.js:506:43\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: , line 0: uncaught exception: Object
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:585:5\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): node is null"
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:933:5\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): node is null"
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICacheInfoChannel.isRacing]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-response-listener.js :: NetworkResponseListener.prototype._getSecurityInfo< :: line 335"  data: no]
+Stack: NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/server/actors/network-monitor/network-response-listener.js:335:26
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+onStartRequest@resource://devtools/server/actors/network-monitor/network-response-listener.js:224:10
+Line: 335, column: 0
+console.error: ({})
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1576057812751	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+
+(/usr/lib/firefox/firefox:12873): dconf-WARNING **: 12:51:16.527: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1576057995181	Marionette	INFO	Stopped listening on port 43525
+1576058002783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiqlumo"
+1576058003822	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576058003822	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576058003823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576058003823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576058007244	Marionette	INFO	Listening on port 36163
+1576058007299	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14903): dconf-WARNING **: 12:53:41.374: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+JavaScript error: resource:///modules/UrlbarInput.jsm, line 229: TypeError: this._inputFieldEvents is undefined
+JavaScript error: , line 0: uncaught exception: [object Object]
+1576058423690	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:///'
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1576058592073	Marionette	INFO	Stopped listening on port 36163
+1576058599937	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCbI2c2"
+1576058600684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576058600684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576058600684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576058600684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576058603385	Marionette	INFO	Listening on port 43731
+1576058603449	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://dsp-media.eskimi.com/gtr.min.js, line 1: TypeError: t.scripts is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:///'
+1576059127301	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:501:26\ngetGrids@resource://devtools/server/actors/layout.js:506:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1576059968653	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576059993558	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576060001671	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 15929, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Jk4LV5/firefox-70.0.1+linuxmint1+tina/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[Child 15868, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Jk4LV5/firefox-70.0.1+linuxmint1+tina/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 15841, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Jk4LV5/firefox-70.0.1+linuxmint1+tina/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1576060043606	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex8iMFc"
+1576060044903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576060044903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576060044903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576060044903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576060047937	Marionette	INFO	Listening on port 35031
+1576060048037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1576060074242	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://dsp-media.eskimi.com/gtr.min.js, line 1: TypeError: t.scripts is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+1576060103067	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilej17MP4"
+1576060103694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576060103694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576060103694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576060103694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576060107162	Marionette	INFO	Listening on port 38383
+1576060107183	Marionette	WARN	TLS certificate errors will be ignored for this session
+1576060113566	Marionette	INFO	Stopped listening on port 35031
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://dsp-media.eskimi.com/gtr.min.js, line 1: TypeError: t.scripts is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+1576060155787	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576060222726	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576060301511	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576060357497	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576060452108	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576060513530	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576060520742	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576060562488	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576060593660	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576060659869	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576060680376	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576060685453	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576060696058	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576060711298	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576060717721	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1576060863329	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1154Qk"
+1576060863952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576060863953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576060863953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576060863953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576060866836	Marionette	INFO	Listening on port 46119
+1576060866940	Marionette	WARN	TLS certificate errors will be ignored for this session
+1576060880189	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576060970996	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576060979441	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+IPDL protocol error: Handler returned error code!
+JavaScript error: https://www.glassdoor.com/Salaries/egypt-analyst-salary-SRCH_IL.0,5_IN69_KO6,13.htm, line 218: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js, line 3: TypeError: b.ownerDocument.defaultView is null
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js, line 3: TypeError: b.ownerDocument.defaultView is null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1576060996432	Marionette	INFO	Stopped listening on port 46119
+1576061058267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekzaT73"
+1576061058913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576061058913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576061058913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576061058913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576061061858	Marionette	INFO	Listening on port 44813
+1576061061882	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: [object Object]
+1576061098328	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061105331	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576061120417	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://www.glassdoor.com/Salaries/egypt-analyst-salary-SRCH_IL.0,5_IN69_KO6,13.htm line 2454 > scriptElement, line 6: ReferenceError: YT is not defined
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+1576061149187	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061161411	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061173581	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+1576061180513	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576061193963	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+1576061235699	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://www.glassdoor.com/Salaries/egypt-data-scientist-salary-SRCH_IL.0,5_IN69_KO6,20.htm line 2454 > scriptElement, line 6: ReferenceError: YT is not defined
+1576061295255	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061330183	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061368476	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061374009	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061379819	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061385614	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061396905	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+1576061417008	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061423782	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061447689	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+1576061477884	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061484285	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061514266	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061546676	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061570361	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://www.glassdoor.com/Salaries/south-africa-help-desk-technician-salary-SRCH_IL.0,12_IN211_KO13,33.htm line 2454 > scriptElement, line 6: ReferenceError: YT is not defined
+1576061598711	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061606205	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576061629771	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://www.glassdoor.com/Salaries/morocco-it-business-analyst-salary-SRCH_IL.0,7_IN162_KO8,27.htm line 2454 > scriptElement, line 6: ReferenceError: YT is not defined
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+1576061678117	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576061714562	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1576061768281	Marionette	INFO	Stopped listening on port 44813
+1576061981460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJhR7id"
+1576061987540	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576061987541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576061987541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576061987541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576061996383	Marionette	INFO	Listening on port 44267
+1576061996403	Marionette	WARN	TLS certificate errors will be ignored for this session
+1576062015965	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062142869	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062165471	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062177918	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062204556	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062210345	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576062216552	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062223507	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+JavaScript error: https://www.glassdoor.com/Salaries/south-africa-mechanical-engineer-salary-SRCH_IL.0,12_IN211_KO13,32.htm line 2454 > scriptElement, line 6: ReferenceError: YT is not defined
+1576062230416	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062236217	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576062242669	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062257889	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062283186	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062296958	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062310244	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+1576062337681	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062343486	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062355874	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062362673	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+1576062368545	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062376096	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062383894	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062397929	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062404179	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062410353	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062436540	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062447940	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062469871	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062474501	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://www.glassdoor.com/Salaries/morocco-qa-manager-salary-SRCH_IL.0,7_IN162_KO8,18.htm line 2454 > scriptElement, line 6: ReferenceError: YT is not defined
+1576062502654	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062564678	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062588643	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062603261	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062620695	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062626047	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062632582	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062638709	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062666355	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062706936	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062713368	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062718717	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576062724681	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576062769574	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062782222	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062791199	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062799859	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062820240	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://www.glassdoor.com/Salaries/egypt-software-engineer-salary-SRCH_IL.0,5_IN69_KO6,23.htm line 2454 > scriptElement, line 6: ReferenceError: YT is not defined
+1576062878095	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062884883	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://cdn.ampproject.org/rtv/011911070201440/amp4ads-v0.js, line 174: NS_ERROR_FAILURE: 
+1576062919047	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062932745	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062959368	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576062990584	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576063085869	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576063108422	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+JavaScript error: https://www.glassdoor.com/Salaries/egypt-technical-support-engineer-salary-SRCH_IL.0,5_IN69_KO6,32.htm line 2454 > scriptElement, line 6: ReferenceError: YT is not defined
+1576063146500	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+Exiting due to channel error.
+[Child 22362, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-Jk4LV5/firefox-70.0.1+linuxmint1+tina/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[Child 22362, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Jk4LV5/firefox-70.0.1+linuxmint1+tina/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1576063319394	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecMpq9t"
+1576063328120	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576063328121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576063328121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576063328121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576063346054	Marionette	INFO	Listening on port 45361
+1576063346338	Marionette	WARN	TLS certificate errors will be ignored for this session
+1576063363169	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576063504922	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576063510916	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576063520550	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576063527178	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+1576063535067	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576063542590	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576063548091	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576063561155	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+send@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:14765
+ajax@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:4:10524
+initLocDisambig/</<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17176
+initLocDisambig/<@https://www.glassdoor.com/app/static/js/gd-core-bottom-en-US.js?v=03e7ab4f64:1:17184
+dispatch@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:6444
+add/r.handle@https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js:3:3219
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+[Parent 23971, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-Jk4LV5/firefox-70.0.1+linuxmint1+tina/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1576063636536	Marionette	INFO	Stopped listening on port 45361

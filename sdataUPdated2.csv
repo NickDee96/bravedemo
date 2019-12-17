@@ -1,0 +1,241 @@
+Role,Country,Salary,Per,Yearly Earnings
+Analyst,South Africa,367704,yr,25003.872000000003
+Analyst,Nigeria,3300K,yr,9240.0
+Analyst,Morocco,9500,mo,11400.0
+Analyst,Egypt,24500,yr,1519.0
+CAD Designer,South Africa,,,
+CAD Designer,Nigeria,,,
+CAD Designer,Morocco,,,
+CAD Designer,Egypt,,,
+Civil Engineer,South Africa,231052,yr,15711.536000000002
+Civil Engineer,Nigeria,10000K,yr,28000.0
+Civil Engineer,Morocco,,,
+Civil Engineer,Egypt,5000,mo,3720.0
+Credit Analyst,South Africa,643334,yr,43746.712
+Credit Analyst,Nigeria,10000K,yr,28000.0
+Credit Analyst,Morocco,17500,mo,21000.0
+Credit Analyst,Egypt,5100,mo,3794.3999999999996
+Cyber Security,South Africa,,,
+Cyber Security,Nigeria,,,
+Cyber Security,Morocco,,,
+Cyber Security,Egypt,,,
+Data Analyst,South Africa,268328,yr,18246.304
+Data Analyst,Nigeria,,,
+Data Analyst,Morocco,10750,mo,12900.0
+Data Analyst,Egypt,3500,mo,2604.0
+Data Scientist,South Africa,505946,yr,34404.328
+Data Scientist,Nigeria,,,
+Data Scientist,Morocco,400000,yr,40000.0
+Data Scientist,Egypt,,,
+Desktop Support,South Africa,15429,mo,12590.064
+Desktop Support,Nigeria,,,
+Desktop Support,Morocco,,,
+Desktop Support,Egypt,,,
+Desktop Support Technician,South Africa,,,
+Desktop Support Technician,Nigeria,,,
+Desktop Support Technician,Morocco,,,
+Desktop Support Technician,Egypt,,,
+Director of IT,South Africa,,,
+Director of IT,Nigeria,,,
+Director of IT,Morocco,,,
+Director of IT,Egypt,,,
+Drafter,South Africa,,,
+Drafter,Nigeria,,,
+Drafter,Morocco,,,
+Drafter,Egypt,,,
+Electrical Engineer,South Africa,34059,mo,27792.144
+Electrical Engineer,Nigeria,,,
+Electrical Engineer,Morocco,,,
+Electrical Engineer,Egypt,4000,mo,2976.0
+Engineer,South Africa,510610,yr,34721.48
+Engineer,Nigeria,1400K,yr,3920.0
+Engineer,Morocco,16000,mo,19200.0
+Engineer,Egypt,3250,mo,2418.0
+Engineering Manager,South Africa,,,
+Engineering Manager,Nigeria,9870K,yr,27636.0
+Engineering Manager,Morocco,,,
+Engineering Manager,Egypt,8000,mo,5952.0
+Entry Level Mechanical Engineer,South Africa,,,
+Entry Level Mechanical Engineer,Nigeria,,,
+Entry Level Mechanical Engineer,Morocco,,,
+Entry Level Mechanical Engineer,Egypt,,,
+Front End Developer,South Africa,48541,yr,3300.788
+Front End Developer,Nigeria,,,
+Front End Developer,Morocco,7400,mo,8880.0
+Front End Developer,Egypt,4814,mo,3581.616
+GIS,South Africa,,,
+GIS,Nigeria,,,
+GIS,Morocco,,,
+GIS,Egypt,,,
+Help Desk,South Africa,,,
+Help Desk,Nigeria,,,
+Help Desk,Morocco,,,
+Help Desk,Egypt,3850,mo,2864.3999999999996
+Help Desk Analyst,South Africa,,,
+Help Desk Analyst,Nigeria,,,
+Help Desk Analyst,Morocco,,,
+Help Desk Analyst,Egypt,,,
+Help Desk Technician,South Africa,,,
+Help Desk Technician,Nigeria,,,
+Help Desk Technician,Morocco,,,
+Help Desk Technician,Egypt,,,
+Helpdesk Technician,South Africa,,,
+Helpdesk Technician,Nigeria,,,
+Helpdesk Technician,Morocco,,,
+Helpdesk Technician,Egypt,,,
+IT Business Analyst,South Africa,,,
+IT Business Analyst,Nigeria,,,
+IT Business Analyst,Morocco,,,
+IT Business Analyst,Egypt,110000,yr,6820.0
+IT Director,South Africa,2123K,yr,144364.0
+IT Director,Nigeria,,,
+IT Director,Morocco,,,
+IT Director,Egypt,,,
+IT Manager,South Africa,663535,yr,45120.380000000005
+IT Manager,Nigeria,3100K,yr,8680.0
+IT Manager,Morocco,6000,yr,600.0
+IT Manager,Egypt,15000,mo,11160.0
+IT Specialist,South Africa,312449,yr,21246.532000000003
+IT Specialist,Nigeria,,,
+IT Specialist,Morocco,12500,mo,15000.0
+IT Specialist,Egypt,7500,mo,5580.0
+IT Support,South Africa,7659,mo,6249.744000000001
+IT Support,Nigeria,3500K,yr,9800.0
+IT Support,Morocco,3100K,yr,310000.0
+IT Support,Egypt,3300,mo,2455.2
+IT Support Specialist,South Africa,,,
+IT Support Specialist,Nigeria,,,
+IT Support Specialist,Morocco,,,
+IT Support Specialist,Egypt,125000,yr,7750.0
+Manufacturing Engineer,South Africa,,,
+Manufacturing Engineer,Nigeria,,,
+Manufacturing Engineer,Morocco,,,
+Manufacturing Engineer,Egypt,,,
+Manufacturing Manager,South Africa,,,
+Manufacturing Manager,Nigeria,,,
+Manufacturing Manager,Morocco,,,
+Manufacturing Manager,Egypt,,,
+Mechanical Engineer,South Africa,485210,yr,32994.28
+Mechanical Engineer,Nigeria,200000,mo,6720.0
+Mechanical Engineer,Morocco,,,
+Mechanical Engineer,Egypt,3000,mo,2232.0
+Network Administrator,South Africa,,,
+Network Administrator,Nigeria,60000,mo,2016.0
+Network Administrator,Morocco,,,
+Network Administrator,Egypt,2500,mo,1860.0
+Network Engineer,South Africa,243226,yr,16539.368000000002
+Network Engineer,Nigeria,1164K,yr,3259.2
+Network Engineer,Morocco,,,
+Network Engineer,Egypt,4000,mo,2976.0
+Process Engineer,South Africa,835558,yr,56817.944
+Process Engineer,Nigeria,200000,yr,560.0
+Process Engineer,Morocco,,,
+Process Engineer,Egypt,80000,yr,4960.0
+Production Manager,South Africa,6153,mo,5020.848000000001
+Production Manager,Nigeria,,,
+Production Manager,Morocco,,,
+Production Manager,Egypt,108000,yr,6696.0
+Production Supervisor,South Africa,,,
+Production Supervisor,Nigeria,4800K,yr,13440.0
+Production Supervisor,Morocco,,,
+Production Supervisor,Egypt,2500,mo,1860.0
+Project Engineer,South Africa,32630,mo,26626.08
+Project Engineer,Nigeria,,,
+Project Engineer,Morocco,18000,mo,21600.0
+Project Engineer,Egypt,5000,mo,3720.0
+QA,South Africa,,,
+QA,Nigeria,,,
+QA,Morocco,,,
+QA,Egypt,,,
+QA Analyst,South Africa,,,
+QA Analyst,Nigeria,,,
+QA Analyst,Morocco,,,
+QA Analyst,Egypt,,,
+QA Manager,South Africa,132755,yr,9027.34
+QA Manager,Nigeria,,,
+QA Manager,Morocco,,,
+QA Manager,Egypt,,,
+QA Tester,South Africa,,,
+QA Tester,Nigeria,,,
+QA Tester,Morocco,,,
+QA Tester,Egypt,,,
+Quality Assurance,South Africa,14654,mo,11957.664
+Quality Assurance,Nigeria,,,
+Quality Assurance,Morocco,,,
+Quality Assurance,Egypt,3500,mo,2604.0
+Quality Engineer,South Africa,,,
+Quality Engineer,Nigeria,,,
+Quality Engineer,Morocco,,,
+Quality Engineer,Egypt,80000,yr,4960.0
+Quality Manager,South Africa,,,
+Quality Manager,Nigeria,,,
+Quality Manager,Morocco,,,
+Quality Manager,Egypt,,,
+Safety Coordinator,South Africa,,,
+Safety Coordinator,Nigeria,,,
+Safety Coordinator,Morocco,,,
+Safety Coordinator,Egypt,,,
+Safety Manager,South Africa,89326,mo,72890.016
+Safety Manager,Nigeria,,,
+Safety Manager,Morocco,1500,mo,1800.0
+Safety Manager,Egypt,,,
+Security Analyst,South Africa,367307,yr,24976.876
+Security Analyst,Nigeria,,,
+Security Analyst,Morocco,,,
+Security Analyst,Egypt,,,
+Security Director,South Africa,,,
+Security Director,Nigeria,,,
+Security Director,Morocco,,,
+Security Director,Egypt,,,
+Security Manager,South Africa,,,
+Security Manager,Nigeria,,,
+Security Manager,Morocco,,,
+Security Manager,Egypt,,,
+Senior Software Engineer,South Africa,107705,yr,7323.9400000000005
+Senior Software Engineer,Nigeria,,,
+Senior Software Engineer,Morocco,,,
+Senior Software Engineer,Egypt,8000,mo,5952.0
+Software Developer,South Africa,462141,yr,31425.588000000003
+Software Developer,Nigeria,200000,mo,6720.0
+Software Developer,Morocco,6000,mo,7200.0
+Software Developer,Egypt,4000,mo,2976.0
+Software Engineer,South Africa,494727,yr,33641.436
+Software Engineer,Nigeria,150000,mo,5040.0
+Software Engineer,Morocco,9500,mo,11400.0
+Software Engineer,Egypt,84500,yr,5239.0
+Solutions Architect,South Africa,594352,yr,40415.936
+Solutions Architect,Nigeria,,,
+Solutions Architect,Morocco,540000,yr,54000.0
+Solutions Architect,Egypt,200000,yr,12400.0
+Systems Administrator,South Africa,79750,mo,65076.0
+Systems Administrator,Nigeria,2000K,yr,5600.0
+Systems Administrator,Morocco,7500,mo,9000.0
+Systems Administrator,Egypt,4500,mo,3348.0
+Systems Analyst,South Africa,400706,yr,27248.008
+Systems Analyst,Nigeria,,,
+Systems Analyst,Morocco,,,
+Systems Analyst,Egypt,8250,mo,6138.0
+Systems Engineer,South Africa,523208,yr,35578.144
+Systems Engineer,Nigeria,2300K,yr,6440.0
+Systems Engineer,Morocco,,,
+Systems Engineer,Egypt,4000,mo,2976.0
+Technical Support,South Africa,20913,mo,17065.008
+Technical Support,Nigeria,,,
+Technical Support,Morocco,,,
+Technical Support,Egypt,2800,mo,2083.2
+Technical Support Engineer,South Africa,,,
+Technical Support Engineer,Nigeria,10000K,yr,28000.0
+Technical Support Engineer,Morocco,,,
+Technical Support Engineer,Egypt,4000,mo,2976.0
+Test Analyst,South Africa,370561,yr,25198.148
+Test Analyst,Nigeria,,,
+Test Analyst,Morocco,,,
+Test Analyst,Egypt,5500,mo,4092.0
+UX Designer,South Africa,,,
+UX Designer,Nigeria,,,
+UX Designer,Morocco,,,
+UX Designer,Egypt,,,
+Web Developer,South Africa,26382,mo,21527.712
+Web Developer,Nigeria,,,
+Web Developer,Morocco,4000,mo,4800.0
+Web Developer,Egypt,3000,mo,2232.0

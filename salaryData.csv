@@ -1,0 +1,257 @@
+Role,Country,Salary,Per
+Analyst,South Africa,367704,/yr
+Analyst,Nigeria,3300K,/yr
+Analyst,Morocco,9500,/mo
+Analyst,Egypt,24500,/yr
+CAD Designer,South Africa,NA,NA
+CAD Designer,Nigeria,NA,NA
+CAD Designer,Morocco,NA,NA
+CAD Designer,Egypt,NA,NA
+Civil Engineer,South Africa,231052,/yr
+Civil Engineer,Nigeria,10000K,/yr
+Civil Engineer,Morocco,NA,NA
+Civil Engineer,Egypt,5000,/mo
+Credit Analyst,South Africa,643334,/yr
+Credit Analyst,Nigeria,10000K,/yr
+Credit Analyst,Morocco,17500,/mo
+Credit Analyst,Egypt,5100,/mo
+Cyber Security,South Africa,NA,NA
+Cyber Security,Nigeria,NA,NA
+Cyber Security,Morocco,NA,NA
+Cyber Security,Egypt,NA,NA
+Data Analyst,South Africa,268328,/yr
+Data Analyst,Nigeria,NA,NA
+Data Analyst,Morocco,10750,/mo
+Data Analyst,Egypt,3500,/mo
+Data Scientist,South Africa,505946,/yr
+Data Scientist,Nigeria,NA,NA
+Data Scientist,Morocco,400000,/yr
+Data Scientist,Egypt,NA,NA
+Desktop Support,South Africa,15429,/mo
+Desktop Support,Nigeria,NA,NA
+Desktop Support,Morocco,NA,NA
+Desktop Support,Egypt,NA,NA
+Desktop Support Technician,South Africa,NA,NA
+Desktop Support Technician,Nigeria,NA,NA
+Desktop Support Technician,Morocco,NA,NA
+Desktop Support Technician,Egypt,NA,NA
+Director of IT,South Africa,NA,NA
+Director of IT,Nigeria,NA,NA
+Director of IT,Morocco,NA,NA
+Director of IT,Egypt,NA,NA
+Drafter,South Africa,NA,NA
+Drafter,Nigeria,NA,NA
+Drafter,Morocco,NA,NA
+Drafter,Egypt,NA,NA
+Electrical Engineer,South Africa,34059,/mo
+Electrical Engineer,Nigeria,NA,NA
+Electrical Engineer,Morocco,NA,NA
+Electrical Engineer,Egypt,4000,/mo
+Engineer,South Africa,510610,/yr
+Engineer,Nigeria,1400K,/yr
+Engineer,Morocco,16000,/mo
+Engineer,Egypt,3250,/mo
+Engineering Manager,South Africa,NA,NA
+Engineering Manager,Nigeria,9870K,/yr
+Engineering Manager,Morocco,NA,NA
+Engineering Manager,Egypt,8000,/mo
+Entry Level Mechanical Engineer,South Africa,NA,NA
+Entry Level Mechanical Engineer,Nigeria,NA,NA
+Entry Level Mechanical Engineer,Morocco,NA,NA
+Entry Level Mechanical Engineer,Egypt,NA,NA
+Front End Developer,South Africa,48541,/yr
+Front End Developer,Nigeria,NA,NA
+Front End Developer,Morocco,7400,/mo
+Front End Developer,Egypt,4814,/mo
+GIS,South Africa,NA,NA
+GIS,Nigeria,NA,NA
+GIS,Morocco,NA,NA
+GIS,Egypt,NA,NA
+Help Desk,South Africa,NA,NA
+Help Desk,Nigeria,NA,NA
+Help Desk,Morocco,NA,NA
+Help Desk,Egypt,3850,/mo
+Help Desk Analyst,South Africa,NA,NA
+Help Desk Analyst,Nigeria,NA,NA
+Help Desk Analyst,Morocco,NA,NA
+Help Desk Analyst,Egypt,NA,NA
+Help Desk Technician,South Africa,NA,NA
+Help Desk Technician,Nigeria,NA,NA
+Help Desk Technician,Morocco,NA,NA
+Help Desk Technician,Egypt,NA,NA
+Helpdesk Technician,South Africa,NA,NA
+Helpdesk Technician,Nigeria,NA,NA
+Helpdesk Technician,Morocco,NA,NA
+Helpdesk Technician,Egypt,NA,NA
+IT Business Analyst,South Africa,NA,NA
+IT Business Analyst,Nigeria,NA,NA
+IT Business Analyst,Morocco,NA,NA
+IT Business Analyst,Egypt,110000,/yr
+IT Director,South Africa,2123K,/yr
+IT Director,Nigeria,NA,NA
+IT Director,Morocco,NA,NA
+IT Director,Egypt,NA,NA
+IT Manager,South Africa,663535,/yr
+IT Manager,Nigeria,3100K,/yr
+IT Manager,Morocco,3100K,/yr
+IT Manager,Egypt,3100K,/yr
+IT Specialist,South Africa,3100K,/yr
+IT Specialist,Nigeria,3100K,/yr
+IT Specialist,Morocco,3100K,/yr
+IT Specialist,Egypt,3100K,/yr
+IT Support,South Africa,3100K,/yr
+IT Support,Nigeria,3100K,/yr
+IT Support,Morocco,3100K,/yr
+IT Support,Egypt,3100K,/yr
+IT Support Specialist,South Africa,3100K,/yr
+IT Support Specialist,Nigeria,3100K,/yr
+IT Support Specialist,Morocco,3100K,/yr
+IT Support Specialist,Egypt,$39052,/yr
+Information Technology Managerg,South Africa,NA,NA
+Information Technology Managerg,Nigeria,NA,NA
+Information Technology Managerg,Morocco,NA,NA
+Information Technology Managerg,South Africa,NA,NA
+Information Technology Managerg,South Africa,NA,NA
+Information Technology Managerg,Nigeria,NA,NA
+Information Technology Managerg,Morocco,NA,NA
+Information Technology Managerg,Egypt,NA,NA
+Manufacturing Engineer,South Africa,NA,NA
+Manufacturing Engineer,Nigeria,NA,NA
+Manufacturing Engineer,Morocco,NA,NA
+Manufacturing Engineer,Egypt,NA,NA
+Manufacturing Manager,South Africa,NA,NA
+Manufacturing Manager,Nigeria,NA,NA
+Manufacturing Manager,Morocco,NA,NA
+Manufacturing Manager,Egypt,NA,NA
+Mechanical Engineer,South Africa,485210,/yr
+Mechanical Engineer,Nigeria,200000,/mo
+Mechanical Engineer,Morocco,NA,NA
+Mechanical Engineer,Egypt,3000,/mo
+Network Administrator,South Africa,NA,NA
+Network Administrator,Nigeria,60000,/mo
+Network Administrator,Morocco,NA,NA
+Network Administrator,Egypt,2500,/mo
+Network Engineer,South Africa,243226,/yr
+Network Engineer,Nigeria,1164K,/yr
+Network Engineer,Morocco,NA,NA
+Network Engineer,Egypt,4000,/mo
+Process Engineer,South Africa,835558,/yr
+Process Engineer,Nigeria,200000,/yr
+Process Engineer,Morocco,NA,NA
+Process Engineer,Egypt,80000,/yr
+Production Manager,South Africa,6153,/mo
+Production Manager,Nigeria,NA,NA
+Production Manager,Morocco,NA,NA
+Production Manager,Egypt,108000,/yr
+Production Supervisor,South Africa,NA,NA
+Production Supervisor,Nigeria,4800K,/yr
+Production Supervisor,Morocco,NA,NA
+Production Supervisor,Egypt,2500,/mo
+Project Engineer,South Africa,32630,/mo
+Project Engineer,Nigeria,NA,NA
+Project Engineer,Morocco,18000,/mo
+Project Engineer,Egypt,5000,/mo
+QA,South Africa,NA,NA
+QA,Nigeria,NA,NA
+QA,Morocco,NA,NA
+QA,Egypt,NA,NA
+QA Analyst,South Africa,NA,NA
+QA Analyst,Nigeria,NA,NA
+QA Analyst,Morocco,NA,NA
+QA Analyst,Egypt,NA,NA
+QA Manager,South Africa,132755,/yr
+QA Manager,Nigeria,NA,NA
+QA Manager,Morocco,NA,NA
+QA Manager,Egypt,NA,NA
+QA Tester,South Africa,NA,NA
+QA Tester,Nigeria,NA,NA
+QA Tester,Morocco,NA,NA
+QA Tester,Egypt,NA,NA
+Quality Assurance,South Africa,14654,/mo
+Quality Assurance,Nigeria,NA,NA
+Quality Assurance,Morocco,NA,NA
+Quality Assurance,Egypt,3500,/mo
+Quality Engineer,South Africa,NA,NA
+Quality Engineer,Nigeria,NA,NA
+Quality Engineer,Morocco,NA,NA
+Quality Engineer,Egypt,80000,/yr
+Quality Manager,South Africa,NA,NA
+Quality Manager,Nigeria,NA,NA
+Quality Manager,Morocco,NA,NA
+Quality Manager,Egypt,NA,NA
+Safety Coordinator,South Africa,NA,NA
+Safety Coordinator,Nigeria,NA,NA
+Safety Coordinator,Morocco,NA,NA
+Safety Coordinator,Egypt,NA,NA
+Safety Manager,South Africa,89326,/mo
+Safety Manager,Nigeria,NA,NA
+Safety Manager,Morocco,1500,/mo
+Safety Manager,Egypt,NA,NA
+Security Analyst,South Africa,367307,/yr
+Security Analyst,Nigeria,NA,NA
+Security Analyst,Morocco,NA,NA
+Security Analyst,Egypt,NA,NA
+Security Director,South Africa,NA,NA
+Security Director,Nigeria,NA,NA
+Security Director,Morocco,NA,NA
+Security Director,Egypt,NA,NA
+Security Manager,South Africa,NA,NA
+Security Manager,Nigeria,NA,NA
+Security Manager,Morocco,NA,NA
+Security Manager,Egypt,NA,NA
+Senior Software Engineer,South Africa,$107705,/yr
+Senior Software Engineer,Nigeria,NA,NA
+Senior Software Engineer,Morocco,NA,NA
+Senior Software Engineer,Egypt,8000,/mo
+Software Developer,South Africa,462141,/yr
+Software Developer,Nigeria,200000,/mo
+Software Developer,Morocco,6000,/mo
+Software Developer,Egypt,4000,/mo
+Software Engineer,South Africa,494727,/yr
+Software Engineer,Nigeria,150000,/mo
+Software Engineer,Morocco,9500,/mo
+Software Engineer,Egypt,84500,/yr
+Solutions Architect,South Africa,594352,/yr
+Solutions Architect,Nigeria,NA,NA
+Solutions Architect,Morocco,540000,/yr
+Solutions Architect,Egypt,200000,/yr
+System Administrator,South Africa,79750,/mo
+System Administrator,Nigeria,2000K,/yr
+System Administrator,Morocco,7500,/mo
+System Administrator,Egypt,4500,/mo
+Systems Administrator,South Africa,79750,/mo
+Systems Administrator,Nigeria,2000K,/yr
+Systems Administrator,Morocco,7500,/mo
+Systems Administrator,Egypt,4500,/mo
+Systems Analyst,South Africa,400706,/yr
+Systems Analyst,Nigeria,NA,NA
+Systems Analyst,Morocco,NA,NA
+Systems Analyst,Egypt,8250,/mo
+Systems Engineer,South Africa,523208,/yr
+Systems Engineer,Nigeria,2300K,/yr
+Systems Engineer,Morocco,NA,NA
+Systems Engineer,Egypt,4000,/mo
+Technical Support,South Africa,20913,/mo
+Technical Support,Nigeria,NA,NA
+Technical Support,Morocco,NA,NA
+Technical Support,Egypt,2800,/mo
+Technical Support Engineer,South Africa,NA,NA
+Technical Support Engineer,Nigeria,10000K,/yr
+Technical Support Engineer,Morocco,NA,NA
+Technical Support Engineer,Egypt,4000,/mo
+Technical Support Engineer,South Africa,NA,NA
+Technical Support Engineer,South Africa,NA,NA
+Technical Support Engineer,Nigeria,10000K,/yr
+Technical Support Engineer,Morocco,NA,NA
+Technical Support Engineer,Egypt,4000,/mo
+Test Analyst,South Africa,370561,/yr
+Test Analyst,Nigeria,NA,NA
+Test Analyst,Morocco,NA,NA
+Test Analyst,Egypt,5500,/mo
+UX Designer,South Africa,5500,/mo
+UX Designer,Nigeria,5500,/mo
+UX Designer,Morocco,5500,/mo
+UX Designer,Egypt,5500,/mo
+Web Developer,South Africa,5500,/mo
+Web Developer,Nigeria,5500,/mo
+Web Developer,Morocco,5500,/mo

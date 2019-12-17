@@ -1,0 +1,46 @@
+Analyst
+CAD Designer
+Civil Engineer
+Credit Analyst
+Cyber Security
+Data Analyst
+Data Scientist
+Desktop Support Technician
+Director of IT
+Drafter
+Electrical Engineer
+Engineering Manager
+Front End Developer
+GIS
+Help Desk
+IT Business Analyst
+IT Director
+IT Manager
+IT Support
+Manufacturing Engineer
+Manufacturing Manager
+Mechanical Engineer
+Network Administrator
+Network Engineer
+Process Engineer
+Production Manager
+Production Supervisor
+Project Engineer
+QA Analyst
+QA Manager
+QA Engineer
+Safety Coordinator
+Safety Manager
+Security Analyst
+Security Director
+Security Manager
+Software Developer
+Software Engineer
+Solutions Architect
+System Administrator
+Systems Analyst
+Systems Engineer
+Technical Support Engineer
+Test Analyst
+UX Designer
+Web Developer

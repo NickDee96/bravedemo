@@ -10,9 +10,12 @@ import gspread
 import csv
 
 ##Loading the rawtags
-with open("tags/stackOtags.txt","r") as tFile:
-    tags=tFile.readlines()
-    skillz=[x.strip() for x in tags]
+#with open("tags/stackOtags.txt","r") as tFile:
+#    tags=tFile.readlines()
+#    skillz=[x.strip() for x in tags]
+#
+skillz=list(pd.read_csv("tags/hs-new-list.csv")["name"])
+
 
 ##Initializing the port stemmer and lemmatizer classes
 porter=PorterStemmer()
@@ -48,7 +51,10 @@ class splitter:
             self.text=text
             self.stemmed=porter.stem(text)
             self.lemma=wnl.lemmatize(text)     
-            self.search_set={self.text,self.lemma,self.stemmed}
+            self.search_set={self.text,
+                                #self.lemma,
+                                #self.stemmed
+                                }
 
 def cleanStrings(text):
     '''
@@ -105,26 +111,9 @@ def text_searcher(doc,skills):
     return skills_present
 
 
-def filter_tags(output_filename,taglist,text_array):
-    '''
-    This function searches for the raw skills in all of the jd's and returns only the skills present in the jds.
-    It's a filtering mechanism so as to reduce the time it takes to vectorize the text.
-    '''
-    rTags=list()
-    for i in text_array:
-        ##merge the text
-        rTags=rTags+text_searcher(cleanStrings(i),taglist)
-        rTags=list(set(rTags))
-        print("Got for {}".format(text_array.index(i)))
-    rTags=list(set(rTags))
-    #sorting the list from A-Z
-    rTags.sort()
-    ##Writing the tags into a text file
-    with open(output_filename,"w",newline="") as textFile:
-        for i in rTags:
-            textFile.write(i+"\n")
 
-filter_tags("tags/stags.txt",skillz,df.jds)
+
+filter_tags("tags/stags2.txt",skillz,df.jd)
 
 def get_filtered_tags(filename):
     a=list()
@@ -133,7 +122,7 @@ def get_filtered_tags(filename):
     a=[i.strip() for i in a]
     return a
 
-fTags=get_filtered_tags("tags/stags.txt")
+fTags=get_filtered_tags("tags/stags2.txt")
 
 def get_Vectorized_df(filename,tags):
     #Initializing the writer
@@ -161,4 +150,29 @@ def get_Vectorized_df(filename,tags):
             time_taken=(tEnd-tStart).total_seconds()
             print("Main Process took {} seconds".format(round(time_taken,2)))
 
-get_Vectorized_df("data/VectorizedTags.csv",fTags)
+get_Vectorized_df("data/VectorizedTags3.csv",fTags)
+
+a="test-setting"
+aS=splitter(a).search_set
+
+text= " ".join(df.jd)
+ct=cleanStrings(text)
+len(ct)
+
+ct
+
+fTags[24].lower() in ct
+
+countList=[]
+for i in fTags:
+    count=ct.count(" {} ".format(i.lower()))
+    countList.append(count)
+    print("{} ==> {}".format(i,count))
+
+countDf=pd.DataFrame(data={
+    "Skill":fTags,
+    "Count":countList
+})
+countDf.to_csv("data/SkillCount-flatlist.csv",index=False)
+
+countDf

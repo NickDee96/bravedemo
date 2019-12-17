@@ -1,0 +1,261 @@
+Role,JobCount,Country
+Analyst,1046,za
+Analyst,136,ng
+Analyst,93,eg
+Analyst,233,ma
+CAD Designer,26,za
+CAD Designer,7,ng
+CAD Designer,1,eg
+CAD Designer,0,ma
+Civil Engineer,139,za
+Civil Engineer,45,ng
+Civil Engineer,36,eg
+Civil Engineer,2,ma
+Credit Analyst,102,za
+Credit Analyst,17,ng
+Credit Analyst,4,eg
+Credit Analyst,9,ma
+Cyber Security,47,za
+Cyber Security,22,ng
+Cyber Security,10,eg
+Cyber Security,6,ma
+Data Analyst,512,za
+Data Analyst,72,ng
+Data Analyst,36,eg
+Data Analyst,65,ma
+Data Scientist,94,za
+Data Scientist,13,ng
+Data Scientist,4,eg
+Data Scientist,32,ma
+Desktop Support,189,za
+Desktop Support,39,ng
+Desktop Support,11,eg
+Desktop Support,14,ma
+Desktop Support Technician,47,za
+Desktop Support Technician,5,ng
+Desktop Support Technician,0,eg
+Desktop Support Technician,3,ma
+Director of IT,240,za
+Director of IT,84,ng
+Director of IT,54,eg
+Director of IT,11,ma
+Drafter,2,za
+Drafter,1,ng
+Drafter,1,eg
+Drafter,0,ma
+Electrical Engineer,247,za
+Electrical Engineer,83,ng
+Electrical Engineer,77,eg
+Electrical Engineer,2,ma
+Engineer,1447,za
+Engineer,380,ng
+Engineer,370,eg
+Engineer,119,ma
+Engineering Manager,871,za
+Engineering Manager,204,ng
+Engineering Manager,194,eg
+Engineering Manager,36,ma
+Entry Level Mechanical Engineer,4,za
+Entry Level Mechanical Engineer,1,ng
+Entry Level Mechanical Engineer,0,eg
+Entry Level Mechanical Engineer,0,ma
+Front End Developer,260,za
+Front End Developer,37,ng
+Front End Developer,25,eg
+Front End Developer,7,ma
+GIS,38,za
+GIS,14,ng
+GIS,3,eg
+GIS,2,ma
+Help Desk,94,za
+Help Desk,24,ng
+Help Desk,23,eg
+Help Desk,42,ma
+Help Desk Analyst,9,za
+Help Desk Analyst,1,ng
+Help Desk Analyst,5,eg
+Help Desk Analyst,9,ma
+Help Desk Technician,20,za
+Help Desk Technician,2,ng
+Help Desk Technician,2,eg
+Help Desk Technician,1,ma
+Helpdesk Technician,30,za
+Helpdesk Technician,0,ng
+Helpdesk Technician,0,eg
+Helpdesk Technician,0,ma
+IT Business Analyst,328,za
+IT Business Analyst,46,ng
+IT Business Analyst,31,eg
+IT Business Analyst,31,ma
+IT Director,240,za
+IT Director,84,ng
+IT Director,55,eg
+IT Director,11,ma
+IT Manager,1804,za
+IT Manager,333,ng
+IT Manager,269,eg
+IT Manager,176,ma
+IT Specialist,634,za
+IT Specialist,104,ng
+IT Specialist,72,eg
+IT Specialist,42,ma
+IT Support,2032,za
+IT Support,419,ng
+IT Support,382,eg
+IT Support,267,ma
+IT Support Specialist,304,za
+IT Support Specialist,73,ng
+IT Support Specialist,46,eg
+IT Support Specialist,26,ma
+Information Technology,1497,za
+Information Technology,326,ng
+Information Technology,225,eg
+Information Technology,85,ma
+Information Technology Manager,551,za
+Information Technology Manager,121,ng
+Information Technology Manager,86,eg
+Information Technology Manager,19,ma
+Manufacturing,1703,za
+Manufacturing,200,ng
+Manufacturing,87,eg
+Manufacturing,65,ma
+Manufacturing Engineer,224,za
+Manufacturing Engineer,37,ng
+Manufacturing Engineer,27,eg
+Manufacturing Engineer,26,ma
+Manufacturing Manager,626,za
+Manufacturing Manager,75,ng
+Manufacturing Manager,27,eg
+Manufacturing Manager,16,ma
+Mechanical Engineer,286,za
+Mechanical Engineer,51,ng
+Mechanical Engineer,47,eg
+Mechanical Engineer,12,ma
+Network Administrator,100,za
+Network Administrator,38,ng
+Network Administrator,6,eg
+Network Administrator,7,ma
+Network Engineer,289,za
+Network Engineer,60,ng
+Network Engineer,52,eg
+Network Engineer,24,ma
+Process Engineer,565,za
+Process Engineer,140,ng
+Process Engineer,122,eg
+Process Engineer,39,ma
+Production Manager,781,za
+Production Manager,140,ng
+Production Manager,63,eg
+Production Manager,161,ma
+Production Supervisor,138,za
+Production Supervisor,27,ng
+Production Supervisor,18,eg
+Production Supervisor,17,ma
+Project Engineer,715,za
+Project Engineer,205,ng
+Project Engineer,138,eg
+Project Engineer,36,ma
+QA,255,za
+QA,30,ng
+QA,31,eg
+QA,4,ma
+QA Analyst,43,za
+QA Analyst,4,ng
+QA Analyst,1,eg
+QA Analyst,0,ma
+QA Manager,128,za
+QA Manager,12,ng
+QA Manager,10,eg
+QA Manager,2,ma
+QA Tester,19,za
+QA Tester,2,ng
+QA Tester,2,eg
+QA Tester,0,ma
+Quality Assurance,543,za
+Quality Assurance,109,ng
+Quality Assurance,112,eg
+Quality Assurance,23,ma
+Quality Engineer,430,za
+Quality Engineer,111,ng
+Quality Engineer,141,eg
+Quality Engineer,40,ma
+Quality Manager,2141,za
+Quality Manager,418,ng
+Quality Manager,300,eg
+Quality Manager,93,ma
+Safety Coordinator,62,za
+Safety Coordinator,19,ng
+Safety Coordinator,9,eg
+Safety Coordinator,6,ma
+Safety Manager,969,za
+Safety Manager,161,ng
+Safety Manager,136,eg
+Safety Manager,36,ma
+Security Analyst,75,za
+Security Analyst,34,ng
+Security Analyst,16,eg
+Security Analyst,9,ma
+Security Director,48,za
+Security Director,41,ng
+Security Director,20,eg
+Security Director,4,ma
+Security Manager,490,za
+Security Manager,207,ng
+Security Manager,112,eg
+Security Manager,20,ma
+Senior Software Engineer,139,za
+Senior Software Engineer,31,ng
+Senior Software Engineer,60,eg
+Senior Software Engineer,7,ma
+Software Developer,919,za
+Software Developer,116,ng
+Software Developer,81,eg
+Software Developer,18,ma
+Software Engineer,483,za
+Software Engineer,126,ng
+Software Engineer,148,eg
+Software Engineer,37,ma
+Solutions Architect,181,za
+Solutions Architect,28,ng
+Solutions Architect,22,eg
+Solutions Architect,40,ma
+System Administrator,496,za
+System Administrator,60,ng
+System Administrator,12,eg
+System Administrator,13,ma
+Systems Administrator,496,za
+Systems Administrator,60,ng
+Systems Administrator,14,eg
+Systems Administrator,13,ma
+Systems Analyst,507,za
+Systems Analyst,58,ng
+Systems Analyst,37,eg
+Systems Analyst,90,ma
+Systems Engineer,686,za
+Systems Engineer,162,ng
+Systems Engineer,180,eg
+Systems Engineer,68,ma
+Technical Support,2209,za
+Technical Support,514,ng
+Technical Support,408,eg
+Technical Support,124,ma
+Technical Support Engineer,415,za
+Technical Support Engineer,110,ng
+Technical Support Engineer,135,eg
+Technical Support Engineer,30,ma
+Telecommunications,281,za
+Telecommunications,93,ng
+Telecommunications,28,eg
+Telecommunications,288,ma
+Test Analyst,190,za
+Test Analyst,26,ng
+Test Analyst,4,eg
+Test Analyst,45,ma
+UX Designer,96,za
+UX Designer,16,ng
+UX Designer,14,eg
+UX Designer,16,ma
+Web Developer,736,za
+Web Developer,107,ng
+Web Developer,73,eg
+Web Developer,22,ma
