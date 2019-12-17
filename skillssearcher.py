@@ -48,7 +48,7 @@ class splitter:
             self.text=(" "+text+" ")
             self.search_set={self.text}
         else:
-            self.text=text
+            self.text=" {} ".format(text)
             self.stemmed=porter.stem(text)
             self.lemma=wnl.lemmatize(text)     
             self.search_set={self.text,
@@ -109,6 +109,30 @@ def text_searcher(doc,skills):
     ##Printing the time taken for the function to run
     print("Process took {} seconds".format(round(duration,2)))
     return skills_present
+
+
+def filter_tags(output_filename,taglist,text_array):
+    '''
+    This function searches for the raw skills in all of the jd's and returns only the skills present in the jds.
+    It's a filtering mechanism so as to reduce the time it takes to vectorize the text.
+    '''
+    rTags=list()
+    j=0
+    for i in text_array:
+        ##merge the text
+        rTags=rTags+text_searcher(cleanStrings(i),taglist)
+        rTags=list(set(rTags))
+        print("Got for {}".format(j))
+        j=j+1
+    rTags=list(set(rTags))
+    #sorting the list from A-Z
+    rTags.sort()
+    ##Writing the tags into a text file
+    with open(output_filename,"w",newline="") as textFile:
+        for i in rTags:
+            textFile.write(i+"\n")
+
+
 
 
 
@@ -176,3 +200,7 @@ countDf=pd.DataFrame(data={
 countDf.to_csv("data/SkillCount-flatlist.csv",index=False)
 
 countDf
+
+import pandas as pd
+df1=pd.read_csv("data/VectorizedTags3.csv").dropna(how="all",axis=1)## A Vectorized tag dataFrame for US data
+df1.sum()s
