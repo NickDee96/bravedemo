@@ -1,571 +1,293 @@
+360 degree
+3d
+3D Printing
 A+
 A++
 ABAP
 ABC
 ACC
 Accent
-ActionScript
-Ada
-Agora
-Alice
-APL
-AppleScript
-Arc
-ArcGIS
-Argus
-Assembler
-ATS
-AutoHotkey
-AutoIt
-AWK
-Axiom
-Azure
-B
-Bash
-Batch
-bc
-BETA
-BLISS
-Blue
-Bon
-Bourne shell
-BREW
-C
-C#
-C++
-Candle
-Cecil
-Cg
-Ch
-CHAIN
-Chapel
-Charity
-Charm
-Chef
-CHILL
-ChucK
-CICS
-CIL
-CL
-Claire
-Clean
-CLIST
-Clojure
-COBOL
-Cobra
-Cola
-ColdFusion
-COMPASS
-Converge
-Cool
-Coq
-Corn
-CPL
-csh
-CSP
-CUDA
-Curl
-Cyclone
-Dart
-dc
-DCL
-Delphi
-Docker
-Dog
-DYNAMO
-Ease
-Eclipse
-ECMAScript
-ELAN
-Elixir
-Elm
-Emerald
-Erlang
-es
-Euclid
-Euphoria
-F
-F#
-Factor
-Falcon
-Fancy
-Felix
-FL
-Flavors
-Flex
-FOCAL
-FOIL
-Forth
-Fortran
-Fortress
-FoxPro
-FP
-GAP
-Genie
-GEORGE
-GM
-Go
-Goo
-Google Apps Script
-GRASS
-Groovy
-H2O
-Haskell
-Haxe
-Hop
-Hope
-Hugo
-IBM Watson
-ICI
-Icon
-Id
-IDL
-IMP
-Inform
-Infosys
-Io
-J
-JADE
-Janus
-Java
-JavaScript
-JCL
-JEAN
-JOVIAL
-Joy
-JScript
-Julia
-Jupyter
-JWT
-K
-Kotlin
-ksh
-L
-LabVIEW
-Ladder
-Lasso
-LaTeX
-Lava
-LINC
-Linoleum
-LIS
-LISA
-Lisp
-Logo
-LPC
-LSE
-Lua
-Lucid
-Lustre
-Lynx
-M4
-Machine code
-MAD
-Maple
-MAPPER
-Mary
-Mathematica
-MATLAB
-Matplotlib
-Max
-MaxScript
-Mercury
-Mesa
-MetaL
-Microcode
-MIMIC
-ML
-Modelica
-MOO
-Mouse
-MPD
-MUMPS
-NATURAL
-nesC
-NGL
-Nice
-Notebook
-Nu
-Nvidia
-XML
-Oak
-Oauth2
-Object Pascal
-Octave
-Opal
-OpenCL
-Orc
-Oz
-Pascal
-PCF
-PDL
-PEARL
-PeopleCode
-Perl
-PHP
-Pike
-PILOT
-Pipelines
-Pizza
-Planner
-PLEX
-PortablE
-postgres
-PowerBuilder
-Powerhouse
-PowerShell
-Prolog
-Pure
-Python
-Qi
-R
-rc
-Red
-Revolution
-rex
-REXX
-ROOP
-RPG
-RPL
-Ruby
-Rust
-S2
-S3
-SAS
-SBL
-Scala
-Scheme
-Scratch
-Sed
-Shakespeare
-SIGNAL
-SiMPLE
-Simulink
-SLIP
-SMALL
-Snowball
-SOL
-Span
-SPARK
-SPIN
-SR
-Stata
-Strand
-SystemVerilog
-TACL
-TADS
-Tcl
-Tea
-TECO
-Tensorflow
-TeX
-TIE
-Timber
-TMG
-Tom
-Torch
-Trac
-TTCN
-Turing
-TUTOR
-TypeScript
-Uniface
-UNITY
-Unix shell
-VBA
-VBScript
-Verilog
-VHDL
-Visual Basic
-Visual FoxPro
-Watson Studio
-Weka
-Windows PowerShell
-XL
-XPath
-XSLT
-ACI
-Acrobat
-Acrobat Dc
-Acrobat Reader
-Adobe
-ADP
-Allscripts
-Amazon
-Android
-ANSYS
-Apache
-Apple
-Athenahealth
-Autodesk
-Avaya
-Bentley
-Blackboard
-BMC
-Canonical
-Cerner
-Chrome
-Cisco
-Citrix
-CommVault
-Concur
-Constellation Software
-Cpanel
-Dassault
-Debian
-Dell
-Drupal
-Edge
-EMC
-Enterprise Linux
-Epic Systems
-Epicor
-ESET
-Esri
-F5
-Fedora
-Ffmpeg
-FICO
-Firefox
-FIS
-Fiserv
-Freebsd
-Fujitsu
-GE Healthcare
-Genesys
-GNU
-Google
-Google AI
-Hexagon
-Hitachi
-HP
-Huawei
-IBM
-IE
-Indesign
-Infor
-Informatica
-Intel
-Internet Explorer
-InterSystems
-Intuit
-Itunes
-JDA Software
-Jenkins
-Joomla
-Juniper
-Kaspersky
-Kronos
-Leap
-Linux
-Linux Kernel
-Mac Os X
-Mac Os X Server
-Mcafee
-McKesson
-MEDITECH
-Mentor Graphics
-Micro Focus
-Microsoft
-MicroStrategy
-Moodle
-Mozilla
-Mysql
-NCR
-NEC
-Netapp
-NetSuite
-Novell
-OpenText
-Opera
-Optum
-Oracle
-Palantir
-Photoshop
-Phpmyadmin
-PTC
-Qemu
-Qlik
-Qualcomm
-Red Hat
-Safari
-Sage
-Salesforce
-SAP
-Schneider Electric
-ServiceNow
-Siemens
-Solaris
-SolarWinds
-Splunk
-SUN
-Suse
-SWIFT
-Symantec
-Synopsys
-Teradata
-TIBCO
-Trend Micro
-Ubuntu
-Ultimate Software
-Verint
-Visual Studio
-Vmware
-Windows 10
-Windows 2000
-Windows 7
-Windows Server 2008
-Windows Server 2012
-Windows Server 2016
-Windows Vista
-Windows Xp
-Wireshark
-Wordpress
-Workday
-XEN
-Tableau
-Jupyter Notebook
-Kaggle
-NoSQL
-SQL
-news
-newsletter
-storytelling
-360 degree
-3d
-3D Printing
 access management
 Accessibility
 Accounting
+ACI
+Acrobat
+ActionScript
+Ada
 adaptive design
 Administrator
+Adobe
+ADP
 adtech
 advertising
 aeronautics
 Aerospace
 affiliate
+Agile
+Agora
 agriculture
 ai
 air traffic
+algorithm
+Alice
+Allscripts
+Amazon
 Analytics
+Android
+AngularJS
 animation
+Anomaly Detection
+ANSYS
+Apache
+Apache Spark
 API
+APL
 app
+Apple
+AppleScript
 Applicant Tracking
 application lifecycle
 appraisal
 AR
+Arc
+ArcGIS
 Archaeology
 Architecture
 archives
+Argus
 artificial intelligence
+Artificial Neural Networks
+Assembler
 asset management
 assets management
 Astronomy
+Athenahealth
+ATS
 Attendance Tracking
 audio editing
 Authentication
 authoring
 Auto Dialer
+Autodesk
+AutoHotkey
+AutoIt
 automation
+Avaya
+AWK
+AWS
+Axiom
+Azure
+Bagging
 banking
+Bash
+Batch
+bc
+Bentley
+BETA
 beta testing
 beverage
 bi
+bias
 Billing support
 biology
 biotech
 bitcoin
+Blackboard
+BLISS
 Blockchain
 blogging
+Blue
+BMC
 Board Management
+Bon
 bookkeeping
 bot
+Bourne shell
 brand
+BREW
 budget
 Bug
 Bulk data
 business
 business analytics
 Business development
+C
+C#
+C++
 cad
 cae
 calculator
 call center
 cam
+Candle
 Cannabis
+Canonical
 CBD
+Cecil
+Cerner
+Cg
+Ch
+CHAIN
 change management
+Chapel
+Charity
+Charm
 chart
+Chef
 Chemistry
 Child Care
+CHILL
+Chrome
+ChucK
 church
+CICS
+CIL
+Cisco
+Citrix
+CL
+Claire
+classification
+Clean
 climate
 Clinical Trial
+CLIST
+Clojure
 cloud
+clustering
 CMMS
 CMS
+cnn
+COBOL
+Cobra
 Code Repository
+Cola
+ColdFusion
 Collaboration
 comms
 Communications
+CommVault
+COMPASS
 Compliance
 Compression
+computational linguistics
 Computer Vision
+Concur
 conference
 conferencing
+Constellation Software
 consumer need
 Content Analytics
 Content Marketing
 content production
 content server
+Content Strategy
+Converge
+convolutional neural network
+Cool
+Coq
+Corn
 Corporate management
 Corporate Training
+correlation
+Cpanel
+CPL
 critical path
+Cross Validation
 crypto
 cryptography
+csh
+CSP
+CSS
+CUDA
+Curl
 customer care
 Customer Engagement
 Customer Experience
 Customer Service
 cyber
 cybernetics
+Cyclone
+D3
 daas
+Dart
 dashboard
+Dassault
 Data access
 Data Analytics
+data delivery
+data discovery
 data driven decision making
 data driven design
+data engineering
+data entry
+Data format conversion
+Data Integration
+data lake
+Data mining
+data science
 Data Security
+data server
 data strategy
+data structure
 Data Visualization
+data wrangling
+Database servers
+dc
+DCL
+Debian
 debugger
+debugging
 decision support system
+Decision Tree
+deep learning
+deep neural network
+Dell
+Delphi
 demo
-Dental
+derivative
 design
+design thinking
 Desktop Publishing
 Development environment
+development sprint
 device control
+devops
 Diagnostics
 Dictation
 digital asset
 Digital Commerce
 Digital Signage
+dimension reduction
+Dimensionality Reduction
 disassemblers
+Docker
+docker container
 Document Management
 document sharing
+Dog
 drafting tools
+Drupal
 dvd
+DYNAMO
 earth sciences
+Ease
+Eclipse
+ECMAScript
 ecology
 eCommerce Solutions
+econometrics
+Edge
 editors
+ELAN
+Elixir
+Elm
 Email
 Email Data
 Email Marketing
 Email servers
 Embedded software
+EMC
+Emerald
 Employee Wellness
 Emulation
 encryption
@@ -574,17 +296,38 @@ Engineering analysis
 Enterprise Applications
 Enterprise asset management
 Enterprise cloud
-Content Strategy
+Enterprise Linux
 Enterprise Mobility
 Enterprise System
 entertainment
+Epic Systems
+Epicor
+Erlang
+es
+ESET
+Esri
+Euclid
+Euphoria
 expense reporting
+F
+F#
+F5
 Face Detection
 Facilities management
 facility management
+Factor
+Factor Analysis
+Falcon
+Fancy
 Fashion
 fax
+feature engineering
+Feature Extraction
+Fedora
 feedback
+Felix
+Ffmpeg
+FICO
 file transfer
 film production
 finance
@@ -593,84 +336,213 @@ Financial analysis
 Financial Reporting
 Financial Services
 fintech
+Firefox
 firewall
 Firmware
+FIS
+Fiserv
 fitness
-food
+FL
+Flavors
+Flex
+FOCAL
+FOIL
 forecasting
 foreign exchange
+Forth
+Fortran
+Fortress
+FoxPro
+FP
 fraud
 Fraud Detection
+Freebsd
 ftp
+Fujitsu
 fundraising
 fx
 game
+GAP
 gas
+GATE
+GE Healthcare
+Genesys
 genetics
+Genie
 Geographic Information System
 geographical
 Geographical information systems
 geography
+GEORGE
 GIS
+GM
+GMM
+GNU
+Go
+Goo
+Google
+Google AI
+Google Apps Script
 government
 gpu
+gpu acceleration
+gradient boosting
+gradient descent
 Graphic Design
 graphics editing
+GRASS
+Groovy
 growth hacking
 GSuite
+H2O
 Hardware
+Haskell
+Haxe
 hci
-health
 health care
 health tech
 help desk
+Hexagon
+Hierarchical Clustering
+Hitachi
+Hop
+Hope
 Hospital management
 hospitality
 hotel
+HP
 hr
+HTML
+Huawei
+Hugo
 human capital
 human centered design
 human computer interaction
 Human Resources
 IaaS
-identity
+IBM
+IBM Watson
+ICI
+Icon
+Id
+IDL
+IE
 Image Editing
 Image processing
+IMP
 implementation tools
+Indesign
 Industry Specific
 infographics
+Infor
+Inform
+Informatica
 Information management
 Information resources
 information system
+Infosys
 installer
 instant messaging
 integration
+Intel
 interaction design
 Internal Communications
+Internet Explorer
 interpreters
+InterSystems
+Intuit
 inventory
 investing
 Investment Management
 invoicing
+Io
 iPaaS
+iteration
+Itunes
+J
+JADE
+Janus
+Java
+JavaScript
+JCL
+JDA Software
+JEAN
+Jenkins
 Job search
+Joomla
+JOVIAL
+Joy
+JScript
+Julia
+Juniper
+Jupyter
+Jupyter Notebook
+JWT
+K
+Kaggle
 kanban
+Kaspersky
+keras
+kernels
+knn
+knowledge engineering
 Knowledge Management
+Kotlin
+Kronos
+ksh
+L
+L2
+LabVIEW
+Ladder
+Lasso
+LaTeX
+Lava
+LDA
+Leap
 legacy
 Legal
 legal analysis
 legal assistance
 library
+lift
+LINC
+linear algebra
+linear regression
+Linoleum
+Linux
+Linux Kernel
+LIS
+LISA
+Lisp
 Load balancers
 Loan Management
 localisation
 localization
 log analysis
 Logging
+logistic regression
 Logistics
+Logo
 Logo Design
 loyalty
+LPC
+lrp
+LSE
+lstm
+Lua
+Lucid
+Lustre
+Lynx
+M4
+Mac Os X
+Mac Os X Server
+Machine code
+machine learning
+machine learning model
+MAD
 manufacturing
+Maple
+MAPPER
 maps
 Marketing
 Marketing Analytics
@@ -678,57 +550,160 @@ Marketing Automation
 marketing product
 Marketing Solutions
 Marketplaces
+Markov Chain
+MARS
+Mary
+Mathematica
+MATLAB
+Matplotlib
+Max
+MaxScript
+Mcafee
+McKesson
+MDA
 meal planning
-medical
 Medical Billing
 Medical Records
+MEDITECH
 membership
+Mentor Graphics
+Mercury
+Mesa
+MetaL
+Micro Focus
+Microcode
+Microsoft
+MicroStrategy
 middleware
 Military
+MIMIC
 minimum viable product
+ML
+mlops
 Mobile
 mobile app
 Mobile Computing
 Mobile Device Management
 Mobile Workforce
 mockup
+Model Selection
+Modelica
 Modeling
 monetization
+MongoDB
 monitoring
+MOO
+Moodle
+Mouse
+Movie
+Mozilla
+MPD
 multimedia
+MUMPS
+music
 mvp
+mxnet
+Mysql
+Naive Bayes
+Natural Language Processing
 navigation
+NCR
+NEC
+nesC
+Netapp
+NetSuite
 network intelligence
 Network Security
+neural network
+news
+newsletter
+NGL
+Nice
+NLP
 nonprofit
+normal distribution
+NoSQL
+Notebook
+Novell
+Nu
 nuclear plants
+Numpy
 Nutrition
+Nvidia
+Oak
+Oauth2
+Object Pascal
+Octave
 oil
+OLS
 onboarding
 online booking
+Opal
 open data
 open source
+OpenCL
+OpenCV
+OpenText
+Opera
 operating system
 operations analysis
 Operations research
+Optimisation
+Optum
+Oracle
+Orc
 Order management
+outlier
+outlier detection
+Oz
+P value
+Palantir
+Pandas
+Pascal
 Password Management
 patent
 payroll
+PCA
+PCF
+PCR
+PDL
+PEARL
+PeopleCode
+perceptron
 Performance Monitoring
 Peripheral drivers
+Perl
 personal finance
 Personal Information
 Personal management
 Pest Control
 Pharmaceutical
+Photoshop
+PHP
+Phpmyadmin
 Physics
+Pike
+PILOT
+Pipelines
 pitch
+pivot table
+Pizza
+Planner
+PLEX
 plugins
 polling
+PortablE
+postgres
+PowerBuilder
+Powerhouse
 powerpoint
+PowerShell
 pr
+predictive analytics
+predictive modeling
 presentation
+Principal Components Analysis
+prior distribution
 process automation
 Process control
 process support
@@ -743,23 +718,42 @@ productivity software
 Project Collaboration
 project management
 Project workflow
+Prolog
 property
 Property Management
 prototype
 Proxy servers
 psychographics
 Psychology
+PTC
 Public library
 Public Sector
 Publishing
+Pure
+Python
+QDA
+Qemu
+Qi
+Qlik
 qnx
+Qualcomm
 quality assurance
+quick prototyping
+R
+random forest
+rc
 Real Estate
 Real time
 records management
 recovery
 recruiting
+recurrent neural network
+Red
+Red Hat
 Referral Marketing
+regression
+regression analysis
+reinforcement learning
 Relational database management
 Remote Support
 rendering
@@ -773,68 +767,159 @@ resources planning
 responsive design
 Restaurant POS
 Retail
+Revolution
+rex
+REXX
 risk analysis
 Risk Management
+rnn
 robotics
+ROOP
+RPG
+RPL
+RSS
+Ruby
+Rust
+S2
+S3
 saas
+Safari
 safety
+Sage
 Sales
+Salesforce
+SAP
+SAS
+SBL
+Scala
+scalar
 scheduling
+Scheme
+Schneider Electric
 science software
 Scientific software
+Scipy
+Scratch
+scripting
+Scrum
 Search engine
 security
+Sed
 sem
 seo
 service providers
+ServiceNow
+Shakespeare
 shareware
+shell
 shopping cart
+Siemens
+SIGNAL
 Signal analysis
 Simulation
+Simulink
+SLIP
 small business
 sme
 SMS
 smtp
+Snowball
 Social networking
 Sociology
 Software configuration
 software ecosystem
+SOL
 Solar
+Solaris
+SolarWinds
+Span
+SPARK
 Speech
+SPIN
+Splunk
 Spreadsheet
 sprint
 spyware
+SQL
+SR
+Stacking
 startup
+Stata
+statistical
 storage
 storyboard
+storytelling
+Strand
 Strategic Alliances
+SUN
+supervised learning
 Supply chain
 support system
+support vector machine
 surveillance
 survey
+Suse
 sustainability
+svc
+svm
+SWIFT
+Symantec
+Synopsys
 System Administration
 system component
 System management
 systems
+SystemVerilog
+Tableau
+TACL
+TADS
 targeting
 tax
 taxonomies
+Tcl
+Tea
+TECO
 Telephony
+Tensor
+Tensorflow
+Teradata
+Test Set
 testing
+TeX
 Text
+Theano
 threat management
+TIBCO
 ticketing
+tidyverse
+TIE
+Timber
 time clock
+time series data
+TMG
+Tom
+Torch
 tourism
+Trac
 tracking
 trademark
 trading
 transaction processing
 transporation
+Trend Micro
 trojan
+TTCN
+Turing
+TUTOR
+TypeScript
+Ubuntu
 ui
+Ultimate Software
+Uniface
 Unified Communications
+UNITY
+Unix shell
+unsupervised learning
 usability
 user centric design
 user experience
@@ -842,8 +927,15 @@ user flow
 user persona
 user stories
 ux
+variance
+VBA
+VBScript
+vector
+Verilog
+Verint
 version control
 veterinary
+VHDL
 Video Conferencing
 video editing
 Virtual machines
@@ -851,11 +943,16 @@ Virtual Reality
 Virtualization
 Viruses
 Visitor Management
+Visual Basic
+Visual FoxPro
+Visual Studio
+Vmware
 VoIP
 volunteering
 VPN
 VR
 vulnerability management
+Watson Studio
 Weather
 Web
 Web Analytics
@@ -865,132 +962,26 @@ Web browsers
 web form
 Webinar
 Website content management
+Weka
+Windows 10
+Windows 2000
+Windows 7
+Windows PowerShell
+Windows Server 2008
+Windows Server 2012
+Windows Server 2016
+Windows Vista
+Windows Xp
+wireframe
+Wireshark
+Wordpress
+Workday
 workflow
 Workforce Management
-MongoDB
-AWS
-algorithm
-AngularJS
-Anomaly Detection
-Apache Spark
-Artificial Neural Networks
-Bagging
-bias
-classification
-clustering
-cnn
-computational linguistics
-convolutional neural network
-correlation
-Cross Validation
-D3
-data delivery
-data discovery
-data engineering
-data entry
-Data format conversion
-Data Integration
-data lake
-Data mining
-data science
-data server
-data structure
-data wrangling
-Database servers
-debugging
-Decision Tree
-deep learning
-deep neural network
-derivative
-design thinking
-development sprint
-devops
-dimension reduction
-Dimensionality Reduction
-docker container
-econometrics
-Factor Analysis
-feature engineering
-Feature Extraction
-GATE
-GMM
-gpu acceleration
-gradient boosting
-gradient descent
-Hierarchical Clustering
-iteration
-keras
-kernels
-knn
-knowledge engineering
-L2
-LDA
-lift
-linear algebra
-linear regression
-logistic regression
-lrp
-lstm
-machine learning
-machine learning model
-Markov Chain
-MARS
-MDA
-mlops
-NLP
-Model Selection
-mxnet
-Naive Bayes
-Natural Language Processing
-neural network
-normal distribution
-Numpy
-OLS
-OpenCV
-Optimisation
-outlier
-outlier detection
-P value
-Pandas
-PCA
-PCR
-perceptron
-pivot table
-predictive analytics
-predictive modeling
-Principal Components Analysis
-prior distribution
-QDA
-quick prototyping
-random forest
-recurrent neural network
-regression
-regression analysis
-reinforcement learning
-rnn
-scalar
-Scipy
-scripting
-shell
-Stacking
-statistical
-supervised learning
-support vector machine
-svc
-svm
-Tensor
-Test Set
-Theano
-tidyverse
-time series data
-unsupervised learning
-variance
-vector
-wireframe
+XEN
 XGBoost
+XL
+XML
+XPath
+XSLT
 yolo
-Scrum
-Agile
-CSS
-HTML
-RSS

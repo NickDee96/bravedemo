@@ -1,6 +1,10 @@
 Skill,Category
 @Formula,coding
+360 degree,applications
+3d,applications
+3D Printing,applications
 A-0 System,coding
+A/B Testing,applications
 A#,coding
 A# .NET,coding
 A+,coding
@@ -12,87 +16,218 @@ ABSET,coding
 ABSYS,coding
 ACC,coding
 Accent,coding
+access management,applications
+Accessibility,applications
 Accord. NET,coding
+Accounting,applications
 Ace DASL,coding
+ACI,platforms
 ACL2,coding
+Acrobat,platforms
 ACT-III,coding
 Action!,coding
 ActionScript,coding
+activation function,techniques
+activity monitor,applications
 Ada,coding
+AdaBoost,techniques
+adam optimization,techniques
+adaptive design,applications
+adaptive gradient,techniques
 Adenine,coding
+Administrator,applications
+Adobe,platforms
+ADP,platforms
+adtech,applications
+advertising,applications
+aeronautics,applications
+Aerospace,applications
+affiliate,applications
 Agda,coding
+Agile,techniques
 Agilent VEE,coding
 Agora,coding
+agriculture,applications
+agritech,applications
+ai,applications
 AIMMS,coding
+aiops,techniques
+air traffic,applications
 Alef,coding
+alexnet,techniques
 ALF,coding
 ALGOL 58,coding
 ALGOL 60,coding
 ALGOL 68,coding
 ALGOL W,coding
+algorithm,techniques
 Alice,coding
+Allscripts,platforms
 Alma-0,coding
+Amazon,platforms
 Amazon Machine Learning,coding
 Amazon ML,coding
 AmbientTalk,coding
 Amiga E,coding
 AMOS,coding
 AMPL,coding
+Analytics,applications
+Android,platforms
+AngularJS,techniques
+animation,applications
+Anomaly Detection,techniques
+ANSYS,platforms
+anti-virus,applications
+Apache,platforms
 Apache Mahout,coding
 Apache Singa,coding
+Apache Spark,techniques
+apha testing,applications
+API,applications
 APL,coding
+app,applications
 App Inventor for Android's visual block language,coding
+Apple,platforms
 AppleScript,coding
+Applicant Tracking,applications
+application lifecycle,applications
+Appointment Systems,applications
+appontment scheduling,applications
+appraisal,applications
+Apriori,techniques
+AR,applications
 Arc,coding
 ArcGIS,coding
+Archaeology,applications
+Architecture,applications
+archives,applications
 ARexx,coding
 Argus,coding
+artificial intelligence,applications
+Artificial Neural Networks,techniques
 AspectJ,coding
 Assembler,coding
+asset management,applications
+assets management,applications
+association rule learning,techniques
+Astronomy,applications
 Ateji PX,coding
+Athenahealth,platforms
+atmospheric sciences,applications
 ATS,coding
+Attachmate,platforms
+Attendance Tracking,applications
+audio editing,applications
+audio synthesis,applications
+Authentication,applications
+authoring,applications
+Auto Dialer,applications
 Autocoder,coding
+Autodesk,platforms
+AutoEncoder,techniques
 AutoHotkey,coding
 AutoIt,coding
 AutoLISP / Visual LISP,coding
+automation,applications
 AutoML,coding
+Avaya,platforms
+average pooling,techniques
 Averest,coding
 AWK,coding
+AWS,platforms
 Axiom,coding
 Axum,coding
 Ayasdi,coding
 Azure,coding
-B,coding
 Babbage,coding
+back-end,applications
+back-up,applications
+backpropagation,techniques
+Backward Feature Elemination,techniques
+Bagging,techniques
+banking,applications
 Bash,coding
 Batch,coding
+batch gradient,techniques
+batch normalization,techniques
+Bayes' Theorem,techniques
+Bayesian Linear Regression,techniques
+Bayesian network,techniques
 bc,coding
 BCPL,coding
 BeanShell,coding
+Bentley,platforms
+Bernoulli Naive Bayes,techniques
 Bertrand,coding
 BETA,coding
+beta testing,applications
+beverage,applications
+bi,applications
+bias,techniques
 Bigwig,coding
+Billing support,applications
+binomial distribution,techniques
+biology,applications
+biometric voting,applications
+biotech,applications
 Bistro,coding
 BitC,coding
+bitcoin,applications
+bitwallet,applications
+Biz Dev,applications
+Blackboard,platforms
 BLISS,coding
+Blockchain,applications
+blogger,applications
+blogging,applications
 Blue,coding
+BMC,platforms
+Board Management,applications
+boltzmann,techniques
+Boltzmann Machine,techniques
 Bon,coding
 Boo,coding
+bookkeeping,applications
 Boomerang,coding
+Boosted Decision Tree,techniques
+Bootstrap aggregation,techniques
+bot,applications
 Bourne shell,coding
 BPEL,coding
+brach gradient descent,techniques
+brand,applications
 BREW,coding
+budget,applications
+Bug,applications
+Bulk data,applications
+business,applications
+business analytics,applications
+Business development,applications
 C,coding
 C Shell,coding
 C#,coding
 C++,coding
+CA Technologies,platforms
 Caché ObjectScript,coding
+cad,applications
+Cadence Design Systems,platforms
+cae,applications
+calculator,applications
+call center,applications
+cam,applications
 Caml,coding
 Candle,coding
+Cannabis,applications
+Canonical,platforms
+Car Dealer,applications
+CatBoost,techniques
+Category Boosting,techniques
 Cayenne,coding
+CBD,applications
 CDuce,coding
 Cecil,coding
 Cel,coding
+Cerner,platforms
 Cesil,coding
 Ceylon,coding
 CFEngine,coding
@@ -100,180 +235,512 @@ CFML,coding
 Cg,coding
 Ch,coding
 CHAIN,coding
+change management,applications
 Chapel,coding
 Charity,coding
 Charm,coding
+chart,applications
+chat bot,applications
 Chef,coding
+Chemistry,applications
+chi-square test,techniques
+Child Care,applications
 CHILL,coding
 CHIP-8,coding
 chomski,coding
+Chrome,platforms
 ChucK,coding
+church,applications
 CICS,coding
 CIL,coding
 Cilk,coding
+Cisco,platforms
+Citrix,platforms
+civic tech,applications
 CL,coding
 Claire,coding
 Clarion,coding
+classification,techniques
+classification algorithm,techniques
+classifier,techniques
+classigication algorithms,techniques
 Clean,coding
+Click Fraud,applications
+climate,applications
+climatology,applications
+Clinical Trial,applications
 Clipper,coding
 CLIST,coding
 Clojure,coding
+cloud,applications
 CLU,coding
+clustering,techniques
+CMMS,applications
+CMS,applications
 CMS EXEC,coding
 CMS-2,coding
+cnn,techniques
 COBOL,coding
 Cobra,coding
+Code Editor,applications
+Code Repository,applications
+coefficient,techniques
 CoffeeScript,coding
+coinwallet,applications
 Cola,coding
 ColdC,coding
 ColdFusion,coding
+Collaboration,applications
 COMAL,coding
 Combined Programming Language,coding
 COMIT,coding
 Common Intermediate Language,coding
 Common Lisp,coding
+comms,applications
+Communications,applications
+CommVault,platforms
 COMPASS,coding
+Compensation Management,applications
+Compliance,applications
 Component Pascal,coding
+Compression,applications
+computational linguistics,techniques
+computer science hard problem,applications
+Computer Vision,applications
+conceptnet,techniques
+Concur,platforms
+conference,applications
+conferencing,applications
+confidence interval,techniques
+configuration managment,applications
+Constellation Software,platforms
 Constraint Handling Rules,coding
+consumer need,applications
+Content Analytics,applications
+Content Marketing,applications
+content production,applications
+content server,applications
+Content Strategy,applications
+context-sensitive,applications
+continuous variable,techniques
 Converge,coding
+Convergys,platforms
+convolutional neural network,techniques
 Cool,coding
 Coq,coding
 Coral 66,coding
 Core ML,coding
 Corn,coding
+Corporate education,applications
+Corporate management,applications
+Corporate Training,applications
+correlation,techniques
 CorVision,coding
+cost function,techniques
+course ware,applications
+covariance,techniques
 COWSEL,coding
+Cpanel,platforms
 CPL,coding
+critical path,applications
+Cross Validation,techniques
+crypto,applications
+crypto-anarchist,applications
+cryptography,applications
 csh,coding
 Csound,coding
 CSP,coding
+CSS,coding
 CUDA,coding
 Curl,coding
 Curry,coding
+customer care,applications
+Customer Engagement,applications
+Customer Experience,applications
+Customer Service,applications
+cyber,applications
+cybernetics,applications
 Cyclone,coding
 Cython,coding
 D,coding
+D3,techniques
+daas,applications
+daemon processes,techniques
 Dart,coding
+dasboard design,applications
+dashboard,applications
 DASL,coding
+Dassault,platforms
+Dassault Systemes,platforms
+Data access,applications
+Data Analytics,applications
+Data as a Service,applications
+data delivery,techniques
+data discovery,techniques
+data driven decision making,applications
+data driven design,applications
+data engineering,techniques
+data entry,techniques
+Data format conversion,techniques
+Data Integration,techniques
+data lake,techniques
+Data mining,techniques
+data science,techniques
+Data Security,applications
+data server,techniques
+data storytelling,applications
+data strategy,applications
+data structure,techniques
+Data visualisation,applications
+Data Visualization,applications
+Data Viz,applications
+data wrangling,techniques
+Database servers,techniques
 DataFlex,coding
 Datalog,coding
+dataops,techniques
 DATATRIEVE,coding
+DATEV,platforms
 dBase,coding
+DBN,techniques
+DBSCAN,techniques
 dc,coding
 DCL,coding
+Debian,platforms
+Debian Linux,platforms
+debugger,applications
+debugging,techniques
+Decision Stump,techniques
+decision support system,applications
+Decision Tree,techniques
+decompression,applications
+decryption,applications
+Deep Belief Network,techniques
+deep learning,techniques
+deep neural network,techniques
 Deeplearning 4j,coding
 Deesel,coding
+Dell,platforms
 Delphi,coding
+demo,applications
+dependent variable,techniques
+derivative,techniques
+design,applications
+design principle,techniques
+design sprint,techniques
+design thinking,techniques
+Desktop Publishing,applications
+dev sprint,techniques
+Development environment,applications
+development sprint,techniques
+device control,applications
+devops,techniques
+Diagnostics,applications
 Dialog flow,coding
 DIBOL,coding
+Dictation,applications
+digital asset,applications
+Digital Business Models,applications
+Digital Commerce,applications
+digital intelligence,applications
+digital safety,applications
+Digital Signage,applications
+Digital Trust,applications
+dimension reduction,techniques
+Dimensionality Reduction,techniques
 DinkC,coding
+disassemblers,applications
+discrete variable,techniques
+Disk maintenance,applications
 Docker,coding
+docker container,techniques
+Document Generation,applications
+Document Management,applications
+document sharing,applications
 Dog,coding
+Donor Management,applications
 Draco,coding
+drafting tools,applications
 DRAKON,coding
+dropout,techniques
+Drupal,platforms
+dual track development,techniques
+dvd,applications
 Dylan,coding
 DYNAMO,coding
+e-book,applications
+e-commerce,applications
+E-Democracy,applications
+E-finance,applications
+E-Government,applications
+e-learning,applications
+e-voting,applications
 E#,coding
+earth sciences,applications
 Ease,coding
 Easy PL/I,coding
 Easy Programming Language,coding
 EASYTRIEVE PLUS,coding
+Eclat,techniques
 Eclipse,coding
 ECMAScript,coding
+ecology,applications
+eCommerce Solutions,applications
+econometrics,techniques
+Edge,platforms
 Edinburgh IMP,coding
+editors,applications
 EGL,coding
 Eiffel,coding
 ELAN,coding
+Elastic Net Regression,techniques
+Elastic Net Regularization,techniques
 Elixir,coding
 Elm,coding
 Emacs Lisp,coding
+Email,applications
+Email Data,applications
+Email Marketing,applications
+Email Outreach,applications
+Email servers,applications
+Embedded software,applications
+EMC,platforms
 Emerald,coding
+Employee Monitoring,applications
+Employee Wellness,applications
+Emulation,applications
+encryption,applications
+end-to-end learning,techniques
+Endpoint Security,applications
+Engineering analysis,applications
+Enterprise Applications,applications
+Enterprise asset management,applications
+Enterprise cloud,applications
+Enterprise Linux,platforms
+Enterprise Linux Desktop,platforms
+Enterprise Linux Server,platforms
+Enterprise Linux Workstation,platforms
+Enterprise Mobility,applications
+Enterprise Private Cloud,applications
+Enterprise System,applications
+entertainment,applications
+Epic Systems,platforms
+Epicor,platforms
 Epigram,coding
 EPL,coding
+epoch,techniques
 Erlang,coding
 es,coding
 Escapade,coding
 Escher,coding
+ESET,platforms
 ESPOL,coding
+Esri,platforms
 Esterel,coding
 Etoys,coding
 Euclid,coding
 Euler,coding
 Euphoria,coding
 EusLisp Robot Programming Language,coding
+ewallet,applications
 EXEC 2,coding
 Executable UML,coding
+Executive Information,applications
+Expectation Maximization,techniques
+expense reporting,applications
+expenses reporting,applications
+explainability,applications
+explainable ai,techniques
+extreme gradiant boosting,techniques
+Extremely Randomized Trees,techniques
 F,coding
 F-Script,coding
 F#,coding
+F5,platforms
+Face Detection,applications
+Face Recognition,applications
+Facilities management,applications
+facility management,applications
 Factor,coding
+Factor Analysis,techniques
+Failure diagnosis,applications
 Falcon,coding
 Fancy,coding
 Fantom,coding
+Fashion,applications
+Fast-MCD,techniques
 FAUST,coding
+fax,applications
+feature engineering,techniques
+Feature Extraction,techniques
+Fedora,platforms
+Fedoraproject,platforms
+feedback,applications
 Felix,coding
 Ferite,coding
+Ffmpeg,platforms
 FFP,coding
+FICO,platforms
+File system software,applications
+file transfer,applications
+film creation,applications
+film production,applications
+finance,applications
+financial,applications
+Financial analysis,applications
+Financial Reporting,applications
+Financial Services,applications
+fintech,applications
+Firefox,platforms
+Firefox Esr,platforms
+firewall,applications
+Firmware,applications
+FIS,platforms
+Fiserv,platforms
+Fisher's Linear Discriminant,techniques
+fitness,applications
 Fjölnir,coding
 FL,coding
+Flash Player,platforms
 Flavors,coding
 Flex,coding
+flie sharing,applications
 FLOW-MATIC,coding
 FOCAL,coding
 FOIL,coding
+Food & Beverage,applications
+forecasting,applications
+foreign exchange,applications
 FORMAC,coding
 Forth,coding
 Fortran,coding
 Fortress,coding
+Forward Feature Selection,techniques
+forward propagation,applications
 FoxBase,coding
+Foxitsoftware,platforms
 FoxPro,coding
 FP,coding
 FPr,coding
 Franz Lisp,coding
+fraud,applications
+Fraud Detection,applications
+Freebsd,platforms
+freehand design,applications
+freeware,applications
 FSProg,coding
+ftp,applications
+Fujitsu,platforms
+fully-connected layer,techniques
+fundraising,applications
+Fuzzy C-Means,techniques
+Fuzzy K-Modes,techniques
+fx,applications
 G-code,coding
+game,applications
 Game Maker Language,coding
 GameMonkey Script,coding
+gamification,applications
 GAMS,coding
+GANs,techniques
 GAP,coding
+gas,applications
+GATE,techniques
+gated recurrent unit,techniques
+Gaussian Mixture Model,techniques
+Gaussian Naive Bayes,techniques
+gaz,applications
 GDL,coding
+GE Healthcare,platforms
+Genealogy,applications
+Generative Adversarial Networks,techniques
+Genesys,platforms
+genetics,applications
 Genie,coding
+Geographic Information System,applications
+geographical,applications
+Geographical information systems,applications
+geography,applications
 GEORGE,coding
 Gibiane,coding
+GIS,applications
 GJ,coding
 GLSL,coding
 GM,coding
+GMM,techniques
+GNU,platforms
 GNU E,coding
 Go,coding
 Go!,coding
 Gödel,coding
 Godiva,coding
 GOM,coding
-Good Old Mad,coding
 Goo,coding
+Good Old Mad,coding
+Google,platforms
+Google AI,platforms
 Google Apps Script,coding
 Google Cloud ML,coding
 Gosu,coding
 GOTRAN,coding
+government,applications
 GPSS,coding
+gpu,applications
+gpu acceleration,techniques
+Gradient Boosted Regression Trees,techniques
+gradient boosting,techniques
+gradient descent,techniques
+Gradient Descent Regression,techniques
+Graphic Design,applications
+graphics editing,applications
+graphics package,applications
 GraphTalk,coding
 GRASS,coding
 Groovy,coding
+growth hacking,applications
+GSuite,applications
 H2O,coding
 Hack (programming language),coding
 HAL/S,coding
 Hamilton C shell,coding
 Harbour,coding
+Hardware,applications
 Hartmann pipelines,coding
 Haskell,coding
 Haxe,coding
+hci,applications
+health care,applications
+health tech,applications
+help desk,applications
+Hexagon,platforms
+Hierarchical Clustering,techniques
 High Level Assembly,coding
+histogram,techniques
+Hitachi,platforms
 HLSL,coding
 Hop,coding
 Hope,coding
+Hopfield Networks,techniques
+Hospital management,applications
+hospitality,applications
+hotel,applications
+HP,platforms
+hr,applications
+HTML,coding
+Huawei,platforms
 Hugo,coding
+human capital,applications
+human centered design,applications
+human computer interaction,applications
+Human Resources,applications
+human-level performance,applications
 Hume,coding
+Hyperparameter,techniques
+hyperparametrisation,techniques
+hyperparametrization,techniques
 HyperTalk,coding
+IaaS,applications
+IBM,platforms
 IBM Basic assembly language,coding
 IBM HAScript,coding
 IBM Informix-4GL,coding
@@ -283,18 +750,63 @@ ICI,coding
 Icon,coding
 Id,coding
 IDL,coding
+idle-time,applications
+Idle-time data analysis,applications
 Idris,coding
+IE,platforms
+ilife,applications
+IM servers,applications
+Image Editing,applications
+image manipulation,applications
+Image processing,applications
+Imagemagick,platforms
+imagenet,techniques
 IMP,coding
+impact investment,applications
+implementation tools,applications
+Independent Component Analysis,techniques
+independent variable,techniques
+Indesign,platforms
+Industry Specific,applications
+indutrial process,applications
+infographics,applications
+Infor,platforms
 Inform,coding
+Informatica,platforms
+Information display,applications
+Information management,applications
+Information resources,applications
+information system,applications
 Infosys,coding
 Infrrd,coding
+installer,applications
+instant messaging,applications
+integration,applications
+Intel,platforms
+interaction design,applications
+Internal Communications,applications
+Internet Explorer,platforms
+interpreters,applications
+InterSystems,platforms
+Intuit,platforms
+inventory,applications
+investing,applications
+Investment Management,applications
+invoicing,applications
 Io,coding
 Ioke,coding
+iPaaS,applications
+Iphone Os,platforms
 IPL,coding
 IPTSCRAE,coding
 ISLISP,coding
+Isolation Forest,techniques
+Isomap,techniques
 ISPF,coding
 ISWIM,coding
+IT Management,applications
+iteration,techniques
+Itunes,platforms
 J,coding
 J#,coding
 J++,coding
@@ -307,54 +819,105 @@ Java,coding
 JavaFX Script,coding
 JavaScript,coding
 JCL,coding
+JDA Software,platforms
+JDK,platforms
 JEAN,coding
+Jenkins,platforms
+Jewellery,applications
+Job search,applications
 Join Java,coding
+Joomla,platforms
 JOSS,coding
 Joule,coding
 JOVIAL,coding
 Joy,coding
+JRE,platforms
 JScript,coding
 JScript .NET,coding
 Julia,coding
+Juniper,platforms
 Jupyter,coding
+Jupyter Notebook,coding
 Jupyterlab,coding
 JWT,coding
 Jython,coding
 K,coding
+K Nearest Neighbours,techniques
+k-means clustering,techniques
+K-Medians Clustering,techniques
+K-Modes Clustering,techniques
+k-nearest neighbors,techniques
+Kaggle,platforms
 KAI,coding
 Kaleidoscope,coding
+kanban,applications
 Karel,coding
 Karel++,coding
+Kaspersky,platforms
+Kaspersky Lab,platforms
 KEE,coding
+keras,techniques
+kernels,techniques
+Key loggers,applications
 KIF,coding
 Kixtart,coding
+knn,techniques
+knowledge engineering,techniques
+Knowledge Management,applications
 Kojo,coding
 Kotlin,coding
 KRC,coding
 KRL,coding
+Kronos,platforms
 KRYPTON,coding
 ksh,coding
 KUKA,coding
 L,coding
 L#,coding
 L# .NET,coding
+L2,techniques
 LabVIEW,coding
 Ladder,coding
 Lagoona,coding
 LANSA,coding
+LARS,techniques
 Lasso,coding
+Lasso Regression,techniques
+Latent Dirichlet Analysis,techniques
+latent variable,techniques
 LaTeX,coding
 Lava,coding
+layer-wise relevance propagaion,techniques
 LC-3,coding
+LDA,techniques
+Leap,platforms
+learning rate decay,techniques
+Learning Vector Quantization,techniques
+Least absoulute selection and shrinkage operator,techniques
+Least-Angled Regression,techniques
 Leda,coding
+legacy,applications
+Legal,applications
+legal analysis,applications
+legal assistance,applications
 Legoscript,coding
+library,applications
+lift,techniques
+Lightweight CRM,applications
 LIL,coding
 LilyPond,coding
 Limbo,coding
+lime,techniques
 Limnor,coding
 LINC,coding
+linear algebra,techniques
+Linear Discriminant Analysis,techniques
+linear regression,techniques
+Linear Support Vector Classifier,techniques
 Lingo,coding
 Linoleum,coding
+Linux,platforms
+Linux Kernel,platforms
 LIS,coding
 LISA,coding
 Lisaac,coding
@@ -364,27 +927,68 @@ Lithe,coding
 Little b,coding
 LiveCode,coding
 LiveScript,coding
+LLE,techniques
+Load balancers,applications
+Loan Management,applications
+local interpretable model-agnostic explanation,techniques
+Local Linear Embedding,techniques
+Local Outlier Factor,techniques
+localisation,applications
+Locality-Sensitive Hashing,techniques
+localization,applications
+Locally Estimated Scatterplot Smoothing,techniques
+Locally Weighted Regression,techniques
+LOESS,techniques
+LOF,techniques
+log analysis,applications
+logarithm,techniques
+Logging,applications
+logistic regression,techniques
+Logistics,applications
 Logo,coding
+Logo Design,applications
 Logtalk,coding
+long short term memory,techniques
+loyalty,applications
 LPC,coding
+lrp,techniques
 LSE,coding
 LSL,coding
+lstm,techniques
 Lua,coding
 Lucid,coding
 Lumiata,coding
 Lustre,coding
+LVQ,techniques
+LWL,techniques
 LYaPAS,coding
 Lynx,coding
 M2001,coding
 M4,coding
+Mac Os X,platforms
+Mac Os X Server,platforms
 Machine code,coding
+machine learning,techniques
+machine learning in production,techniques
+machine learning model,techniques
 Macsyma,coding
 MAD,coding
 Magik,coding
 Magma,coding
+manufactoring,applications
+manufacturing,applications
 Maple,coding
 MAPPER,coding
+maps,applications
 MARK-IV,coding
+Marketing,applications
+Marketing Analytics,applications
+Marketing Automation,applications
+marketing product,applications
+Marketing Solutions,applications
+Marketplaces,applications
+Markov Chain,techniques
+MARS,techniques
 Mary,coding
 MASM Microsoft Assembly x86,coding
 Mathematica,coding
@@ -392,66 +996,159 @@ MATLAB,coding
 Matplotlib,coding
 Max,coding
 Maxima,coding
+maximum pooling,techniques
 MaxScript,coding
 Maya (MEL),coding
+Mcafee,platforms
+McKesson,platforms
+MDA,techniques
 MDL,coding
+meal planning,applications
+Mean Absolute Error,techniques
+Mean Shift Clustering,techniques
+Mean Squared Error,techniques
+media player,applications
+Media Stock Files,applications
+Medical Billing,applications
+Medical diagnosis,applications
+Medical Records,applications
+MEDITECH,platforms
+membership,applications
+Mentor Graphics,platforms
 Mercury,coding
 Mesa,coding
+message board,applications
 Metacard,coding
 Metafont,coding
 MetaL,coding
+Micro Focus,platforms
 Microcode,coding
+Micros Systems,platforms
 MicroScript,coding
+Microsoft,platforms
+MicroStrategy,platforms
+middleware,applications
+Middleware and system components,applications
 MIIS,coding
+Military,applications
 MillScript,coding
 MIMIC,coding
+mindmap,techniques
 Mindmeld,coding
+Mini Batch K-Means Clustering,techniques
+mini-batch,techniques
+Minimum Spanning Trees,techniques
+minimum viable product,applications
 Mirah,coding
 Miranda,coding
+Misys,platforms
 MIVA Script,coding
 ML,coding
 Mlib,coding
+mlops,techniques
+Mobile,applications
+Mobile Analytics,applications
+mobile app,applications
+Mobile Computing,applications
+Mobile Device Management,applications
+Mobile Workforce,applications
 Moby,coding
+mockup,applications
 Model 204,coding
+model agnostic,applications
+model decay,techniques
+Model Selection,techniques
 Modelica,coding
+Modeling,applications
 Modula,coding
 Modula-2,coding
 Modula-3,coding
 Mohol,coding
+monetisation,applications
+monetization,applications
+money transfer,applications
+MongoDB,coding
+monitoring,applications
+Monte Carlo method,techniques
 MOO,coding
+MOOC,applications
+Moodle,platforms
 Mortran,coding
 Mouse,coding
+Movie,applications
+Movie creation,applications
+movie production,applications
+Mozilla,platforms
 MPD,coding
 MSL,coding
+Multidimensional Scaling,techniques
+Multilayer Perceptron,techniques
+multimedia,applications
+Multinomial Naive Bayes,techniques
+Multivariate Adaptive Regression Splines,techniques
 MUMPS,coding
+music,applications
+music composition,applications
+mvp,applications
+mxnet,techniques
+Mysql,platforms
+n-gram,techniques
+Naive Bayes,techniques
+naive Bayes classifier,techniques
 Napier88,coding
 NASM,coding
-NATURAL,coding
+Natural Language Processing,techniques
+navigation,applications
+NCR,platforms
+NEC,platforms
 Neko,coding
 Nemerle,coding
 nesC,coding
 NESL,coding
 Net.Data,coding
+Netapp,platforms
 NetLogo,coding
 NetRexx,coding
+NetSuite,platforms
+network graph,applications
+network intelligence,applications
+Network Security,applications
+Network traffic monitor,applications
+neural network,techniques
+Neural Network Regression,techniques
+Neusoft,platforms
 NewLISP,coding
 NEWP,coding
+news,applications
+newsletter,applications
 Newspeak,coding
 NewtonScript,coding
 NGL,coding
 Nial,coding
 Nice,coding
 Nickle,coding
+NLP,techniques
+non-max suppression,techniques
+Non-relational database,applications
+nonprofit,applications
+normal distribution,techniques
+NoSQL,coding
 Not eXactly C,coding
 Not Quite C,coding
 Notebook,coding
+Novell,platforms
 NPL,coding
 NSIS,coding
 Nu,coding
+Nuance Communications,platforms
+nuclear plants,applications
+null hypothesis,techniques
+Numpy,techniques
+NuSVC,techniques
+Nutrition,applications
 Nvidia,coding
 NWScript,coding
 NXT-G,coding
-XML,coding
 Oak,coding
 Oauth2,coding
 Oberon,coding
@@ -460,6 +1157,7 @@ OBJ2,coding
 Object Lisp,coding
 Object Pascal,coding
 Object REXX,coding
+objective function,techniques
 Objective-C,coding
 Objective-J,coding
 ObjectLOGO,coding
@@ -469,841 +1167,81 @@ OCaml,coding
 occam,coding
 occam-π,coding
 Octave,coding
-OmniMark,coding
-Onyx,coding
-Opa,coding
-Opal,coding
-OpenCL,coding
-OpenEdge ABL,coding
-OPL,coding
-OPS5,coding
-OptimJ,coding
-Orc,coding
-ORCA/Modula-2,coding
-Oriel,coding
-Orwell,coding
-Oryx,coding
-Oxygene,coding
-Oz,coding
-P#,coding
-ParaSail (programming language),coding
-PARI/GP,coding
-Pascal,coding
-Pawn,coding
-PCASTL,coding
-PCF,coding
-PDL,coding
-PEARL,coding
-PeopleCode,coding
-Perl,coding
-PHP,coding
-Phrogram,coding
-Pico,coding
-Picolisp,coding
-Pict,coding
-Pike,coding
-PIKT,coding
-PILOT,coding
-Pipelines,coding
-Pizza,coding
-PL-11,coding
-PL/0,coding
-PL360,coding
-PLANC,coding
-Plankalkül,coding
-Planner,coding
-PLEX,coding
-PLEXIL,coding
-POP-11,coding
-PortablE,coding
-postgres,coding
-PostScript,coding
-PowerBuilder,coding
-Powerhouse,coding
-PowerShell,coding
-PPL,coding
-PredictionIO,coding
-Premonition,coding
-Pro*C,coding
-Processing.js,coding
-Prograph,coding
-PROIV,coding
-Prolog,coding
-PROMAL,coding
-Promela,coding
-PROSE modeling language,coding
-PROTEL,coding
-ProvideX,coding
-Pure,coding
-Python,coding
-Q (equational programming language),coding
-Q (programming language from Kx Systems),coding
-Qalb,coding
-Qi,coding
-QPL,coding
-QtScript,coding
-QuakeC,coding
-R,coding
-R++,coding
-Racket,coding
-Rainbird,coding
-Rapira,coding
-Ratfiv,coding
-Ratfor,coding
-rc,coding
-REBOL,coding
-Receptivi,coding
-Red,coding
-Redcode,coding
-REFAL,coding
-Reia,coding
-Revolution,coding
-rex,coding
-REXX,coding
-Rlab,coding
-RobotC,coding
-ROOP,coding
-RPG,coding
-RPL,coding
-RSL,coding
-RTL/2,coding
-Ruby,coding
-RuneScript,coding
-Rust,coding
-S,coding
-S-Lang,coding
-S-PLUS,coding
-S2,coding
-S3,coding
-SA-C,coding
-SabreTalk,coding
-SAIL,coding
-SALSA,coding
-SAM76,coding
-SAS,coding
-SASL,coding
-Sather,coding
-Sawzall,coding
-SBL,coding
-Scala,coding
-Scheme,coding
-Scikit-learn,coding
-Scilab,coding
-Scratch,coding
-Script.NET,coding
-Sed,coding
-Seed7,coding
-SenseTalk,coding
-SequenceL,coding
-SETL,coding
-Shakespeare,coding
-Shift Script,coding
-Shogun,coding
-SIGNAL,coding
-SiMPLE,coding
-SIMPOL,coding
-SIMSCRIPT,coding
-Simula,coding
-Simulink,coding
-SISAL,coding
-SLIP,coding
-SMALL,coding
-Small Basic,coding
-Smalltalk,coding
-SML,coding
-Snap!,coding
-SNOBOL,coding
-Snowball,coding
-SOL,coding
-SP/k,coding
-Span,coding
-SPARK,coding
-SPIN,coding
-SPITBOL,coding
-Squeak,coding
-Squirrel,coding
-SR,coding
-Stackless Python,coding
-Starlogo,coding
-Stata,coding
-Stateflow,coding
-Strand,coding
-Subtext,coding
-SuperCollider,coding
-SuperTalk,coding
-Swift (Apple programming language),coding
-Swift (parallel scripting language),coding
-SYMPL,coding
-SyncCharts,coding
-SystemVerilog,coding
-T,coding
-T-SQL,coding
-TACL,coding
-TACPOL,coding
-TADS,coding
-TAL,coding
-Tcl,coding
-Tea,coding
-TECO,coding
-TELCOMP,coding
-Tensorflow,coding
-TeX,coding
-TIE,coding
-Timber,coding
-TMG,coding
-Tom,coding
-Topspeed,coding
-Torch,coding
-TPU,coding
-Trac,coding
-TTCN,coding
-TTM,coding
-Turbo C++,coding
-Turing,coding
-TUTOR,coding
-TXL,coding
-TypeScript,coding
-Ubercode,coding
-UCSD Pascal,coding
-Umple,coding
-Unicon,coding
-Uniface,coding
-UNITY,coding
-Unix shell,coding
-UnrealScript,coding
-Vala,coding
-VBA,coding
-VBScript,coding
-Verilog,coding
-VHDL,coding
-Visual Basic,coding
-Visual Basic .NET,coding
-Visual DataFlex,coding
-Visual DialogScript,coding
-Visual Fortran,coding
-Visual FoxPro,coding
-Visual J#,coding
-Visual J++,coding
-Visual Objects,coding
-Visual Prolog,coding
-VSXu,coding
-Vvvv,coding
-"WATFIV, WATFOR",coding
-Watson Studio,coding
-WebDNA,coding
-WebQL,coding
-Weka,coding
-Winbatch,coding
-Windows PowerShell,coding
-Wolfram,coding
-Wyvern,coding
-X#,coding
-X++,coding
-X10,coding
-XBL,coding
-XC,coding
-xHarbour,coding
-XL,coding
-XMOS architecture,coding
-Xojo,coding
-XOTcl,coding
-XPath,coding
-XPL,coding
-XPL0,coding
-XQuery,coding
-XSB,coding
-XSLT,coding
-Xtend,coding
-Yorick,coding
-YQL,coding
-Z notation,coding
-Zeno,coding
-ZOPL,coding
-ZPL,coding
-ACI,platforms
-Acrobat,platforms
-Acrobat Dc,platforms
-Acrobat Reader,platforms
-Acrobat Reader Dc,platforms
-Adobe,platforms
-ADP,platforms
-Allscripts,platforms
-Amazon,platforms
-Android,platforms
-ANSYS,platforms
-Apache,platforms
-Apple,platforms
-Athenahealth,platforms
-Attachmate,platforms
-Autodesk,platforms
-Avaya,platforms
-Bentley,platforms
-Blackboard,platforms
-BMC,platforms
-CA Technologies,platforms
-Cadence Design Systems,platforms
-Canonical,platforms
-Cerner,platforms
-Chrome,platforms
-Cisco,platforms
-Citrix,platforms
-CommVault,platforms
-Concur,platforms
-Constellation Software,platforms
-Convergys,platforms
-Cpanel,platforms
-Dassault,platforms
-Dassault Systemes,platforms
-DATEV,platforms
-Debian,platforms
-Debian Linux,platforms
-Dell,platforms
-Drupal,platforms
-Edge,platforms
-EMC,platforms
-Enterprise Linux,platforms
-Enterprise Linux Desktop,platforms
-Enterprise Linux Server,platforms
-Enterprise Linux Workstation,platforms
-Epic Systems,platforms
-Epicor,platforms
-ESET,platforms
-Esri,platforms
-F5,platforms
-Fedora,platforms
-Fedoraproject,platforms
-Ffmpeg,platforms
-FICO,platforms
-Firefox,platforms
-Firefox Esr,platforms
-FIS,platforms
-Fiserv,platforms
-Flash Player,platforms
-Foxitsoftware,platforms
-Freebsd,platforms
-Fujitsu,platforms
-GE Healthcare,platforms
-Genesys,platforms
-GNU,platforms
-Google,platforms
-Google AI,platforms
-Hexagon,platforms
-Hitachi,platforms
-HP,platforms
-Huawei,platforms
-IBM,platforms
-IE,platforms
-Imagemagick,platforms
-Indesign,platforms
-Infor,platforms
-Informatica,platforms
-Intel,platforms
-Internet Explorer,platforms
-InterSystems,platforms
-Intuit,platforms
-Iphone Os,platforms
-Itunes,platforms
-JDA Software,platforms
-JDK,platforms
-Jenkins,platforms
-Joomla,platforms
-JRE,platforms
-Juniper,platforms
-Kaspersky,platforms
-Kaspersky Lab,platforms
-Kronos,platforms
-Leap,platforms
-Linux,platforms
-Linux Kernel,platforms
-Mac Os X,platforms
-Mac Os X Server,platforms
-Mcafee,platforms
-McKesson,platforms
-MEDITECH,platforms
-Mentor Graphics,platforms
-Micro Focus,platforms
-Micros Systems,platforms
-Microsoft,platforms
-MicroStrategy,platforms
-Misys,platforms
-Moodle,platforms
-Mozilla,platforms
-Mysql,platforms
-NCR,platforms
-NEC,platforms
-Netapp,platforms
-NetSuite,platforms
-Neusoft,platforms
-Novell,platforms
-Nuance Communications,platforms
-Openbsd,platforms
-Opensuse,platforms
-OpenText,platforms
-Opera,platforms
-Optum,platforms
-Oracle,platforms
-Palantir,platforms
-Pegasystems,platforms
-Photoshop,platforms
-Phpmyadmin,platforms
-Pitney Bowes,platforms
-PTC,platforms
-Qemu,platforms
-Qlik,platforms
-Qualcomm,platforms
-Red Hat,platforms
-Safari,platforms
-Sage,platforms
-Salesforce,platforms
-SAP,platforms
-Schneider Electric,platforms
-Seamonkey,platforms
-ServiceNow,platforms
-SGI,platforms
-Siemens,platforms
-Software AG,platforms
-Solaris,platforms
-SolarWinds,platforms
-Splunk,platforms
-SUN,platforms
-SunGard,platforms
-Sunos,platforms
-Suse,platforms
-SWIFT,platforms
-Symantec,platforms
-Synopsys,platforms
-Teradata,platforms
-Thunderbird,platforms
-TIBCO,platforms
-TOTVS,platforms
-Trend Micro,platforms
-Ubuntu,platforms
-Ultimate Software,platforms
-Unit4,platforms
-Verint,platforms
-Visma,platforms
-Visual Studio,platforms
-Vmware,platforms
-Watchos,platforms
-Wincor Nixdorf,platforms
-Windows 10,platforms
-Windows 2000,platforms
-Windows 7,platforms
-Windows 8.1,platforms
-Windows Rt 8.1,platforms
-Windows Server 2008,platforms
-Windows Server 2012,platforms
-Windows Server 2016,platforms
-Windows Vista,platforms
-Windows Xp,platforms
-Wireshark,platforms
-Wolters Kluwer,platforms
-Wordpress,platforms
-Workday,platforms
-XEN,platforms
-Tableau,platforms
-Jupyter Notebook,coding
-Kaggle,platforms
-NoSQL,coding
-SQL,coding
-news,applications
-newsletter,applications
-Software Channels,applications
-storytelling,applications
-360 degree,applications
-3d,applications
-3D Printing,applications
-A/B Testing,applications
-access management,applications
-Accessibility,applications
-Accounting,applications
-acountability,applications
-activity monitor,applications
-adaptive design,applications
-Administrator,applications
-adtech,applications
-advertising,applications
-aeronautics,applications
-Aerospace,applications
-affiliate,applications
-agriculture,applications
-agritech,applications
-ai,applications
-air traffic,applications
-Analytics,applications
-animation,applications
-anti-virus,applications
-apha testing,applications
-API,applications
-app,applications
-Applicant Tracking,applications
-application lifecycle,applications
-Appointment Systems,applications
-appontment scheduling,applications
-appraisal,applications
-AR,applications
-Archaeology,applications
-Architecture,applications
-archives,applications
-artificial intelligence,applications
-asset management,applications
-assets management,applications
-Astronomy,applications
-atmospheric sciences,applications
-Attendance Tracking,applications
-audio editing,applications
-audio synthesis,applications
-Authentication,applications
-authoring,applications
-Auto Dialer,applications
-automation,applications
-back-end,applications
-back-up,applications
-banking,applications
-beta testing,applications
-beverage,applications
-bi,applications
-Billing support,applications
-biology,applications
-biometric voting,applications
-biotech,applications
-bitcoin,applications
-bitwallet,applications
-Biz Dev,applications
-Blockchain,applications
-blogger,applications
-blogging,applications
-Board Management,applications
-bookkeeping,applications
-bot,applications
-brand,applications
-budget,applications
-Bug,applications
-Bulk data,applications
-business,applications
-business analytics,applications
-Business development,applications
-cad,applications
-cae,applications
-calculator,applications
-call center,applications
-cam,applications
-Cannabis,applications
-Car Dealer,applications
-CBD,applications
-change management,applications
-chart,applications
-chat bot,applications
-Chemistry,applications
-Child Care,applications
-church,applications
-civic tech,applications
-Click Fraud,applications
-climate,applications
-climatology,applications
-Clinical Trial,applications
-cloud,applications
-CMMS,applications
-CMS,applications
-Code Editor,applications
-Code Repository,applications
-coinwallet,applications
-Collaboration,applications
-comms,applications
-Communications,applications
-Compensation Management,applications
-Compliance,applications
-Compression,applications
-computer science hard problem,applications
-Computer Vision,applications
-conference,applications
-conferencing,applications
-configuration managment,applications
-consumer need,applications
-Content Analytics,applications
-Content Marketing,applications
-content production,applications
-content server,applications
-context-sensitive,applications
-Corporate education,applications
-Corporate management,applications
-Corporate Training,applications
-course ware,applications
-critical path,applications
-crypto,applications
-crypto-anarchist,applications
-cryptography,applications
-customer care,applications
-Customer Engagement,applications
-Customer Experience,applications
-Customer Service,applications
-cyber,applications
-cybernetics,applications
-daas,applications
-dasboard design,applications
-dashboard,applications
-Data access,applications
-Data Analytics,applications
-Data as a Service,applications
-data driven decision making,applications
-data driven design,applications
-Data Security,applications
-data storytelling,applications
-data strategy,applications
-Data visualisation,applications
-Data Visualization,applications
-Data Viz,applications
-debugger,applications
-decision support system,applications
-decompression,applications
-decryption,applications
-demo,applications
-Dental,applications
-design,applications
-Desktop Publishing,applications
-Development environment,applications
-device control,applications
-Diagnostics,applications
-Dictation,applications
-digital asset,applications
-Digital Business Models,applications
-Digital Commerce,applications
-digital intelligence,applications
-digital safety,applications
-Digital Signage,applications
-Digital Trust,applications
-disassemblers,applications
-Disk maintenance,applications
-Document Generation,applications
-Document Management,applications
-document sharing,applications
-Donor Management,applications
-drafting tools,applications
-dvd,applications
-e-book,applications
-e-commerce,applications
-E-Democracy,applications
-E-finance,applications
-E-Government,applications
-e-learning,applications
-e-voting,applications
-earth sciences,applications
-ecology,applications
-eCommerce Solutions,applications
-editors,applications
-Email,applications
-Email Data,applications
-Email Marketing,applications
-Email Outreach,applications
-Email servers,applications
-Embedded software,applications
-Employee Monitoring,applications
-Employee Wellness,applications
-Emulation,applications
-encryption,applications
-Endpoint Security,applications
-Engineering analysis,applications
-Enterprise Applications,applications
-Enterprise asset management,applications
-Enterprise cloud,applications
-Content Strategy,applications
-Enterprise Mobility,applications
-Enterprise Private Cloud,applications
-Enterprise System,applications
-entertainment,applications
-ewallet,applications
-Executive Information,applications
-expense reporting,applications
-expenses reporting,applications
-explainability,applications
-Face Detection,applications
-Face Recognition,applications
-Facilities management,applications
-facility management,applications
-Failure diagnosis,applications
-Fashion,applications
-fax,applications
-feedback,applications
-File system software,applications
-file transfer,applications
-film creation,applications
-film production,applications
-finance,applications
-financial,applications
-Financial analysis,applications
-Financial Reporting,applications
-Financial Services,applications
-fintech,applications
-firewall,applications
-Firmware,applications
-fitness,applications
-flie sharing,applications
-food,applications
-Food & Beverage,applications
-forecasting,applications
-foreign exchange,applications
-forward propagation,applications
-fraud,applications
-Fraud Detection,applications
-freehand design,applications
-freeware,applications
-ftp,applications
-fundraising,applications
-fx,applications
-game,applications
-gamification,applications
-gas,applications
-gaz,applications
-Genealogy,applications
-genetics,applications
-Geographic Information System,applications
-geographical,applications
-Geographical information systems,applications
-geography,applications
-GIS,applications
-government,applications
-gpu,applications
-Graphic Design,applications
-graphics editing,applications
-graphics package,applications
-growth hacking,applications
-GSuite,applications
-Hardware,applications
-hci,applications
-health,applications
-health care,applications
-health tech,applications
-help desk,applications
-Hospital management,applications
-hospitality,applications
-hotel,applications
-hr,applications
-human capital,applications
-human centered design,applications
-human computer interaction,applications
-Human Resources,applications
-human-level performance,applications
-IaaS,applications
-identity,applications
-idle-time,applications
-Idle-time data analysis,applications
-ilife,applications
-IM servers,applications
-Image Editing,applications
-image manipulation,applications
-Image processing,applications
-impact investment,applications
-implementation tools,applications
-Industry Specific,applications
-indutrial process,applications
-infographics,applications
-Information display,applications
-Information management,applications
-Information resources,applications
-information system,applications
-installer,applications
-instant messaging,applications
-integration,applications
-interaction design,applications
-Internal Communications,applications
-interpreters,applications
-inventory,applications
-investing,applications
-Investment Management,applications
-invoicing,applications
-iPaaS,applications
-IT Management,applications
-Jewellery,applications
-Job search,applications
-kanban,applications
-Key loggers,applications
-Knowledge Management,applications
-legacy,applications
-Legal,applications
-legal analysis,applications
-legal assistance,applications
-library,applications
-Lightweight CRM,applications
-Load balancers,applications
-Loan Management,applications
-localisation,applications
-localization,applications
-log analysis,applications
-Logging,applications
-Logistics,applications
-Logo Design,applications
-loyalty,applications
-manufactoring,applications
-manufacturing,applications
-maps,applications
-Marketing,applications
-Marketing Analytics,applications
-Marketing Automation,applications
-marketing product,applications
-Marketing Solutions,applications
-Marketplaces,applications
-meal planning,applications
-media player,applications
-Media Stock Files,applications
-medical,applications
-Medical Billing,applications
-Medical diagnosis,applications
-Medical Records,applications
-membership,applications
-message board,applications
-middleware,applications
-Middleware and system components,applications
-Military,applications
-minimum viable product,applications
-Mobile,applications
-Mobile Analytics,applications
-mobile app,applications
-Mobile Computing,applications
-Mobile Device Management,applications
-Mobile Workforce,applications
-mockup,applications
-model agnostic,applications
-Modeling,applications
-monetisation,applications
-monetization,applications
-money transfer,applications
-monitoring,applications
-MOOC,applications
-Movie creation,applications
-movie production,applications
-multimedia,applications
-music composition,applications
-mvp,applications
-navigation,applications
-network graph,applications
-network intelligence,applications
-Network Security,applications
-Network traffic monitor,applications
-Non-relational database,applications
-nonprofit,applications
-nuclear plants,applications
-Nutrition,applications
 oil,applications
+OLS,techniques
+OmniMark,coding
 onboarding,applications
+Once Class SVM,techniques
+One Rule,techniques
+OneR,techniques
 online booking,applications
 Online dictionaries,applications
 online dictionnary,applications
 online encyclopedia,applications
 online voting,applications
+Onyx,coding
+Opa,coding
+Opal,coding
 open data,applications
 open knowledge,applications
 open source,applications
+Openbsd,platforms
+OpenCL,coding
+OpenCV,techniques
+OpenEdge ABL,coding
+Opensuse,platforms
+OpenText,platforms
+Opera,platforms
 operating system,applications
 operations analysis,applications
 Operations research,applications
+OPL,coding
+OPS5,coding
+Optimisation,techniques
+OptimJ,coding
+Optum,platforms
+Oracle,platforms
+Orc,coding
+ORCA/Modula-2,coding
 Order management,applications
+Ordinal Regression,techniques
+Ordinary Least Squares,techniques
 Org Chart,applications
+Oriel,coding
+Orwell,coding
+Oryx,coding
+outlier,techniques
+outlier detection,techniques
+overfitting,techniques
+Oxygene,coding
+Oz,coding
+P value,techniques
+P#,coding
+PageRank,techniques
+Palantir,platforms
+Pandas,techniques
+ParaSail (programming language),coding
+PARI/GP,coding
+Partial Least Squares Regression,techniques
+Pascal,coding
 Password Management,applications
 patent,applications
+Pawn,coding
 Payments & Invoicing,applications
 payroll,applications
+PCA,techniques
+PCA-Based Anomaly Detection,techniques
+PCASTL,coding
+PCF,coding
+PCR,techniques
+PDL,coding
+PEARL,coding
+Pegasystems,platforms
+PeopleCode,coding
+perceptron,techniques
 Performance Monitoring,applications
 Peripheral drivers,applications
+Perl,coding
 personal finance,applications
 Personal Information,applications
 Personal management,applications
@@ -1312,19 +1250,64 @@ Pest Control,applications
 Pharmaceutical,applications
 phone book,applications
 photo manipulation,applications
+Photoshop,platforms
+PHP,coding
+Phpmyadmin,platforms
+Phrogram,coding
 Physics,applications
+Pico,coding
+Picolisp,coding
+Pict,coding
+Pike,coding
+PIKT,coding
+PILOT,coding
+Pipelines,coding
 pitch,applications
+Pitney Bowes,platforms
+pivot table,techniques
+Pizza,coding
+PL-11,coding
+PL/0,coding
+PL360,coding
+PLANC,coding
+Plankalkül,coding
+Planner,coding
 Platform as a Service,applications
+PLEX,coding
+PLEXIL,coding
+PLSR,techniques
 plugins,applications
+Poisson distribution,techniques
+Poisson Regression,techniques
 political tech,applications
 polling,applications
+Polynomial Regression,techniques
+POP-11,coding
+PortablE,coding
+posterior distribution,techniques
+postgres,coding
+PostScript,coding
+PowerBuilder,coding
+Powerhouse,coding
 powerpoint,applications
+PowerShell,coding
+PPL,coding
 pr,applications
+PredictionIO,coding
+predictive analytics,techniques
+predictive modeling,techniques
+Premonition,coding
 presentation,applications
+Principal Component Regression,techniques
+Principal Components Analysis,techniques
+prior distribution,techniques
+Pro*C,coding
+probability distribution,techniques
 process automation,applications
 Process control,applications
 process support,applications
 process viewer,applications
+Processing.js,coding
 Procurement,applications
 product market fit,applications
 product plan,applications
@@ -1333,31 +1316,83 @@ product spec,applications
 product strategy,applications
 Product support,applications
 productivity software,applications
+Prograph,coding
+PROIV,coding
 Project Collaboration,applications
 project management,applications
 Project workflow,applications
+Prolog,coding
+PROMAL,coding
+Promela,coding
 property,applications
 Property Management,applications
 proptech,applications
+PROSE modeling language,coding
+PROTEL,coding
 prototype,applications
+ProvideX,coding
 Proxy servers,applications
 psychographics,applications
 Psychology,applications
+PTC,platforms
 Ptime management,applications
 Public library,applications
 Public Sector,applications
 Publishing,applications
+Pure,coding
+Python,coding
+Q (equational programming language),coding
+Q (programming language from Kx Systems),coding
+Qalb,coding
+QDA,techniques
+Qemu,platforms
+Qi,coding
+Qlik,platforms
 qnx,applications
+QPL,coding
+QtScript,coding
+Quadratic Discriminant Analysis,techniques
+QuakeC,coding
+Qualcomm,platforms
 quality assurance,applications
+Quality Threshold,techniques
+Quantile Regression,techniques
 "quantile, quartile",applications
+quick prototyping,techniques
+R,coding
+R++,coding
+Racket,coding
+Rainbird,coding
+random forest,techniques
+randomized trees,techniques
+Rapira,coding
+Ratfiv,coding
+Ratfor,coding
+RBM,techniques
+rc,coding
+RDA,techniques
 Real Estate,applications
 Real time,applications
+REBOL,coding
+Receptivi,coding
 records management,applications
 recovery,applications
 recruiting,applications
+recurrent neural network,techniques
+Red,coding
+Red Hat,platforms
+Redcode,coding
+REFAL,coding
 Referral Marketing,applications
 refractoring,applications
+regression,techniques
+regression analysis,techniques
+regularization,techniques
+Regularized Discriminant Analysis,techniques
+Reia,coding
+reinforcement learning,techniques
 Relational database management,applications
+relu,techniques
 Remote Support,applications
 rendering,applications
 rendering engines,applications
@@ -1372,40 +1407,122 @@ resources planning,applications
 responsive design,applications
 Restaurant Management,applications
 Restaurant POS,applications
+Restricted Boltzmann Machine,techniques
 Retail,applications
 reversed time attention model,applications
+Revolution,coding
 Reward program,applications
+rex,coding
+REXX,coding
+Ridge Regression,techniques
+Ridge Regularization,techniques
 risk analysis,applications
 Risk Management,applications
+Rlab,coding
+rmsprop,techniques
+rnn,techniques
+RobotC,coding
 robotics,applications
+ROOP,coding
+Root Mean Squared Error,techniques
+root mean squared propagation,techniques
+RPG,coding
+RPL,coding
+RSL,coding
+RSS,coding
+RTL/2,coding
+Ruby,coding
+RuneScript,coding
+Rust,coding
+S,coding
+S curve,techniques
+S-Lang,coding
+S-PLUS,coding
+S2,coding
+S3,coding
+SA-C,coding
 saas,applications
+SabreTalk,coding
+Safari,platforms
 safety,applications
+Sage,platforms
+SAIL,coding
 Sales,applications
+Salesforce,platforms
 Salon Management,applications
+SALSA,coding
+SAM76,coding
+Sammon Mapping,techniques
+SAP,platforms
+SAS,coding
+SASL,coding
+Sather,coding
+Sawzall,coding
+SBL,coding
+Scala,coding
+scalar,techniques
 scheduling,applications
+Scheme,coding
+Schneider Electric,platforms
 School Management,applications
 science software,applications
 Scientific software,applications
+Scikit-learn,coding
+Scilab,coding
+Scipy,techniques
+Scratch,coding
 Screen capture,applications
+Script.NET,coding
+scripting,techniques
+Scrum,techniques
+Seamonkey,platforms
 Search engine,applications
 secure content,applications
 secured content,applications
 security,applications
+Sed,coding
+Seed7,coding
 sem,applications
+SenseTalk,coding
 seo,applications
+SequenceL,coding
+serial correlation,techniques
 service providers,applications
+ServiceNow,platforms
 Session Recording,applications
 seti,applications
+SETL,coding
+sgd,techniques
+SGI,platforms
+Shakespeare,coding
 shareware,applications
+shell,techniques
+Shift Script,coding
+Shogun,coding
 shopping cart,applications
+Siemens,platforms
+SIGNAL,coding
 Signal analysis,applications
+SIMPOL,coding
+SIMSCRIPT,coding
+Simula,coding
 Simulation,applications
+Simulink,coding
 Single Sign On,applications
+Singular Value Decomposition,techniques
+SISAL,coding
 site search,applications
+SLIP,coding
+Small Basic,coding
 small business,applications
+Smalltalk,coding
 sme,applications
+SML,coding
 SMS,applications
 smtp,applications
+Snap!,coding
+SNOBOL,coding
+Snowball,coding
 social enterprise,applications
 social investment,applications
 Social Media Management,applications
@@ -1414,58 +1531,168 @@ Social Media Scheduling,applications
 Social networking,applications
 Sociology,applications
 soft-loadable,applications
+softmax,techniques
+Software AG,platforms
 software backplane,applications
+Software Channels,applications
 Software configuration,applications
 software ecosystem,applications
 software installer,applications
+SOL,coding
 Solar,applications
+Solaris,platforms
+SolarWinds,platforms
+SP/k,coding
+Span,coding
+SPARK,coding
+spatiotemporal data,techniques
+Spectral Clustering,techniques
 Speech,applications
+SPIN,coding
+SPITBOL,coding
+Splunk,platforms
 Spreadsheet,applications
 sprint,applications
 spyware,applications
+SQL,coding
+Squeak,coding
+Squirrel,coding
+SR,coding
+Stacked Autoencoder,techniques
+Stacked Generalization,techniques
+Stacking,techniques
+Stackless Python,coding
 standalone application,applications
+standard deviation,techniques
+standard normal distribution,techniques
+standardized score,techniques
+Starlogo,coding
 startup,applications
+Stata,coding
+Stateflow,coding
+statistical,techniques
+Stepwise Regression,techniques
+Stochastic Gradient Descent,techniques
 storage,applications
 storyboard,applications
+storytelling,applications
+Strand,coding
 Strategic Alliances,applications
 stratified sampling,applications
+Subset Selection,techniques
+Subtext,coding
+SUN,platforms
+SunGard,platforms
+Sunos,platforms
+SuperCollider,coding
+SuperTalk,coding
+supervised learning,techniques
 Supply chain,applications
 support system,applications
+support vector machine,techniques
+Support Vector Regression,techniques
 surveillance,applications
 survey,applications
+Suse,platforms
 sustainability,applications
+svc,techniques
+SVD,techniques
+svm,techniques
+SWIFT,platforms
+Swift (Apple programming language),coding
+Swift (parallel scripting language),coding
+Symantec,platforms
+SYMPL,coding
+SyncCharts,coding
+Synopsys,platforms
 System Administration,applications
 system component,applications
 System management,applications
 systems,applications
+SystemVerilog,coding
+T,coding
+t-Distributed Stochastic Neighbor Embedding,techniques
+t-distribution,techniques
+t-SNE,techniques
+T-SQL,coding
+Tableau,platforms
+TACL,coding
+TACPOL,coding
+TADS,coding
+TAL,coding
 targeting,applications
 tax,applications
 tax processing,applications
 taxonomies,applications
+Tcl,coding
+Tea,coding
+TECO,coding
+TELCOMP,coding
 Telephony,applications
 tell stories with data,applications
 tell story with data,applications
+Tensor,techniques
+Tensorflow,coding
+Teradata,platforms
+Test Set,techniques
 testing,applications
+TeX,coding
 Text,applications
 Text Editors,applications
+Theano,techniques
 threat management,applications
+Thunderbird,platforms
+TIBCO,platforms
 ticketing,applications
+tidyverse,techniques
+TIE,coding
+Timber,coding
 time clock,applications
+time series data,techniques
+TMG,coding
+Tom,coding
+Topspeed,coding
+Torch,coding
+TOTVS,platforms
 tourism,applications
+TPU,coding
+Trac,coding
 tracking,applications
 trademark,applications
 trading,applications
+Training Set,techniques
 transaction entry,applications
 transaction processing,applications
 transporation,applications
 travelling salesman,applications
+Trend Micro,platforms
 trojan,applications
+TTCN,coding
+TTM,coding
 Tunnelled communication network,applications
+Turbo C++,coding
+Turing,coding
+TUTOR,coding
+TXL,coding
+TypeScript,coding
+Ubercode,coding
+Ubuntu,platforms
+UCSD Pascal,coding
 ui,applications
 UI & UX,applications
+UIMA,techniques
+Ultimate Software,platforms
+Umple,coding
 UNDG,applications
+Unicon,coding
+Uniface,coding
 Unified Communications,applications
 uninstaller,applications
+Unit4,platforms
+UNITY,coding
+Unix shell,coding
+UnrealScript,coding
+unsupervised learning,techniques
 usability,applications
 user centric design,applications
 user experience,applications
@@ -1473,8 +1700,20 @@ user flow,applications
 user persona,applications
 user stories,applications
 ux,applications
+Vala,coding
+Validation Set,techniques
+vanishing gradients,techniques
+variance,techniques
+VBA,coding
+VBScript,coding
+vector,techniques
+vector space,techniques
+Verilog,coding
+Verint,platforms
 version control,applications
 veterinary,applications
+vgg-16,techniques
+VHDL,coding
 Video Conferencing,applications
 video editing,applications
 Virtual machines,applications
@@ -1483,12 +1722,31 @@ virtualisation,applications
 Virtualization,applications
 Viruses,applications
 Visitor Management,applications
+Visma,platforms
+Visual Basic,coding
+Visual Basic .NET,coding
+Visual DataFlex,coding
+Visual DialogScript,coding
+Visual Fortran,coding
+Visual FoxPro,coding
+Visual J#,coding
+Visual J++,coding
+Visual Objects,coding
+Visual Prolog,coding
+Visual Studio,platforms
+Vmware,platforms
 VoIP,applications
 volunteering,applications
+Voting Classifier,techniques
 voting online,applications
 VPN,applications
 VR,applications
+VSXu,coding
 vulnerability management,applications
+Vvvv,coding
+Watchos,platforms
+"WATFIV, WATFOR",coding
+Watson Studio,coding
 Weather,applications
 Web,applications
 Web Analytics,applications
@@ -1496,332 +1754,63 @@ web app,applications
 Web Authoring,applications
 Web browsers,applications
 web form,applications
+WebDNA,coding
 Webinar,applications
+WebQL,coding
 Website Builder,applications
 Website content management,applications
+Weka,coding
+Winbatch,coding
+Wincor Nixdorf,platforms
 Windowing system servers,applications
+Windows 10,platforms
+Windows 2000,platforms
+Windows 7,platforms
+Windows 8.1,platforms
+Windows PowerShell,coding
+Windows Rt 8.1,platforms
+Windows Server 2008,platforms
+Windows Server 2012,platforms
+Windows Server 2016,platforms
+Windows Vista,platforms
+Windows Xp,platforms
+wireframe,techniques
 Wireless Utilities,applications
+Wireshark,platforms
+Wolfram,coding
+Wolters Kluwer,platforms
+Wordpress,platforms
+Workday,platforms
 workflow,applications
 Workforce Management,applications
-MongoDB,coding
-AWS,platforms
-activation function,techniques
-AdaBoost,techniques
-adam optimization,techniques
-adaptive gradient,techniques
-aiops,techniques
-alexnet,techniques
-algorithm,techniques
-AngularJS,techniques
-Anomaly Detection,techniques
-Apache Spark,techniques
-Apriori,techniques
-Artificial Neural Networks,techniques
-association rule learning,techniques
-AutoEncoder,techniques
-average pooling,techniques
-backpropagation,techniques
-Backward Feature Elemination,techniques
-Bagging,techniques
-batch gradient,techniques
-batch normalization,techniques
-Bayes' Theorem,techniques
-Bayesian Linear Regression,techniques
-Bayesian network,techniques
-Bernoulli Naive Bayes,techniques
-bias,techniques
-binomial distribution,techniques
-boltzmann,techniques
-Boltzmann Machine,techniques
-Boosted Decision Tree,techniques
-Bootstrap aggregation,techniques
-brach gradient descent,techniques
-CatBoost,techniques
-Category Boosting,techniques
-chi-square test,techniques
-classification,techniques
-classification algorithm,techniques
-classifier,techniques
-classigication algorithms,techniques
-clustering,techniques
-cnn,techniques
-coefficient,techniques
-computational linguistics,techniques
-conceptnet,techniques
-confidence interval,techniques
-continuous variable,techniques
-convolutional neural network,techniques
-correlation,techniques
-cost function,techniques
-covariance,techniques
-Cross Validation,techniques
-D3,techniques
-daemon processes,techniques
-data delivery,techniques
-data discovery,techniques
-data engineering,techniques
-data entry,techniques
-Data format conversion,techniques
-Data Integration,techniques
-data lake,techniques
-Data mining,techniques
-data science,techniques
-data server,techniques
-data structure,techniques
-data wrangling,techniques
-Database servers,techniques
-dataops,techniques
-DBN,techniques
-DBSCAN,techniques
-debugging,techniques
-Decision Stump,techniques
-Decision Tree,techniques
-Deep Belief Network,techniques
-deep learning,techniques
-deep neural network,techniques
-dependent variable,techniques
-derivative,techniques
-design principle,techniques
-design sprint,techniques
-design thinking,techniques
-dev sprint,techniques
-development sprint,techniques
-devops,techniques
-dimension reduction,techniques
-Dimensionality Reduction,techniques
-discrete variable,techniques
-docker container,techniques
-dropout,techniques
-dual track development,techniques
-Eclat,techniques
-econometrics,techniques
-Elastic Net Regression,techniques
-Elastic Net Regularization,techniques
-end-to-end learning,techniques
-epoch,techniques
-Expectation Maximization,techniques
-explainable ai,techniques
-extreme gradiant boosting,techniques
-Extremely Randomized Trees,techniques
-Factor Analysis,techniques
-Fast-MCD,techniques
-feature engineering,techniques
-Feature Extraction,techniques
-Fisher's Linear Discriminant,techniques
-Forward Feature Selection,techniques
-fully-connected layer,techniques
-Fuzzy C-Means,techniques
-Fuzzy K-Modes,techniques
-GANs,techniques
-GATE,techniques
-gated recurrent unit,techniques
-Gaussian Mixture Model,techniques
-Gaussian Naive Bayes,techniques
-Generative Adversarial Networks,techniques
-GMM,techniques
-gpu acceleration,techniques
-Gradient Boosted Regression Trees,techniques
-gradient boosting,techniques
-gradient descent,techniques
-Gradient Descent Regression,techniques
-Hierarchical Clustering,techniques
-histogram,techniques
-Hopfield Networks,techniques
-Hyperparameter,techniques
-hyperparametrisation,techniques
-hyperparametrization,techniques
-imagenet,techniques
-Independent Component Analysis,techniques
-independent variable,techniques
-Isolation Forest,techniques
-Isomap,techniques
-iteration,techniques
-K Nearest Neighbours,techniques
-k-means clustering,techniques
-K-Medians Clustering,techniques
-K-Modes Clustering,techniques
-k-nearest neighbors,techniques
-keras,techniques
-kernels,techniques
-knn,techniques
-knowledge engineering,techniques
-L2,techniques
-LARS,techniques
-Lasso Regression,techniques
-Latent Dirichlet Analysis,techniques
-latent variable,techniques
-layer-wise relevance propagaion,techniques
-LDA,techniques
-learning rate decay,techniques
-Learning Vector Quantization,techniques
-Least absoulute selection and shrinkage operator,techniques
-Least-Angled Regression,techniques
-lift,techniques
-lime,techniques
-linear algebra,techniques
-Linear Discriminant Analysis,techniques
-linear regression,techniques
-Linear Support Vector Classifier,techniques
-LLE,techniques
-local interpretable model-agnostic explanation,techniques
-Local Linear Embedding,techniques
-Local Outlier Factor,techniques
-Locality-Sensitive Hashing,techniques
-Locally Estimated Scatterplot Smoothing,techniques
-Locally Weighted Regression,techniques
-LOESS,techniques
-LOF,techniques
-logarithm,techniques
-logistic regression,techniques
-long short term memory,techniques
-lrp,techniques
-lstm,techniques
-LVQ,techniques
-LWL,techniques
-machine learning,techniques
-machine learning in production,techniques
-machine learning model,techniques
-Markov Chain,techniques
-MARS,techniques
-maximum pooling,techniques
-MDA,techniques
-Mean Absolute Error,techniques
-Mean Shift Clustering,techniques
-Mean Squared Error,techniques
-mindmap,techniques
-Mini Batch K-Means Clustering,techniques
-mini-batch,techniques
-Minimum Spanning Trees,techniques
-mlops,techniques
-NLP,techniques
-model decay,techniques
-Model Selection,techniques
-Monte Carlo method,techniques
-Multidimensional Scaling,techniques
-Multilayer Perceptron,techniques
-Multinomial Naive Bayes,techniques
-Multivariate Adaptive Regression Splines,techniques
-mxnet,techniques
-n-gram,techniques
-Naive Bayes,techniques
-naive Bayes classifier,techniques
-Natural Language Processing,techniques
-neural network,techniques
-Neural Network Regression,techniques
-non-max suppression,techniques
-normal distribution,techniques
-null hypothesis,techniques
-Numpy,techniques
-NuSVC,techniques
-objective function,techniques
-OLS,techniques
-Once Class SVM,techniques
-One Rule,techniques
-OneR,techniques
-OpenCV,techniques
-Optimisation,techniques
-Ordinal Regression,techniques
-Ordinary Least Squares,techniques
-outlier,techniques
-outlier detection,techniques
-overfitting,techniques
-P value,techniques
-PageRank,techniques
-Pandas,techniques
-Partial Least Squares Regression,techniques
-PCA,techniques
-PCA-Based Anomaly Detection,techniques
-PCR,techniques
-perceptron,techniques
-pivot table,techniques
-PLSR,techniques
-Poisson distribution,techniques
-Poisson Regression,techniques
-Polynomial Regression,techniques
-posterior distribution,techniques
-predictive analytics,techniques
-predictive modeling,techniques
-Principal Component Regression,techniques
-Principal Components Analysis,techniques
-prior distribution,techniques
-probability distribution,techniques
-QDA,techniques
-Quadratic Discriminant Analysis,techniques
-Quality Threshold,techniques
-Quantile Regression,techniques
-quick prototyping,techniques
-random forest,techniques
-randomized trees,techniques
-RBM,techniques
-RDA,techniques
-recurrent neural network,techniques
-regression,techniques
-regression analysis,techniques
-regularization,techniques
-Regularized Discriminant Analysis,techniques
-reinforcement learning,techniques
-relu,techniques
-Restricted Boltzmann Machine,techniques
-Ridge Regression,techniques
-Ridge Regularization,techniques
-rmsprop,techniques
-rnn,techniques
-Root Mean Squared Error,techniques
-root mean squared propagation,techniques
-S curve,techniques
-Sammon Mapping,techniques
-scalar,techniques
-Scipy,techniques
-scripting,techniques
-serial correlation,techniques
-sgd,techniques
-shell,techniques
-Singular Value Decomposition,techniques
-softmax,techniques
-spatiotemporal data,techniques
-Spectral Clustering,techniques
-Stacked Autoencoder,techniques
-Stacked Generalization,techniques
-Stacking,techniques
-standard deviation,techniques
-standard normal distribution,techniques
-standardized score,techniques
-statistical,techniques
-Stepwise Regression,techniques
-Stochastic Gradient Descent,techniques
-Subset Selection,techniques
-supervised learning,techniques
-support vector machine,techniques
-Support Vector Regression,techniques
-svc,techniques
-SVD,techniques
-svm,techniques
-t-Distributed Stochastic Neighbor Embedding,techniques
-t-distribution,techniques
-t-SNE,techniques
-Tensor,techniques
-Test Set,techniques
-Theano,techniques
-tidyverse,techniques
-time series data,techniques
-Training Set,techniques
-UIMA,techniques
-unsupervised learning,techniques
-Validation Set,techniques
-vanishing gradients,techniques
-variance,techniques
-vector,techniques
-vector space,techniques
-vgg-16,techniques
-Voting Classifier,techniques
-wireframe,techniques
+Wyvern,coding
+X#,coding
+X++,coding
+X10,coding
 xavier initialization,techniques
+XBL,coding
+XC,coding
+XEN,platforms
 XGBoost,techniques
+xHarbour,coding
+XL,coding
+XML,coding
+XMOS architecture,coding
+Xojo,coding
+XOTcl,coding
+XPath,coding
+XPL,coding
+XPL0,coding
+XQuery,coding
+XSB,coding
+XSLT,coding
+Xtend,coding
 yolo,techniques
+Yorick,coding
+YQL,coding
+Z notation,coding
+Zeno,coding
 Zero Rule,techniques
 ZeroR,techniques
-Scrum,techniques
-Agile,techniques
-CSS,coding
-HTML,coding
-RSS,coding
+ZOPL,coding
+ZPL,coding

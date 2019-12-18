@@ -57,8 +57,8 @@ df1=pd.read_csv("data/VectorizedTags4.csv").dropna(how="all",axis=1)
 
 df2=pd.read_csv("data/data_net_vectorized.csv")## A Vectorized tag dataFrame for African Indeed job data
 prdf2=pd.read_csv("data/pilotRoles.csv") ##Indeed API output with for US data
-daDf=pd.read_csv("data/daSample.csv") ## Reduced skill percentages over time for Data Analyst
-netDf=pd.read_csv("data/netSample.csv")## Reduced skill percentages over time for Network Engineer
+daDf=pd.read_csv("data/Data Analyst_reduced.csv") ## Reduced skill percentages over time for Data Analyst
+netDf=pd.read_csv("data/Network Engineer_reduced.csv")## Reduced skill percentages over time for Network Engineer
 plotdf=pd.read_csv("data/kmeans2.csv")## Loading the KMeans Output data
 minDf=plotdf[["Role",'Cluster']]## subsetting the KMeans Data
 r=list(df1["Role"].dropna().unique()) ##Getting the roles
@@ -103,52 +103,53 @@ def get3dplot(plotdf):
                         y = c1["PCA2_3D"],
                         z = c1["PCA3_3D"],
                         mode="markers",
-                        #line=dict(
-                        #        color='#1f77b4',
-                        #        width=4),
-                        hovertext=c1.Role,
+                        text=[f'{x}' for x in c1.Role],
+                        hoverinfo="text",
                         name = "Cluster 1",
                         marker = dict(color = 'rgba(110, 125, 125, 0.8)'),
-                        text = None)
+                        )
     ## Cluster 0
     trace0 = go.Scatter3d(
                         x = c0["PCA1_3D"],
                         y = c0["PCA2_3D"],
                         z = c0["PCA3_3D"],
                         mode = "markers",
-                        hovertext=c0.Role,
+                        text=[f'{x}' for x in c0.Role],
+                        hoverinfo="text",
                         name = "Cluster 0",
                         marker = dict(color = 'rgba(255, 30, 145, 0.8)'),
-                        text = None)
+                        )
     ## Cluster 2
     trace2 = go.Scatter3d(
                         x = c2["PCA1_3D"],
                         y = c2["PCA2_3D"],
                         z = c2["PCA3_3D"],
                         mode = "markers",
-                        hovertext=c2.Role,
+                        text=[f'{x}' for x in c2.Role],
+                        hoverinfo="text",
                         name = "Cluster 2",
                         marker = dict(color = 'rgba(0, 220, 250, 0.8)'),
-                        text = None)
+                        )
     ## Cluster 4
     trace4 = go.Scatter3d(
                         x = c4["PCA1_3D"],
                         y = c4["PCA2_3D"],
                         z = c4["PCA3_3D"],
                         mode = "markers",
-                        hovertext=c4.Role,
+                        text=[f'{x}' for x in c4.Role],
+                        hoverinfo="text",
                         name = "Cluster 4",
                         marker = dict(color = 'rgba(255, 220, 80, 0.8)'),
-                        text = None)
+                        )
     ## Cluster 3
     trace3 = go.Scatter3d(
                         x = c3["PCA1_3D"],
                         y = c3["PCA2_3D"],
                         z = c3["PCA3_3D"],
                         mode = "markers",
-                        hovertext=c3.Role,
+                        text=[f'{x}' for x in c3.Role],
+                        hoverinfo="text",
                         name = "Cluster 3",
-                        text = None,
                         marker = dict(color = 'rgba(255, 80, 80, 0.8)'),
                         )
     data=[trace0,trace1,trace2,trace4,trace3]
@@ -395,7 +396,8 @@ def getFig(role):
         df=df2
         a=df[df["Role"]==role].sum()
         a=a.drop("Role")
-        a=a.drop("month")  
+        a=a.drop("month")
+        a=a.drop("Job Title")   
     else:
         df=df1
         a=df[df["Role"]==role].sum()
@@ -424,7 +426,7 @@ def getFig(role):
         if pos>1:
             colname=list(mdf.columns)[pos-1]
         sdf=mdf[["Skill",colname,"September","Volatility"]]
-        sdf["% Change from previous month"]=sdf["September"]-sdf[colname]
+        sdf["% Change from previous month"]=round(sdf["September"]-sdf[colname],2)
         sdf=sdf.drop([colname],axis=1)
         coldf=get_color_codes(sdf)
         fig=fig.add_trace(go.Table(
@@ -553,13 +555,13 @@ def get_top_cities(role):
     [Input("3dplot", 'hoverData')])
 def hoverDataShow(hoverData):
     point = hoverData["points"][0]
-    clstr=int(minDf[minDf["Role"]==point["hovertext"]]["Cluster"])
+    clstr=int(minDf[minDf["Role"]==point["text"]]["Cluster"])
     rls=clustDict[clstr]
-    a=rls.remove(point["hovertext"])
+    a=rls.remove(point["text"])
     a=set(rls)
-    rls.append(point["hovertext"])
+    rls.append(point["text"])
     return (
-        point["hovertext"],
+        point["text"],
         [html.Li(x) for x in a],
     )
 if __name__ == "__main__":
