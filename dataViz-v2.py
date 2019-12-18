@@ -203,10 +203,11 @@ def get_color_codes(sdf):
             vol.append("#fc8403")
         else:
             vol.append("#FF1E91")
-    mdict={"change":change,"volatility":vol}
+    mdict={"change":change}
     df=pd.DataFrame(mdict)
     df["skill"]="#ffffff"
     df["perc"]="#ffffff"
+    df["volatility"]="#ffffff"
     return df
 
 
