@@ -1,0 +1,1941 @@
+@Formula,coding
+A-0 System,coding
+A#,coding
+A# .NET,coding
+A+,coding
+A++,coding
+ABAP,coding
+ABC,coding
+ABC ALGOL,coding
+ABSET,coding
+ABSYS,coding
+ACC,coding
+Accent,coding
+Accord. NET,coding
+Ace DASL,coding
+ACL2,coding
+ACT-III,coding
+Action!,coding
+ActionScript,coding
+Ada,coding
+Adenine,coding
+Agda,coding
+Agilent VEE,coding
+Agora,coding
+AIMMS,coding
+Alef,coding
+ALF,coding
+ALGOL 58,coding
+ALGOL 60,coding
+ALGOL 68,coding
+ALGOL W,coding
+Alice,coding
+Alma-0,coding
+Amazon Machine Learning,coding
+Amazon ML,coding
+AmbientTalk,coding
+Amiga E,coding
+AMOS,coding
+AMPL,coding
+Apache Mahout,coding
+Apache Singa,coding
+APL,coding
+App Inventor for Android's visual block language,coding
+AppleScript,coding
+Arc,coding
+ArcGIS,coding
+ARexx,coding
+Argus,coding
+AspectJ,coding
+Assembler,coding
+Assembly,coding
+Ateji PX,coding
+ATS,coding
+Autocoder,coding
+AutoHotkey,coding
+AutoIt,coding
+AutoLISP / Visual LISP,coding
+AutoML,coding
+Averest,coding
+AWK,coding
+Axiom,coding
+Axum,coding
+Ayasdi,coding
+Azure,coding
+B,coding
+Babbage,coding
+Bash,coding
+bash,coding
+Batch,coding
+bc,coding
+BCPL,coding
+BeanShell,coding
+Bertrand,coding
+BETA,coding
+Bigwig,coding
+Bistro,coding
+BitC,coding
+BLISS,coding
+Blue,coding
+Bon,coding
+Boo,coding
+Boomerang,coding
+Bourne shell,coding
+BPEL,coding
+BREW,coding
+C,coding
+C Shell,coding
+C--,coding
+C/AL,coding
+C#,coding
+C++,coding
+Caché ObjectScript,coding
+Caml,coding
+Candle,coding
+Cayenne,coding
+CDuce,coding
+Cecil,coding
+Cel,coding
+Cesil,coding
+Ceylon,coding
+CFEngine,coding
+CFML,coding
+Cg,coding
+Ch,coding
+CHAIN,coding
+Chapel,coding
+Charity,coding
+Charm,coding
+Chef,coding
+CHILL,coding
+CHIP-8,coding
+chomski,coding
+ChucK,coding
+CICS,coding
+CIL,coding
+Cilk,coding
+CL,coding
+Claire,coding
+Clarion,coding
+Clean,coding
+Clipper,coding
+CLIST,coding
+Clojure,coding
+CLU,coding
+CMS EXEC,coding
+CMS-2,coding
+COBOL,coding
+Cobra,coding
+CoffeeScript,coding
+Cola,coding
+ColdC,coding
+ColdFusion,coding
+COMAL,coding
+Combined Programming Language,coding
+COMIT,coding
+Common Intermediate Language,coding
+Common Lisp,coding
+COMPASS,coding
+Component Pascal,coding
+Constraint Handling Rules,coding
+Converge,coding
+Cool,coding
+Coq,coding
+Coral 66,coding
+Core ML,coding
+Corn,coding
+CorVision,coding
+COWSEL,coding
+CPL,coding
+csh,coding
+Csound,coding
+CSP,coding
+CUDA,coding
+Curl,coding
+Curry,coding
+Cyclone,coding
+Cython,coding
+D,coding
+Dart,coding
+DASL,coding
+DASL,coding
+DataFlex,coding
+Datalog,coding
+DATATRIEVE,coding
+dBase,coding
+dc,coding
+DCL,coding
+DCL,coding
+Deeplearning 4j,coding
+Deesel,coding
+Delphi,coding
+Dialog flow,coding
+DIBOL,coding
+DinkC,coding
+Docker,coding
+Dog,coding
+Draco,coding
+DRAKON,coding
+Dylan,coding
+DYNAMO,coding
+E#,coding
+Ease,coding
+Easy PL/I,coding
+Easy Programming Language,coding
+EASYTRIEVE PLUS,coding
+Eclipse,coding
+ECMAScript,coding
+Edinburgh IMP,coding
+EGL,coding
+Eiffel,coding
+ELAN,coding
+Elixir,coding
+Elm,coding
+Emacs Lisp,coding
+Emerald,coding
+Epigram,coding
+EPL,coding
+Erlang,coding
+es,coding
+Escapade,coding
+Escher,coding
+ESPOL,coding
+Esterel,coding
+Etoys,coding
+Euclid,coding
+Euler,coding
+Euphoria,coding
+EusLisp Robot Programming Language,coding
+EXEC 2,coding
+Executable UML,coding
+F,coding
+F-Script,coding
+F#,coding
+Factor,coding
+Falcon,coding
+Fancy,coding
+Fantom,coding
+FAUST,coding
+Felix,coding
+Ferite,coding
+FFP,coding
+Fjölnir,coding
+FL,coding
+Flavors,coding
+Flex,coding
+FLOW-MATIC,coding
+FOCAL,coding
+FOIL,coding
+FORMAC,coding
+Forth,coding
+Fortran,coding
+Fortress,coding
+FoxBase,coding
+FoxPro,coding
+FP,coding
+FPr,coding
+Franz Lisp,coding
+FSProg,coding
+G-code,coding
+Game Maker Language,coding
+GameMonkey Script,coding
+GAMS,coding
+GAP,coding
+GDL,coding
+Genie,coding
+GEORGE,coding
+Gibiane,coding
+GJ,coding
+GLSL,coding
+GM,coding
+GNU E,coding
+Go,coding
+Go!,coding
+Gödel,coding
+Godiva,coding
+GOM,coding
+Good Old Mad,coding
+Goo,coding
+Google Apps Script,coding
+Google Cloud ML,coding
+Gosu,coding
+GOTRAN,coding
+GPSS,coding
+GraphTalk,coding
+GRASS,coding
+Groovy,coding
+H2O,coding
+Hack (programming language),coding
+HAL/S,coding
+Hamilton C shell,coding
+Harbour,coding
+Hartmann pipelines,coding
+Haskell,coding
+Haxe,coding
+High Level Assembly,coding
+HLSL,coding
+Hop,coding
+Hope,coding
+Hugo,coding
+Hume,coding
+HyperTalk,coding
+IBM Basic assembly language,coding
+IBM HAScript,coding
+IBM Informix-4GL,coding
+IBM RPG,coding
+IBM Watson,coding
+ICI,coding
+Icon,coding
+Id,coding
+IDL,coding
+Idris,coding
+IMP,coding
+Inform,coding
+Infosys,coding
+Infrrd,coding
+Io,coding
+Ioke,coding
+IPL,coding
+IPTSCRAE,coding
+ISLISP,coding
+ISPF,coding
+ISWIM,coding
+J,coding
+J#,coding
+J++,coding
+JADE,coding
+Jako,coding
+JAL,coding
+Janus,coding
+JASS,coding
+Java,coding
+JavaFX Script,coding
+JavaScript,coding
+JCL,coding
+JEAN,coding
+Join Java,coding
+JOSS,coding
+Joule,coding
+JOVIAL,coding
+Joy,coding
+JScript,coding
+JScript .NET,coding
+Julia,coding
+Jupyter,coding
+Jupyterlab,coding
+JWT,coding
+Jython,coding
+K,coding
+KAI,coding
+Kaleidoscope,coding
+Karel,coding
+Karel++,coding
+KEE,coding
+KIF,coding
+Kixtart,coding
+Kojo,coding
+Kotlin,coding
+KRC,coding
+KRL,coding
+KRYPTON,coding
+ksh,coding
+ksh,coding
+KUKA,coding
+L,coding
+L#,coding
+L# .NET,coding
+LabVIEW,coding
+Ladder,coding
+Lagoona,coding
+LANSA,coding
+Lasso,coding
+LaTeX,coding
+Lava,coding
+LC-3,coding
+Leda,coding
+Legoscript,coding
+LIL,coding
+LilyPond,coding
+Limbo,coding
+Limnor,coding
+LINC,coding
+Lingo,coding
+Linoleum,coding
+LIS,coding
+LISA,coding
+Lisaac,coding
+Lisp,coding
+Lite-C,coding
+Lithe,coding
+Little b,coding
+LiveCode,coding
+LiveScript,coding
+Logo,coding
+Logtalk,coding
+LPC,coding
+LSE,coding
+LSL,coding
+Lua,coding
+Lucid,coding
+Lumiata,coding
+Lustre,coding
+LYaPAS,coding
+Lynx,coding
+M2001,coding
+M4,coding
+Machine code,coding
+Macsyma,coding
+MAD,coding
+MAD/I,coding
+Magik,coding
+Magma,coding
+Maple,coding
+MAPPER,coding
+MARK-IV,coding
+Mary,coding
+MASM Microsoft Assembly x86,coding
+Mathematica,coding
+MATLAB,coding
+Matplotlib,coding
+Max,coding
+Maxima,coding
+MaxScript,coding
+Maya (MEL),coding
+MDL,coding
+Mercury,coding
+Mesa,coding
+Metacard,coding
+Metafont,coding
+MetaL,coding
+Microcode,coding
+MicroScript,coding
+MIIS,coding
+MillScript,coding
+MIMIC,coding
+Mindmeld,coding
+Mirah,coding
+Miranda,coding
+MIVA Script,coding
+ML,coding
+Mlib,coding
+Moby,coding
+Model 204,coding
+Modelica,coding
+Modula,coding
+Modula-2,coding
+Modula-3,coding
+Mohol,coding
+MOO,coding
+Mortran,coding
+Mouse,coding
+MPD,coding
+MSL,coding
+MUMPS,coding
+Napier88,coding
+NASM,coding
+NATURAL,coding
+Neko,coding
+Nemerle,coding
+nesC,coding
+NESL,coding
+Net.Data,coding
+NetLogo,coding
+NetRexx,coding
+NewLISP,coding
+NEWP,coding
+Newspeak,coding
+NewtonScript,coding
+NGL,coding
+Nial,coding
+Nice,coding
+Nickle,coding
+Not eXactly C,coding
+Not Quite C,coding
+Notebook,coding
+NPL,coding
+NSIS,coding
+Nu,coding
+Nvidia,coding
+NWScript,coding
+NXT-G,coding
+XML,coding
+Oak,coding
+Oauth2,coding
+Oberon,coding
+Obix,coding
+OBJ2,coding
+Object Lisp,coding
+Object Pascal,coding
+Object REXX,coding
+Objective-C,coding
+Objective-J,coding
+ObjectLOGO,coding
+Obliq,coding
+Obol,coding
+OCaml,coding
+occam,coding
+occam-π,coding
+Octave,coding
+OmniMark,coding
+Onyx,coding
+Opa,coding
+Opal,coding
+OpenCL,coding
+OpenEdge ABL,coding
+OPL,coding
+OPS5,coding
+OptimJ,coding
+Orc,coding
+ORCA/Modula-2,coding
+Oriel,coding
+Orwell,coding
+Oryx,coding
+Oxygene,coding
+Oz,coding
+P#,coding
+ParaSail (programming language),coding
+PARI/GP,coding
+Pascal,coding
+Pawn,coding
+PCASTL,coding
+PCF,coding
+PDL,coding
+PEARL,coding
+PeopleCode,coding
+Perl,coding
+PHP,coding
+Phrogram,coding
+Pico,coding
+Picolisp,coding
+Pict,coding
+Pike,coding
+PIKT,coding
+PILOT,coding
+Pipelines,coding
+Pizza,coding
+PL-11,coding
+PL/0,coding
+PL/B,coding
+PL/C,coding
+PL/I,coding
+PL/M,coding
+PL/P,coding
+PL/SQL,coding
+PL360,coding
+PLANC,coding
+Plankalkül,coding
+Planner,coding
+PLEX,coding
+PLEXIL,coding
+POP-11,coding
+PortablE,coding
+postgres,coding
+PostScript,coding
+PowerBuilder,coding
+Powerhouse,coding
+PowerShell,coding
+PPL,coding
+PredictionIO,coding
+Premonition,coding
+Pro*C,coding
+Processing.js,coding
+Prograph,coding
+PROIV,coding
+Prolog,coding
+PROMAL,coding
+Promela,coding
+PROSE modeling language,coding
+PROTEL,coding
+ProvideX,coding
+Pure,coding
+Python,coding
+Q (equational programming language),coding
+Q (programming language from Kx Systems),coding
+Qalb,coding
+Qi,coding
+QPL,coding
+QtScript,coding
+QuakeC,coding
+R,coding
+R++,coding
+Racket,coding
+Rainbird,coding
+Rapira,coding
+Ratfiv,coding
+Ratfor,coding
+rc,coding
+REBOL,coding
+Receptivi,coding
+Red,coding
+Redcode,coding
+REFAL,coding
+Reia,coding
+Revolution,coding
+rex,coding
+REXX,coding
+Rlab,coding
+RobotC,coding
+ROOP,coding
+RPG,coding
+RPL,coding
+RSL,coding
+RTL/2,coding
+Ruby,coding
+RuneScript,coding
+Rust,coding
+S,coding
+S-Lang,coding
+S-PLUS,coding
+S/SL,coding
+S2,coding
+S3,coding
+SA-C,coding
+SabreTalk,coding
+SAIL,coding
+SALSA,coding
+SAM76,coding
+SAS,coding
+SASL,coding
+Sather,coding
+Sawzall,coding
+SBL,coding
+Scala,coding
+Scheme,coding
+Scikit-learn,coding
+Scilab,coding
+Scratch,coding
+Script.NET,coding
+Sed,coding
+Seed7,coding
+SenseTalk,coding
+SequenceL,coding
+SETL,coding
+Shakespeare,coding
+Shift Script,coding
+Shogun,coding
+SIGNAL,coding
+SiMPLE,coding
+SIMPOL,coding
+SIMSCRIPT,coding
+Simula,coding
+Simulink,coding
+SISAL,coding
+SLIP,coding
+SMALL,coding
+Small Basic,coding
+Smalltalk,coding
+SML,coding
+Snap!,coding
+SNOBOL,coding
+Snowball,coding
+SOL,coding
+SP/k,coding
+Span,coding
+SPARK,coding
+Spark,coding
+SPIN,coding
+SPITBOL,coding
+SPS,coding
+Squeak,coding
+Squirrel,coding
+SR,coding
+Stackless Python,coding
+Starlogo,coding
+Stata,coding
+Stateflow,coding
+Strand,coding
+Subtext,coding
+SuperCollider,coding
+SuperTalk,coding
+Swift (Apple programming language),coding
+Swift (parallel scripting language),coding
+SYMPL,coding
+SyncCharts,coding
+SystemVerilog,coding
+T,coding
+T-SQL,coding
+TACL,coding
+TACPOL,coding
+TADS,coding
+TAL,coding
+Tcl,coding
+Tea,coding
+TECO,coding
+TELCOMP,coding
+Tensorflow,coding
+TeX,coding
+TEX,coding
+TIE,coding
+Timber,coding
+TMG,coding
+Tom,coding
+TOM,coding
+Topspeed,coding
+Torch,coding
+TPU,coding
+Trac,coding
+TTCN,coding
+TTM,coding
+Turbo C++,coding
+Turing,coding
+TUTOR,coding
+TXL,coding
+TypeScript,coding
+Ubercode,coding
+UCSD Pascal,coding
+Umple,coding
+Unicon,coding
+Uniface,coding
+UNITY,coding
+Unix shell,coding
+UnrealScript,coding
+Vala,coding
+VBA,coding
+VBScript,coding
+Verilog,coding
+VHDL,coding
+Visual Basic,coding
+Visual Basic .NET,coding
+Visual DataFlex,coding
+Visual DialogScript,coding
+Visual Fortran,coding
+Visual FoxPro,coding
+Visual J#,coding
+Visual J++,coding
+Visual Objects,coding
+Visual Prolog,coding
+VSXu,coding
+Vvvv,coding
+"WATFIV, WATFOR",coding
+Watson Studio,coding
+WebDNA,coding
+WebQL,coding
+Weka,coding
+Winbatch,coding
+Windows PowerShell,coding
+Wolfram,coding
+Wyvern,coding
+X#,coding
+X++,coding
+X10,coding
+XBL,coding
+XC,coding
+xHarbour,coding
+XL,coding
+XMOS architecture,coding
+Xojo,coding
+XOTcl,coding
+XPath,coding
+XPL,coding
+XPL0,coding
+XQuery,coding
+XSB,coding
+XSLT,coding
+Xtend,coding
+Yorick,coding
+YQL,coding
+Z notation,coding
+Zeno,coding
+ZOPL,coding
+ZPL,coding
+ACI,platforms
+Acrobat,platforms
+Acrobat Dc,platforms
+Acrobat Reader,platforms
+Acrobat Reader Dc,platforms
+Adobe,platforms
+ADP,platforms
+Allscripts,platforms
+Amazon,platforms
+Android,platforms
+ANSYS,platforms
+Apache,platforms
+Apple,platforms
+Athenahealth,platforms
+Attachmate,platforms
+Autodesk,platforms
+Avaya,platforms
+Bentley,platforms
+Blackboard,platforms
+BMC,platforms
+CA Technologies,platforms
+Cadence Design Systems,platforms
+Canonical,platforms
+Cerner,platforms
+Chrome,platforms
+Cisco,platforms
+Citrix,platforms
+CommVault,platforms
+Concur,platforms
+Constellation Software,platforms
+Convergys,platforms
+Cpanel,platforms
+Dassault,platforms
+Dassault Systemes,platforms
+DATEV,platforms
+Debian,platforms
+Debian Linux,platforms
+Dell,platforms
+Drupal,platforms
+Edge,platforms
+EMC,platforms
+Enterprise Linux,platforms
+Enterprise Linux Desktop,platforms
+Enterprise Linux Server,platforms
+Enterprise Linux Workstation,platforms
+Epic Systems,platforms
+Epicor,platforms
+ESET,platforms
+Esri,platforms
+F5,platforms
+Fedora,platforms
+Fedoraproject,platforms
+Ffmpeg,platforms
+FICO,platforms
+Firefox,platforms
+Firefox Esr,platforms
+FIS,platforms
+Fiserv,platforms
+Flash Player,platforms
+Foxitsoftware,platforms
+Freebsd,platforms
+Fujitsu,platforms
+GE Healthcare,platforms
+Genesys,platforms
+GNU,platforms
+Google,platforms
+Google AI,platforms
+Hexagon,platforms
+Hitachi,platforms
+HP,platforms
+Huawei,platforms
+IBM,platforms
+IE,platforms
+Imagemagick,platforms
+Indesign,platforms
+Infor,platforms
+Informatica,platforms
+Intel,platforms
+Internet Explorer,platforms
+InterSystems,platforms
+Intuit,platforms
+IOS,platforms
+Iphone Os,platforms
+Itunes,platforms
+JDA Software,platforms
+JDK,platforms
+Jenkins,platforms
+Joomla,platforms
+JRE,platforms
+Juniper,platforms
+Kaspersky,platforms
+Kaspersky Lab,platforms
+Kronos,platforms
+Leap,platforms
+Linux,platforms
+Linux Kernel,platforms
+Mac Os X,platforms
+Mac Os X Server,platforms
+Mcafee,platforms
+McKesson,platforms
+MEDITECH,platforms
+Mentor Graphics,platforms
+Micro Focus,platforms
+Micros Systems,platforms
+Microsoft,platforms
+MicroStrategy,platforms
+Misys,platforms
+Moodle,platforms
+Mozilla,platforms
+Mysql,platforms
+NCR,platforms
+NEC,platforms
+Netapp,platforms
+NetSuite,platforms
+Neusoft,platforms
+NICE,platforms
+Novell,platforms
+Nuance Communications,platforms
+Openbsd,platforms
+Opensuse,platforms
+OpenText,platforms
+Opera,platforms
+Optum,platforms
+Oracle,platforms
+Palantir,platforms
+Pegasystems,platforms
+Photoshop,platforms
+PHP,platforms
+Phpmyadmin,platforms
+Pitney Bowes,platforms
+PTC,platforms
+Qemu,platforms
+Qlik,platforms
+Qualcomm,platforms
+Red Hat,platforms
+Redhat,platforms
+Safari,platforms
+Sage,platforms
+Salesforce,platforms
+SAP,platforms
+SAS,platforms
+Schneider Electric,platforms
+Seamonkey,platforms
+ServiceNow,platforms
+SGI,platforms
+Siemens,platforms
+Software AG,platforms
+Solaris,platforms
+SolarWinds,platforms
+Splunk,platforms
+SUN,platforms
+SunGard,platforms
+Sunos,platforms
+Suse,platforms
+SWIFT,platforms
+Symantec,platforms
+Synopsys,platforms
+Teradata,platforms
+Thunderbird,platforms
+TIBCO,platforms
+TOTVS,platforms
+Trend Micro,platforms
+Ubuntu,platforms
+Ultimate Software,platforms
+Unit4,platforms
+Verint,platforms
+Visma,platforms
+Visual Studio,platforms
+Vmware,platforms
+Watchos,platforms
+Wincor Nixdorf,platforms
+Windows 10,platforms
+Windows 2000,platforms
+Windows 7,platforms
+Windows 8.1,platforms
+Windows Rt 8.1,platforms
+Windows Server 2008,platforms
+Windows Server 2012,platforms
+Windows Server 2016,platforms
+Windows Vista,platforms
+Windows Xp,platforms
+Wireshark,platforms
+Wolters Kluwer,platforms
+Wordpress,platforms
+Workday,platforms
+XEN,platforms
+Tableau,platforms
+Jupyter Notebook,coding
+Kaggle,platforms
+NoSQL,coding
+SQL,coding
+MySQL,coding
+news,applications
+newsletter,applications
+Software Channels,applications
+storytelling,applications
+360 degree,applications
+360-degree,applications
+3d,applications
+3D Printing,applications
+A/B Testing,applications
+access management,applications
+Accessibility,applications
+Accounting,applications
+ACI,applications
+acountability,applications
+activity monitor,applications
+adaptive design,applications
+Administrator,applications
+adtech,applications
+advertising,applications
+aeronautics,applications
+Aerospace,applications
+affiliate,applications
+agriculture,applications
+agritech,applications
+ai,applications
+air traffic,applications
+Analytics,applications
+animation,applications
+anti-virus,applications
+antivirus,applications
+apha testing,applications
+API,applications
+app,applications
+Applicant Tracking,applications
+application lifecycle,applications
+Appointment Systems,applications
+appontment scheduling,applications
+appraisal,applications
+AR,applications
+Archaeology,applications
+Architecture,applications
+archives,applications
+artificial intelligence,applications
+asset management,applications
+assets management,applications
+Astronomy,applications
+atmospheric sciences,applications
+Attendance Tracking,applications
+audio editing,applications
+audio synthesis,applications
+Authentication,applications
+authoring,applications
+Auto Dialer,applications
+automation,applications
+back-end,applications
+back-up,applications
+backend,applications
+Backup,applications
+banking,applications
+beta testing,applications
+beverage,applications
+bi,applications
+Billing support,applications
+biology,applications
+biometric voting,applications
+biotech,applications
+bitcoin,applications
+bitwallet,applications
+Biz Dev,applications
+Bizdev,applications
+Blockchain,applications
+blogger,applications
+blogging,applications
+Board Management,applications
+bookkeeping,applications
+bot,applications
+brand,applications
+branding,applications
+budget,applications
+budgeting,applications
+Bug,applications
+Bulk data,applications
+business,applications
+business analytics,applications
+Business development,applications
+cad,applications
+cae,applications
+calculator,applications
+call center,applications
+cam,applications
+Cannabis,applications
+Car Dealer,applications
+CBD,applications
+change management,applications
+chart,applications
+chat bot,applications
+chatbot,applications
+Chemistry,applications
+Child Care,applications
+church,applications
+civic tech,applications
+Click Fraud,applications
+climate,applications
+climatology,applications
+Clinical Trial,applications
+cloud,applications
+CMMS,applications
+CMS,applications
+Code Editor,applications
+Code Repository,applications
+coinwallet,applications
+Collaboration,applications
+comms,applications
+Communications,applications
+Compensation Management,applications
+Compliance,applications
+Compression,applications
+computer science hard problem,applications
+computer science hard problems,applications
+Computer Vision,applications
+conference,applications
+conferencing,applications
+configuration managment,applications
+consumer need,applications
+consumer needs,applications
+Content Analytics,applications
+Content Marketing,applications
+content production,applications
+content server,applications
+content servers,applications
+context-sensitive,applications
+Corporate education,applications
+Corporate management,applications
+Corporate Training,applications
+course ware,applications
+courseware,applications
+critical path,applications
+crypto,applications
+crypto-anarchist,applications
+cryptoanarchist,applications
+cryptography,applications
+customer care,applications
+Customer Engagement,applications
+Customer Experience,applications
+Customer Service,applications
+cyber,applications
+cybernetics,applications
+daas,applications
+dasboard design,applications
+dashboard,applications
+Data access,applications
+Data Analytics,applications
+Data as a Service,applications
+data driven decision making,applications
+data driven decision-making,applications
+data driven design,applications
+Data Security,applications
+data storytelling,applications
+data strategy,applications
+Data visualisation,applications
+Data Visualization,applications
+Data Viz,applications
+data-driven decision making,applications
+data-driven design,applications
+Dataviz,applications
+debugger,applications
+decision support system,applications
+decompression,applications
+decryption,applications
+demo,applications
+Dental,applications
+design,applications
+Desktop Publishing,applications
+Development environment,applications
+device control,applications
+Diagnostics,applications
+Dictation,applications
+digital asset,applications
+Digital Business Models,applications
+Digital Commerce,applications
+digital intelligence,applications
+digital safety,applications
+Digital Signage,applications
+Digital Trust,applications
+disassemblers,applications
+Disk maintenance,applications
+Document Generation,applications
+Document Management,applications
+document sharing,applications
+Donor Management,applications
+drafting tools,applications
+dvd,applications
+e-book,applications
+e-commerce,applications
+E-Democracy,applications
+E-finance,applications
+E-Government,applications
+e-learning,applications
+e-voting,applications
+earth sciences,applications
+ebook,applications
+ecology,applications
+ecommerce,applications
+eCommerce Solutions,applications
+edemocracy,applications
+editors,applications
+efinance,applications
+egovernment,applications
+elearning,applications
+Email,applications
+Email Data,applications
+Email Marketing,applications
+Email Outreach,applications
+Email servers,applications
+Embedded software,applications
+Employee Monitoring,applications
+Employee Wellness,applications
+Emulation,applications
+emulators,applications
+encryption,applications
+Endpoint Security,applications
+Engineering analysis,applications
+Enterprise Applications,applications
+Enterprise asset management,applications
+Enterprise cloud,applications
+Content Strategy,applications
+Enterprise Mobility,applications
+Enterprise Private Cloud,applications
+Enterprise System,applications
+entertainment,applications
+evoting,applications
+ewallet,applications
+Executive Information,applications
+expense reporting,applications
+expenses reporting,applications
+explainability,applications
+Face Detection,applications
+Face Recognition,applications
+Facilities management,applications
+facility management,applications
+Failure diagnosis,applications
+Fashion,applications
+fax,applications
+feedback,applications
+File system software,applications
+file transfer,applications
+film creation,applications
+film production,applications
+finance,applications
+financial,applications
+Financial analysis,applications
+Financial Reporting,applications
+Financial Services,applications
+fintech,applications
+firewall,applications
+Firmware,applications
+fitness,applications
+flie sharing,applications
+food,applications
+Food & Beverage,applications
+forecasting,applications
+foreign exchange,applications
+forward propagation,applications
+fraud,applications
+Fraud Detection,applications
+freehand design,applications
+freeware,applications
+ftp,applications
+fundraising,applications
+fx,applications
+game,applications
+gamification,applications
+gaming,applications
+gas,applications
+gaz,applications
+Genealogy,applications
+genetics,applications
+Geographic Information System,applications
+geographical,applications
+Geographical information systems,applications
+geography,applications
+GIS,applications
+government,applications
+gpu,applications
+Graphic Design,applications
+graphics editing,applications
+graphics package,applications
+graphics packages,applications
+growth hacking,applications
+GSuite,applications
+gsuits,applications
+Hardware,applications
+hci,applications
+health,applications
+health care,applications
+health tech,applications
+Healthcare,applications
+healthtech,applications
+help desk,applications
+helpdesk,applications
+Hospital management,applications
+hospitality,applications
+hotel,applications
+hr,applications
+human capital,applications
+human centered design,applications
+human computer interaction,applications
+Human Resources,applications
+human-centered design,applications
+human-computer interaction,applications
+human-level performance,applications
+IaaS,applications
+identity,applications
+idle-time,applications
+Idle-time data analysis,applications
+ilife,applications
+IM servers,applications
+Image Editing,applications
+image manipulation,applications
+Image processing,applications
+impact investment,applications
+implementation tools,applications
+Industry Specific,applications
+indutrial process,applications
+infographics,applications
+Information display,applications
+Information management,applications
+Information resources,applications
+information system,applications
+installer,applications
+instant messaging,applications
+integration,applications
+interaction design,applications
+Internal Communications,applications
+interpreters,applications
+inventory,applications
+investing,applications
+Investment Management,applications
+invoicing,applications
+iPaaS,applications
+IT Management,applications
+Jewellery,applications
+Job search,applications
+kanban,applications
+Key loggers,applications
+Knowledge Management,applications
+legacy,applications
+Legal,applications
+legal analysis,applications
+legal assistance,applications
+library,applications
+Lightweight CRM,applications
+Load balancers,applications
+Loan Management,applications
+localisation,applications
+localization,applications
+log analysis,applications
+Logging,applications
+Logistics,applications
+Logo Design,applications
+loyalty,applications
+manufactoring,applications
+manufacturing,applications
+maps,applications
+Marketing,applications
+Marketing Analytics,applications
+Marketing Automation,applications
+marketing product,applications
+Marketing Solutions,applications
+Marketplaces,applications
+meal planning,applications
+media player,applications
+Media Stock Files,applications
+medical,applications
+Medical Billing,applications
+Medical diagnosis,applications
+Medical Records,applications
+membership,applications
+message board,applications
+middleware,applications
+Middleware and system components,applications
+Military,applications
+minimum viable product,applications
+Mobile,applications
+Mobile Analytics,applications
+mobile app,applications
+Mobile Computing,applications
+Mobile Device Management,applications
+Mobile Workforce,applications
+mockup,applications
+model agnostic,applications
+Modeling,applications
+Modelling,applications
+monetisation,applications
+monetization,applications
+money transfer,applications
+monitoring,applications
+MOOC,applications
+MOOCs,applications
+Movie creation,applications
+movie production,applications
+multimedia,applications
+music composition,applications
+mvp,applications
+navigation,applications
+network graph,applications
+network graphs,applications
+network intelligence,applications
+Network Security,applications
+Network traffic monitor,applications
+Non-relational database,applications
+nonprofit,applications
+nuclear plants,applications
+Nutrition,applications
+oil,applications
+onboarding,applications
+online booking,applications
+Online dictionaries,applications
+online dictionary,applications
+online dictionnary,applications
+online encyclopedia,applications
+online voting,applications
+open data,applications
+open knowledge,applications
+open source,applications
+open-source,applications
+operating system,applications
+operations analysis,applications
+Operations research,applications
+Order management,applications
+Org Chart,applications
+Password Management,applications
+patent,applications
+patenting,applications
+Payments & Invoicing,applications
+payroll,applications
+Performance Monitoring,applications
+Peripheral drivers,applications
+personal finance,applications
+Personal Information,applications
+Personal management,applications
+personal will,applications
+Pest Control,applications
+Pharmaceutical,applications
+phone book,applications
+photo manipulation,applications
+Physics,applications
+pitch,applications
+pitching,applications
+Platform as a Service,applications
+plugins,applications
+political tech,applications
+polling,applications
+powerpoint,applications
+pr,applications
+presentation,applications
+Presentations,applications
+process automation,applications
+Process control,applications
+process support,applications
+process viewer,applications
+Procurement,applications
+product market fit,applications
+product plan,applications
+product road map,applications
+product roadmap,applications
+product spec,applications
+product specs,applications
+product strategy,applications
+Product support,applications
+product-market fit,applications
+productivity software,applications
+Project Collaboration,applications
+project management,applications
+Project workflow,applications
+property,applications
+Property Management,applications
+proptech,applications
+prototype,applications
+prototyping,applications
+Proxy servers,applications
+psychographics,applications
+Psychology,applications
+Ptime management,applications
+Public library,applications
+Public Sector,applications
+Publishing,applications
+qnx,applications
+quality assurance,applications
+"quantile, quartile",applications
+Real Estate,applications
+Real time,applications
+real-estate,applications
+real-time,applications
+records management,applications
+recovery,applications
+recruiting,applications
+recruitment,applications
+Referral Marketing,applications
+refractoring,applications
+Relational database management,applications
+Remote Support,applications
+rendering,applications
+rendering engines,applications
+repo,applications
+Reporting Dashboard,applications
+Reputation Management,applications
+reservation,applications
+resource management,applications
+resource planning,applications
+resources managment,applications
+resources planning,applications
+responsive design,applications
+Restaurant Management,applications
+Restaurant POS,applications
+Retail,applications
+reversed time attention model,applications
+Reward program,applications
+risk analysis,applications
+Risk Management,applications
+robotics,applications
+saas,applications
+safety,applications
+Sales,applications
+Salon Management,applications
+scheduling,applications
+School Management,applications
+science software,applications
+Scientific software,applications
+Screen capture,applications
+Search engine,applications
+secure content,applications
+secured content,applications
+security,applications
+sem,applications
+seo,applications
+service providers,applications
+Session Recording,applications
+seti,applications
+shareware,applications
+shopping cart,applications
+Signal analysis,applications
+Simulation,applications
+Single Sign On,applications
+site search,applications
+small business,applications
+sme,applications
+SMS,applications
+smtp,applications
+social enterprise,applications
+social investment,applications
+Social Media Management,applications
+Social Media Monitoring,applications
+Social Media Scheduling,applications
+Social networking,applications
+Sociology,applications
+soft-loadable,applications
+software backplane,applications
+Software Backplanes,applications
+Software configuration,applications
+software ecosystem,applications
+software installer,applications
+Solar,applications
+Speech,applications
+Spreadsheet,applications
+spreadsheets,applications
+sprint,applications
+spyware,applications
+standalone application,applications
+startup,applications
+storage,applications
+storyboard,applications
+Strategic Alliances,applications
+stratified sampling,applications
+Supply chain,applications
+support system,applications
+surveillance,applications
+survey,applications
+sustainability,applications
+sustainable,applications
+System Administration,applications
+system component,applications
+system components,applications
+System management,applications
+systems,applications
+targeting,applications
+tax,applications
+tax processing,applications
+taxonomies,applications
+taxonomy,applications
+Telephony,applications
+tell stories with data,applications
+tell story with data,applications
+Tensorflow,applications
+testing,applications
+Text,applications
+Text Editors,applications
+threat management,applications
+ticketing,applications
+time clock,applications
+tourism,applications
+tracking,applications
+trademark,applications
+trading,applications
+transaction entry,applications
+transaction processing,applications
+transporation,applications
+travelling salesman,applications
+trojan,applications
+Tunnelled communication network,applications
+ui,applications
+UI & UX,applications
+UNDG,applications
+Unified Communications,applications
+uninstaller,applications
+usability,applications
+user centric design,applications
+user experience,applications
+user flow,applications
+user persona,applications
+user stories,applications
+user story,applications
+user-centric design,applications
+ux,applications
+version control,applications
+veterinary,applications
+Video Conferencing,applications
+video editing,applications
+Virtual machines,applications
+Virtual Reality,applications
+virtualisation,applications
+Virtualization,applications
+Viruses,applications
+Visitor Management,applications
+VoIP,applications
+volunteering,applications
+voting online,applications
+VPN,applications
+VR,applications
+vulnerability management,applications
+Weather,applications
+Web,applications
+Web Analytics,applications
+web app,applications
+Web Authoring,applications
+Web browsers,applications
+web form,applications
+Webinar,applications
+Website Builder,applications
+Website Builders,applications
+Website content management,applications
+Windowing system servers,applications
+Wireless Utilities,applications
+wordpress,applications
+workflow,applications
+Workforce Management,applications
+MongoDB,coding
+AWS,platforms
+activation function,techniques
+AdaBoost,techniques
+adam optimization,techniques
+adaptive gradient,techniques
+aiops,techniques
+alexnet,techniques
+algorithm,techniques
+AngularJS,techniques
+Anomaly Detection,techniques
+Apache Spark,techniques
+Apriori,techniques
+Artificial Neural Networks,techniques
+association rule learning,techniques
+AutoEncoder,techniques
+average pooling,techniques
+backpropagation,techniques
+Backward Feature Elemination,techniques
+Bagging,techniques
+batch gradient,techniques
+batch normalization,techniques
+Bayes' Theorem,techniques
+Bayesian Linear Regression,techniques
+Bayesian network,techniques
+Bernoulli Naive Bayes,techniques
+bias,techniques
+binomial distribution,techniques
+boltzmann,techniques
+Boltzmann Machine,techniques
+Boosted Decision Tree,techniques
+Bootstrap aggregation,techniques
+brach gradient descent,techniques
+CatBoost,techniques
+Category Boosting,techniques
+chi-square test,techniques
+classification,techniques
+classification algorithm,techniques
+classification algorithms,techniques
+classifier,techniques
+classigication algorithms,techniques
+clustering,techniques
+cnn,techniques
+coefficient,techniques
+computational linguistics,techniques
+conceptnet,techniques
+confidence interval,techniques
+continuous variable,techniques
+convolutional neural network,techniques
+convolutional neural networks,techniques
+correlation,techniques
+cost function,techniques
+covariance,techniques
+Cross Validation,techniques
+cross-validation,techniques
+Cython,techniques
+D3,techniques
+daemon processes,techniques
+data delivery,techniques
+data discovery,techniques
+data engineering,techniques
+data entry,techniques
+Data format conversion,techniques
+Data Integration,techniques
+data lake,techniques
+data lakes,techniques
+Data mining,techniques
+data science,techniques
+data server,techniques
+data servers,techniques
+data structure,techniques
+data wrangling,techniques
+Database servers,techniques
+datalake,techniques
+datalakes,techniques
+dataops,techniques
+DBN,techniques
+DBSCAN,techniques
+debugging,techniques
+Decision Stump,techniques
+Decision Tree,techniques
+decision trees,techniques
+Deep Belief Network,techniques
+deep learning,techniques
+deep neural network,techniques
+dependent variable,techniques
+derivative,techniques
+design principle,techniques
+design principles,techniques
+design sprint,techniques
+design thinking,techniques
+dev sprint,techniques
+development sprint,techniques
+devops,techniques
+dimension reduction,techniques
+Dimensionality Reduction,techniques
+discrete variable,techniques
+docker,techniques
+docker container,techniques
+dropout,techniques
+dual track development,techniques
+dual-track development,techniques
+Eclat,techniques
+econometrics,techniques
+Elastic Net Regression,techniques
+Elastic Net Regularization,techniques
+end-to-end learning,techniques
+epoch,techniques
+Expectation Maximization,techniques
+explainability,techniques
+explainable ai,techniques
+extreme gradiant boosting,techniques
+Extremely Randomized Trees,techniques
+Factor Analysis,techniques
+Fast-MCD,techniques
+feature engineering,techniques
+Feature Extraction,techniques
+Fisher's Linear Discriminant,techniques
+Forward Feature Selection,techniques
+forward propagation,techniques
+fully-connected layer,techniques
+Fuzzy C-Means,techniques
+Fuzzy K-Modes,techniques
+GANs,techniques
+GATE,techniques
+gated recurrent unit,techniques
+Gaussian Mixture Model,techniques
+Gaussian Naive Bayes,techniques
+Generative Adversarial Networks,techniques
+GMM,techniques
+gpu,techniques
+gpu acceleration,techniques
+Gradient Boosted Regression Trees,techniques
+gradient boosting,techniques
+gradient descent,techniques
+Gradient Descent Regression,techniques
+Hierarchical Clustering,techniques
+histogram,techniques
+Hopfield Networks,techniques
+human-level performance,techniques
+Hyperparameter,techniques
+hyperparameters,techniques
+hyperparametrisation,techniques
+hyperparametrization,techniques
+imagenet,techniques
+Independent Component Analysis,techniques
+independent variable,techniques
+Isolation Forest,techniques
+Isomap,techniques
+iteration,techniques
+K Nearest Neighbours,techniques
+k-means clustering,techniques
+K-Medians Clustering,techniques
+K-Modes Clustering,techniques
+k-nearest neighbors,techniques
+k-nearest Neighbours,techniques
+keras,techniques
+kernels,techniques
+knn,techniques
+knowledge engineering,techniques
+L2,techniques
+LARS,techniques
+Lasso,techniques
+Lasso Regression,techniques
+Latent Dirichlet Analysis,techniques
+latent variable,techniques
+layer-wise relevance propagaion,techniques
+LDA,techniques
+learning rate decay,techniques
+Learning Vector Quantization,techniques
+Least absoulute selection and shrinkage operator,techniques
+Least-Angled Regression,techniques
+lift,techniques
+lime,techniques
+linear algebra,techniques
+Linear Discriminant Analysis,techniques
+linear regression,techniques
+Linear Support Vector Classifier,techniques
+LLE,techniques
+local interpretable model-agnostic explanation,techniques
+local interpretable model-agnostic explanations,techniques
+Local Linear Embedding,techniques
+Local Outlier Factor,techniques
+Locality-Sensitive Hashing,techniques
+Locally Estimated Scatterplot Smoothing,techniques
+Locally Weighted Regression,techniques
+LOESS,techniques
+LOF,techniques
+logarithm,techniques
+logistic regression,techniques
+long short term memory,techniques
+lrp,techniques
+lstm,techniques
+LVQ,techniques
+LWL,techniques
+machine learning,techniques
+machine learning in production,techniques
+machine learning model,techniques
+Markov Chain,techniques
+MARS,techniques
+maximum pooling,techniques
+MDA,techniques
+Mean Absolute Error,techniques
+Mean Shift Clustering,techniques
+Mean Squared Error,techniques
+mindmap,techniques
+Mindmapping,techniques
+Mini Batch K-Means Clustering,techniques
+mini-batch,techniques
+Minimum Spanning Trees,techniques
+mlops,techniques
+NLP,techniques
+model decay,techniques
+Model Selection,techniques
+model-agnostic,techniques
+Monte Carlo method,techniques
+Multidimensional Scaling,techniques
+Multilayer Perceptron,techniques
+Multinomial Naive Bayes,techniques
+Multivariate Adaptive Regression Splines,techniques
+mxnet,techniques
+n-gram,techniques
+Naive Bayes,techniques
+naive Bayes classifier,techniques
+Natural Language Processing,techniques
+neural network,techniques
+Neural Network Regression,techniques
+non-max suppression,techniques
+normal distribution,techniques
+null hypothesis,techniques
+Numpy,techniques
+NuSVC,techniques
+objective function,techniques
+OLS,techniques
+Once Class SVM,techniques
+One Rule,techniques
+OneR,techniques
+OpenCV,techniques
+Optimisation,techniques
+Ordinal Regression,techniques
+Ordinary Least Squares,techniques
+outlier,techniques
+outlier detection,techniques
+overfitting,techniques
+P value,techniques
+PageRank,techniques
+Pandas,techniques
+Partial Least Squares Regression,techniques
+PCA,techniques
+PCA-Based Anomaly Detection,techniques
+PCR,techniques
+perceptron,techniques
+pivot table,techniques
+PLSR,techniques
+Poisson distribution,techniques
+Poisson Regression,techniques
+Polynomial Regression,techniques
+posterior distribution,techniques
+predictive analytics,techniques
+predictive modeling,techniques
+Principal Component Regression,techniques
+Principal Components Analysis,techniques
+prior distribution,techniques
+probability distribution,techniques
+QDA,techniques
+Quadratic Discriminant Analysis,techniques
+Quality Threshold,techniques
+Quantile Regression,techniques
+"quantile, quartile",techniques
+quick prototyping,techniques
+random forest,techniques
+randomized trees,techniques
+RBM,techniques
+RDA,techniques
+recurrent neural network,techniques
+recurrent neural networks,techniques
+regression,techniques
+regression analysis,techniques
+regularization,techniques
+Regularized Discriminant Analysis,techniques
+reinforcement learning,techniques
+relu,techniques
+Restricted Boltzmann Machine,techniques
+reversedtime attention model,techniques
+Ridge Regression,techniques
+Ridge Regularization,techniques
+rmsprop,techniques
+rnn,techniques
+Root Mean Squared Error,techniques
+root mean squared propagation,techniques
+S curve,techniques
+s-curve,techniques
+Sammon Mapping,techniques
+scalar,techniques
+Scikit-learn,techniques
+Scipy,techniques
+scripting,techniques
+serial correlation,techniques
+sgd,techniques
+shell,techniques
+Singular Value Decomposition,techniques
+softmax,techniques
+spatiotemporal data,techniques
+Spectral Clustering,techniques
+Stacked Autoencoder,techniques
+Stacked Generalization,techniques
+Stacking,techniques
+standard deviation,techniques
+standard normal distribution,techniques
+standardized score,techniques
+Stata,techniques
+statistical,techniques
+Statistics,techniques
+Stepwise Regression,techniques
+Stochastic Gradient Descent,techniques
+Subset Selection,techniques
+supervised learning,techniques
+support vector machine,techniques
+Support Vector Regression,techniques
+svc,techniques
+SVD,techniques
+svm,techniques
+t-Distributed Stochastic Neighbor Embedding,techniques
+t-distribution,techniques
+t-SNE,techniques
+Tensor,techniques
+Tensorflow,techniques
+Test Set,techniques
+Theano,techniques
+tidyverse,techniques
+time series data,techniques
+Training Set,techniques
+UIMA,techniques
+unsupervised learning,techniques
+Validation Set,techniques
+vanishing gradients,techniques
+variance,techniques
+vector,techniques
+vector space,techniques
+vgg-16,techniques
+Voting Classifier,techniques
+wireframe,techniques
+wireframes,techniques
+xavier initialization,techniques
+XGBoost,techniques
+yolo,techniques
+Zero Rule,techniques
+ZeroR,techniques
+Scrum,techniques
+Agile,techniques
+CSS,coding
+HTML,coding
+RSS,coding

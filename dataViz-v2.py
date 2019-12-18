@@ -28,31 +28,31 @@ import dash_bootstrap_components as dbc
 
 mapdata1=pd.read_csv("data/mapdata.csv")##Location data for US job data
 mapdata2=pd.read_csv("data/ndLocData.csv")##Location data for African Indeed job data
-cols=['Role',"Job Title",
-        'SPARK', 'R', 'E', 'ospf', 'JavaScript', 'Spine', 'CODE', 'Essential', 'Esri', 'Root', 'finance', 'Self', 'sql', 
-        'inventory', 'feedback', 'Backup', 'Windows 10', 'regression', 'Compliance', 'Adobe', 'help desk', '0', 'Tableau', 
-        'eit', 'ABLE', 'safety', 'Windows', 'helpdesk', 'Linux', 'tax', 'Creative', 'firewall', 'C', 'prototyping', 
-        'wordpress', 'Web', 'performance', 'business', 'cloud', 'engineers', 'web development', 'Color', 'agile', 'firewalls',
-        'Architecture', 'decision making', 'education', 'Testing', 'Responsive', 'BIG', 'budgets', 'Cisco', 'applied', 
-        'Processing', 'presentation', 'C++', 'government', 'software development', 'lift', 'ui', 'Sketch', 'Valid', 
-        'computer aided', 'Amazon', 'machine learning', 'Human Resources', 'medical', 'Solidworks', 'Analytics', 'html5', 
-        'servers', 'reporting', 'Scripts', 'regression testing', 'HTML', 'Ideal', 'Microsoft', 'wireframes', 'ticketing', 
-        'quality assurance', 'VPN', 'Modern', 'bgp', 'BASIC', 'Clean', 'process engineering', 'ux', 'monitoring', 'NATURAL', 
-        'Windows 7', 'data mining', 'wireless', 'G', 'geospatial', 'fixtures', 'food', 'tracking', 'interaction design', 
-        'Timely', 'information system', 'Status', 'System Administration', 'Accounting', 'FOCUS', 'Legal', 'Jquery', 'lean', 
-        'training', 'scheduling', 'usability', 'web applications', 'Modeling', 'powerpoint', 'Safety Management', 'financial', 
-        'A+', 'integration', 'DAY', 'Email', 'Voice', 'banking', 'Autodesk', 'Office', 'manufacturing', 'Good', 'statistics',
-        'Logistics', 'iso', 'insurance', 'Network Security', 'disabilities', 'geography', 'Risk Management', 'GIT', 
-        'data science', 'user experience', 'cyber', 'Vmware', 'model', 'Presentations', 'Growth', 'bi', 'validation', 
-        'capital', 'economics', 'Dental', 'PHP', 'Next', 'university', 'models', 'statistical', 'identity', 'cad', 
-        'Operating systems', 'Digital', 'SMALL', 'VoIP', 'data management', 'Open', 'Three', 'Administrator', 'vision', 
-        'Communications', 'Progress', 'contracts', 'customer service', 'security', 'C#', 'software engineering', 
-        'Development', 'malware', 'AWS', 'Back end', 'Python', 'Collaboration', 'make', 'sales', 'Military', 'IDS', 'travel', 
-        'object oriented', 'MetaL', 'Java', 'PHD', 'Serve', 'backend', '3d', 'CSS', 'test results', 'Plus', 'mechanical design', 
-        'gps', 'Real Estate', 'Marketing', 'health', 'scrum', 'Construction', 'Platform', 'maps', 'Mobile', 'hardware']
+#cols=['Role',"Job Title",
+#        'SPARK', 'R', 'E', 'ospf', 'JavaScript', 'Spine', 'CODE', 'Essential', 'Esri', 'Root', 'finance', 'Self', 'sql', 
+#        'inventory', 'feedback', 'Backup', 'Windows 10', 'regression', 'Compliance', 'Adobe', 'help desk', '0', 'Tableau', 
+#        'eit', 'ABLE', 'safety', 'Windows', 'helpdesk', 'Linux', 'tax', 'Creative', 'firewall', 'C', 'prototyping', 
+#        'wordpress', 'Web', 'performance', 'business', 'cloud', 'engineers', 'web development', 'Color', 'agile', 'firewalls',
+#        'Architecture', 'decision making', 'education', 'Testing', 'Responsive', 'BIG', 'budgets', 'Cisco', 'applied', 
+#        'Processing', 'presentation', 'C++', 'government', 'software development', 'lift', 'ui', 'Sketch', 'Valid', 
+#        'computer aided', 'Amazon', 'machine learning', 'Human Resources', 'medical', 'Solidworks', 'Analytics', 'html5', 
+#        'servers', 'reporting', 'Scripts', 'regression testing', 'HTML', 'Ideal', 'Microsoft', 'wireframes', 'ticketing', 
+#        'quality assurance', 'VPN', 'Modern', 'bgp', 'BASIC', 'Clean', 'process engineering', 'ux', 'monitoring', 'NATURAL', 
+#        'Windows 7', 'data mining', 'wireless', 'G', 'geospatial', 'fixtures', 'food', 'tracking', 'interaction design', 
+#        'Timely', 'information system', 'Status', 'System Administration', 'Accounting', 'FOCUS', 'Legal', 'Jquery', 'lean', 
+#        'training', 'scheduling', 'usability', 'web applications', 'Modeling', 'powerpoint', 'Safety Management', 'financial', 
+#        'A+', 'integration', 'DAY', 'Email', 'Voice', 'banking', 'Autodesk', 'Office', 'manufacturing', 'Good', 'statistics',
+#        'Logistics', 'iso', 'insurance', 'Network Security', 'disabilities', 'geography', 'Risk Management', 'GIT', 
+#        'data science', 'user experience', 'cyber', 'Vmware', 'model', 'Presentations', 'Growth', 'bi', 'validation', 
+#        'capital', 'economics', 'Dental', 'PHP', 'Next', 'university', 'models', 'statistical', 'identity', 'cad', 
+#        'Operating systems', 'Digital', 'SMALL', 'VoIP', 'data management', 'Open', 'Three', 'Administrator', 'vision', 
+#        'Communications', 'Progress', 'contracts', 'customer service', 'security', 'C#', 'software engineering', 
+#        'Development', 'malware', 'AWS', 'Back end', 'Python', 'Collaboration', 'make', 'sales', 'Military', 'IDS', 'travel', 
+#        'object oriented', 'MetaL', 'Java', 'PHD', 'Serve', 'backend', '3d', 'CSS', 'test results', 'Plus', 'mechanical design', 
+#        'gps', 'Real Estate', 'Marketing', 'health', 'scrum', 'Construction', 'Platform', 'maps', 'Mobile', 'hardware']
 
-df1=pd.read_csv("data/VectorizedTags3.csv",usecols=cols).dropna(how="all",axis=1)## A Vectorized tag dataFrame for US data
-
+#df1=pd.read_csv("data/VectorizedTags3.csv",usecols=cols).dropna(how="all",axis=1)## A Vectorized tag dataFrame for US data
+df1=pd.read_csv("data/VectorizedTags4.csv").dropna(how="all",axis=1)
 
 
 df2=pd.read_csv("data/data_net_vectorized.csv")## A Vectorized tag dataFrame for African Indeed job data
